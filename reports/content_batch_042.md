@@ -31,4 +31,4 @@
 
 ## PR URL
 
-（PR作成後に追記）
+https://github.com/totoro0419/easyvoca/pull/74
