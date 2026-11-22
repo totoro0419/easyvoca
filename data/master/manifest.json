@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "description": "EasyVoca research seed (not SVL12000 or an exam-approved list)",
+  "generated_at_utc": "2026-11-22T02:20:46.703465+00:00",
+  "count": 12000,
+  "word_sha256": "28f7c139b95d4c56ae2b7e7e0ade10479fb70dd5686c260064f6616a5df392a5",
+  "oanc_lemma_total": 22344,
+  "core_lemma_total": 5000,
+  "included_in_core": 5000,
+  "without_oanc_corpus_support": 177,
+  "everyday_probe_count": 25,
+  "sources": [
+    {
+      "name": "Lingevo written lemma-frequency list from Open American National Corpus",
+      "url": "https://lingevo.com/resources/oanc/oanc_wordfreq_written.csv",
+      "sha256": "855339c4623c94dd106e9f967e7b018f450019f97e0d8bf3eae27fc39f83e6e7",
+      "terms": "Unrestricted redistribution; credit Lingevo and OANC"
+    },
+    {
+      "name": "LexiCore-5000 v1.0.0",
+      "url": "https://raw.githubusercontent.com/X-Trivle/LexiCore/main/data/LexiCore_5000.csv",
+      "sha256": "49ae7a92ef5a9301286a6607f2f2e1e4b8a0f381784ad65996c36af187854de4",
+      "terms": "CC BY 4.0 attribution; headwords only"
+    }
+  ],
+  "limitations": [
+    "Approximate corpus-based ordering, NOT official SVL ranks or verified CEFR.",
+    "OANC count comes from a small American corpus with journalistic genre bias.",
+    "Some LexiCore headwords may be inflected forms or need individual lemma verification.",
+    "Each word's unusual senses must be researched and verified separately."
+  ]
+}
