@@ -694,9 +694,9 @@ flowchart LR
 
 **つまずくこと、足を取られること**
 
-**例文**：A loose cable caused a trip near the door.
+**例文**：A trip over a loose cable made him drop his books.
 
-**和訳**：緩んだケーブルのせいで、ドアのそばでつまずくことが起きた。
+**和訳**：緩んだケーブルにつまずいたせいで、彼は本を落とした。
 
 **コアイメージ**：tripには旅行という名詞義のほか、足を取られることを指す名詞義もある。短い移動を表すtripと、つまずくtripを文脈で区別する。
 
