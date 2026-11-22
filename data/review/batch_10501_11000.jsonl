@@ -30,7 +30,7 @@
 {"index":10530,"word":"flourishing","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10531,"word":"footwear","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10532,"word":"forcefully","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":10533,"word":"fore","status":"verified_selected","candidate_count":1,"accepted_count":1}
+{"index":10533,"word":"fore","status":"verified_selected","candidate_count":2,"accepted_count":2}
 {"index":10534,"word":"forfeiture","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10535,"word":"freshmen","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10536,"word":"fume","status":"verified_selected","candidate_count":1,"accepted_count":1}
@@ -149,8 +149,8 @@
 {"index":10649,"word":"nonsensical","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10650,"word":"nonstop","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10651,"word":"notoriety","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":10652,"word":"obligatory","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":10653,"word":"odyssey","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":10652,"word":"obligatory","status":"verified_selected","candidate_count":1,"accepted_count":1}
+{"index":10653,"word":"odyssey","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":10654,"word":"ominously","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10655,"word":"onstage","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10656,"word":"optical","status":"needs_review","candidate_count":0,"accepted_count":0}
@@ -208,7 +208,7 @@
 {"index":10708,"word":"reasonableness","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10709,"word":"reassess","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10710,"word":"receiver","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":10711,"word":"reciprocal","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":10711,"word":"reciprocal","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":10712,"word":"reciprocate","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10713,"word":"recklessness","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10714,"word":"reconfigure","status":"needs_review","candidate_count":0,"accepted_count":0}
@@ -226,7 +226,7 @@
 {"index":10726,"word":"retract","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":10727,"word":"retribution","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10728,"word":"retro","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":10729,"word":"reviews","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":10729,"word":"reviews","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":10730,"word":"richer","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10731,"word":"riff","status":"verified_selected","candidate_count":2,"accepted_count":2}
 {"index":10732,"word":"rightful","status":"needs_review","candidate_count":0,"accepted_count":0}
@@ -237,7 +237,7 @@
 {"index":10737,"word":"rowboat","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10738,"word":"ruined","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10739,"word":"runaway","status":"verified_selected","candidate_count":2,"accepted_count":2}
-{"index":10740,"word":"sanity","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":10740,"word":"sanity","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":10741,"word":"scandalous","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10742,"word":"scientifically","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10743,"word":"sentimentality","status":"needs_review","candidate_count":0,"accepted_count":0}
@@ -246,7 +246,7 @@
 {"index":10746,"word":"sexism","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10747,"word":"shelve","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":10748,"word":"shockingly","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":10749,"word":"shrill","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":10749,"word":"shrill","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":10750,"word":"sighting","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10751,"word":"silliness","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10752,"word":"silverside","status":"needs_review","candidate_count":0,"accepted_count":0}
@@ -254,7 +254,7 @@
 {"index":10754,"word":"sluggish","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10755,"word":"smallpox","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10756,"word":"snort","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":10757,"word":"solace","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":10757,"word":"solace","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":10758,"word":"sore","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":10759,"word":"sorely","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":10760,"word":"sought","status":"needs_review","candidate_count":0,"accepted_count":0}
@@ -290,7 +290,7 @@
 {"index":10790,"word":"tasting","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10791,"word":"taxable","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10792,"word":"telecommunications","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":10793,"word":"tentatively","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":10793,"word":"tentatively","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":10794,"word":"testosterone","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10795,"word":"thankful","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10796,"word":"thiosulfate","status":"needs_review","candidate_count":0,"accepted_count":0}
@@ -354,14 +354,14 @@
 {"index":10854,"word":"theirs","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10855,"word":"beginner","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10856,"word":"shocked","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":10857,"word":"mustard","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":10857,"word":"mustard","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":10858,"word":"sickness","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10859,"word":"capsule","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10860,"word":"defence","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10861,"word":"remaining","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10862,"word":"pedal","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10863,"word":"tattoo","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":10864,"word":"immortal","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":10864,"word":"immortal","status":"verified_selected","candidate_count":2,"accepted_count":2}
 {"index":10865,"word":"standby","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10866,"word":"endurance","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10867,"word":"salty","status":"verified_selected","candidate_count":2,"accepted_count":2}
@@ -369,14 +369,14 @@
 {"index":10869,"word":"frost","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":10870,"word":"calf","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":10871,"word":"criteria","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":10872,"word":"goose","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":10872,"word":"goose","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":10873,"word":"exodus","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10874,"word":"equivalence","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10875,"word":"versatile","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10876,"word":"ventilation","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10877,"word":"phenomenal","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10878,"word":"unmanned","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":10879,"word":"intuitive","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":10879,"word":"intuitive","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":10880,"word":"approximation","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10881,"word":"prophetic","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10882,"word":"complimentary","status":"verified_selected","candidate_count":1,"accepted_count":1}
@@ -404,7 +404,7 @@
 {"index":10904,"word":"aggrieved","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10905,"word":"alienation","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10906,"word":"alligator","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":10907,"word":"amber","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":10907,"word":"amber","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":10908,"word":"ambulance","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10909,"word":"amiable","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10910,"word":"anew","status":"needs_review","candidate_count":0,"accepted_count":0}
@@ -438,7 +438,7 @@
 {"index":10938,"word":"binge","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10939,"word":"bipartisanship","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10940,"word":"blitz","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":10941,"word":"blizzard","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":10941,"word":"blizzard","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":10942,"word":"bracero","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10943,"word":"brawl","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10944,"word":"brewery","status":"needs_review","candidate_count":0,"accepted_count":0}
@@ -453,7 +453,7 @@
 {"index":10953,"word":"cadence","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10954,"word":"capitalization","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":10955,"word":"carthaginian","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":10956,"word":"casting","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":10956,"word":"casting","status":"verified_selected","candidate_count":3,"accepted_count":3}
 {"index":10957,"word":"caucasian","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10958,"word":"causality","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10959,"word":"celebratory","status":"needs_review","candidate_count":0,"accepted_count":0}
