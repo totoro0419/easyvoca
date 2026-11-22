@@ -2,7 +2,7 @@ import {useCallback,useEffect,useMemo,useRef,useState,useDeferredValue} from 're
 import {ArrowLeft,ArrowRight,BookOpen,Check,ChevronLeft,ChevronRight,Download,Heart,Home,Search,Settings,Volume2,X,RotateCcw,WifiOff,AlertCircle,Layers3,Play,SlidersHorizontal} from 'lucide-react';
 import Diagram from './components/Diagram';
 import SwipeReader from './components/SwipeReader';
-import {loadCatalog,loadMeta,getCard,prefetchCard} from './lib/data';
+import {loadCatalog,loadMeta,getCard} from './lib/data';
 import {cachedCount,downloadOffline,allContentUrls} from './lib/offline';
 import {emptyProgress,startSession,finishSession,searchCards,makeChoices,reviewResult,dueSummaries,localDay} from './lib/learning';
 import {readProgress,writeProgress} from './lib/storage';
@@ -141,27 +141,61 @@ function HomeView({p,meta,onStudy,onReview,onOpen}:{p:Progress;meta:ContentMeta|
   </div>;
 }
 
+function CardBody({card,preview=false}:{card:ContentCard;preview?:boolean}){
+  return <article className="vocab-content">
+    <div className="vocab-head"><h1>{card.word}</h1><div className="pronunciation"><span>{card.pos}</span>{(card.pronunciation_ipa||card.pronunciation)&&<span>{card.pronunciation_ipa||card.pronunciation}</span>}</div></div>
+    {card.status==='hold'&&<p className="inline-error">この教材は元データで「要確認」とされています。語義・例文は未確定です。</p>}
+    <div className="meaning-block"><p className="known-meaning"><span>よく知られている意味</span>{card.known_meaning_ja}</p><div className="hidden-meaning"><span>見落としやすい意味</span><h2>{card.hidden_meaning_ja}</h2></div></div>
+    <section className="content-section"><h3>例文</h3>{card.example_en?<p className="english-example">{card.example_en}</p>:<p className="subtle-note">英語例文は原データに収録されていません。</p>}{card.example_ja&&<p className="japanese-example">{card.example_ja}</p>}</section>
+    <section className="content-section"><h3>コアイメージ</h3><p className="explanation">{card.core_image_explanation_ja}</p>
+      {preview?<div className="diagram-wrap diagram-preview" aria-hidden="true"/>:<Diagram source={card.diagram_mermaid} cardId={card.candidate_id}/>}
+    </section>
+    {card.usage_notes&&(Array.isArray(card.usage_notes)?card.usage_notes.length:Boolean(card.usage_notes))?<section className="content-section usage-section"><h3>重要語法</h3>{(Array.isArray(card.usage_notes)?card.usage_notes:[card.usage_notes]).map((note,i)=><p key={i}>{note}</p>)}</section>:null}
+    {!preview&&<p className="swipe-tip"><span>← 左スワイプで次へ</span><span>右スワイプで前へ →</span></p>}
+  </article>;
+}
+function NeighborPreview({card,summary,complete=false}:{card?:ContentCard;summary?:CardSummary;complete?:boolean}){
+  if(complete)return <div className="finish-preview"><Check size={29}/><h2>セッション完了</h2><p>20件の学習を終えました。</p></div>;
+  if(card)return <CardBody card={card} preview/>;
+  return <article className="vocab-content neighbor-placeholder" aria-hidden="true"><h1>{summary?.word??''}</h1><p>{summary?.hidden_meaning_ja??'読み込み中…'}</p></article>;
+}
 function StudyView({p,catalog,browseIds,browseCursor,onExit,onMove,onFavorite,onViewed,onContinue}:{p:Progress;catalog:CardSummary[];browseIds:string[]|null;browseCursor:number;onExit:()=>void;onMove:(d:-1|1)=>void;onFavorite:(id:string)=>void;onViewed:(id:string)=>void;onContinue:()=>void}){
   const ids=browseIds??p.activeSession?.ids??[];
   const cursor=browseIds?browseCursor:p.activeSession?.cursor??0;
   const finished=!browseIds&&p.activeSession?.finished;
   const byId=useMemo(()=>new Map(catalog.map(s=>[s.candidate_id,s])),[catalog]);
-  const summary=byId.get(ids[cursor]);
-  const [card,setCard]=useState<ContentCard|null>(null);
+  // ID-keyed cache prevents an old, slow response from appearing on a newer card.
+  // Only the visible card and its immediate neighbors are mounted in the DOM.
+  const cards=useRef(new Map<string,ContentCard>());
+  const loading=useRef(new Set<string>());
+  const mounted=useRef(false);
+  const [,repaint]=useState(0);
   const [error,setError]=useState('');
+  useEffect(()=>{mounted.current=true;return()=>{mounted.current=false;};},[]);
   useEffect(()=>{
-    let live=true;
-    setCard(null);setError('');
-    if(summary){
-      void getCard(summary).then(c=>{if(!live)return;setCard(c);onViewed(c.candidate_id);}).catch(e=>{if(live)setError(String(e));});
-      prefetchCard(byId.get(ids[cursor+1]));
+    setError('');
+    for(const id of [ids[cursor],ids[cursor-1],ids[cursor+1],ids[cursor+2]]){
+      if(!id||cards.current.has(id)||loading.current.has(id))continue;
+      const entry=byId.get(id);
+      if(!entry)continue;
+      loading.current.add(id);
+      void getCard(entry).then(found=>{
+        cards.current.set(found.candidate_id,found);
+        if(mounted.current)repaint(n=>n+1);
+      }).catch(e=>{
+        if(mounted.current&&id===ids[cursor])setError(String(e));
+      }).finally(()=>loading.current.delete(id));
     }
-    return ()=>{live=false;};
-  },[summary,byId,ids,cursor,onViewed]);
+  },[cursor,ids,byId]);
+  const summary=byId.get(ids[cursor]);
+  const card=summary?cards.current.get(summary.candidate_id):undefined;
+  useEffect(()=>{if(card&&summary&&card.candidate_id===summary.candidate_id)onViewed(card.candidate_id);},[card,summary,onViewed]);
+  const previous=byId.get(ids[cursor-1]);
+  const next=byId.get(ids[cursor+1]);
   useEffect(()=>{
     const handle=(e:KeyboardEvent)=>{
       const target=e.target as HTMLElement;
-      if(target?.closest('input,textarea,select,[contenteditable="true"]'))return;
+      if(target?.closest('input,textarea,select,[contenteditable="true"],.diagram-wrap'))return;
       if(e.key==='ArrowLeft'&&cursor>0){e.preventDefault();onMove(-1);}
       if(e.key==='ArrowRight'&&cursor<ids.length){e.preventDefault();onMove(1);}
     };
@@ -179,15 +213,11 @@ function StudyView({p,catalog,browseIds,browseCursor,onExit,onMove,onFavorite,on
     <div className="study-toolbar"><button className="icon-button" aria-label="戻る" onClick={onExit}><ArrowLeft size={21}/></button><div className="study-position"><span>{browseIds?'単語詳細':'学習セッション'}</span><strong>{cursor+1} <span>/</span> {ids.length}</strong></div><div className="study-tools"><button className={'icon-button '+(isFav?'fav-active':'')} aria-label={isFav?'お気に入りを解除':'お気に入りに追加'} aria-pressed={isFav} onClick={()=>onFavorite(summary.candidate_id)}><Heart size={21} fill={isFav?'currentColor':'none'}/></button><button className="icon-button" aria-label="発音を聞く" onClick={speak}><Volume2 size={21}/></button><button className="icon-button desktop-arrow" aria-label="前の語義" onClick={()=>onMove(-1)} disabled={cursor===0}><ChevronLeft size={22}/></button><button className="icon-button desktop-arrow" aria-label="次の語義" onClick={()=>onMove(1)} disabled={cursor>=ids.length-1&&Boolean(browseIds)}><ChevronRight size={22}/></button></div></div>
     <div className="study-progress-track"><div style={{width:((cursor+1)/ids.length*100)+'%'}}/></div>
     {error?<div className="inline-error" role="alert">{error}<button onClick={()=>setError('')}>閉じる</button></div>:null}
-    {!card?<Spinner/>:<SwipeReader identity={summary.candidate_id} canPrev={cursor>0} canNext={Boolean(browseIds?cursor<ids.length-1:cursor<ids.length)} onMove={onMove}><article className="vocab-content">
-      <div className="vocab-head"><h1>{card.word}</h1><div className="pronunciation"><span>{card.pos}</span>{(card.pronunciation_ipa||card.pronunciation)&&<span>{card.pronunciation_ipa||card.pronunciation}</span>}</div></div>
-      {card.status==='hold'&&<p className="inline-error">この教材は元データで「要確認」とされています。語義・例文は未確定です。</p>}
-      <div className="meaning-block"><p className="known-meaning"><span>よく知られている意味</span>{card.known_meaning_ja}</p><div className="hidden-meaning"><span>見落としやすい意味</span><h2>{card.hidden_meaning_ja}</h2></div></div>
-      <section className="content-section"><h3>例文</h3>{card.example_en?<p className="english-example">{card.example_en}</p>:<p className="subtle-note">英語例文は原データに収録されていません。</p>}{card.example_ja&&<p className="japanese-example">{card.example_ja}</p>}</section>
-      <section className="content-section"><h3>コアイメージ</h3><p className="explanation">{card.core_image_explanation_ja}</p><Diagram source={card.diagram_mermaid} cardId={card.candidate_id}/></section>
-      {card.usage_notes&&(Array.isArray(card.usage_notes)?card.usage_notes.length:Boolean(card.usage_notes))?<section className="content-section usage-section"><h3>重要語法</h3>{(Array.isArray(card.usage_notes)?card.usage_notes:[card.usage_notes]).map((note,i)=><p key={i}>{note}</p>)}</section>:null}
-      <p className="swipe-tip"><span>← 左スワイプで次へ</span><span>右スワイプで前へ →</span></p>
-    </article></SwipeReader>}
+    {!card?<Spinner/>:<SwipeReader identity={summary.candidate_id} canPrev={cursor>0} canNext={Boolean(browseIds?cursor<ids.length-1:cursor<ids.length)} onMove={onMove}
+      prev={<NeighborPreview card={previous?cards.current.get(previous.candidate_id):undefined} summary={previous}/>}
+      next={<NeighborPreview card={next?cards.current.get(next.candidate_id):undefined} summary={next} complete={!next&&!browseIds&&cursor===ids.length-1}/>}>
+      <CardBody card={card}/>
+    </SwipeReader>}
   </div>;
 }
 
