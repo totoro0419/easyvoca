@@ -1,0 +1,65 @@
+name: EasyVoca app CI and Pages
+on:
+  push:
+    branches: [main]
+    paths:
+      - "src/**"
+      - "public/**"
+      - "scripts/compile-content.mjs"
+      - "content/data/**"
+      - "index.html"
+      - "package.json"
+      - "tsconfig.json"
+      - "vite.config.ts"
+      - ".github/workflows/app-pages.yml"
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+      - name: Unit tests
+        run: npm test
+      - name: Typecheck and build (validates 64 batches and 5111 items)
+        run: npm run build
+      - name: Verify PWA artifacts
+        run: test -f dist/sw.js && test -f dist/manifest.webmanifest && test -f dist/generated/catalog.json && test -f dist/icons/icon-192.png && test -f dist/icons/icon-512.png
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+      - name: Real browser E2E tests
+        run: npx playwright test
+      - name: Save browser screenshots and failures
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: browser-test-results
+          path: test-results/
+          if-no-files-found: ignore
+      - name: Configure GitHub Pages
+        if: github.ref == 'refs/heads/main'
+        uses: actions/configure-pages@v5
+      - name: Upload Pages artifact
+        if: github.ref == 'refs/heads/main'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: https://totoro0419.github.io/easyvoca/
+    steps:
+      - uses: actions/deploy-pages@v4
