@@ -1739,3 +1739,583 @@ flowchart LR
 **重要語法**：realize a dream / realize a goal。
 
 <small>index: 1106 / candidate_id: `ev-01106-verb-01`</small>
+
+---
+
+## 781. eat
+
+品詞：phrasal verb　｜　発音（米音目安）：/iːt/
+
+<small>よく知られている意味：食べる</small>
+
+**見落としやすい意味：徐々にむしばむ・侵食する**
+
+**例文**：Worry slowly ate away at his confidence.
+
+**和訳**：心配事が少しずつ彼の自信をむしばんだ。
+
+**コアイメージ**：eat away at は、何かを少しずつ食べて削る動きを表す。目に見えない自信や安心感などにも使い、徐々に損なうことを意味する。
+
+```mermaid
+flowchart LR
+    A["中心: 少しずつ削り取る"]
+    B["既知: 食べる"]
+    C["今回: 徐々にむしばむ・侵食する"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：eat away at someone's confidence「人の自信をむしばむ」。
+
+<small>index: 1112 / candidate_id: `ev-01112-phrasal-verb-01`</small>
+
+---
+
+## 782. track
+
+品詞：construction　｜　発音（米音目安）：/træk/
+
+<small>よく知られている意味：線路・足跡</small>
+
+**見落としやすい意味：予定どおりに進んでいる**
+
+**例文**：The project is on track to finish by Friday.
+
+**和訳**：その計画は金曜日までに完了する予定どおりの進み具合だ。
+
+**コアイメージ**：track は進むべき道筋を表す。on track はその道筋から外れていない状態で、計画が予定に沿って進んでいることを示す。
+
+```mermaid
+flowchart LR
+    A["中心: 決めた進路の上にいる"]
+    B["既知: 線路・足跡"]
+    C["今回: 予定どおりに進んでいる"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：on track to do「予定どおり〜する見込みで」。
+
+<small>index: 1113 / candidate_id: `ev-01113-construction-01`</small>
+
+---
+
+## 783. suppose
+
+品詞：construction　｜　発音（米音目安）：/səˈpoʊz/
+
+<small>よく知られている意味：思う・仮定する</small>
+
+**見落としやすい意味：〜することになっている、〜するはずである**
+
+**例文**：All visitors are supposed to sign in at reception.
+
+**和訳**：来訪者は全員、受付で記名することになっている。
+
+**コアイメージ**：be supposed to は周囲の規則や予定から期待される行動を表す。話し手の単なる推測ではなく、「そうする決まり・はず」という意味になる。
+
+```mermaid
+flowchart LR
+    A["中心: 外から期待されている行動"]
+    B["既知: 思う・仮定する"]
+    C["今回: 〜することになっている、〜するはずである"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：be supposed to + 動詞原形。否定形は be not supposed to do。
+
+<small>index: 1115 / candidate_id: `ev-01115-construction-01`</small>
+
+---
+
+## 784. intellectual
+
+品詞：noun　｜　発音（米音目安）：/ˌɪntəˈlektʃuəl/
+
+<small>よく知られている意味：知的な（形容詞）</small>
+
+**見落としやすい意味：知識人・思想家**
+
+**例文**：Several intellectuals publicly criticized the proposal.
+
+**和訳**：何人かの知識人がその提案を公に批判した。
+
+**コアイメージ**：intellectual は知識や思考に関わる性質を表す。名詞では、学問や思想について深く考え発言する人を指す。
+
+```mermaid
+flowchart LR
+    A["中心: 知識と思考を中心に活動する"]
+    B["既知: 知的な（形容詞）"]
+    C["今回: 知識人・思想家"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：an intellectual「知識人」。
+
+<small>index: 1116 / candidate_id: `ev-01116-noun-01`</small>
+
+---
+
+## 785. observe
+
+品詞：verb　｜　発音（米音目安）：/əbˈzɝːv/
+
+<small>よく知られている意味：観察する</small>
+
+**見落としやすい意味：規則・慣習などを守る、順守する**
+
+**例文**：All drivers must observe the speed limit.
+
+**和訳**：すべての運転者は制限速度を守らなければならない。
+
+**コアイメージ**：observe の中心は物事に十分注意を向けること。規則に注意を向け、行動に反映する場合は「守る・順守する」という意味になる。
+
+```mermaid
+flowchart LR
+    A["中心: 決まりを意識して従う"]
+    B["既知: 観察する"]
+    C["今回: 規則・慣習などを守る、順守する"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：observe a law / observe a custom。
+
+<small>index: 1117 / candidate_id: `ev-01117-verb-01`</small>
+
+---
+
+## 786. observe
+
+品詞：verb　｜　発音（米音目安）：/əbˈzɝːv/
+
+<small>よく知られている意味：観察する</small>
+
+**見落としやすい意味：〜と述べる、言及する**
+
+**例文**：The professor observed that the results were surprising.
+
+**和訳**：教授はその結果が意外だと述べた。
+
+**コアイメージ**：observe はよく見て気づくことを表す。その観察から得た判断を言葉にする場面では、「述べる・指摘する」と訳す。
+
+```mermaid
+flowchart LR
+    A["中心: 気づいたことを言葉にする"]
+    B["既知: 観察する"]
+    C["今回: 〜と述べる、言及する"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：observe that ...「〜と述べる」。
+
+<small>index: 1117 / candidate_id: `ev-01117-verb-02`</small>
+
+---
+
+## 787. bear
+
+品詞：verb　｜　発音（米音目安）：/ber/
+
+<small>よく知られている意味：クマ（名詞）</small>
+
+**見落としやすい意味：（不快なことや責任を）耐える、受け入れる**
+
+**例文**：She could no longer bear the constant noise.
+
+**和訳**：彼女は絶え間ない騒音にもう耐えられなかった。
+
+**コアイメージ**：動詞 bear は重さや負担を引き受けて支える感覚を持つ。つらい状況や責任を対象にすると、耐える・担うという意味になる。
+
+```mermaid
+flowchart LR
+    A["中心: 負担を引き受けて支える"]
+    B["既知: クマ（名詞）"]
+    C["今回: （不快なことや責任を）耐える、受け入れる"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：bear responsibility / can't bear doing。
+
+<small>index: 1119 / candidate_id: `ev-01119-verb-01`</small>
+
+---
+
+## 788. count
+
+品詞：verb　｜　発音（米音目安）：/kaʊnt/
+
+<small>よく知られている意味：数える</small>
+
+**見落としやすい意味：重要である、意味を持つ**
+
+**例文**：Even small acts of kindness count.
+
+**和訳**：小さな親切でも大切な意味がある。
+
+**コアイメージ**：count は数に入れることを表す。何かが重要な要素として数に入るとき、「意味がある・重要である」という意味になる。
+
+```mermaid
+flowchart LR
+    A["中心: 重要な一つとして数に入る"]
+    B["既知: 数える"]
+    C["今回: 重要である、意味を持つ"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：what counts「大切なこと」／every ... counts。
+
+<small>index: 1120 / candidate_id: `ev-01120-verb-01`</small>
+
+---
+
+## 789. impose
+
+品詞：phrasal verb　｜　発音（米音目安）：/ɪmˈpoʊz/
+
+<small>よく知られている意味：課す・押し付ける</small>
+
+**見落としやすい意味：人に迷惑や負担をかける・厚意につけこむ**
+
+**例文**：I hope I'm not imposing on you by asking for help.
+
+**和訳**：助けをお願いしても、あなたの負担になっていなければよいのですが。
+
+**コアイメージ**：impose は何かを相手に押し付けること。impose on someone は、その人の時間や親切に頼りすぎて負担をかける意味になる。
+
+```mermaid
+flowchart LR
+    A["中心: 相手に負担を押し付ける"]
+    B["既知: 課す・押し付ける"]
+    C["今回: 人に迷惑や負担をかける・厚意につけこむ"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：impose on someone「人の厚意に甘えて迷惑をかける」。
+
+<small>index: 1121 / candidate_id: `ev-01121-phrasal-verb-01`</small>
+
+---
+
+## 790. whatever
+
+品詞：conjunction　｜　発音（米音目安）：/wətˈevər/
+
+<small>よく知られている意味：何でも・どんなものでも</small>
+
+**見落としやすい意味：たとえ何が起きようとも**
+
+**例文**：Whatever happens, we will keep working together.
+
+**和訳**：何が起ころうとも、私たちは協力し続ける。
+
+**コアイメージ**：whatever は起こり得るどの事柄も含める言葉。節の先頭に置くと、その中身がどうであっても主節の内容は変わらないという譲歩を表す。
+
+```mermaid
+flowchart LR
+    A["中心: どんな場合も含めて考える"]
+    B["既知: 何でも・どんなものでも"]
+    C["今回: たとえ何が起きようとも"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：whatever happens「何が起ころうとも」。
+
+<small>index: 1125 / candidate_id: `ev-01125-conjunction-01`</small>
+
+---
+
+## 791. border
+
+品詞：phrasal verb　｜　発音（米音目安）：/ˈbɔːrdər/
+
+<small>よく知られている意味：国境・境界</small>
+
+**見落としやすい意味：ほとんど〜に近い・〜と言ってよいほどだ**
+
+**例文**：His explanation bordered on the absurd.
+
+**和訳**：彼の説明はばかげていると言ってよいほどだった。
+
+**コアイメージ**：border は境界に接していることを表す。border on はある性質の境目に極めて近い状態を指し、「ほとんど〜だ」と読む。
+
+```mermaid
+flowchart LR
+    A["中心: ある状態の境界ぎりぎりにある"]
+    B["既知: 国境・境界"]
+    C["今回: ほとんど〜に近い・〜と言ってよいほどだ"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：border on the absurd / border on obsession。
+
+<small>index: 1131 / candidate_id: `ev-01131-phrasal-verb-01`</small>
+
+---
+
+## 792. push
+
+品詞：phrasal verb　｜　発音（米音目安）：/pʊʃ/
+
+<small>よく知られている意味：押す</small>
+
+**見落としやすい意味：実現や導入を強く求める**
+
+**例文**：Residents are pushing for safer roads.
+
+**和訳**：住民たちは道路の安全性向上を強く求めている。
+
+**コアイメージ**：push は力を加えて物を前へ動かすこと。push for では、実現したい政策や変化を前に進めるため強く要求することを表す。
+
+```mermaid
+flowchart LR
+    A["中心: 実現へ向けて強く押し進める"]
+    B["既知: 押す"]
+    C["今回: 実現や導入を強く求める"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：push for reform / push for change。
+
+<small>index: 1136 / candidate_id: `ev-01136-phrasal-verb-01`</small>
+
+---
+
+## 793. lay
+
+品詞：adjective　｜　発音（米音目安）：/leɪ/
+
+<small>よく知られている意味：置く（動詞）</small>
+
+**見落としやすい意味：（ある分野の）専門知識を持たない、一般人の**
+
+**例文**：The report was written for a lay audience.
+
+**和訳**：その報告書は専門家ではない一般読者向けに書かれた。
+
+**コアイメージ**：形容詞 lay は特定分野の専門家ではない人を表す。「置く」という動詞と綴りは同じでも意味が異なるため、名詞を修飾しているかが判断の鍵になる。
+
+```mermaid
+flowchart LR
+    A["中心: 専門家ではない一般の立場"]
+    B["既知: 置く（動詞）"]
+    C["今回: （ある分野の）専門知識を持たない、一般人の"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：lay audience / lay person / lay reader。
+
+<small>index: 1141 / candidate_id: `ev-01141-adjective-01`</small>
+
+---
+
+## 794. finance
+
+品詞：verb　｜　発音（米音目安）：/ˈfaɪnæns/
+
+<small>よく知られている意味：金融・財政（名詞）</small>
+
+**見落としやすい意味：資金を提供する・費用を負担する**
+
+**例文**：The bank agreed to finance the project.
+
+**和訳**：銀行はその事業に資金を提供することに同意した。
+
+**コアイメージ**：finance はお金の管理や資金に関わる語。動詞では、事業や購入を実現するために必要な費用を出すことを指す。
+
+```mermaid
+flowchart LR
+    A["中心: 実行に必要なお金を用意する"]
+    B["既知: 金融・財政（名詞）"]
+    C["今回: 資金を提供する・費用を負担する"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：finance a project / finance a purchase。
+
+<small>index: 1142 / candidate_id: `ev-01142-verb-01`</small>
+
+---
+
+## 795. imagine
+
+品詞：construction　｜　発音（米音目安）：/ɪˈmædʒɪn/
+
+<small>よく知られている意味：想像する</small>
+
+**見落としやすい意味：〜するのを想像する・思い浮かべる**
+
+**例文**：Can you imagine living on another planet?
+
+**和訳**：別の惑星で暮らすことを想像できますか。
+
+**コアイメージ**：imagine は頭の中に場面を思い描く動詞。後ろに動名詞を置けば、その行動をしている場面を思い浮かべる意味になる。
+
+```mermaid
+flowchart LR
+    A["中心: 行動している場面を頭に描く"]
+    B["既知: 想像する"]
+    C["今回: 〜するのを想像する・思い浮かべる"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：imagine doing。通常 imagine to do としない。
+
+<small>index: 1144 / candidate_id: `ev-01144-construction-01`</small>
+
+---
+
+## 796. cross
+
+品詞：adjective　｜　発音（米音目安）：/krɔːs/
+
+<small>よく知られている意味：交差する・横切る</small>
+
+**見落としやすい意味：不機嫌な、いら立った（主に英式）**
+
+**例文**：She was cross with me for being late.
+
+**和訳**：私が遅刻したので、彼女は私に腹を立てていた。
+
+**コアイメージ**：cross は英国英語で不機嫌な気持ちを表す形容詞にもなる。交差する動作とは切り離して、人物の感情を表す用法として覚える。
+
+```mermaid
+flowchart LR
+    A["中心: 感情がいら立っている状態"]
+    B["既知: 交差する・横切る"]
+    C["今回: 不機嫌な、いら立った（主に英式）"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：be cross with someone / be cross at something（主に英国英語）。
+
+<small>index: 1147 / candidate_id: `ev-01147-adjective-01`</small>
+
+---
+
+## 797. conflict
+
+品詞：verb　｜　発音（米音目安）：/kənˈflɪkt/
+
+<small>よく知られている意味：対立・争い（名詞）</small>
+
+**見落としやすい意味：互いに矛盾する・食い違う**
+
+**例文**：His account conflicts with the evidence.
+
+**和訳**：彼の説明は証拠と食い違っている。
+
+**コアイメージ**：conflict は二つのものがぶつかって両立しない状態を表す。動詞では意見だけでなく、記述や予定が一致しない場合にも使う。
+
+```mermaid
+flowchart LR
+    A["中心: 二つの内容が両立しない"]
+    B["既知: 対立・争い（名詞）"]
+    C["今回: 互いに矛盾する・食い違う"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：conflict with ...「〜と矛盾する」。動詞は後ろの音節に強勢。
+
+<small>index: 1149 / candidate_id: `ev-01149-verb-01`</small>
+
+---
+
+## 798. implement
+
+品詞：noun　｜　発音（米音目安）：/ˈɪmpləmənt/
+
+<small>よく知られている意味：実施する（動詞）</small>
+
+**見落としやすい意味：道具・器具**
+
+**例文**：This simple farming implement saves time.
+
+**和訳**：この簡単な農具は作業時間を節約してくれる。
+
+**コアイメージ**：名詞 implement は何かの作業を実行するために使う道具を指す。動詞「実施する」と同じ綴りでも、物が主語・目的語になる文では名詞の可能性を考える。
+
+```mermaid
+flowchart LR
+    A["中心: 作業を実行するための手段"]
+    B["既知: 実施する（動詞）"]
+    C["今回: 道具・器具"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：farming implement「農具」／writing implement「筆記具」。
+
+<small>index: 1151 / candidate_id: `ev-01151-noun-01`</small>
+
+---
+
+## 799. shall
+
+品詞：modal verb　｜　発音（米音目安）：/ʃæl/
+
+<small>よく知られている意味：〜でしょう・〜しよう（助動詞）</small>
+
+**見落としやすい意味：契約・規則で義務を定める「〜するものとする」**
+
+**例文**：The tenant shall pay the rent by the first day of each month.
+
+**和訳**：借主は毎月1日までに家賃を支払うものとする。
+
+**コアイメージ**：shall は将来のことを表すだけでなく、規則や契約では守るべき義務を定める。法的文脈の shall は単純な未来ではなく、規範としての指示を示す。
+
+```mermaid
+flowchart LR
+    A["中心: 規則として義務を定める"]
+    B["既知: 〜でしょう・〜しよう（助動詞）"]
+    C["今回: 契約・規則で義務を定める「〜するものとする」"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：契約・規則の shall + 動詞原形 は「〜するものとする」。
+
+<small>index: 1155 / candidate_id: `ev-01155-modal-verb-01`</small>
+
+---
+
+## 800. balance
+
+品詞：noun　｜　発音（米音目安）：/ˈbæləns/
+
+<small>よく知られている意味：均衡・釣り合い</small>
+
+**見落としやすい意味：口座残高・残りの額**
+
+**例文**：Check your account balance before making a payment.
+
+**和訳**：支払いをする前に口座残高を確認してください。
+
+**コアイメージ**：balance は二つの側の釣り合いを表す語。お金の出入りを差し引いて帳尻を合わせた結果、残っている額を指すこともある。
+
+```mermaid
+flowchart LR
+    A["中心: 差し引き後に残る釣り合いの額"]
+    B["既知: 均衡・釣り合い"]
+    C["今回: 口座残高・残りの額"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：account balance「口座残高」／outstanding balance「未払い残高」。
+
+<small>index: 1157 / candidate_id: `ev-01157-noun-01`</small>
