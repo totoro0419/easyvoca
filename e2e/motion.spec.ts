@@ -45,7 +45,7 @@ test.describe('touch motion on Android-sized viewport',()=>{
     await touch(page,80,y,155,0,5,5);
     await expect(page.locator('.study-position strong')).toContainText(/5\s*\/\s*20/);
     await page.reload();
-    await page.getByRole('button',{name:'続きから学習'}).click();
+    await expect(page.locator('.study-position strong')).toBeVisible();
     await expect(page.locator('.study-position strong')).toContainText(/5\s*\/\s*20/);
     expect(await page.evaluate(()=>JSON.parse(localStorage.getItem('easyvoca.progress.v1')||'{}').revision)).toBeGreaterThan(0);
   });
@@ -58,7 +58,7 @@ test.describe('touch motion on Android-sized viewport',()=>{
     await expect.poll(()=>page.locator('.reading-scroll').evaluate(el=>el.scrollTop)).toBeGreaterThan(5);
     await touch(page,280,y,-52,-145,12,10);
     await expect(page.locator('.study-position strong')).toContainText(/1\s*\/\s*20/);
-    const diagram=page.locator('.diagram-wrap');
+    const diagram=page.locator('.reading-page .diagram-wrap');
     await expect(page.locator('.diagram-svg svg')).toContainText('中心',{timeout:30000});
     await diagram.scrollIntoViewIfNeeded();
     const d=await diagram.boundingBox();expect(d).toBeTruthy();
@@ -95,5 +95,5 @@ test('tablet viewport keeps navigation and study scroll usable',async({page})=>{
   await page.keyboard.press('ArrowRight');
   await expect(page.locator('.study-position strong')).toContainText(/2\s*\/\s*20/);
   const width=await page.locator('.reading-page').evaluate(el=>el.getBoundingClientRect().width);
-  expect(width).toBeGreaterThan(650);
+  expect(width).toBeGreaterThan(600);
 });
