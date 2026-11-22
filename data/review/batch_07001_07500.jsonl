@@ -19,7 +19,7 @@
 {"index":7019,"word":"fiesta","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7020,"word":"frivolous","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7021,"word":"gallon","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
-{"index":7022,"word":"gild","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
+{"index":7022,"word":"gild","status":"verified_selected","candidate_count":1,"accepted_count":1,"progress_note":"選定候補を辞書と照合済み。"}
 {"index":7023,"word":"glamour","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7024,"word":"gradual","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7025,"word":"grandiose","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
@@ -55,8 +55,8 @@
 {"index":7055,"word":"reputable","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7056,"word":"righteous","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7057,"word":"rod","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
-{"index":7058,"word":"shave","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
-{"index":7059,"word":"shrug","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
+{"index":7058,"word":"shave","status":"verified_selected","candidate_count":1,"accepted_count":1,"progress_note":"選定候補を辞書と照合済み。"}
+{"index":7059,"word":"shrug","status":"verified_selected","candidate_count":2,"accepted_count":2,"progress_note":"選定候補を辞書と照合済み。"}
 {"index":7060,"word":"solemn","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7061,"word":"solitary","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7062,"word":"stare","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
@@ -92,7 +92,7 @@
 {"index":7092,"word":"confusing","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7093,"word":"lightly","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7094,"word":"stuck","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
-{"index":7095,"word":"plum","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
+{"index":7095,"word":"plum","status":"verified_selected","candidate_count":1,"accepted_count":1,"progress_note":"選定候補を辞書と照合済み。"}
 {"index":7096,"word":"comfortably","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7097,"word":"interruption","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7098,"word":"mint","status":"verified_selected","candidate_count":2,"accepted_count":2,"progress_note":"選定候補を辞書と照合済み。"}
@@ -100,7 +100,7 @@
 {"index":7100,"word":"tray","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7101,"word":"cube","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7102,"word":"lava","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
-{"index":7103,"word":"persuasion","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
+{"index":7103,"word":"persuasion","status":"verified_selected","candidate_count":1,"accepted_count":1,"progress_note":"選定候補を辞書と照合済み。"}
 {"index":7104,"word":"slab","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7105,"word":"bribery","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7106,"word":"formulation","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
@@ -115,7 +115,7 @@
 {"index":7115,"word":"degradation","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7116,"word":"ornamental","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7117,"word":"substrate","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
-{"index":7118,"word":"clutter","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
+{"index":7118,"word":"clutter","status":"verified_selected","candidate_count":1,"accepted_count":1,"progress_note":"選定候補を辞書と照合済み。"}
 {"index":7119,"word":"rediscover","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7120,"word":"relinquish","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7121,"word":"downside","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
@@ -136,7 +136,7 @@
 {"index":7136,"word":"boon","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7137,"word":"brace","status":"verified_selected","candidate_count":1,"accepted_count":1,"progress_note":"選定候補を辞書と照合済み。"}
 {"index":7138,"word":"bronchitis","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
-{"index":7139,"word":"buff","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
+{"index":7139,"word":"buff","status":"verified_selected","candidate_count":1,"accepted_count":1,"progress_note":"選定候補を辞書と照合済み。"}
 {"index":7140,"word":"caste","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7141,"word":"casually","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7142,"word":"cinemas","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
@@ -145,7 +145,7 @@
 {"index":7145,"word":"collectible","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7146,"word":"commonplace","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7147,"word":"concourse","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
-{"index":7148,"word":"confide","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
+{"index":7148,"word":"confide","status":"verified_selected","candidate_count":1,"accepted_count":1,"progress_note":"選定候補を辞書と照合済み。"}
 {"index":7149,"word":"confiscate","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7150,"word":"dangerously","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7151,"word":"defiance","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
@@ -155,7 +155,7 @@
 {"index":7155,"word":"disturbing","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7156,"word":"dusk","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7157,"word":"eagerly","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
-{"index":7158,"word":"earnest","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
+{"index":7158,"word":"earnest","status":"verified_selected","candidate_count":1,"accepted_count":1,"progress_note":"選定候補を辞書と照合済み。"}
 {"index":7159,"word":"elitist","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7160,"word":"encouraging","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7161,"word":"endlessly","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
@@ -206,7 +206,7 @@
 {"index":7206,"word":"popularize","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7207,"word":"pretentious","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7208,"word":"privatize","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
-{"index":7209,"word":"prone","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
+{"index":7209,"word":"prone","status":"verified_selected","candidate_count":1,"accepted_count":1,"progress_note":"選定候補を辞書と照合済み。"}
 {"index":7210,"word":"prudence","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7211,"word":"punitive","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7212,"word":"quieter","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
@@ -237,7 +237,7 @@
 {"index":7237,"word":"vegetarian","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7238,"word":"vestige","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7239,"word":"ward","status":"verified_selected","candidate_count":1,"accepted_count":1,"progress_note":"選定候補を辞書と照合済み。"}
-{"index":7240,"word":"zip","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
+{"index":7240,"word":"zip","status":"verified_selected","candidate_count":2,"accepted_count":2,"progress_note":"選定候補を辞書と照合済み。"}
 {"index":7241,"word":"fairy","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7242,"word":"vase","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7243,"word":"ours","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
@@ -258,7 +258,7 @@
 {"index":7258,"word":"wicked","status":"verified_selected","candidate_count":1,"accepted_count":1,"progress_note":"選定候補を辞書と照合済み。"}
 {"index":7259,"word":"candid","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7260,"word":"unconventional","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
-{"index":7261,"word":"remotely","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
+{"index":7261,"word":"remotely","status":"verified_selected","candidate_count":1,"accepted_count":1,"progress_note":"選定候補を辞書と照合済み。"}
 {"index":7262,"word":"instability","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7263,"word":"scripture","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7264,"word":"accumulation","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
@@ -283,7 +283,7 @@
 {"index":7283,"word":"cedar","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7284,"word":"cherish","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7285,"word":"coinage","status":"verified_selected","candidate_count":1,"accepted_count":1,"progress_note":"選定候補を辞書と照合済み。"}
-{"index":7286,"word":"confound","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
+{"index":7286,"word":"confound","status":"verified_selected","candidate_count":1,"accepted_count":1,"progress_note":"選定候補を辞書と照合済み。"}
 {"index":7287,"word":"contaminate","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7288,"word":"couture","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7289,"word":"crackdown","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
@@ -330,7 +330,7 @@
 {"index":7330,"word":"immerse","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7331,"word":"immoral","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7332,"word":"implausible","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
-{"index":7333,"word":"inaugurate","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
+{"index":7333,"word":"inaugurate","status":"verified_selected","candidate_count":1,"accepted_count":1,"progress_note":"選定候補を辞書と照合済み。"}
 {"index":7334,"word":"indignation","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7335,"word":"intensely","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7336,"word":"jeopardize","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
@@ -345,7 +345,7 @@
 {"index":7345,"word":"logistic","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7346,"word":"loving","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7347,"word":"maid","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
-{"index":7348,"word":"mammoth","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
+{"index":7348,"word":"mammoth","status":"verified_selected","candidate_count":1,"accepted_count":1,"progress_note":"選定候補を辞書と照合済み。"}
 {"index":7349,"word":"massage","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7350,"word":"mausoleum","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7351,"word":"mentality","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
@@ -395,7 +395,7 @@
 {"index":7395,"word":"ripple","status":"verified_selected","candidate_count":1,"accepted_count":1,"progress_note":"選定候補を辞書と照合済み。"}
 {"index":7396,"word":"rite","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7397,"word":"roller","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
-{"index":7398,"word":"rosy","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
+{"index":7398,"word":"rosy","status":"verified_selected","candidate_count":1,"accepted_count":1,"progress_note":"選定候補を辞書と照合済み。"}
 {"index":7399,"word":"seizure","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7400,"word":"shoddy","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7401,"word":"skyline","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
@@ -461,7 +461,7 @@
 {"index":7461,"word":"explanatory","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7462,"word":"insightful","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7463,"word":"impoverished","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
-{"index":7464,"word":"proprietary","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
+{"index":7464,"word":"proprietary","status":"verified_selected","candidate_count":1,"accepted_count":1,"progress_note":"選定候補を辞書と照合済み。"}
 {"index":7465,"word":"encode","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7466,"word":"censor","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7467,"word":"churn","status":"verified_selected","candidate_count":1,"accepted_count":1,"progress_note":"選定候補を辞書と照合済み。"}
@@ -473,7 +473,7 @@
 {"index":7473,"word":"adobe","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7474,"word":"amass","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7475,"word":"amazingly","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
-{"index":7476,"word":"animated","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
+{"index":7476,"word":"animated","status":"verified_selected","candidate_count":1,"accepted_count":1,"progress_note":"選定候補を辞書と照合済み。"}
 {"index":7477,"word":"antidote","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7478,"word":"apparatus","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7479,"word":"ascertain","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
@@ -489,7 +489,7 @@
 {"index":7489,"word":"cobbled","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7490,"word":"cohort","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7491,"word":"concoct","status":"verified_selected","candidate_count":1,"accepted_count":1,"progress_note":"選定候補を辞書と照合済み。"}
-{"index":7492,"word":"conspicuous","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
+{"index":7492,"word":"conspicuous","status":"verified_selected","candidate_count":1,"accepted_count":1,"progress_note":"選定候補を辞書と照合済み。"}
 {"index":7493,"word":"contestant","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7494,"word":"corinthian","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
 {"index":7495,"word":"crocodile","status":"needs_review","candidate_count":0,"accepted_count":0,"progress_note":"未調査（候補なしとの確定ではない）。"}
