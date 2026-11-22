@@ -6,7 +6,7 @@
   "scripts": {
     "predev": "node scripts/compile-content.mjs && node scripts/make-icons.mjs",
     "dev": "vite --host 0.0.0.0",
-    "prebuild": "node scripts/compile-content.mjs",
+    "prebuild": "node scripts/compile-content.mjs && node scripts/make-icons.mjs",
     "build": "tsc --noEmit && vite build",
     "typecheck": "tsc --noEmit",
     "test": "vitest run src",
