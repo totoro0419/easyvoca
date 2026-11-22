@@ -1926,7 +1926,7 @@ flowchart LR
 
 ## 2943. transparent
 
-**品詞**：adj　**発音**：trænsˈpɛrənt
+**品詞**：adj　**発音**：/trænsˈpɛrənt/
 
 <small>よく知られている意味：透明な・透き通った</small>
 
