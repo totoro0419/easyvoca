@@ -86,7 +86,7 @@ button{-webkit-tap-highlight-color:transparent}
 .study-tools{display:flex;gap:1px}
 .study-progress-track{height:3px;flex-shrink:0;border-radius:0}
 .reading-scroll{flex:1;min-height:0;overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain;touch-action:pan-y;-webkit-overflow-scrolling:touch;user-select:text}
-.reading-page{will-change:transform;min-height:100%}
+.reading-page{min-height:100%}
 .vocab-content{width:min(100%,860px);margin:0 auto;padding:52px clamp(24px,5vw,56px) 45px}
 .vocab-head h1{font-weight:750;font-size:clamp(44px,6vw,67px);letter-spacing:-.065em;line-height:1.17;overflow-wrap:anywhere}
 .pronunciation{display:flex;flex-wrap:wrap;gap:12px 22px;margin-top:14px;color:#7a8aa2;font-size:14px}
@@ -249,3 +249,38 @@ button{-webkit-tap-highlight-color:transparent}
 
 .diagram-hint{display:none}
 @media(max-width:600px){.diagram-wrap{overflow-x:auto;overscroll-behavior-x:contain;touch-action:pan-x pan-y;scrollbar-width:thin}.diagram-svg svg{width:580px!important;min-width:580px;max-width:none!important;max-height:none}.diagram-hint{display:block;color:#7786a1;font-size:11px;margin-top:12px;text-align:center}}
+
+
+/* Motion refinements: the center page determines native vertical scroll height,
+   while the adjacent pages stay compositor-only and outside the layout flow. */
+[hidden]{display:none!important}
+.swipe-track{position:relative;width:100%;min-height:100%;transform:translate3d(0,0,0)}
+.swipe-neighbor{position:absolute;top:0;width:100%;pointer-events:none;contain:layout style}
+.swipe-prev{right:100%}
+.swipe-next{left:100%}
+.neighbor-placeholder h1{font-size:clamp(42px,6vw,67px);overflow-wrap:anywhere;letter-spacing:-.06em}
+.neighbor-placeholder p{color:var(--muted);font-size:17px;margin-top:28px}
+.finish-preview{display:flex;align-items:center;justify-content:center;gap:14px;flex-direction:column;min-height:55vh;color:#26735e}
+.finish-preview h2{font-size:24px;color:var(--ink)}
+.finish-preview p{color:var(--muted)}
+.reading-scroll{position:relative;touch-action:pan-y;overscroll-behavior-x:contain}
+.diagram-wrap{min-height:220px;overscroll-behavior-x:contain}
+.diagram-preview{background:#f8faff;min-height:220px}
+.diagram-wrap:focus-visible{outline:3px solid rgba(69,104,223,.55);outline-offset:2px}
+.primary-button:active,.secondary-button:active{transform:translateY(1px) scale(.995)}
+.icon-button:active{transform:scale(.95)}
+.fav-active svg{animation:favorite-pop 170ms cubic-bezier(.22,1,.36,1)}
+@keyframes favorite-pop{50%{transform:scale(1.15)}}
+.modal-backdrop{animation:backdrop-in 155ms ease-out both}
+.settings-sheet{animation:sheet-in 190ms cubic-bezier(.22,1,.36,1) both}
+@keyframes backdrop-in{from{opacity:0}to{opacity:1}}
+@keyframes sheet-in{from{opacity:.75;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+.quiz-feedback{animation:feedback-appear 150ms ease-out both}
+@keyframes feedback-appear{from{opacity:.5;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
+.persistent-search{min-width:0}
+@media(max-width:600px){
+  .diagram-wrap,.diagram-preview{min-height:195px}
+}
+@media(prefers-reduced-motion:reduce){
+  .modal-backdrop,.settings-sheet,.quiz-feedback,.fav-active svg{animation:none!important}
+}
