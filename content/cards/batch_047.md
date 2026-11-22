@@ -1161,3 +1161,1164 @@ flowchart LR
 <small>index: 7630 / candidate_id: ev-07630-verb-01</small>
 
 ---
+
+## 3721. depose
+
+**品詞：** verb　**発音：** /dɪˈpoʊz/
+
+<small>よく知られている意味：王位・地位から追放する</small>
+
+### 見落としやすい意味：宣誓の上で証言する
+
+**例文：** The witness deposed that the records were accurate.
+
+**和訳：** 証人はその記録が正確だと宣誓の上で証言した。
+
+**コアイメージ：** depose には地位から退かせる意味とは別に、法的手続きの中で宣誓して証言する用法がある。法廷や証言の文脈では、権力者の解任と混同しない。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：法的文脈で定着した別義"]
+    B["よく知られた意味：王位・地位から追放する"]
+    C["見落としやすい意味：宣誓の上で証言する"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** `depose under oath`
+
+<small>index: 7634 / candidate_id: ev-07634-verb-01</small>
+
+---
+
+## 3722. depressed
+
+**品詞：** adjective　**発音：** /dɪˈprest/
+
+<small>よく知られている意味：気分が落ち込んだ</small>
+
+### 見落としやすい意味：景気・価格・需要などが低迷した
+
+**例文：** Depressed demand forced the company to lower its prices.
+
+**和訳：** 需要の低迷によって、その会社は価格を下げざるを得なかった。
+
+**コアイメージ：** depressed は本来の水準より下に押し下げられた状態を表す。気分については落胆、経済については価格や需要の低迷を意味する。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：通常より下に押し下げられた状態"]
+    B["よく知られた意味：気分が落ち込んだ"]
+    C["見落としやすい意味：景気・価格・需要などが低迷した"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** `depressed prices; depressed demand`
+
+<small>index: 7635 / candidate_id: ev-07635-adj-01</small>
+
+---
+
+## 3723. don
+
+**品詞：** noun　**発音：** /dɑːn/
+
+<small>よく知られている意味：首領・ドン</small>
+
+### 見落としやすい意味：英国の大学教員・指導者
+
+**例文：** An Oxford don gave a lecture on medieval literature.
+
+**和訳：** オックスフォード大学の教員が中世文学について講義した。
+
+**コアイメージ：** don は尊敬や地位を伴う人物の呼び名として使われてきた。英国の大学については、その大学に所属する教員や研究者を指す。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：地位ある人物への呼称"]
+    B["よく知られた意味：首領・ドン"]
+    C["見落としやすい意味：英国の大学教員・指導者"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** `an Oxford don`
+
+<small>index: 7639 / candidate_id: ev-07639-noun-02</small>
+
+---
+
+## 3724. don
+
+**品詞：** verb　**発音：** /dɑːn/
+
+<small>よく知られている意味：首領・ドン（名詞）</small>
+
+### 見落としやすい意味：衣類を身につける
+
+**例文：** She donned a warm coat before leaving the house.
+
+**和訳：** 彼女は家を出る前に暖かいコートを身につけた。
+
+**コアイメージ：** 動詞 don は衣服や帽子などを身につけることを表す。人を指す名詞 don とは品詞も意味も違い、文章ではやや改まった言い方だ。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：衣類を身につける動作"]
+    B["よく知られた意味：首領・ドン（名詞）"]
+    C["見落としやすい意味：衣類を身につける"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** `don a coat; don a helmet`
+
+<small>index: 7639 / candidate_id: ev-07639-verb-01</small>
+
+---
+
+## 3725. dramatize
+
+**品詞：** verb　**発音：** /ˈdrɑːmətaɪz/
+
+<small>よく知られている意味：劇にする・脚色する</small>
+
+### 見落としやすい意味：出来事を大げさに表現・脚色する
+
+**例文：** The article dramatized a minor disagreement between the two friends.
+
+**和訳：** その記事は二人の友人の小さな意見の相違を大げさに描いた。
+
+**コアイメージ：** dramatize は出来事を劇のように目立たせる動詞だ。事実を舞台用にするだけでなく、実際以上に劇的に見せるという意味にもなる。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：出来事を劇的に見せる"]
+    B["よく知られた意味：劇にする・脚色する"]
+    C["見落としやすい意味：出来事を大げさに表現・脚色する"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** `dramatize an incident`
+
+<small>index: 7640 / candidate_id: ev-07640-verb-01</small>
+
+---
+
+## 3726. embroidery
+
+**品詞：** noun　**発音：** /ɪmˈbrɔɪdəri/
+
+<small>よく知られている意味：刺しゅう</small>
+
+### 見落としやすい意味：話を面白くするための脚色や誇張
+
+**例文：** Her account contained some embroidery, but the main facts were true.
+
+**和訳：** 彼女の説明には多少の脚色があったが、主要な事実は本当だった。
+
+**コアイメージ：** embroidery は布に飾りを加える刺しゅうを指す。話に余分な飾りを加える比喩では、事実を面白くするための脚色や誇張になる。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：元のものに飾りを加える"]
+    B["よく知られた意味：刺しゅう"]
+    C["見落としやすい意味：話を面白くするための脚色や誇張"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** `embroidery in an account`
+
+<small>index: 7645 / candidate_id: ev-07645-noun-01</small>
+
+---
+
+## 3727. eve
+
+**品詞：** noun　**発音：** /iːv/
+
+<small>よく知られている意味：前夜・前日</small>
+
+### 見落としやすい意味：出来事の直前の時期
+
+**例文：** On the eve of a major reform, the staff felt both hope and anxiety.
+
+**和訳：** 大きな改革を目前にして、職員たちは期待と不安の両方を感じていた。
+
+**コアイメージ：** eve は何かが始まる直前を指す。日付の前夜だけでなく、変革や出来事が起こる直前の時期にも広げて使える。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：大事な出来事のすぐ前"]
+    B["よく知られた意味：前夜・前日"]
+    C["見落としやすい意味：出来事の直前の時期"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** `on the eve of change`
+
+<small>index: 7649 / candidate_id: ev-07649-noun-01</small>
+
+---
+
+## 3728. exemplary
+
+**品詞：** adjective　**発音：** /ɪɡˈzempləri/
+
+<small>よく知られている意味：模範的な</small>
+
+### 見落としやすい意味：見せしめとなる・戒めを与える
+
+**例文：** The authorities imposed an exemplary fine to discourage similar offenses.
+
+**和訳：** 当局は同様の違反を防ぐため、見せしめとなる罰金を科した。
+
+**コアイメージ：** exemplary は「例となる」という意味を中心に持つ。良い手本となる場合だけでなく、他者への戒めの例となる処罰にも使われる。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：他者に示す例・手本"]
+    B["よく知られた意味：模範的な"]
+    C["見落としやすい意味：見せしめとなる・戒めを与える"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** `exemplary punishment; exemplary damages`
+
+<small>index: 7650 / candidate_id: ev-07650-adj-01</small>
+
+---
+
+## 3729. expressly
+
+**品詞：** adverb　**発音：** /ɪkˈspresli/
+
+<small>よく知られている意味：（express＝）急行の・速達の</small>
+
+### 見落としやすい意味：明確に・特にその目的のために
+
+**例文：** This room was built expressly for music practice.
+
+**和訳：** この部屋は音楽の練習のために特別に造られた。
+
+**コアイメージ：** expressly はある意図をはっきり示したり、特定の目的に合わせたりする副詞だ。「速い」という express のイメージだけに頼らず、目的を明示する働きに注目する。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：意図・目的を明確にする"]
+    B["よく知られた意味：（express＝）急行の・速達の"]
+    C["見落としやすい意味：明確に・特にその目的のために"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** `expressly for ...; expressly prohibited`
+
+<small>index: 7652 / candidate_id: ev-07652-adv-01</small>
+
+---
+
+## 3730. fiber
+
+**品詞：** noun　**発音：** /ˈfaɪbər/
+
+<small>よく知られている意味：繊維・食物繊維</small>
+
+### 見落としやすい意味：人格・気骨・道徳的な強さ
+
+**例文：** Her moral fiber helped her stand by her principles.
+
+**和訳：** 彼女の道徳的な強さが、信念を守る支えとなった。
+
+**コアイメージ：** fiber は物を形づくる細い繊維を表す。比喩では、人の人格を内側から支える芯や精神的な強さを指す。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：内側から全体を支える芯"]
+    B["よく知られた意味：繊維・食物繊維"]
+    C["見落としやすい意味：人格・気骨・道徳的な強さ"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** `moral fiber`
+
+<small>index: 7655 / candidate_id: ev-07655-noun-01</small>
+
+---
+
+## 3731. fitting
+
+**品詞：** noun　**発音：** /ˈfɪtɪŋ/
+
+<small>よく知られている意味：ふさわしい・適切な</small>
+
+### 見落としやすい意味：設備や備え付けの器具類
+
+**例文：** The apartment has modern kitchen fittings.
+
+**和訳：** そのアパートには現代的な台所設備が備え付けられている。
+
+**コアイメージ：** fitting は物が所定の場所に合うという発想を持つ。形容詞なら「適切な」、名詞では建物や設備に合うよう設置された器具を指す。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：場所・用途に合うもの"]
+    B["よく知られた意味：ふさわしい・適切な"]
+    C["見落としやすい意味：設備や備え付けの器具類"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** `kitchen fittings; bathroom fittings`
+
+<small>index: 7657 / candidate_id: ev-07657-noun-01</small>
+
+---
+
+## 3732. fraternity
+
+**品詞：** noun　**発音：** /frəˈtɜːrnəti/
+
+<small>よく知られている意味：兄弟愛・友愛</small>
+
+### 見落としやすい意味：同じ職業や目的を持つ仲間集団
+
+**例文：** The medical fraternity welcomed the new research.
+
+**和訳：** 医学界の人々はその新しい研究を歓迎した。
+
+**コアイメージ：** fraternity は共通のつながりを持つ仲間同士の関係を表す。兄弟愛のような結び付きから、同じ専門分野に属する人々の集団を指すようになる。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：共通のつながりで結ばれた仲間"]
+    B["よく知られた意味：兄弟愛・友愛"]
+    C["見落としやすい意味：同じ職業や目的を持つ仲間集団"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** `the medical fraternity`
+
+<small>index: 7660 / candidate_id: ev-07660-noun-01</small>
+
+---
+
+## 3733. gilded
+
+**品詞：** adjective　**発音：** /ˈɡɪldɪd/
+
+<small>よく知られている意味：金箔を貼った</small>
+
+### 見落としやすい意味：見かけだけ華やかで実質に乏しい
+
+**例文：** The city's gilded image hid widespread poverty.
+
+**和訳：** その都市の華やかな外見の陰には、広範な貧困が隠れていた。
+
+**コアイメージ：** gild は表面を金で覆うことだ。外側だけが輝いて見える様子から、実質が伴わない見せかけの華やかさを表せる。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：表面だけ金色に輝かせる"]
+    B["よく知られた意味：金箔を貼った"]
+    C["見落としやすい意味：見かけだけ華やかで実質に乏しい"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** `a gilded image; gilded promises`
+
+<small>index: 7661 / candidate_id: ev-07661-adj-01</small>
+
+---
+
+## 3734. hatch
+
+**品詞：** verb　**発音：** /hætʃ/
+
+<small>よく知られている意味：卵からかえる</small>
+
+### 見落としやすい意味：計画や陰謀を考え出す
+
+**例文：** The students hatched a plan for a surprise celebration.
+
+**和訳：** 生徒たちはサプライズのお祝いをする計画を考え出した。
+
+**コアイメージ：** hatch は卵の中で育ったものが外に現れる動きだ。考えが内部で練られて形になるという比喩から、計画をひそかに考え出す意味につながる。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：中で育ったものが生まれる"]
+    B["よく知られた意味：卵からかえる"]
+    C["見落としやすい意味：計画や陰謀を考え出す"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** `hatch a plan; hatch a plot`
+
+<small>index: 7665 / candidate_id: ev-07665-verb-01</small>
+
+---
+
+## 3735. hog
+
+**品詞：** verb　**発音：** /hɑːɡ/
+
+<small>よく知られている意味：豚</small>
+
+### 見落としやすい意味：必要以上に独占する
+
+**例文：** He tends to hog the microphone during discussions.
+
+**和訳：** 彼は話し合いの間、マイクを独り占めしがちだ。
+
+**コアイメージ：** hog は豚を指す語だが、動詞では他人の分まで取ってしまうような独占を表す。注意や時間、場所などにも使える。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：必要以上に自分のものにする"]
+    B["よく知られた意味：豚"]
+    C["見落としやすい意味：必要以上に独占する"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** `hog the spotlight; hog all the space`
+
+<small>index: 7667 / candidate_id: ev-07667-verb-01</small>
+
+---
+
+## 3736. ignite
+
+**品詞：** verb　**発音：** /ɪɡˈnaɪt/
+
+<small>よく知られている意味：火をつける・燃え上がらせる</small>
+
+### 見落としやすい意味：感情や関心をかき立てる
+
+**例文：** The science fair ignited her interest in astronomy.
+
+**和訳：** 科学祭をきっかけに、彼女の天文学への関心が強くなった。
+
+**コアイメージ：** ignite は火を付けて燃え始めさせることだ。好奇心や議論などが急に活発になることも、火がつくように表現できる。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：火がつき勢いが生まれる"]
+    B["よく知られた意味：火をつける・燃え上がらせる"]
+    C["見落としやすい意味：感情や関心をかき立てる"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** `ignite interest; ignite debate`
+
+<small>index: 7669 / candidate_id: ev-07669-verb-01</small>
+
+---
+
+## 3737. instrumental
+
+**品詞：** adjective　**発音：** /ˌɪnstrəˈmentəl/
+
+<small>よく知られている意味：楽器の・器楽の</small>
+
+### 見落としやすい意味：成功などの達成に重要な役割を果たす
+
+**例文：** Her research was instrumental in improving the town's water supply.
+
+**和訳：** 彼女の研究は町の水道改善に重要な役割を果たした。
+
+**コアイメージ：** instrument は目的達成のための道具や手段を意味する。instrumental は音楽の「楽器の」だけでなく、成果を生むうえで重要な働きをしたことを示す。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：目的を達するための手段"]
+    B["よく知られた意味：楽器の・器楽の"]
+    C["見落としやすい意味：成功などの達成に重要な役割を果たす"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** `be instrumental in doing ...`
+
+<small>index: 7678 / candidate_id: ev-07678-adj-01</small>
+
+---
+
+## 3738. interstate
+
+**品詞：** noun　**発音：** /ˈɪntərsteɪt/
+
+<small>よく知られている意味：州と州の間の（形容詞）</small>
+
+### 見落としやすい意味：アメリカの州間高速道路
+
+**例文：** We left the interstate and followed a smaller road.
+
+**和訳：** 私たちは州間高速道路を降りて、より小さな道を進んだ。
+
+**コアイメージ：** interstate は州と州を結ぶことを表す。アメリカ英語では形容詞だけでなく、州間高速道路そのものを表す名詞としても使う。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：州境を越えて結ぶ道路網"]
+    B["よく知られた意味：州と州の間の（形容詞）"]
+    C["見落としやすい意味：アメリカの州間高速道路"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** `take the interstate; get off the interstate`
+
+<small>index: 7680 / candidate_id: ev-07680-noun-01</small>
+
+---
+
+## 3739. jade
+
+**品詞：** verb　**発音：** /dʒeɪd/
+
+<small>よく知られている意味：ひすい・翡翠</small>
+
+### 見落としやすい意味：人を疲れさせる・うんざりさせる
+
+**例文：** Months of repetitive work had jaded the entire team.
+
+**和訳：** 何か月も単調な作業が続き、チーム全員がうんざりしていた。
+
+**コアイメージ：** 動詞 jade は長く続く負担や刺激によって人を疲れさせ、飽きさせる意味だ。宝石を指す名詞 jade とは別の用法なので、動詞としての働きを見分ける。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：繰り返しに疲れ果てる"]
+    B["よく知られた意味：ひすい・翡翠"]
+    C["見落としやすい意味：人を疲れさせる・うんざりさせる"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** `be jaded by routine`
+
+<small>index: 7682 / candidate_id: ev-07682-verb-01</small>
+
+---
+
+## 3740. lame
+
+**品詞：** adjective　**発音：** /leɪm/
+
+<small>よく知られている意味：足が不自由な</small>
+
+### 見落としやすい意味：説得力や効果がない・お粗末な
+
+**例文：** His explanation for missing the deadline sounded lame.
+
+**和訳：** 締め切りに遅れた理由についての彼の説明は説得力に欠けた。
+
+**コアイメージ：** lame には十分に機能できないという評価的な用法がある。身体の状態だけでなく、言い訳や冗談が弱くて効果のないことも表す。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：十分な力・効果がない"]
+    B["よく知られた意味：足が不自由な"]
+    C["見落としやすい意味：説得力や効果がない・お粗末な"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** `a lame excuse; a lame argument`
+
+<small>index: 7683 / candidate_id: ev-07683-adj-01</small>
+
+---
+
+## 3741. launder
+
+**品詞：** verb　**発音：** /ˈlɔːndər/
+
+<small>よく知られている意味：衣類などを洗濯する</small>
+
+### 見落としやすい意味：不正取得した金銭の出所を隠して合法に見せる
+
+**例文：** The criminals used several accounts to launder the stolen money.
+
+**和訳：** 犯罪者たちは盗んだ金の出所を隠すため、複数の口座を使った。
+
+**コアイメージ：** launder の基本は洗ってきれいにすることだ。金銭については不正な出所を見えにくくし、合法に得たように装うことを指す。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：汚れ・不正の痕跡を見えなくする"]
+    B["よく知られた意味：衣類などを洗濯する"]
+    C["見落としやすい意味：不正取得した金銭の出所を隠して合法に見せる"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** `launder money; money laundering`
+
+<small>index: 7685 / candidate_id: ev-07685-verb-01</small>
+
+---
+
+## 3742. marshal
+
+**品詞：** verb　**発音：** /ˈmɑːrʃəl/
+
+<small>よく知られている意味：元帥・保安官（名詞）</small>
+
+### 見落としやすい意味：論拠や情報を整理してまとめる
+
+**例文：** The researcher marshaled the evidence before writing her conclusion.
+
+**和訳：** 研究者は結論を書く前に証拠を整理してまとめた。
+
+**コアイメージ：** marshal は人や物を秩序立てて配置することに関係する。動詞では資料・事実・論拠を集め、筋道立てて整理する意味になる。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：要素を順序立てて配置する"]
+    B["よく知られた意味：元帥・保安官（名詞）"]
+    C["見落としやすい意味：論拠や情報を整理してまとめる"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** `marshal the evidence; marshal arguments`
+
+<small>index: 7694 / candidate_id: ev-07694-verb-01</small>
+
+---
+
+## 3743. navigate
+
+**品詞：** verb　**発音：** /ˈnævəɡeɪt/
+
+<small>よく知られている意味：船を操縦する・航海する</small>
+
+### 見落としやすい意味：困難な状況をうまく切り抜ける
+
+**例文：** She navigated the difficult transition with patience.
+
+**和訳：** 彼女は忍耐強く、その難しい移行期を乗り切った。
+
+**コアイメージ：** navigate は障害を避けながら適切な経路を見つけて進むことだ。船や道の案内だけでなく、複雑な状況をうまく切り抜けることにも使う。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：障害の中で進路を見つける"]
+    B["よく知られた意味：船を操縦する・航海する"]
+    C["見落としやすい意味：困難な状況をうまく切り抜ける"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** `navigate a difficult situation`
+
+<small>index: 7701 / candidate_id: ev-07701-verb-01</small>
+
+---
+
+## 3744. orderly
+
+**品詞：** noun　**発音：** /ˈɔːrdərli/
+
+<small>よく知られている意味：整然とした・規則正しい</small>
+
+### 見落としやすい意味：病院などの雑務係・付き添い係
+
+**例文：** A hospital orderly helped move the patient to another room.
+
+**和訳：** 病院の係員が患者を別の部屋へ移動させるのを手伝った。
+
+**コアイメージ：** orderly は形容詞では物事が秩序立っていることを表す。同じ綴りの名詞は、病院などで決まった補助業務を担う職員を指す。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：決まった役割を果たす人・整然とした状態"]
+    B["よく知られた意味：整然とした・規則正しい"]
+    C["見落としやすい意味：病院などの雑務係・付き添い係"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** `hospital orderly`
+
+<small>index: 7707 / candidate_id: ev-07707-noun-01</small>
+
+---
+
+## 3745. packaging
+
+**品詞：** noun　**発音：** /ˈpækɪdʒɪŋ/
+
+<small>よく知られている意味：包装・梱包</small>
+
+### 見落としやすい意味：商品・考えをどう見せるかという演出や提示方法
+
+**例文：** The packaging of the message was as important as its content.
+
+**和訳：** そのメッセージは内容だけでなく、伝え方も同じくらい重要だった。
+
+**コアイメージ：** packaging は中身を包んで外からどう見えるかを決めることだ。商品の外装だけでなく、考えや情報の提示・演出方法にも使う。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：中身をどう見せて届けるか"]
+    B["よく知られた意味：包装・梱包"]
+    C["見落としやすい意味：商品・考えをどう見せるかという演出や提示方法"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** `the packaging of an idea`
+
+<small>index: 7709 / candidate_id: ev-07709-noun-01</small>
+
+---
+
+## 3746. periodical
+
+**品詞：** noun　**発音：** /ˌpɪriˈɑːdɪkəl/
+
+<small>よく知られている意味：定期的な（形容詞）</small>
+
+### 見落としやすい意味：定期刊行物・雑誌
+
+**例文：** Her essay appeared in a literary periodical.
+
+**和訳：** 彼女の評論は文芸雑誌に掲載された。
+
+**コアイメージ：** periodical は一定の期間ごとに繰り返すことを表す。名詞では定期的に発行される雑誌や学術誌などの刊行物を指す。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：決まった周期で現れるもの"]
+    B["よく知られた意味：定期的な（形容詞）"]
+    C["見落としやすい意味：定期刊行物・雑誌"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** `a scholarly periodical`
+
+<small>index: 7713 / candidate_id: ev-07713-noun-01</small>
+
+---
+
+## 3747. ramble
+
+**品詞：** verb　**発音：** /ˈræmbəl/
+
+<small>よく知られている意味：あてもなく歩き回る</small>
+
+### 見落としやすい意味：まとまりなく長々と話す
+
+**例文：** The speaker rambled on about his childhood for half an hour.
+
+**和訳：** 講演者は30分もの間、子どもの頃のことをまとまりなく話し続けた。
+
+**コアイメージ：** ramble は決まった道筋なしに歩き回ることだ。話については、筋道からそれながら長々と話す意味になる。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：定まった道筋なく進む"]
+    B["よく知られた意味：あてもなく歩き回る"]
+    C["見落としやすい意味：まとまりなく長々と話す"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** `ramble on about ...`
+
+<small>index: 7725 / candidate_id: ev-07725-verb-01</small>
+
+---
+
+## 3748. recital
+
+**品詞：** noun　**発音：** /rɪˈsaɪtəl/
+
+<small>よく知られている意味：独奏会・発表会</small>
+
+### 見落としやすい意味：出来事や事実を詳しく述べる説明
+
+**例文：** Her detailed recital of the events helped the investigators.
+
+**和訳：** 彼女が出来事を詳しく説明したことは捜査員の助けになった。
+
+**コアイメージ：** recital は順を追って何かを述べたり披露したりすることだ。演奏を披露する場だけでなく、事実や出来事を詳しく語る説明を指す。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：内容を順に述べて示す"]
+    B["よく知られた意味：独奏会・発表会"]
+    C["見落としやすい意味：出来事や事実を詳しく述べる説明"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** `a recital of the facts`
+
+<small>index: 7727 / candidate_id: ev-07727-noun-01</small>
+
+---
+
+## 3749. recorder
+
+**品詞：** noun　**発音：** /rɪˈkɔːrdər/
+
+<small>よく知られている意味：録音機・記録係</small>
+
+### 見落としやすい意味：縦笛のリコーダー
+
+**例文：** My younger sister is learning to play the recorder.
+
+**和訳：** 妹は縦笛のリコーダーを吹く練習をしている。
+
+**コアイメージ：** recorder は録音装置を表すだけでなく、縦笛の一種の名称でもある。楽器と機械は同じ綴りの定着した名詞義なので、play the があれば楽器と判断できる。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：同じ綴りの道具名"]
+    B["よく知られた意味：録音機・記録係"]
+    C["見落としやすい意味：縦笛のリコーダー"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** `play the recorder`
+
+<small>index: 7728 / candidate_id: ev-07728-noun-01</small>
+
+---
+
+## 3750. reel
+
+**品詞：** verb　**発音：** /riːl/
+
+<small>よく知られている意味：糸巻き・リール（名詞）</small>
+
+### 見落としやすい意味：よろめく・足元がふらつく
+
+**例文：** He reeled across the deck as the boat rocked.
+
+**和訳：** 船が揺れる中、彼は甲板をよろめきながら進んだ。
+
+**コアイメージ：** reel はしっかりした姿勢を保てず、左右に揺れながら動くことを表す動詞だ。釣り糸などのリールという名詞と取り違えないようにする。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：揺れて安定を失う動き"]
+    B["よく知られた意味：糸巻き・リール（名詞）"]
+    C["見落としやすい意味：よろめく・足元がふらつく"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** `reel from shock; reel backward`
+
+<small>index: 7729 / candidate_id: ev-07729-verb-01</small>
+
+---
+
+## 3751. slippery
+
+**品詞：** adjective　**発音：** /ˈslɪpəri/
+
+<small>よく知られている意味：滑りやすい</small>
+
+### 見落としやすい意味：信用しにくい・ずる賢い
+
+**例文：** The politician gave a slippery answer to every question.
+
+**和訳：** その政治家はどの質問に対しても、はぐらかすような答えをした。
+
+**コアイメージ：** slippery は滑ってつかみどころがない状態を表す。人や説明については、言質を取れず信用しにくい性質を表す比喩になる。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：つかもうとしても滑り抜ける"]
+    B["よく知られた意味：滑りやすい"]
+    C["見落としやすい意味：信用しにくい・ずる賢い"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** `a slippery answer; a slippery character`
+
+<small>index: 7740 / candidate_id: ev-07740-adj-01</small>
+
+---
+
+## 3752. stat
+
+**品詞：** adverb　**発音：** /stæt/
+
+<small>よく知られている意味：統計・数字（stat の名詞用法）</small>
+
+### 見落としやすい意味：ただちに・至急
+
+**例文：** The doctor asked for the test results, stat.
+
+**和訳：** 医師は検査結果を至急持ってくるよう求めた。
+
+**コアイメージ：** 副詞 stat はラテン語の「ただちに」に由来する医療現場などの表現だ。統計を意味する名詞 stat とは別由来なので、文脈と品詞で区別する。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：同じ綴りの別系統の短い語"]
+    B["よく知られた意味：統計・数字（stat の名詞用法）"]
+    C["見落としやすい意味：ただちに・至急"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** `do it stat; stat request`
+
+<small>index: 7747 / candidate_id: ev-07747-adv-01</small>
+
+---
+
+## 3753. stud
+
+**品詞：** verb　**発音：** /stʌd/
+
+<small>よく知られている意味：飾りびょう・留め具</small>
+
+### 見落としやすい意味：点在させる・ちりばめる
+
+**例文：** The ceiling was studded with small lights.
+
+**和訳：** 天井には小さな照明が点々と取り付けられていた。
+
+**コアイメージ：** stud は表面に付けるびょうや突起を表す。動詞では、それらを打つように多くのものを点々と配置することを意味する。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：表面に点々と打ち付ける"]
+    B["よく知られた意味：飾りびょう・留め具"]
+    C["見落としやすい意味：点在させる・ちりばめる"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** `be studded with ...`
+
+<small>index: 7751 / candidate_id: ev-07751-verb-01</small>
+
+---
+
+## 3754. subtitle
+
+**品詞：** noun　**発音：** /ˈsʌbtaɪtəl/
+
+<small>よく知られている意味：映画などの字幕</small>
+
+### 見落としやすい意味：作品・論文などの副題
+
+**例文：** The book's subtitle explains its focus on climate policy.
+
+**和訳：** その本の副題は、気候政策に焦点を当てていることを説明している。
+
+**コアイメージ：** subtitle は main title を補う下位の題名を表す。映像では画面下に現れる字幕、書籍では主題名に添えられる副題を指す。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：主となる題名を補う表記"]
+    B["よく知られた意味：映画などの字幕"]
+    C["見落としやすい意味：作品・論文などの副題"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** `a book's subtitle`
+
+<small>index: 7752 / candidate_id: ev-07752-noun-01</small>
+
+---
+
+## 3755. suggestive
+
+**品詞：** adjective　**発音：** /səɡˈdʒestɪv/
+
+<small>よく知られている意味：暗示的な・思わせぶりな</small>
+
+### 見落としやすい意味：何かを強く示唆する
+
+**例文：** The data were suggestive of an unexpected connection.
+
+**和訳：** そのデータは予想外のつながりがあることを示唆していた。
+
+**コアイメージ：** suggestive は何かを直接断定せず、その存在をうかがわせる性質を表す。印象だけでなく、証拠や兆候が一定の可能性を強く示す場合にも使われる。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：直接言わずに可能性を示す"]
+    B["よく知られた意味：暗示的な・思わせぶりな"]
+    C["見落としやすい意味：何かを強く示唆する"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** `suggestive of ...`
+
+<small>index: 7754 / candidate_id: ev-07754-adj-01</small>
+
+---
+
+## 3756. taint
+
+**品詞：** verb　**発音：** /teɪnt/
+
+<small>よく知られている意味：汚染する・汚す</small>
+
+### 見落としやすい意味：信用や評価に疑いを生じさせる
+
+**例文：** The scandal tainted the company's reputation.
+
+**和訳：** その不祥事によって会社の評判に傷がついた。
+
+**コアイメージ：** taint は純粋だったものに望ましくないものが混じり、価値を損なうことだ。物理的な汚染だけでなく、名声や証言の信頼性を損なう意味になる。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：汚れが混じり信頼を損なう"]
+    B["よく知られた意味：汚染する・汚す"]
+    C["見落としやすい意味：信用や評価に疑いを生じさせる"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** `taint a reputation; tainted evidence`
+
+<small>index: 7756 / candidate_id: ev-07756-verb-01</small>
+
+---
+
+## 3757. tilt
+
+**品詞：** noun　**発音：** /tɪlt/
+
+<small>よく知られている意味：傾斜・傾き</small>
+
+### 見落としやすい意味：偏向・片寄った傾向
+
+**例文：** The report showed a clear tilt toward urban interests.
+
+**和訳：** その報告書には都市部の利益を重視する明らかな偏りが見られた。
+
+**コアイメージ：** tilt は片側へ傾くことを表す。物理的な角度だけでなく、判断や政策が一方に偏った傾向を示す場合にも使う。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：片側に重心が傾く"]
+    B["よく知られた意味：傾斜・傾き"]
+    C["見落としやすい意味：偏向・片寄った傾向"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** `a tilt toward ...`
+
+<small>index: 7759 / candidate_id: ev-07759-noun-01</small>
+
+---
+
+## 3758. unto
+
+**品詞：** preposition　**発音：** /ˈʌntuː/
+
+<small>よく知られている意味：（古風）〜へ・〜に</small>
+
+### 見落としやすい意味：（a law unto oneself の形で）独自のルールで行動する
+
+**例文：** He acts as a law unto himself and ignores the team's rules.
+
+**和訳：** 彼はチームの規則を無視し、自分だけのルールで行動している。
+
+**コアイメージ：** unto は古風な前置詞で「〜に」に近い意味を表す。ただし a law unto oneself は語句全体で「自分だけの規則で行動する人」という慣用表現なので、単語ごとの直訳を避ける。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：自分自身に対して法となる"]
+    B["よく知られた意味：（古風）〜へ・〜に"]
+    C["見落としやすい意味：（a law unto oneself の形で）独自のルールで行動する"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** `a law unto oneself`
+
+<small>index: 7764 / candidate_id: ev-07764-prep-01</small>
+
+---
+
+## 3759. void
+
+**品詞：** adjective　**発音：** /vɔɪd/
+
+<small>よく知られている意味：空の・何もない</small>
+
+### 見落としやすい意味：法的効力を持たない・無効の
+
+**例文：** The court declared the agreement void.
+
+**和訳：** 裁判所はその合意を無効だと判断した。
+
+**コアイメージ：** void は中身や効力となるものが欠けている状態を表す。空っぽという物理的な意味から、法的には契約などに効力がない状態を指す。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：中身・効力が存在しない"]
+    B["よく知られた意味：空の・何もない"]
+    C["見落としやすい意味：法的効力を持たない・無効の"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** `null and void; declare a contract void`
+
+<small>index: 7767 / candidate_id: ev-07767-adj-01</small>
+
+---
+
+## 3760. void
+
+**品詞：** noun　**発音：** /vɔɪd/
+
+<small>よく知られている意味：空間・空白</small>
+
+### 見落としやすい意味：喪失によって生まれた空虚・埋められない穴
+
+**例文：** Her departure left a void that was hard to fill.
+
+**和訳：** 彼女が去ったことで、埋めがたい心の空白が生まれた。
+
+**コアイメージ：** void は何もない空間や欠けた部分を指す。大切な人や物が失われた文脈では、その不在によって生まれた空虚さを表す。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：何かが失われた空いた場所"]
+    B["よく知られた意味：空間・空白"]
+    C["見落としやすい意味：喪失によって生まれた空虚・埋められない穴"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** `fill the void; leave a void`
+
+<small>index: 7767 / candidate_id: ev-07767-noun-01</small>
+
+---
+
