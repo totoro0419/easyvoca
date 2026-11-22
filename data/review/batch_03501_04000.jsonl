@@ -78,7 +78,7 @@
 {"index":3578,"word":"indigenous","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
 {"index":3579,"word":"ozone","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
 {"index":3580,"word":"productive","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
-{"index":3581,"word":"bread","status":"verified_selected","candidate_count":1,"accepted_count":0,"research_state":"source_checked"}
+{"index":3581,"word":"bread","status":"verified_none","candidate_count":1,"accepted_count":0,"research_state":"source_checked"}
 {"index":3582,"word":"subway","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
 {"index":3583,"word":"button","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
 {"index":3584,"word":"sorry","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
