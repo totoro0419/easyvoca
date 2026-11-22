@@ -385,3 +385,16 @@ button{-webkit-tap-highlight-color:transparent}
 
 /* Offscreen neighbors must not change the scroll height of the active lesson. */
 .swipe-neighbor{height:100%;overflow:hidden}
+
+
+/* Tablet: preserve a spacious reading layout without desktop-sized dead space. */
+@media(min-width:761px) and (max-width:980px){
+  .study-toolbar{height:56px}
+  .vocab-content{padding-top:30px;padding-bottom:25px}
+  .meaning-block{margin-top:24px;padding-bottom:21px}
+  .hidden-meaning{margin-top:17px}
+  .content-section{padding-top:18px;padding-bottom:20px}
+  .content-section h3{margin-bottom:10px}
+  .diagram-wrap{margin-top:14px;padding:14px 12px}
+  .swipe-tip{margin-top:20px}
+}
