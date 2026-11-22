@@ -45,4 +45,6 @@ GitHubブランチから教材ファイルを再取得し、以下を検証し�
 
 ## Pull Request
 
-PR URL: 作成後に更新。
+PR URL: https://github.com/totoro0419/easyvoca/pull/58
+
+報告書作成コミット: https://github.com/totoro0419/easyvoca/commit/fc392a86b0d0c9cf35e25f8133f2f4960d893836
