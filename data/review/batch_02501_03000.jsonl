@@ -3,28 +3,28 @@
 {"index":2503,"word":"excess","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2504,"word":"mainstream","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2505,"word":"operating","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2506,"word":"prisoner","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2506,"word":"prisoner","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2507,"word":"cat","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2508,"word":"jet","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2509,"word":"prediction","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2509,"word":"prediction","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2510,"word":"vocabulary","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2511,"word":"steal","status":"verified_selected","candidate_count":2,"accepted_count":2}
-{"index":2512,"word":"bound","status":"verified_selected","candidate_count":3,"accepted_count":3}
-{"index":2513,"word":"farther","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2512,"word":"bound","status":"verified_selected","candidate_count":6,"accepted_count":6}
+{"index":2513,"word":"farther","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2514,"word":"crew","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2515,"word":"nationwide","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2515,"word":"nationwide","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2516,"word":"rape","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2517,"word":"genetic","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2517,"word":"genetic","status":"verified_selected","candidate_count":2,"accepted_count":2}
 {"index":2518,"word":"owe","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2519,"word":"amendment","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2520,"word":"detect","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2520,"word":"detect","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2521,"word":"oh","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2522,"word":"textile","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2523,"word":"cook","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2524,"word":"dish","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2525,"word":"uniform","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2526,"word":"surprising","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2527,"word":"announcement","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2526,"word":"surprising","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
+{"index":2527,"word":"announcement","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2528,"word":"preparation","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2529,"word":"transformation","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2530,"word":"garment","status":"needs_review","candidate_count":0,"accepted_count":0}
@@ -32,30 +32,30 @@
 {"index":2532,"word":"corrupt","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2533,"word":"sail","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2534,"word":"merit","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2535,"word":"metaphor","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2536,"word":"technological","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2535,"word":"metaphor","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
+{"index":2536,"word":"technological","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2537,"word":"metal","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2538,"word":"alarm","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2539,"word":"weekly","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2540,"word":"creative","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2540,"word":"creative","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2541,"word":"web","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2542,"word":"collective","status":"verified_selected","candidate_count":2,"accepted_count":2}
 {"index":2543,"word":"height","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2544,"word":"dignity","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2545,"word":"fame","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2545,"word":"fame","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2546,"word":"wing","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2547,"word":"dialect","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2548,"word":"poet","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2547,"word":"dialect","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
+{"index":2548,"word":"poet","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2549,"word":"feed","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2550,"word":"plate","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2551,"word":"philosophy","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2552,"word":"punishment","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2552,"word":"punishment","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2553,"word":"rebel","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2554,"word":"output","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2555,"word":"database","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2555,"word":"database","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2556,"word":"effectiveness","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2557,"word":"legislative","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2558,"word":"measurement","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2557,"word":"legislative","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
+{"index":2558,"word":"measurement","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2559,"word":"restrict","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2560,"word":"rulemaking","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2561,"word":"sky","status":"needs_review","candidate_count":0,"accepted_count":0}
@@ -64,49 +64,49 @@
 {"index":2564,"word":"rage","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2565,"word":"tune","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2566,"word":"acre","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2567,"word":"credibility","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2568,"word":"allocate","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2567,"word":"credibility","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
+{"index":2568,"word":"allocate","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2569,"word":"consult","status":"verified_selected","candidate_count":2,"accepted_count":2}
 {"index":2570,"word":"convey","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2571,"word":"emperor","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2572,"word":"bet","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2573,"word":"nonetheless","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2572,"word":"bet","status":"verified_selected","candidate_count":1,"accepted_count":1}
+{"index":2573,"word":"nonetheless","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2574,"word":"oversight","status":"verified_selected","candidate_count":3,"accepted_count":2}
-{"index":2575,"word":"prompt","status":"verified_selected","candidate_count":3,"accepted_count":3}
-{"index":2576,"word":"jewelry","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2575,"word":"prompt","status":"verified_selected","candidate_count":6,"accepted_count":6}
+{"index":2576,"word":"jewelry","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2577,"word":"angry","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2578,"word":"inch","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2579,"word":"portrait","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2580,"word":"substitute","status":"verified_selected","candidate_count":1,"accepted_count":1}
+{"index":2580,"word":"substitute","status":"verified_selected","candidate_count":2,"accepted_count":2}
 {"index":2581,"word":"thread","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2582,"word":"broadcast","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2583,"word":"click","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2584,"word":"uncertainty","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2584,"word":"uncertainty","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2585,"word":"coach","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2586,"word":"dear","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2587,"word":"logical","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2588,"word":"exit","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2587,"word":"logical","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
+{"index":2588,"word":"exit","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2589,"word":"triumph","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2590,"word":"journal","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2591,"word":"extract","status":"verified_selected","candidate_count":3,"accepted_count":2}
 {"index":2592,"word":"auction","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2593,"word":"guilty","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2594,"word":"transcript","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2593,"word":"guilty","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
+{"index":2594,"word":"transcript","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2595,"word":"leg","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2596,"word":"kitchen","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2596,"word":"kitchen","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2597,"word":"handsome","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2598,"word":"disagree","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2598,"word":"disagree","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2599,"word":"charity","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2600,"word":"residence","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2601,"word":"assemble","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2602,"word":"prohibit","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2603,"word":"reviewer","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2602,"word":"prohibit","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
+{"index":2603,"word":"reviewer","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2604,"word":"string","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2605,"word":"tall","status":"verified_selected","candidate_count":2,"accepted_count":2}
 {"index":2606,"word":"bath","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2607,"word":"sing","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2608,"word":"fortune","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2609,"word":"countryside","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2609,"word":"countryside","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2610,"word":"survival","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2611,"word":"ease","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2612,"word":"convention","status":"verified_selected","candidate_count":2,"accepted_count":2}
@@ -125,14 +125,14 @@
 {"index":2625,"word":"gross","status":"verified_selected","candidate_count":2,"accepted_count":2}
 {"index":2626,"word":"noble","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2627,"word":"neglect","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2628,"word":"biological","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2628,"word":"biological","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2629,"word":"tribe","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2630,"word":"mechanism","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2631,"word":"exclude","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2631,"word":"exclude","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2632,"word":"index","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2633,"word":"applicable","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2633,"word":"applicable","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2634,"word":"county","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2635,"word":"meaningful","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2635,"word":"meaningful","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2636,"word":"palestinian","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2637,"word":"severe","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2638,"word":"meat","status":"verified_selected","candidate_count":1,"accepted_count":1}
@@ -141,7 +141,7 @@
 {"index":2641,"word":"spy","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2642,"word":"gender","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2643,"word":"comic","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2644,"word":"invade","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2644,"word":"invade","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2645,"word":"proof","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2646,"word":"slavery","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2647,"word":"absolutely","status":"needs_review","candidate_count":0,"accepted_count":0}
@@ -153,31 +153,31 @@
 {"index":2653,"word":"emotional","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2654,"word":"expenditure","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2655,"word":"feminist","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2656,"word":"invasion","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2656,"word":"invasion","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2657,"word":"saint","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2658,"word":"significance","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2659,"word":"tendency","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2660,"word":"football","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2660,"word":"football","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2661,"word":"intention","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2662,"word":"personally","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2663,"word":"illness","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2664,"word":"delightful","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2663,"word":"illness","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
+{"index":2664,"word":"delightful","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2665,"word":"commerce","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2666,"word":"revolutionary","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2667,"word":"coastline","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2668,"word":"cliff","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2666,"word":"revolutionary","status":"verified_selected","candidate_count":2,"accepted_count":2}
+{"index":2667,"word":"coastline","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
+{"index":2668,"word":"cliff","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2669,"word":"colony","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2670,"word":"nose","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2671,"word":"peaceful","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2672,"word":"adventure","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2672,"word":"adventure","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2673,"word":"poetry","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2674,"word":"controversy","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2674,"word":"controversy","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2675,"word":"et","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2676,"word":"framework","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2677,"word":"marketing","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2678,"word":"resemble","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2678,"word":"resemble","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2679,"word":"excuse","status":"verified_selected","candidate_count":2,"accepted_count":2}
-{"index":2680,"word":"basically","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2680,"word":"basically","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2681,"word":"generous","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2682,"word":"civilization","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2683,"word":"weakness","status":"needs_review","candidate_count":0,"accepted_count":0}
@@ -188,82 +188,82 @@
 {"index":2688,"word":"legacy","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2689,"word":"register","status":"verified_selected","candidate_count":3,"accepted_count":3}
 {"index":2690,"word":"splendid","status":"verified_none","candidate_count":1,"accepted_count":0}
-{"index":2691,"word":"traditionally","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2691,"word":"traditionally","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2692,"word":"update","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2693,"word":"reportedly","status":"verified_none","candidate_count":1,"accepted_count":0}
 {"index":2694,"word":"strengthen","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2695,"word":"teen","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2696,"word":"drawing","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2697,"word":"childhood","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2696,"word":"drawing","status":"verified_selected","candidate_count":1,"accepted_count":1}
+{"index":2697,"word":"childhood","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2698,"word":"imagination","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2699,"word":"horror","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2699,"word":"horror","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2700,"word":"wander","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2701,"word":"gradually","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2701,"word":"gradually","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2702,"word":"fiction","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2703,"word":"medium","status":"verified_selected","candidate_count":2,"accepted_count":2}
-{"index":2704,"word":"emotion","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2704,"word":"emotion","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2705,"word":"genius","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2706,"word":"plausible","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2707,"word":"hypothesis","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2708,"word":"inland","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2709,"word":"mailer","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2710,"word":"monastery","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2711,"word":"processing","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2710,"word":"monastery","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
+{"index":2711,"word":"processing","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2712,"word":"prominent","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2713,"word":"residential","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2714,"word":"thinking","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2715,"word":"sick","status":"verified_selected","candidate_count":1,"accepted_count":1}
+{"index":2714,"word":"thinking","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
+{"index":2715,"word":"sick","status":"verified_selected","candidate_count":2,"accepted_count":2}
 {"index":2716,"word":"shadow","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2717,"word":"assistant","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2718,"word":"iron","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2719,"word":"passport","status":"verified_selected","candidate_count":1,"accepted_count":1}
+{"index":2719,"word":"passport","status":"verified_selected","candidate_count":2,"accepted_count":2}
 {"index":2720,"word":"tension","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2721,"word":"myth","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2722,"word":"legitimate","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2723,"word":"premise","status":"verified_selected","candidate_count":2,"accepted_count":2}
 {"index":2724,"word":"chapel","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2725,"word":"commonly","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2725,"word":"commonly","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2726,"word":"input","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2727,"word":"slang","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2728,"word":"sugar","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2729,"word":"poem","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2729,"word":"poem","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2730,"word":"exact","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2731,"word":"rough","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2732,"word":"overseas","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2733,"word":"altar","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2733,"word":"altar","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2734,"word":"dramatically","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2735,"word":"millennium","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2736,"word":"violation","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2737,"word":"widespread","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2737,"word":"widespread","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2738,"word":"advanced","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2739,"word":"plastic","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2740,"word":"trick","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2741,"word":"precise","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2741,"word":"precise","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2742,"word":"hunt","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2743,"word":"sacred","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2744,"word":"temporary","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2745,"word":"rebuild","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2745,"word":"rebuild","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2746,"word":"brick","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2747,"word":"compose","status":"verified_selected","candidate_count":2,"accepted_count":2}
 {"index":2748,"word":"dimension","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2749,"word":"subtle","status":"verified_selected","candidate_count":2,"accepted_count":2}
-{"index":2750,"word":"undoubtedly","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2750,"word":"undoubtedly","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2751,"word":"educate","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2752,"word":"hint","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2753,"word":"proportion","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2754,"word":"adequate","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2755,"word":"architectural","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2755,"word":"architectural","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2756,"word":"mixed","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2757,"word":"presidency","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2758,"word":"envelope","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2759,"word":"leather","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2760,"word":"cure","status":"verified_selected","candidate_count":2,"accepted_count":2}
-{"index":2761,"word":"inevitable","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2761,"word":"inevitable","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2762,"word":"mask","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2763,"word":"puzzle","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2764,"word":"irony","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2765,"word":"methodology","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2766,"word":"annually","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2766,"word":"annually","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2767,"word":"diverse","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2768,"word":"grade","status":"verified_selected","candidate_count":2,"accepted_count":2}
 {"index":2769,"word":"coat","status":"verified_selected","candidate_count":1,"accepted_count":1}
@@ -271,13 +271,13 @@
 {"index":2771,"word":"silence","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2772,"word":"worthy","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2773,"word":"vessel","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2774,"word":"spelling","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2774,"word":"spelling","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2775,"word":"consciousness","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2776,"word":"activist","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2777,"word":"african","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2778,"word":"mercury","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2779,"word":"priest","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2780,"word":"privacy","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2779,"word":"priest","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
+{"index":2780,"word":"privacy","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2781,"word":"readily","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2782,"word":"stroll","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2783,"word":"sin","status":"needs_review","candidate_count":0,"accepted_count":0}
@@ -287,10 +287,10 @@
 {"index":2787,"word":"ocean","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2788,"word":"identification","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2789,"word":"evacuation","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2790,"word":"routinely","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2791,"word":"adviser","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2790,"word":"routinely","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
+{"index":2791,"word":"adviser","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2792,"word":"boundary","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2793,"word":"controlled","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2793,"word":"controlled","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2794,"word":"limitation","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2795,"word":"molecule","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2796,"word":"preamble","status":"needs_review","candidate_count":0,"accepted_count":0}
@@ -300,11 +300,11 @@
 {"index":2800,"word":"fault","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2801,"word":"pot","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2802,"word":"presentation","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2803,"word":"simultaneously","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2803,"word":"simultaneously","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2804,"word":"motion","status":"verified_selected","candidate_count":2,"accepted_count":2}
 {"index":2805,"word":"intent","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2806,"word":"undermine","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2807,"word":"coastal","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2807,"word":"coastal","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2808,"word":"endorse","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2809,"word":"improper","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2810,"word":"modify","status":"verified_selected","candidate_count":2,"accepted_count":2}
@@ -320,14 +320,14 @@
 {"index":2820,"word":"interpret","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2821,"word":"railway","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2822,"word":"toxicant","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2823,"word":"desk","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2823,"word":"desk","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2824,"word":"sad","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2825,"word":"relax","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2826,"word":"popularity","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2826,"word":"popularity","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2827,"word":"provoke","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2828,"word":"flourish","status":"verified_selected","candidate_count":2,"accepted_count":2}
 {"index":2829,"word":"administer","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2830,"word":"guideline","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2830,"word":"guideline","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2831,"word":"integrity","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2832,"word":"smell","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2833,"word":"storm","status":"verified_selected","candidate_count":1,"accepted_count":1}
@@ -336,36 +336,36 @@
 {"index":2836,"word":"silk","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2837,"word":"eager","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2838,"word":"execution","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2839,"word":"strictly","status":"verified_selected","candidate_count":1,"accepted_count":1}
+{"index":2839,"word":"strictly","status":"verified_selected","candidate_count":2,"accepted_count":2}
 {"index":2840,"word":"likewise","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2841,"word":"accommodation","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2842,"word":"accessible","status":"verified_selected","candidate_count":2,"accepted_count":2}
-{"index":2843,"word":"luxury","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2843,"word":"luxury","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2844,"word":"painter","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2845,"word":"random","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2845,"word":"random","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2846,"word":"rumor","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2847,"word":"superior","status":"verified_selected","candidate_count":2,"accepted_count":2}
 {"index":2848,"word":"tragedy","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2849,"word":"bore","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2850,"word":"beautifully","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2851,"word":"breast","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2850,"word":"beautifully","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
+{"index":2851,"word":"breast","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2852,"word":"fixed","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2853,"word":"concrete","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2854,"word":"bizarre","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2854,"word":"bizarre","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2855,"word":"valid","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2856,"word":"profitable","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2856,"word":"profitable","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2857,"word":"revelation","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2858,"word":"allocation","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2859,"word":"antitrust","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2860,"word":"biography","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2859,"word":"antitrust","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
+{"index":2860,"word":"biography","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2861,"word":"jail","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2862,"word":"punish","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2862,"word":"punish","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2863,"word":"souvenir","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2864,"word":"combat","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2865,"word":"conspiracy","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2866,"word":"equilibrium","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2866,"word":"equilibrium","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2867,"word":"erect","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2868,"word":"expertise","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2868,"word":"expertise","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2869,"word":"founder","status":"verified_selected","candidate_count":2,"accepted_count":2}
 {"index":2870,"word":"gamble","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2871,"word":"ly","status":"needs_review","candidate_count":0,"accepted_count":0}
@@ -380,30 +380,30 @@
 {"index":2880,"word":"outrage","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2881,"word":"surrender","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2882,"word":"maximize","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2883,"word":"documentation","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2883,"word":"documentation","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2884,"word":"entitle","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2885,"word":"increased","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2885,"word":"increased","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2886,"word":"pretend","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2887,"word":"revise","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2888,"word":"thin","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2889,"word":"being","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2890,"word":"planet","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2890,"word":"planet","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2891,"word":"mood","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2892,"word":"artificial","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2893,"word":"intimate","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2894,"word":"notable","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2895,"word":"counterpart","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2895,"word":"counterpart","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2896,"word":"coalition","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2897,"word":"disclosure","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2897,"word":"disclosure","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2898,"word":"effluent","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2899,"word":"email","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2900,"word":"enclose","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2901,"word":"prosperity","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2901,"word":"prosperity","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2902,"word":"thick","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2903,"word":"grammar","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2903,"word":"grammar","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2904,"word":"mirror","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2905,"word":"ill","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2906,"word":"float","status":"verified_selected","candidate_count":2,"accepted_count":2}
+{"index":2906,"word":"float","status":"verified_selected","candidate_count":3,"accepted_count":3}
 {"index":2907,"word":"sharp","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2908,"word":"chaos","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2909,"word":"alike","status":"verified_selected","candidate_count":1,"accepted_count":1}
@@ -418,7 +418,7 @@
 {"index":2918,"word":"variable","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2919,"word":"boot","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2920,"word":"slight","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2921,"word":"sufficiently","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2921,"word":"sufficiently","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2922,"word":"boost","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2923,"word":"exclusive","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2924,"word":"fifth","status":"verified_selected","candidate_count":1,"accepted_count":1}
@@ -428,14 +428,14 @@
 {"index":2928,"word":"ruling","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2929,"word":"voucher","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2930,"word":"hell","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2931,"word":"infrastructure","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2931,"word":"infrastructure","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2932,"word":"layer","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2933,"word":"overcome","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2934,"word":"supposedly","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2934,"word":"supposedly","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2935,"word":"turkish","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2936,"word":"march","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2937,"word":"magic","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2938,"word":"friendship","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2938,"word":"friendship","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2939,"word":"pro","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2940,"word":"drag","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2941,"word":"signature","status":"verified_selected","candidate_count":1,"accepted_count":1}
@@ -448,7 +448,7 @@
 {"index":2948,"word":"evoke","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2949,"word":"accuracy","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2950,"word":"diplomatic","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2951,"word":"merchant","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2951,"word":"merchant","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2952,"word":"shut","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2953,"word":"sulfur","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2954,"word":"skirt","status":"verified_selected","candidate_count":1,"accepted_count":1}
@@ -461,40 +461,40 @@
 {"index":2961,"word":"dynamic","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2962,"word":"alongside","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2963,"word":"rally","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2964,"word":"suburban","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2964,"word":"suburban","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2965,"word":"canadian","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2966,"word":"columns","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2967,"word":"consistently","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2967,"word":"consistently","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2968,"word":"contributor","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2969,"word":"discourage","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2970,"word":"meant","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2971,"word":"mount","status":"verified_selected","candidate_count":2,"accepted_count":2}
-{"index":2972,"word":"tribal","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2972,"word":"tribal","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2973,"word":"shake","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2974,"word":"pour","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2975,"word":"glory","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2976,"word":"explosion","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2977,"word":"sheer","status":"verified_selected","candidate_count":2,"accepted_count":2}
-{"index":2978,"word":"amazing","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2978,"word":"amazing","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2979,"word":"acceptance","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2980,"word":"explicit","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2981,"word":"pirate","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2982,"word":"chart","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2983,"word":"climate","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2984,"word":"offering","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":2985,"word":"potentially","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2985,"word":"potentially","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2986,"word":"quantum","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2987,"word":"tabloid","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2988,"word":"testing","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2988,"word":"testing","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2989,"word":"pocket","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2990,"word":"wash","status":"verified_selected","candidate_count":2,"accepted_count":2}
 {"index":2991,"word":"cow","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2992,"word":"distant","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":2993,"word":"finger","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2994,"word":"warrior","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2994,"word":"warrior","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2995,"word":"ambitious","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2996,"word":"lifetime","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2996,"word":"lifetime","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2997,"word":"seal","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2998,"word":"oral","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2999,"word":"harassment","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":2999,"word":"harassment","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":3000,"word":"extremist","status":"needs_review","candidate_count":0,"accepted_count":0}
