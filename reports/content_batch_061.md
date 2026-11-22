@@ -7,7 +7,7 @@
 - 保留件数：0件
 - 問題のあった候補：なし（元データの再選定なし）
 - コミット（教材Markdown）：https://github.com/totoro0419/easyvoca/commit/eda26f3eb69cd2bb2747ec4ba3a3480eb73569d3
-- PR URL：作成後記入
+- PR URL：https://github.com/totoro0419/easyvoca/pull/78
 
 ## 検証
 
