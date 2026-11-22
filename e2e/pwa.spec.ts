@@ -58,7 +58,6 @@ test('自動保存完了後、5,111件・図・検索・復習・記録がオフ
   const revisionsBefore=await page.evaluate(()=>JSON.parse(localStorage.getItem('easyvoca.progress.v1')||'{}').revision);
   expect(revisionsBefore).toBeGreaterThan(3);
   await page.reload();
-  await expect(page.locator('.offline-indicator')).toBeVisible({timeout:25000}).catch(()=>{});
   await page.getByRole('button',{name:'検索',exact:true}).click();
   const mid=verified.samples![1];
   await page.getByRole('searchbox',{name:'単語や日本語の意味で検索'}).fill(mid.word);
