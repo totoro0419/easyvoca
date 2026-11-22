@@ -37,4 +37,4 @@
 
 - ブランチ：`content/batch-035`
 - 教材内容の最終同期コミット：[`e1c821ba16eb971e4684b6fc70d6e0de359dcc8e`](https://github.com/totoro0419/easyvoca/commit/e1c821ba16eb971e4684b6fc70d6e0de359dcc8e)
-- PR：作成後に追記
+- PR：[#71](https://github.com/totoro0419/easyvoca/pull/71)
