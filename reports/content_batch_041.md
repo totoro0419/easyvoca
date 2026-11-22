@@ -14,4 +14,4 @@
 - 注意点：`ev-06241-adj-01`（disposable）は元候補の「生活必需支出を差し引いた所得」という説明が可処分所得として不正確なため、教材では税金などを差し引いた後の所得に修正。元データは未変更
 - その他の保留・問題候補：なし
 - 教材コミット：https://github.com/totoro0419/easyvoca/commit/5a67e657bc068274571ddaa9d117073f891bd534
-- PR：作成後追記
+- PR：https://github.com/totoro0419/easyvoca/pull/56
