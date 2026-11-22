@@ -6,6 +6,7 @@ on:
     paths:
       - "scripts/build_master.py"
       - "scripts/validate_master.py"
+      - "scripts/validate_batch.py"
       - ".github/workflows/build-master.yml"
 
 permissions:
@@ -21,6 +22,7 @@ jobs:
           persist-credentials: true
       - name: Build and validate from attributed sources
         run: |
+          python3 -m py_compile scripts/build_master.py scripts/validate_master.py scripts/validate_batch.py
           python3 scripts/build_master.py
           python3 scripts/validate_master.py
       - name: Commit fixed master and its source manifest
