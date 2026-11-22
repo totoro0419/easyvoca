@@ -1001,3 +1001,1003 @@ flowchart LR
 ```
 
 **重要語法**：draw a conclusion from A
+
+## 521. conservative
+
+**品詞**：adjective　**発音**：/kənˈsɜːrvətɪv/
+
+<small>よく知られている意味：保守的な</small>
+
+**見落としやすい意味：見積もりなどが控えめな、慎重な**
+
+**例文**：A conservative estimate puts the cost at two million yen.
+
+**和訳**：控えめに見積もっても費用は200万円になる。
+
+**コアイメージ**：conservative は急激な変化を避ける慎重な姿勢を表す。数字を出す場面では過大にならない慎重な見積もりを指す。
+
+```mermaid
+flowchart LR
+    A["中心: 大きく見積もりすぎない"]
+    B["既知: 保守的な"]
+    C["今回: 見積もりなどが控えめな、慎重な"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：a conservative estimate
+
+## 522. grant
+
+**品詞**：idiom　**発音**：/ɡrænt/
+
+<small>よく知られている意味：与える・認める</small>
+
+**見落としやすい意味：ありがたみを忘れて当然視する**
+
+**例文**：We often take clean water for granted.
+
+**和訳**：私たちはきれいな水があることを当然だと思いがちだ。
+
+**コアイメージ**：grant には認める・与えるという意味がある。take ... for granted は、何かが当然あるものとして受け止め、ありがたみや疑問を意識しない表現。
+
+```mermaid
+flowchart LR
+    A["中心: 確かなものとして受け取る"]
+    B["既知: 与える・認める"]
+    C["今回: ありがたみを忘れて当然視する"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：take A for granted
+
+## 523. grant
+
+**品詞**：verb　**発音**：/ɡrænt/
+
+<small>よく知られている意味：与える・許可する</small>
+
+**見落としやすい意味：ある主張を正しいと一応認める**
+
+**例文**：I grant that the plan has some weaknesses.
+
+**和訳**：その計画にいくつか欠点があることは認める。
+
+**コアイメージ**：grant は相手に何かを与えるだけでなく、議論の一部を認めることにも使う。全面的な同意とは限らず、譲歩して認める場合が多い。
+
+```mermaid
+flowchart LR
+    A["中心: 相手の主張を受け入れる"]
+    B["既知: 与える・許可する"]
+    C["今回: ある主張を正しいと一応認める"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：grant that S V
+
+## 524. light
+
+**品詞**：prepositional phrase　**発音**：/laɪt/
+
+<small>よく知られている意味：光・明かり</small>
+
+**見落としやすい意味：～を考慮して、～に照らして**
+
+**例文**：In light of the new evidence, we changed our view.
+
+**和訳**：新たな証拠を踏まえて、私たちは考えを変えた。
+
+**コアイメージ**：light は物事を見えるようにする光。in light of は、新しい事情に照らして判断するという比喩的表現。
+
+```mermaid
+flowchart LR
+    A["中心: 光を当てて見直す"]
+    B["既知: 光・明かり"]
+    C["今回: ～を考慮して、～に照らして"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：in light of A
+
+## 525. else
+
+**品詞**：idiom　**発音**：/els/
+
+<small>よく知られている意味：ほかに</small>
+
+**見落としやすい意味：さもないと、そうでなければ**
+
+**例文**：Leave now, or else you'll miss the train.
+
+**和訳**：今出発しなさい。さもないと電車に乗り遅れます。
+
+**コアイメージ**：else は「それ以外」を表す。or else では前に示した行動を取らない別の場合を示し、その結果を警告する。
+
+```mermaid
+flowchart LR
+    A["中心: 別の場合を示す"]
+    B["既知: ほかに"]
+    C["今回: さもないと、そうでなければ"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：or else + 文
+
+## 526. appropriate
+
+**品詞**：verb　**発音**：/əˈproʊprieɪt/
+
+<small>よく知られている意味：適切な</small>
+
+**見落としやすい意味：（しばしば無断で）自分の用途に流用する**
+
+**例文**：He was accused of appropriating the group's ideas as his own.
+
+**和訳**：彼はその団体のアイデアを自分のものとして流用したと非難された。
+
+**コアイメージ**：動詞 appropriate は何かを自分の用途に取り込むこと。持ち主の許可がない場合には「無断で流用する」という否定的な意味になる。
+
+```mermaid
+flowchart LR
+    A["中心: 自分のものとして取り込む"]
+    B["既知: 適切な"]
+    C["今回: （しばしば無断で）自分の用途に流用する"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：appropriate A as one's own
+
+## 527. appropriate
+
+**品詞**：verb　**発音**：/əˈproʊprieɪt/
+
+<small>よく知られている意味：適切な</small>
+
+**見落としやすい意味：予算などを特定目的に割り当てる**
+
+**例文**：The city appropriated funds for new libraries.
+
+**和訳**：市は新しい図書館のために予算を割り当てた。
+
+**コアイメージ**：appropriate は資金などをある目的のために確保することも表す。勝手に流用する用法とは、文脈で区別する。
+
+```mermaid
+flowchart LR
+    A["中心: 特定の用途に取り分ける"]
+    B["既知: 適切な"]
+    C["今回: 予算などを特定目的に割り当てる"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：appropriate funds for A
+
+## 528. administration
+
+**品詞**：noun　**発音**：/ədˌmɪnɪˈstreɪʃən/
+
+<small>よく知られている意味：管理・政権</small>
+
+**見落としやすい意味：薬などの投与、処置の実施**
+
+**例文**：The report describes the administration of the medicine.
+
+**和訳**：報告書には、その薬の投与について書かれている。
+
+**コアイメージ**：administration は物事の運営・実施を表す。医療の文脈では薬を与える処置の実施を指す。
+
+```mermaid
+flowchart LR
+    A["中心: 決められた処置を実施する"]
+    B["既知: 管理・政権"]
+    C["今回: 薬などの投与、処置の実施"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：administration of medicine
+
+## 529. minute
+
+**品詞**：adjective　**発音**：/maɪˈnuːt/
+
+<small>よく知られている意味：分・一瞬</small>
+
+**見落としやすい意味：極めて小さい、微細な**
+
+**例文**：The scientist noticed a minute change in temperature.
+
+**和訳**：科学者は温度のごくわずかな変化に気づいた。
+
+**コアイメージ**：形容詞 minute は非常に小さく、注意しないと見逃すほど細かいことを表す。時間の単位の名詞とは意味も発音も異なる。
+
+```mermaid
+flowchart LR
+    A["中心: 細部まで小さい"]
+    B["既知: 分・一瞬"]
+    C["今回: 極めて小さい、微細な"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：形容詞 /maɪˈnuːt/、名詞 /ˈmɪnɪt/
+
+## 530. enter
+
+**品詞**：phrasal verb　**発音**：/ˈentər/
+
+<small>よく知られている意味：入る</small>
+
+**見落としやすい意味：契約・交渉・議論などを始める**
+
+**例文**：The two companies entered into an agreement.
+
+**和訳**：その二社は契約を結んだ。
+
+**コアイメージ**：enter は場所の中へ入るだけでなく、合意や交渉という関係に入ることを表せる。enter into は契約などを始める定型表現。
+
+```mermaid
+flowchart LR
+    A["中心: 関係の中に入る"]
+    B["既知: 入る"]
+    C["今回: 契約・交渉・議論などを始める"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：enter into an agreement
+
+## 531. arrive
+
+**品詞**：verb phrase　**発音**：/əˈraɪv/
+
+<small>よく知られている意味：到着する</small>
+
+**見落としやすい意味：結論・決定などに到達する**
+
+**例文**：After a long discussion, we arrived at a decision.
+
+**和訳**：長い話し合いの末、私たちは結論に達した。
+
+**コアイメージ**：arrive は移動の終点に至ること。考えを進めた末の決定・結論も、到達点として表す。
+
+```mermaid
+flowchart LR
+    A["中心: 目的地へたどり着く"]
+    B["既知: 到着する"]
+    C["今回: 結論・決定などに到達する"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：arrive at a decision / conclusion
+
+## 532. mind
+
+**品詞**：usage　**発音**：/maɪnd/
+
+<small>よく知られている意味：心・気にする</small>
+
+**見落としやすい意味：Do you mind if ...?は許可を求め、Yesが断りを表しうる**
+
+**例文**：Do you mind if I sit here?
+
+**和訳**：ここに座ってもよいですか。
+
+**コアイメージ**：Do you mind if ...? は相手がその行動を嫌だと思うかを聞く表現。許可を求める場面で使われ、Yes は「気にするので困る」の意味になりうる。
+
+```mermaid
+flowchart LR
+    A["中心: 相手が嫌がるかを尋ねる"]
+    B["既知: 心・気にする"]
+    C["今回: Do you mind if ...?は許可を求め、Yesが断りを表しうる"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：快く承諾するなら No, not at all. など
+
+## 533. mind
+
+**品詞**：verb　**発音**：/maɪnd/
+
+<small>よく知られている意味：心・気にする</small>
+
+**見落としやすい意味：注意する、気をつける**
+
+**例文**：Mind the step as you leave the bus.
+
+**和訳**：バスを降りるときは段差に注意してください。
+
+**コアイメージ**：mind は心に留める・気にかけること。命令文では危険や注意点を意識するよう促す。
+
+```mermaid
+flowchart LR
+    A["中心: 意識を向ける"]
+    B["既知: 心・気にする"]
+    C["今回: 注意する、気をつける"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：Mind the gap / Mind your head
+
+## 534. production
+
+**品詞**：noun　**発音**：/prəˈdʌkʃən/
+
+<small>よく知られている意味：生産</small>
+
+**見落としやすい意味：演劇や番組などの上演・制作作品**
+
+**例文**：The school's new production of Hamlet starts on Friday.
+
+**和訳**：学校の新しい『ハムレット』公演は金曜日に始まる。
+
+**コアイメージ**：production は作る過程やその成果を表す。舞台や番組では、制作して上演・公開する作品そのものを指す。
+
+```mermaid
+flowchart LR
+    A["中心: 作り上げて見せるもの"]
+    B["既知: 生産"]
+    C["今回: 演劇や番組などの上演・制作作品"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：a stage production
+
+## 535. nor
+
+**品詞**：usage　**発音**：/nɔːr/
+
+<small>よく知られている意味：〜もまた…ない</small>
+
+**見落としやすい意味：norが文頭に出ると主語と助動詞が倒置する**
+
+**例文**：He did not apologize, nor did he explain his actions.
+
+**和訳**：彼は謝らなかったし、自分の行動について説明もしなかった。
+
+**コアイメージ**：nor は前の否定を受けて「〜もまたない」と続ける語。文頭で節をつなぐとき、助動詞が主語の前に出ることがある。
+
+```mermaid
+flowchart LR
+    A["中心: 否定をさらに加える"]
+    B["既知: 〜もまた…ない"]
+    C["今回: norが文頭に出ると主語と助動詞が倒置する"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：nor + 助動詞 + 主語 + 動詞
+
+## 536. sit
+
+**品詞**：verb　**発音**：/sɪt/
+
+<small>よく知られている意味：座る</small>
+
+**見落としやすい意味：試験を受ける（主に英国英語）**
+
+**例文**：She will sit the entrance exam in June.
+
+**和訳**：彼女は6月に入学試験を受ける。
+
+**コアイメージ**：sit は座る動作を表す。特にイギリス英語では、試験に臨むことを sit an exam と言う。
+
+```mermaid
+flowchart LR
+    A["中心: 所定の場に座って臨む"]
+    B["既知: 座る"]
+    C["今回: 試験を受ける（主に英国英語）"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：sit an exam（主に英）
+
+## 537. sit
+
+**品詞**：verb phrase　**発音**：/sɪt/
+
+<small>よく知られている意味：座る</small>
+
+**見落としやすい意味：委員会などの委員を務める**
+
+**例文**：My aunt sits on the school committee.
+
+**和訳**：私のおばは学校の委員会の委員を務めている。
+
+**コアイメージ**：sit は席に座るだけでなく、組織の一員として席を持つことも表す。sit on a committee は委員を務めるという意味。
+
+```mermaid
+flowchart LR
+    A["中心: 席を占めて参加する"]
+    B["既知: 座る"]
+    C["今回: 委員会などの委員を務める"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：sit on a committee
+
+## 538. assume
+
+**品詞**：verb　**発音**：/əˈsuːm/
+
+<small>よく知られている意味：仮定する</small>
+
+**見落としやすい意味：役割や責任を引き受ける**
+
+**例文**：He assumed responsibility for the project.
+
+**和訳**：彼はその企画の責任を引き受けた。
+
+**コアイメージ**：assume は何かを自分のものとして受け取る意味を持つ。責任や役職を引き受ける場面でも使われる。
+
+```mermaid
+flowchart LR
+    A["中心: 自分の側に引き受ける"]
+    B["既知: 仮定する"]
+    C["今回: 役割や責任を引き受ける"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：assume responsibility / office
+
+## 539. coast
+
+**品詞**：verb　**発音**：/koʊst/
+
+<small>よく知られている意味：海岸</small>
+
+**見落としやすい意味：惰性で進む、努力せずに難関を通る**
+
+**例文**：He coasted through the course without much effort.
+
+**和訳**：彼はあまり努力せず、その課程を難なく終えた。
+
+**コアイメージ**：coast は惰性で滑るように進む動きを表せる。そこから大きな努力をせずに物事を進める意味になる。
+
+```mermaid
+flowchart LR
+    A["中心: 勢いのまま進む"]
+    B["既知: 海岸"]
+    C["今回: 惰性で進む、努力せずに難関を通る"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：coast through A
+
+## 540. strike
+
+**品詞**：idiom　**発音**：/straɪk/
+
+<small>よく知られている意味：打つ・襲う</small>
+
+**見落としやすい意味：対立するものの均衡を取る**
+
+**例文**：We must strike a balance between speed and accuracy.
+
+**和訳**：私たちは速度と正確さの間でバランスを取らなければならない。
+
+**コアイメージ**：strike a balance は相反する条件の間に適切な均衡を作る定型表現。strike の「打つ」を逐語訳せず、まとまりで理解する。
+
+```mermaid
+flowchart LR
+    A["中心: 釣り合いを作り出す"]
+    B["既知: 打つ・襲う"]
+    C["今回: 対立するものの均衡を取る"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：strike a balance between A and B
+
+## 541. strike
+
+**品詞**：verb phrase　**発音**：/straɪk/
+
+<small>よく知られている意味：打つ・襲う</small>
+
+**見落としやすい意味：人に～という印象を与える**
+
+**例文**：Her answer struck me as unusually honest.
+
+**和訳**：彼女の答えは私には非常に正直なものに思えた。
+
+**コアイメージ**：strike は何かが強く当たるという動きから、印象が人の心に残ることを表す。strike A as B は A に B という印象を与える。
+
+```mermaid
+flowchart LR
+    A["中心: 印象が心に届く"]
+    B["既知: 打つ・襲う"]
+    C["今回: 人に～という印象を与える"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：strike A as B
+
+## 542. natural
+
+**品詞**：noun　**発音**：/ˈnætʃərəl/
+
+<small>よく知られている意味：自然の・自然な</small>
+
+**見落としやすい意味：生まれつき才能のある人**
+
+**例文**：He is a natural at explaining difficult ideas.
+
+**和訳**：彼は難しい考えを説明するのが生まれつき上手だ。
+
+**コアイメージ**：natural は無理なく自然な状態を表す。名詞 a natural は、特に努力して身につけたように見えないほど才能がある人を指す。
+
+```mermaid
+flowchart LR
+    A["中心: 自然にできる"]
+    B["既知: 自然の・自然な"]
+    C["今回: 生まれつき才能のある人"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：a natural at A
+
+## 543. senior
+
+**品詞**：adjective　**発音**：/ˈsiːniər/
+
+<small>よく知られている意味：年上の・上級の</small>
+
+**見落としやすい意味：～より地位や年齢が上である（比較はto）**
+
+**例文**：She is senior to me at the company.
+
+**和訳**：彼女は会社では私より上の立場だ。
+
+**コアイメージ**：senior は年齢や地位の序列で上にある状態を示す。比較対象には than でなく to を用いる。
+
+```mermaid
+flowchart LR
+    A["中心: 序列で上に位置する"]
+    B["既知: 年上の・上級の"]
+    C["今回: ～より地位や年齢が上である（比較はto）"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：senior to A
+
+## 544. patient
+
+**品詞**：adjective　**発音**：/ˈpeɪʃənt/
+
+<small>よく知られている意味：患者</small>
+
+**見落としやすい意味：辛抱強い、我慢強い**
+
+**例文**：Please be patient with beginners.
+
+**和訳**：初心者には辛抱強く接してください。
+
+**コアイメージ**：patient は時間や手間がかかっても感情的にならず待てる性質を表す。名詞の「患者」とは別の品詞である。
+
+```mermaid
+flowchart LR
+    A["中心: 落ち着いて待つ"]
+    B["既知: 患者"]
+    C["今回: 辛抱強い、我慢強い"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：be patient with A
+
+## 545. upon
+
+**品詞**：preposition　**発音**：/əˈpɑːn/
+
+<small>よく知られている意味：〜の上に</small>
+
+**見落としやすい意味：～するとすぐに**
+
+**例文**：Upon hearing the news, she called her family.
+
+**和訳**：その知らせを聞くとすぐに、彼女は家族に電話した。
+
+**コアイメージ**：upon は on に近く、ある出来事に接する時点を表せる。upon doing で「〜するとすぐに」という時間の関係になる。
+
+```mermaid
+flowchart LR
+    A["中心: ある時点に接して"]
+    B["既知: 〜の上に"]
+    C["今回: ～するとすぐに"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：upon + 動名詞
+
+## 546. bar
+
+**品詞**：preposition　**発音**：/bɑːr/
+
+<small>よく知られている意味：棒・バー</small>
+
+**見落としやすい意味：〜を除いて**
+
+**例文**：Bar one small error, your answer is correct.
+
+**和訳**：小さな誤りを一つ除けば、あなたの答えは正しい。
+
+**コアイメージ**：bar は障害物で通れないようにするイメージから、除外を示すことがある。前置詞では「〜を除いて」を意味する。
+
+```mermaid
+flowchart LR
+    A["中心: あるものを外に置く"]
+    B["既知: 棒・バー"]
+    C["今回: 〜を除いて"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：bar A（主に英・やや形式的）
+
+## 547. bar
+
+**品詞**：verb　**発音**：/bɑːr/
+
+<small>よく知られている意味：棒・バー</small>
+
+**見落としやすい意味：人が～するのを禁止する**
+
+**例文**：The rules bar visitors from entering this room.
+
+**和訳**：規則により、来訪者はこの部屋に入ることを禁じられている。
+
+**コアイメージ**：bar は棒などで進路をふさぐこと。行動を妨げる意味に広がり、人が何かをするのを禁止する表現になる。
+
+```mermaid
+flowchart LR
+    A["中心: 通行をさえぎる"]
+    B["既知: 棒・バー"]
+    C["今回: 人が～するのを禁止する"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：bar A from doing
+
+## 548. population
+
+**品詞**：noun　**発音**：/ˌpɑːpjəˈleɪʃən/
+
+<small>よく知られている意味：人口</small>
+
+**見落としやすい意味：研究・統計の対象となる集団**
+
+**例文**：The study population included 200 volunteers.
+
+**和訳**：その研究の対象集団には200人のボランティアが含まれていた。
+
+**コアイメージ**：population は特定の範囲に属する人やものの集まりを表す。統計・研究では調べたい対象の集団を指し、国や地域の人口に限らない。
+
+```mermaid
+flowchart LR
+    A["中心: 対象として数える全体"]
+    B["既知: 人口"]
+    C["今回: 研究・統計の対象となる集団"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：study population
+
+## 549. request
+
+**品詞**：usage　**発音**：/rɪˈkwest/
+
+<small>よく知られている意味：依頼する</small>
+
+**見落としやすい意味：request thatの後に動詞の原形を用いる構文**
+
+**例文**：The committee requested that he be present.
+
+**和訳**：委員会は彼が出席するよう求めた。
+
+**コアイメージ**：request は相手に行動を要求すること。request that ... の節では、要求内容を表すため動詞の原形が使われることがある。
+
+```mermaid
+flowchart LR
+    A["中心: 行動を求める"]
+    B["既知: 依頼する"]
+    C["今回: request thatの後に動詞の原形を用いる構文"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：request that S + 動詞の原形（米語で一般的）
+
+## 550. success
+
+**品詞**：noun　**発音**：/səkˈses/
+
+<small>よく知られている意味：成功</small>
+
+**見落としやすい意味：成功した人・物・催し**
+
+**例文**：The concert was a great success.
+
+**和訳**：その演奏会は大成功だった。
+
+**コアイメージ**：success は成功という抽象的な結果を示すだけでなく、成功した行事や人・物も数えて表せる。a success の冠詞に注目する。
+
+```mermaid
+flowchart LR
+    A["中心: 成功した具体例"]
+    B["既知: 成功"]
+    C["今回: 成功した人・物・催し"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：be a success
+
+## 551. manage
+
+**品詞**：verb　**発音**：/ˈmænɪdʒ/
+
+<small>よく知られている意味：管理する</small>
+
+**見落としやすい意味：困難ながらどうにか成し遂げる**
+
+**例文**：We managed to finish the report on time.
+
+**和訳**：私たちは何とか時間どおりに報告書を仕上げた。
+
+**コアイメージ**：manage は状況をうまく扱うことを表す。manage to do では困難があってもどうにか実現する意味になる。
+
+```mermaid
+flowchart LR
+    A["中心: 難しい状況を切り抜ける"]
+    B["既知: 管理する"]
+    C["今回: 困難ながらどうにか成し遂げる"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：manage to do
+
+## 552. instance
+
+**品詞**：idiom　**発音**：/ˈɪnstəns/
+
+<small>よく知られている意味：例・場合</small>
+
+**見落としやすい意味：まず初めに、最初の段階では**
+
+**例文**：In the first instance, please contact your teacher.
+
+**和訳**：まずは先生に連絡してください。
+
+**コアイメージ**：instance は特定の事例・場面を表す。in the first instance は最初の場面・段階では、という意味の定型表現。
+
+```mermaid
+flowchart LR
+    A["中心: 最初の段階を示す"]
+    B["既知: 例・場合"]
+    C["今回: まず初めに、最初の段階では"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：in the first instance
+
+## 553. floor
+
+**品詞**：noun phrase　**発音**：/flɔːr/
+
+<small>よく知られている意味：床・階</small>
+
+**見落としやすい意味：会議での発言権**
+
+**例文**：The chair gave her the floor.
+
+**和訳**：議長は彼女に発言の機会を与えた。
+
+**コアイメージ**：floor は人が立つ場所を意味する。会議では発言する人に与えられる「場」から、発言権を表す。
+
+```mermaid
+flowchart LR
+    A["中心: 発言者が占める場"]
+    B["既知: 床・階"]
+    C["今回: 会議での発言権"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：give A the floor
+
+## 554. floor
+
+**品詞**：verb　**発音**：/flɔːr/
+
+<small>よく知られている意味：床・階</small>
+
+**見落としやすい意味：非常に驚かせ、言葉を失わせる**
+
+**例文**：His unexpected reply completely floored me.
+
+**和訳**：彼の意外な返答には本当に驚かされた。
+
+**コアイメージ**：floor は人を床に倒すことから、比喩的に強い驚きで圧倒することを表す。特に受け身や口語でよく使う。
+
+```mermaid
+flowchart LR
+    A["中心: 立っていられないほど圧倒する"]
+    B["既知: 床・階"]
+    C["今回: 非常に驚かせ、言葉を失わせる"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：be floored by A
+
+## 555. drop
+
+**品詞**：phrasal verb　**発音**：/drɑːp/
+
+<small>よく知られている意味：落とす・落ちる</small>
+
+**見落としやすい意味：退学・脱退する**
+
+**例文**：He dropped out of the competition because of an injury.
+
+**和訳**：彼はけがのため大会を途中で棄権した。
+
+**コアイメージ**：drop out は集団や活動の中から抜け落ちること。学校・大会・計画などから途中で離れる意味になる。
+
+```mermaid
+flowchart LR
+    A["中心: 集団や進行から外れる"]
+    B["既知: 落とす・落ちる"]
+    C["今回: 退学・脱退する"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：drop out of A
+
+## 556. drop
+
+**品詞**：phrasal verb　**発音**：/drɑːp/
+
+<small>よく知られている意味：落とす・落ちる</small>
+
+**見落としやすい意味：短時間立ち寄る**
+
+**例文**：I'll drop by your office tomorrow.
+
+**和訳**：明日あなたのオフィスに少し立ち寄ります。
+
+**コアイメージ**：drop by は予定の途中で気軽に寄るような動き。長時間滞在せず「ちょっと立ち寄る」という意味で使う。
+
+```mermaid
+flowchart LR
+    A["中心: 短く訪れて去る"]
+    B["既知: 落とす・落ちる"]
+    C["今回: 短時間立ち寄る"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：drop by A / drop by
+
+## 557. facility
+
+**品詞**：noun　**発音**：/fəˈsɪləti/
+
+<small>よく知られている意味：施設</small>
+
+**見落としやすい意味：あることを難なくこなす才能・能力**
+
+**例文**：She has a remarkable facility for languages.
+
+**和訳**：彼女には語学を容易に身につける素晴らしい才能がある。
+
+**コアイメージ**：facility は何かをしやすくするものや状態を表す。人については物事を簡単にこなせる能力・器用さを指す。
+
+```mermaid
+flowchart LR
+    A["中心: 容易にできる能力"]
+    B["既知: 施設"]
+    C["今回: あることを難なくこなす才能・能力"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：a facility for A
+
+## 558. bit
+
+**品詞**：idiom　**発音**：/bɪt/
+
+<small>よく知られている意味：少量・一片</small>
+
+**見落としやすい意味：少しも～でない**
+
+**例文**：He was not a bit surprised by the news.
+
+**和訳**：彼はその知らせに少しも驚かなかった。
+
+**コアイメージ**：a bit はわずかな程度を表す。not a bit ではその最小限の程度さえ否定するため「少しも〜ない」になる。
+
+```mermaid
+flowchart LR
+    A["中心: ほんの少しすらない"]
+    B["既知: 少量・一片"]
+    C["今回: 少しも～でない"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：not a bit + 形容詞
+
+## 559. body
+
+**品詞**：noun　**発音**：/ˈbɑːdi/
+
+<small>よく知られている意味：体・身体</small>
+
+**見落としやすい意味：団体・機関・集団**
+
+**例文**：The new body will oversee school safety.
+
+**和訳**：新しい機関が学校の安全管理を監督する。
+
+**コアイメージ**：body は部分がまとまって一つになったものを指せる。人々が役割をもって集まった組織や機関にも広がる。
+
+```mermaid
+flowchart LR
+    A["中心: 一つにまとまった集まり"]
+    B["既知: 体・身体"]
+    C["今回: 団体・機関・集団"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：a governing body
+
+## 560. body
+
+**品詞**：noun phrase　**発音**：/ˈbɑːdi/
+
+<small>よく知られている意味：体・身体</small>
+
+**見落としやすい意味：まとまった大量の～**
+
+**例文**：The researchers collected a large body of evidence.
+
+**和訳**：研究者たちは大量の証拠を集めた。
+
+**コアイメージ**：body は個々の部分からなる一つのまとまり。a body of evidence は証拠がまとまって蓄積した全体を指す。
+
+```mermaid
+flowchart LR
+    A["中心: まとまりをなす全体"]
+    B["既知: 体・身体"]
+    C["今回: まとまった大量の～"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：a body of evidence / research
