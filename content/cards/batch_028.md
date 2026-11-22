@@ -1160,3 +1160,1161 @@ flowchart LR
 
 <small>index: 3669 / candidate_id: ev-03669-phrasal-verb-01</small>
 
+### 2201. nut
+
+品詞：adjective　｜　発音：/nʌt/
+
+<small>よく知られている意味：木の実・ナッツ</small>
+
+**見落としやすい意味：（nuts）ばかげた、正気とは思えない（口語）**
+
+**例文**：That plan sounds nuts to me.
+
+**和訳**：その計画は私にはばかげているように思える。
+
+**コアイメージ**：nutは木の実を指す名詞。形容詞のnutsは、常識外れ・正気とは思えないという口語表現で、直訳では意味をとれない。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：語形が変わると口語的な評価になる"]
+    B["よく知られた意味：木の実・ナッツ"]
+    C["見落としやすい意味：（nuts）ばかげた、正気とは思えない（口語）"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：be nuts（ばかげている）／go nuts（夢中になる・取り乱す）
+
+<small>index: 3670 / candidate_id: ev-03670-adjective-01</small>
+
+---
+
+### 2202. nut
+
+品詞：noun　｜　発音：/nʌt/
+
+<small>よく知られている意味：木の実・ナッツ</small>
+
+**見落としやすい意味：あることに熱中している人、熱狂家（口語）**
+
+**例文**：My uncle is a history nut who visits every local museum.
+
+**和訳**：叔父は地元の博物館を片っ端から訪れる歴史マニアだ。
+
+**コアイメージ**：nutには口語で特定の分野が大好きな人という用法がある。木の実という意味ではなく、前に置かれた趣味や分野に夢中な人として読む。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：一つのことに強く熱中する人"]
+    B["よく知られた意味：木の実・ナッツ"]
+    C["見落としやすい意味：あることに熱中している人、熱狂家（口語）"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：a sports nut（スポーツ好き）
+
+<small>index: 3670 / candidate_id: ev-03670-noun-01</small>
+
+---
+
+### 2203. attendant
+
+品詞：adjective　｜　発音：/əˈtendənt/
+
+<small>よく知られている意味：付き添い人・係員</small>
+
+**見落としやすい意味：ある出来事に伴って生じる、付随する**
+
+**例文**：The new system reduced delays and the attendant costs.
+
+**和訳**：新しい制度は遅延と、それに伴う費用を減らした。
+
+**コアイメージ**：名詞のattendantは人に付き添う人。形容詞では、出来事や状況について回る影響・費用などを表す。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：ある事柄について回って生じる"]
+    B["よく知られた意味：付き添い人・係員"]
+    C["見落としやすい意味：ある出来事に伴って生じる、付随する"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：attendant risks（付随するリスク）
+
+<small>index: 3677 / candidate_id: ev-03677-adjective-01</small>
+
+---
+
+### 2204. casualty
+
+品詞：noun　｜　発音：/ˈkæʒuəlti/
+
+<small>よく知られている意味：死傷者</small>
+
+**見落としやすい意味：組織の再編・政策変更などによる犠牲者・損失**
+
+**例文**：Several small shops became casualties of the redevelopment.
+
+**和訳**：いくつかの小さな店が再開発のあおりを受けて閉店した。
+
+**コアイメージ**：casualtyは出来事によって被害を受けた人を指す。戦争や事故に限らず、組織改革や政策によって損なわれた人や事業にも使う。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：大きな出来事によって損失を受ける"]
+    B["よく知られた意味：死傷者"]
+    C["見落としやすい意味：組織の再編・政策変更などによる犠牲者・損失"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：a casualty of reform（改革の犠牲になったもの）
+
+<small>index: 3679 / candidate_id: ev-03679-noun-01</small>
+
+---
+
+### 2205. dare
+
+品詞：idiom　｜　発音：/der/
+
+<small>よく知られている意味：あえて挑戦する</small>
+
+**見落としやすい意味：（How dare ...?）よくも～できるものだ、～するとは何事だ**
+
+**例文**：How dare you read my private messages!
+
+**和訳**：よくも私の個人的なメッセージを読めたものだ。
+
+**コアイメージ**：dareは大胆に踏み出すことを表す。How dare ...?では、相手がそんな行動をするとは信じられない、という強い憤りを示す。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：相手の行動を許しがたいと非難する"]
+    B["よく知られた意味：あえて挑戦する"]
+    C["見落としやすい意味：（How dare ...?）よくも～できるものだ、～するとは何事だ"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：How dare you ...?（よくも…できるものだ）
+
+<small>index: 3680 / candidate_id: ev-03680-idiom-01</small>
+
+---
+
+### 2206. listing
+
+品詞：noun　｜　発音：/ˈlɪstɪŋ/
+
+<small>よく知られている意味：一覧表・掲載</small>
+
+**見落としやすい意味：企業の株式が証券取引所に上場されること**
+
+**例文**：The company announced plans for a stock market listing.
+
+**和訳**：その会社は株式上場の計画を発表した。
+
+**コアイメージ**：listingは項目をリストに載せること。金融では会社の株式が取引所の正式な銘柄一覧に加えられること、つまり上場を指す。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：公的な一覧に載せる"]
+    B["よく知られた意味：一覧表・掲載"]
+    C["見落としやすい意味：企業の株式が証券取引所に上場されること"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：stock market listing（株式上場）
+
+<small>index: 3682 / candidate_id: ev-03682-noun-01</small>
+
+---
+
+### 2207. plead
+
+品詞：verb　｜　発音：/pliːd/
+
+<small>よく知られている意味：懇願する</small>
+
+**見落としやすい意味：（plead guilty）有罪を認める**
+
+**例文**：The defendant pleaded guilty to the charge.
+
+**和訳**：被告人はその罪状について有罪を認めた。
+
+**コアイメージ**：pleadは必死に訴えることを表す。法廷でplead guiltyと言えば、罪を犯したと認める正式な答弁になる。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：法廷で自分の立場を正式に述べる"]
+    B["よく知られた意味：懇願する"]
+    C["見落としやすい意味：（plead guilty）有罪を認める"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：plead guilty to ～（～について有罪を認める）
+
+<small>index: 3684 / candidate_id: ev-03684-verb-01</small>
+
+---
+
+### 2208. poorly
+
+品詞：adjective　｜　発音：/ˈpʊərli/
+
+<small>よく知られている意味：下手に・不十分に</small>
+
+**見落としやすい意味：（主に英国口語で）少し具合が悪い、体調が優れない**
+
+**例文**：I'm feeling a bit poorly, so I'll stay home today.
+
+**和訳**：少し体調が悪いので、今日は家で休みます。
+
+**コアイメージ**：poorlyは普通、副詞で物事の出来が悪いことを表す。英国口語では形容詞として、病気というほどでなくても体調が悪いことを表す。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：体の調子が良くない状態"]
+    B["よく知られた意味：下手に・不十分に"]
+    C["見落としやすい意味：（主に英国口語で）少し具合が悪い、体調が優れない"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：feel poorly（具合が悪い、主に英国口語）
+
+<small>index: 3685 / candidate_id: ev-03685-adjective-01</small>
+
+---
+
+### 2209. stem
+
+品詞：phrasal verb　｜　発音：/stem/
+
+<small>よく知られている意味：茎・（流れを）食い止める</small>
+
+**見落としやすい意味：（stem from ～）～に起因する、～から生じる**
+
+**例文**：Many communication problems stem from unclear instructions.
+
+**和訳**：意思疎通の問題の多くは、不明確な指示から生じる。
+
+**コアイメージ**：植物の茎は根元から伸びる部分。stem fromは、問題や状況がある原因に由来することを表し、流れを食い止めるstemとは意味が異なる。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：物事がある根元から伸び出す"]
+    B["よく知られた意味：茎・（流れを）食い止める"]
+    C["見落としやすい意味：（stem from ～）～に起因する、～から生じる"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：stem from ～（～に由来する）
+
+<small>index: 3686 / candidate_id: ev-03686-phrasal-verb-02</small>
+
+---
+
+### 2210. stem
+
+品詞：verb　｜　発音：/stem/
+
+<small>よく知られている意味：植物の茎</small>
+
+**見落としやすい意味：（悪い流れ・増大などを）食い止める**
+
+**例文**：The new policy aims to stem the flow of misinformation.
+
+**和訳**：新しい方針は誤情報の拡散を食い止めることを目指している。
+
+**コアイメージ**：動詞のstemには、増え続けるものや流れてくるものを抑える用法がある。原因を示すstem fromとは別の構文なので区別する。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：進む流れを途中で止める"]
+    B["よく知られた意味：植物の茎"]
+    C["見落としやすい意味：（悪い流れ・増大などを）食い止める"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：stem the tide of ～（～の勢いを食い止める）
+
+<small>index: 3686 / candidate_id: ev-03686-verb-01</small>
+
+---
+
+### 2211. cultivate
+
+品詞：verb　｜　発音：/ˈkʌltɪveɪt/
+
+<small>よく知られている意味：土地を耕す・作物を育てる</small>
+
+**見落としやすい意味：人間関係・信頼・能力などを時間をかけて育てる**
+
+**例文**：A good teacher cultivates curiosity in students.
+
+**和訳**：良い教師は生徒の好奇心を育む。
+
+**コアイメージ**：土地を耕し作物を育てるには、継続した働きかけが必要。同じように、能力や信頼、人間関係を少しずつ育てる意味で使う。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：手をかけて時間とともに育てる"]
+    B["よく知られた意味：土地を耕す・作物を育てる"]
+    C["見落としやすい意味：人間関係・信頼・能力などを時間をかけて育てる"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：cultivate trust（信頼を育む）
+
+<small>index: 3687 / candidate_id: ev-03687-verb-01</small>
+
+---
+
+### 2212. stranger
+
+品詞：idiom　｜　発音：/ˈstreɪndʒər/
+
+<small>よく知られている意味：見知らぬ人</small>
+
+**見落としやすい意味：（be no stranger to ～）～をよく経験している、～を熟知している**
+
+**例文**：She is no stranger to difficult negotiations.
+
+**和訳**：彼女は難しい交渉を何度も経験している。
+
+**コアイメージ**：strangerは知らない人。be no stranger toは、それが未知のことではなく、何度も触れ経験していることを表す否定形の慣用表現。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：ある経験と無縁ではない"]
+    B["よく知られた意味：見知らぬ人"]
+    C["見落としやすい意味：（be no stranger to ～）～をよく経験している、～を熟知している"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：be no stranger to ～（～をよく知っている・経験している）
+
+<small>index: 3696 / candidate_id: ev-03696-idiom-01</small>
+
+---
+
+### 2213. prepared
+
+品詞：adjective　｜　発音：/prɪˈperd/
+
+<small>よく知られている意味：準備ができている</small>
+
+**見落としやすい意味：不都合なことも受け入れる覚悟がある**
+
+**例文**：We must be prepared to change our plan if necessary.
+
+**和訳**：必要なら計画を変える覚悟が必要だ。
+
+**コアイメージ**：preparedは準備が整った状態。困難や不都合について使うと、単に道具を整えたのではなく、受け入れる心構えがあることを表す。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：起こり得ることを受け止める用意がある"]
+    B["よく知られた意味：準備ができている"]
+    C["見落としやすい意味：不都合なことも受け入れる覚悟がある"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：be prepared to do（～する覚悟がある）
+
+<small>index: 3699 / candidate_id: ev-03699-adjective-01</small>
+
+---
+
+### 2214. motor
+
+品詞：verb　｜　発音：/ˈmoʊtər/
+
+<small>よく知られている意味：モーター・原動機</small>
+
+**見落としやすい意味：自動車で移動する（主に英国英語）**
+
+**例文**：We motored through the countryside on Sunday.
+
+**和訳**：私たちは日曜日に車で田園地帯を走った。
+
+**コアイメージ**：名詞のmotorは動力を生む装置。動詞では自動車を利用して移動することを表し、特に英国英語で見られる。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：動力を使って移動する"]
+    B["よく知られた意味：モーター・原動機"]
+    C["見落としやすい意味：自動車で移動する（主に英国英語）"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：motor along（車で進む）
+
+<small>index: 3700 / candidate_id: ev-03700-verb-01</small>
+
+---
+
+### 2215. pipe
+
+品詞：phrasal verb　｜　発音：/paɪp/
+
+<small>よく知られている意味：管・パイプ</small>
+
+**見落としやすい意味：（pipe up）突然口を開く、発言する**
+
+**例文**：A quiet student suddenly piped up with an excellent idea.
+
+**和訳**：おとなしい生徒が突然口を開き、素晴らしい案を出した。
+
+**コアイメージ**：pipeは細い管や笛を表す。pipe upでは、それまで黙っていた人が突然声を出して発言する様子を表す。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：声がすっと外へ出る"]
+    B["よく知られた意味：管・パイプ"]
+    C["見落としやすい意味：（pipe up）突然口を開く、発言する"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：pipe up（突然発言する）
+
+<small>index: 3701 / candidate_id: ev-03701-phrasal-verb-01</small>
+
+---
+
+### 2216. loud
+
+品詞：adjective　｜　発音：/laʊd/
+
+<small>よく知られている意味：音が大きい</small>
+
+**見落としやすい意味：（服装・模様などが）けばけばしい、派手な**
+
+**例文**：He wore a loud shirt covered in bright patterns.
+
+**和訳**：彼は鮮やかな模様だらけの派手なシャツを着ていた。
+
+**コアイメージ**：大きな音は耳に強く訴えかける。同じイメージが服や色にも広がり、目立ちすぎるほど派手なことを表す。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：周囲の注意を強く引く"]
+    B["よく知られた意味：音が大きい"]
+    C["見落としやすい意味：（服装・模様などが）けばけばしい、派手な"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：loud colors / loud colours（派手な色）
+
+<small>index: 3702 / candidate_id: ev-03702-adjective-01</small>
+
+---
+
+### 2217. punch
+
+品詞：idiom　｜　発音：/pʌntʃ/
+
+<small>よく知られている意味：こぶしで殴る</small>
+
+**見落としやすい意味：（punch above one's weight）本来の規模・実力以上の成果を上げる**
+
+**例文**：Our small research group punches above its weight internationally.
+
+**和訳**：私たちの小規模な研究グループは国際的に規模以上の成果を上げている。
+
+**コアイメージ**：ボクシングの体重階級を背景にした表現。punch above one's weightは、規模や実力から予想される水準を上回る働きをすることを表す。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：階級の上の相手にも渡り合う"]
+    B["よく知られた意味：こぶしで殴る"]
+    C["見落としやすい意味：（punch above one's weight）本来の規模・実力以上の成果を上げる"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：punch above one's weight（実力・規模以上の成果を出す）
+
+<small>index: 3704 / candidate_id: ev-03704-idiom-01</small>
+
+---
+
+### 2218. acute
+
+品詞：adjective　｜　発音：/əˈkjuːt/
+
+<small>よく知られている意味：急性の・鋭角の</small>
+
+**見落としやすい意味：感覚や理解力が鋭い、敏感な**
+
+**例文**：Her acute hearing allowed her to notice the faint sound.
+
+**和訳**：彼女は鋭い聴覚のおかげでかすかな音に気づいた。
+
+**コアイメージ**：acuteには鋭い、強いという感覚がある。感覚や知性について使うと、細かな違いを素早く正確に捉える能力を表す。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：鋭く集中し小さな変化を捉える"]
+    B["よく知られた意味：急性の・鋭角の"]
+    C["見落としやすい意味：感覚や理解力が鋭い、敏感な"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：acute awareness（鋭い認識）
+
+<small>index: 3706 / candidate_id: ev-03706-adjective-01</small>
+
+---
+
+### 2219. sympathetic
+
+品詞：adjective　｜　発音：/ˌsɪmpəˈθetɪk/
+
+<small>よく知られている意味：同情的な</small>
+
+**見落としやすい意味：考え・方針などに好意的・理解がある**
+
+**例文**：The committee was sympathetic to our proposal.
+
+**和訳**：委員会は私たちの提案に好意的だった。
+
+**コアイメージ**：sympatheticは人の気持ちに寄り添うこと。意見や提案に向けられると、その内容に理解や賛意を示す意味になる。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：相手の立場や考えを理解し受け入れる"]
+    B["よく知られた意味：同情的な"]
+    C["見落としやすい意味：考え・方針などに好意的・理解がある"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：be sympathetic to an idea（考えに理解を示す）
+
+<small>index: 3707 / candidate_id: ev-03707-adjective-01</small>
+
+---
+
+### 2220. shrink
+
+品詞：noun　｜　発音：/ʃrɪŋk/
+
+<small>よく知られている意味：縮む・縮ませる</small>
+
+**見落としやすい意味：精神科医・心理療法家（くだけた表現）**
+
+**例文**：He joked that he needed to talk to a shrink about his stress.
+
+**和訳**：彼はストレスについて心理療法家に相談したほうがいいかもと冗談を言った。
+
+**コアイメージ**：shrinkは通常、サイズが縮むことを表す動詞。名詞のshrinkは精神科医や心理療法家を指すくだけた呼び方で、正式な場では専門職名を使う。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：口語で専門家を指す別の意味"]
+    B["よく知られた意味：縮む・縮ませる"]
+    C["見落としやすい意味：精神科医・心理療法家（くだけた表現）"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：see a shrink（精神科医などに相談する、くだけた表現）
+
+<small>index: 3708 / candidate_id: ev-03708-noun-01</small>
+
+---
+
+### 2221. squeeze
+
+品詞：phrasal verb　｜　発音：/skwiːz/
+
+<small>よく知られている意味：絞る・押しつぶす</small>
+
+**見落としやすい意味：（squeeze in）無理に時間や場所を作って予定に入れる**
+
+**例文**：Can you squeeze in a short meeting before lunch?
+
+**和訳**：昼食前に短い打ち合わせを何とか入れられますか。
+
+**コアイメージ**：squeezeは圧力をかけて狭い所へ収める動作。squeeze inでは、予定や場所が詰まっていても工夫して何かを入れることを表す。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：限られた隙間へ押し込む"]
+    B["よく知られた意味：絞る・押しつぶす"]
+    C["見落としやすい意味：（squeeze in）無理に時間や場所を作って予定に入れる"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：squeeze in a meeting（会議の時間を何とか作る）
+
+<small>index: 3709 / candidate_id: ev-03709-phrasal-verb-01</small>
+
+---
+
+### 2222. bother
+
+品詞：idiom　｜　発音：/ˈbɑːðər/
+
+<small>よく知られている意味：迷惑をかける・面倒をかける</small>
+
+**見落としやすい意味：（can't be bothered to ～）わざわざ～する気になれない**
+
+**例文**：I couldn't be bothered to cook, so I made a sandwich.
+
+**和訳**：料理する気になれず、サンドイッチを作った。
+
+**コアイメージ**：botherには面倒を感じたり負担になったりする意味がある。can't be bothered to doは、やる必要があっても面倒でその気になれない状態を表す。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：手間をかける気力がない"]
+    B["よく知られた意味：迷惑をかける・面倒をかける"]
+    C["見落としやすい意味：（can't be bothered to ～）わざわざ～する気になれない"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：can't be bothered to do（わざわざ～する気になれない）
+
+<small>index: 3717 / candidate_id: ev-03717-idiom-01</small>
+
+---
+
+### 2223. bundle
+
+品詞：phrasal verb　｜　発音：/ˈbʌndəl/
+
+<small>よく知られている意味：束・ひとまとめ</small>
+
+**見落としやすい意味：（bundle up）厚着をする、防寒着にくるまる**
+
+**例文**：Bundle up before you go out; it's freezing.
+
+**和訳**：外に出る前に厚着をして。凍えるほど寒いよ。
+
+**コアイメージ**：bundleは物を一つの束にすること。bundle upは服や毛布で体をしっかり包んで寒さから守る意味になる。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：いくつも重ねて包み込む"]
+    B["よく知られた意味：束・ひとまとめ"]
+    C["見落としやすい意味：（bundle up）厚着をする、防寒着にくるまる"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：bundle up（厚着をする）
+
+<small>index: 3718 / candidate_id: ev-03718-phrasal-verb-01</small>
+
+---
+
+### 2224. forbid
+
+品詞：idiom　｜　発音：/fərˈbɪd/
+
+<small>よく知られている意味：禁止する</small>
+
+**見落としやすい意味：（God forbid）そんなことが起きませんように、まさか**
+
+**例文**：God forbid that the files should be lost.
+
+**和訳**：そのファイルが失われるようなことがありませんように。
+
+**コアイメージ**：forbidは起きてほしくない行為を禁じること。God forbidは、不吉な可能性が現実にならないよう願う定型表現として使う。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：望ましくない出来事を強く避けたい"]
+    B["よく知られた意味：禁止する"]
+    C["見落としやすい意味：（God forbid）そんなことが起きませんように、まさか"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：God forbid!（そんなことが起こりませんように）
+
+<small>index: 3720 / candidate_id: ev-03720-idiom-01</small>
+
+---
+
+### 2225. seed
+
+品詞：noun　｜　発音：/siːd/
+
+<small>よく知られている意味：種</small>
+
+**見落としやすい意味：トーナメントなどでのシード選手・シード順位**
+
+**例文**：The top seed lost in the second round.
+
+**和訳**：第1シードの選手が2回戦で敗れた。
+
+**コアイメージ**：seedは植物の種だが、スポーツでは有力選手を組み合わせの中で適切に配置する仕組みに使う。選手自身やシード順位もseedと呼ぶ。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：大会で順位に基づいて配置される選手"]
+    B["よく知られた意味：種"]
+    C["見落としやすい意味：トーナメントなどでのシード選手・シード順位"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：top seed（上位シード選手）
+
+<small>index: 3728 / candidate_id: ev-03728-noun-01</small>
+
+---
+
+### 2226. invention
+
+品詞：noun　｜　発音：/ɪnˈvenʃən/
+
+<small>よく知られている意味：発明</small>
+
+**見落としやすい意味：事実ではない作り話・でっち上げ**
+
+**例文**：The witness admitted that the entire story was an invention.
+
+**和訳**：証人は、その話がすべて作り話だったと認めた。
+
+**コアイメージ**：発明は新しいものを考え出すこと。物語や説明について使うと、実際には起きていない内容を作ったこと、つまりでっち上げを表す。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：実際にはないものを作り出す"]
+    B["よく知られた意味：発明"]
+    C["見落としやすい意味：事実ではない作り話・でっち上げ"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：pure invention（まったくの作り話）
+
+<small>index: 3729 / candidate_id: ev-03729-noun-01</small>
+
+---
+
+### 2227. bare
+
+品詞：adjective　｜　発音：/ber/
+
+<small>よく知られている意味：裸の・むき出しの</small>
+
+**見落としやすい意味：必要最低限の、ほんのわずかな**
+
+**例文**：We had only the bare minimum of time to finish.
+
+**和訳**：私たちには終わらせるのに必要最低限の時間しかなかった。
+
+**コアイメージ**：bareは覆いや飾りのない状態。数量や条件に使えば、余裕や余分を削ぎ落とした最小限を指す。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：余分なものを取り去った状態"]
+    B["よく知られた意味：裸の・むき出しの"]
+    C["見落としやすい意味：必要最低限の、ほんのわずかな"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：the bare minimum（必要最低限）
+
+<small>index: 3732 / candidate_id: ev-03732-adjective-01</small>
+
+---
+
+### 2228. bare
+
+品詞：verb　｜　発音：/ber/
+
+<small>よく知られている意味：裸の・むき出しの</small>
+
+**見落としやすい意味：覆いを取り去り、隠れたものを明らかにする**
+
+**例文**：The report bared serious problems in the system.
+
+**和訳**：その報告書は制度の深刻な問題を明るみに出した。
+
+**コアイメージ**：形容詞のbareは覆われていない状態。動詞では覆いを取り、隠れていたものを見える状態にすることを表す。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：覆いを外して見えるようにする"]
+    B["よく知られた意味：裸の・むき出しの"]
+    C["見落としやすい意味：覆いを取り去り、隠れたものを明らかにする"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：bare one's feelings（感情をさらけ出す）
+
+<small>index: 3732 / candidate_id: ev-03732-verb-02</small>
+
+---
+
+### 2229. decoration
+
+品詞：noun　｜　発音：/ˌdekəˈreɪʃən/
+
+<small>よく知られている意味：飾り・装飾</small>
+
+**見落としやすい意味：功績をたたえて授与される勲章**
+
+**例文**：The officer received a decoration for outstanding service.
+
+**和訳**：その将校は優れた功績に対して勲章を授与された。
+
+**コアイメージ**：decorationは物を飾ることや飾り。人の功績を示すために身につける正式な栄誉の印も、decorationと呼ぶ。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：功績を目に見える印で示す"]
+    B["よく知られた意味：飾り・装飾"]
+    C["見落としやすい意味：功績をたたえて授与される勲章"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：military decoration（軍の勲章）
+
+<small>index: 3741 / candidate_id: ev-03741-noun-01</small>
+
+---
+
+### 2230. accordingly
+
+品詞：adverb　｜　発音：/əˈkɔːrdɪŋli/
+
+<small>よく知られている意味：したがって・その結果</small>
+
+**見落としやすい意味：その状況・指示・条件に合わせて**
+
+**例文**：Read the instructions and act accordingly.
+
+**和訳**：指示を読み、それに従って行動してください。
+
+**コアイメージ**：accordは物事が一致していることと関係する。accordinglyは結論をつなぐだけでなく、状況や指示に合わせた方法で行動することも表す。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：前に示された条件に合うように"]
+    B["よく知られた意味：したがって・その結果"]
+    C["見落としやすい意味：その状況・指示・条件に合わせて"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：act accordingly（それに合わせて行動する）
+
+<small>index: 3743 / candidate_id: ev-03743-adverb-01</small>
+
+---
+
+### 2231. sketch
+
+品詞：phrasal verb　｜　発音：/sketʃ/
+
+<small>よく知られている意味：素描・スケッチを描く</small>
+
+**見落としやすい意味：（sketch out）要点や構想を大まかに示す**
+
+**例文**：The manager sketched out a plan for the coming year.
+
+**和訳**：部長は来年度の計画の概要を示した。
+
+**コアイメージ**：絵のスケッチでは細部より輪郭や全体像を描く。sketch outは、計画や考えの主な部分を大まかに説明することを表す。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：細部を省いて大枠を示す"]
+    B["よく知られた意味：素描・スケッチを描く"]
+    C["見落としやすい意味：（sketch out）要点や構想を大まかに示す"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：sketch out a plan（計画の概要を示す）
+
+<small>index: 3745 / candidate_id: ev-03745-phrasal-verb-01</small>
+
+---
+
+### 2232. fraction
+
+品詞：noun　｜　発音：/ˈfrækʃən/
+
+<small>よく知られている意味：分数</small>
+
+**見落としやすい意味：（a fraction of ～）～のごくわずかな部分**
+
+**例文**：The repair cost only a fraction of the original estimate.
+
+**和訳**：修理費は当初の見積額のほんの一部で済んだ。
+
+**コアイメージ**：fractionは全体に対する部分を表す。a fraction ofでは、比較対象よりずっと少ない量や割合を強調することが多い。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：全体の中から切り分けた一部"]
+    B["よく知られた意味：分数"]
+    C["見落としやすい意味：（a fraction of ～）～のごくわずかな部分"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：a fraction of the cost（費用のごく一部）
+
+<small>index: 3746 / candidate_id: ev-03746-noun-01</small>
+
+---
+
+### 2233. invoice
+
+品詞：verb　｜　発音：/ˈɪnvɔɪs/
+
+<small>よく知られている意味：請求書</small>
+
+**見落としやすい意味：請求書を発行して請求する**
+
+**例文**：We will invoice you after the equipment has been delivered.
+
+**和訳**：機器の納品後に請求書をお送りします。
+
+**コアイメージ**：名詞のinvoiceは請求書という文書。動詞では、取引先にその文書を送り支払いを請求する手続きを表す。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：支払うべき金額を明細にして請求する"]
+    B["よく知られた意味：請求書"]
+    C["見落としやすい意味：請求書を発行して請求する"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：invoice a client for ～（取引先に～の代金を請求する）
+
+<small>index: 3748 / candidate_id: ev-03748-verb-01</small>
+
+---
+
+### 2234. intake
+
+品詞：noun　｜　発音：/ˈɪnteɪk/
+
+<small>よく知られている意味：摂取量・取り入れること</small>
+
+**見落としやすい意味：学校・組織などが一定期間に新たに受け入れる人・人数（主に英国英語）**
+
+**例文**：This year's intake of new students is smaller than last year's.
+
+**和訳**：今年の新入生の受け入れ人数は昨年より少ない。
+
+**コアイメージ**：intakeは外から内へ取り込むこと。学校や企業で使うと、特定の時期に入学・入社する人の集まりや人数を表す。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：一定期間に内側へ受け入れる量"]
+    B["よく知られた意味：摂取量・取り入れること"]
+    C["見落としやすい意味：学校・組織などが一定期間に新たに受け入れる人・人数（主に英国英語）"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：student intake（新入生の受け入れ人数、主に英国英語）
+
+<small>index: 3756 / candidate_id: ev-03756-noun-01</small>
+
+---
+
+### 2235. log
+
+品詞：verb　｜　発音：/lɔːɡ/
+
+<small>よく知られている意味：丸太</small>
+
+**見落としやすい意味：時間・距離・成果などを記録として積み上げる**
+
+**例文**：The volunteers logged over a hundred hours of work.
+
+**和訳**：ボランティアたちは合計100時間以上の作業を記録した。
+
+**コアイメージ**：logは元々丸太を表す一方、航海や活動の記録を表す名詞としても使われる。動詞では時間・距離・成果を記録し積み上げることを表す。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：行動の実績を記録に残す"]
+    B["よく知られた意味：丸太"]
+    C["見落としやすい意味：時間・距離・成果などを記録として積み上げる"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：log hours（作業時間を記録する）
+
+<small>index: 3757 / candidate_id: ev-03757-verb-01</small>
+
+---
+
+### 2236. cake
+
+品詞：idiom　｜　発音：/keɪk/
+
+<small>よく知られている意味：ケーキ</small>
+
+**見落としやすい意味：（a piece of cake）ごく簡単なこと**
+
+**例文**：The maths quiz was a piece of cake for her.
+
+**和訳**：その数学の小テストは彼女には朝飯前だった。
+
+**コアイメージ**：a piece of cakeは、ごく簡単なことを表す口語の慣用句。食べ物の意味を直訳せず、簡単さを表すまとまりとして覚える。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：苦労なくこなせる気軽さ"]
+    B["よく知られた意味：ケーキ"]
+    C["見落としやすい意味：（a piece of cake）ごく簡単なこと"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：a piece of cake（とても簡単なこと）
+
+<small>index: 3762 / candidate_id: ev-03762-idiom-01</small>
+
+---
+
+### 2237. apple
+
+品詞：idiom　｜　発音：/ˈæpəl/
+
+<small>よく知られている意味：リンゴ</small>
+
+**見落としやすい意味：（the apple of one's eye）非常に大切な人・もの**
+
+**例文**：Their granddaughter is the apple of their eye.
+
+**和訳**：孫娘は彼らにとって何より大切な存在だ。
+
+**コアイメージ**：the apple of one's eyeは、非常に愛おしく大切に思う人などを指す古くからの慣用表現。果物の名称をそのまま訳さず、愛情の対象を示す意味で読む。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：かけがえのない大切な存在"]
+    B["よく知られた意味：リンゴ"]
+    C["見落としやすい意味：（the apple of one's eye）非常に大切な人・もの"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：the apple of one's eye（目に入れても痛くないほど大切な人）
+
+<small>index: 3763 / candidate_id: ev-03763-idiom-01</small>
+
+---
+
+### 2238. sink
+
+品詞：phrasal verb　｜　発音：/sɪŋk/
+
+<small>よく知られている意味：沈む・沈める</small>
+
+**見落としやすい意味：（sink in）意味や事実が時間をかけて心に浸透する**
+
+**例文**：The significance of her words took a while to sink in.
+
+**和訳**：彼女の言葉の重要さを理解するには少し時間がかかった。
+
+**コアイメージ**：物が水中に沈むように、情報が心の中へ深く入っていくイメージ。sink inは、事実や意味をじわじわ理解し実感することを表す。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：表面から内側へ徐々に入り込む"]
+    B["よく知られた意味：沈む・沈める"]
+    C["見落としやすい意味：（sink in）意味や事実が時間をかけて心に浸透する"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：It took time to sink in.（理解が実感に変わるまで時間がかかった）
+
+<small>index: 3765 / candidate_id: ev-03765-phrasal-verb-01</small>
+
+---
+
+### 2239. textbook
+
+品詞：adjective　｜　発音：/ˈtekstbʊk/
+
+<small>よく知られている意味：教科書</small>
+
+**見落としやすい意味：典型的な、お手本のような**
+
+**例文**：This is a textbook case of poor communication.
+
+**和訳**：これは意思疎通の失敗の典型例だ。
+
+**コアイメージ**：教科書には学習の代表例が載る。形容詞textbookは、ある特徴が非常にはっきり現れた典型的・お手本のような例を表す。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：説明に使えるほど典型的"]
+    B["よく知られた意味：教科書"]
+    C["見落としやすい意味：典型的な、お手本のような"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：a textbook example（典型例）
+
+<small>index: 3767 / candidate_id: ev-03767-adjective-01</small>
+
+---
+
+### 2240. divine
+
+品詞：verb　｜　発音：/dɪˈvaɪn/
+
+<small>よく知られている意味：神聖な</small>
+
+**見落としやすい意味：観察・直感によって察する、見抜く**
+
+**例文**：She divined his doubts from the way he avoided the question.
+
+**和訳**：彼女は彼が質問を避ける様子から、彼の疑念を察した。
+
+**コアイメージ**：形容詞のdivineは神聖なという意味。動詞では直感や限られた手がかりをもとに隠れたことを見抜く。やや文語的な語法。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：表に出ないことを手がかりから察知する"]
+    B["よく知られた意味：神聖な"]
+    C["見落としやすい意味：観察・直感によって察する、見抜く"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：divine someone's intentions（人の意図を察する）
+
+<small>index: 3769 / candidate_id: ev-03769-verb-01</small>
+
