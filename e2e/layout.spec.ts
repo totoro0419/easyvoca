@@ -79,3 +79,26 @@ test('6種類の実教材を5画面幅で計測し、図が横にはみ出さず
   }
   console.log('Actual rendered vertical overflow (CSS px):',JSON.stringify(report));
 });
+
+
+test('4ノードの例外的な図でも、分岐を保持したままスマホ幅に収める',async({page})=>{
+  await page.setViewportSize({width:360,height:740});
+  await page.goto('/');
+  await page.getByRole('button',{name:'検索',exact:true}).click();
+  await page.getByRole('searchbox',{name:'単語や日本語の意味で検索'}).fill('sole');
+  const item=page.locator('.result-item').filter({hasText:'足の裏、靴の底'}).first();
+  await expect(item).toBeVisible();
+  await item.click();
+  const tree=page.locator('.reading-page .concept-wrap');
+  await expect(tree.locator('.concept-node')).toHaveCount(4);
+  await expect(tree).toContainText('同じ綴りの別義');
+  await expect(tree).toContainText('足や靴の底面');
+  await expect(tree).toContainText('足の裏');
+  const metrics=await tree.evaluate(el=>({
+    over:el.scrollWidth-el.clientWidth,
+    children:el.querySelectorAll('.concept-child').length
+  }));
+  expect(metrics.over).toBeLessThanOrEqual(1);
+  expect(metrics.children).toBe(3);
+  await page.screenshot({path:'test-results/layout-exception-4nodes.png'});
+});
