@@ -39,8 +39,8 @@ jobs:
         run: npx playwright install --with-deps chromium
       - name: Real browser E2E tests
         run: npx playwright test
-      - name: Save browser screenshots on failure
-        if: failure()
+      - name: Save browser screenshots and failures
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: browser-test-results

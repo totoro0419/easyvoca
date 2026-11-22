@@ -3,8 +3,10 @@ import {test,expect} from '@playwright/test';
 test('ホームから学習、矢印キー、進捗保存と再起動後の再開',async({page})=>{
   await page.goto('/');
   await expect(page.getByRole('heading',{name:/英単語の、/})).toBeVisible();
+  await page.screenshot({path:'test-results/desktop-home.png',fullPage:true});
   await page.getByRole('button',{name:'学習を始める'}).click();
   await expect(page.locator('.vocab-head h1')).toHaveText('the');
+  await page.screenshot({path:'test-results/desktop-study.png'});
   await expect(page.locator('.study-position strong')).toContainText(/1\s*\/\s*20/);
   await page.keyboard.press('ArrowRight');
   await expect(page.locator('.study-position strong')).toContainText(/2\s*\/\s*20/);
