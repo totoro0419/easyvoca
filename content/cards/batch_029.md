@@ -1621,3 +1621,543 @@ flowchart LR
 **重要語法：** be anxious to do：ぜひ～したいと願う
 
 <sub>元データ：index 3901 / ev-03901-adjective-01</sub>
+
+## 2301. bend
+
+**品詞：** idiom　**発音：** /bend/
+
+<sub>よく知られている意味：曲げる</sub>
+
+**見落としやすい意味：（bend over backwards）人のためにできる限り努力する**
+
+**例文：** She bent over backwards to help the new students settle in.
+
+**和訳：** 彼女は新入生が学校になじめるよう、できる限り努力した。
+
+**コアイメージ：** 体を後ろへ大きく反らすほど無理をする動きが比喩になっている。誰かのために普通以上の手間をかけることを示す。
+
+```mermaid
+flowchart LR
+    A["中心: 無理な姿勢まで取る"]
+    B["既知: 曲げる"]
+    C["注目: （bend over backwards）人のためにできる限り努力する"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** bend over backwards to do：～するために最大限努力する
+
+<sub>元データ：index 3904 / ev-03904-idiom-01</sub>
+
+## 2302. relieve
+
+**品詞：** verb　**発音：** /rɪˈliːv/
+
+<sub>よく知られている意味：痛みや負担を和らげる</sub>
+
+**見落としやすい意味：任務中の人と交代し、その役目を引き継ぐ**
+
+**例文：** Another officer arrived to relieve the guard at midnight.
+
+**和訳：** 真夜中に別の警備員が到着し、当番の警備員と交代した。
+
+**コアイメージ：** relieve は相手が背負う負担を取り除くこと。任務中の人に代わって担当を引き受け、相手を持ち場から解放することも表す。
+
+```mermaid
+flowchart LR
+    A["中心: 相手の負担を取り除く"]
+    B["既知: 痛みや負担を和らげる"]
+    C["注目: 任務中の人と交代し、その役目を引き継ぐ"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** relieve someone of duty：人を任務から解く
+
+<sub>元データ：index 3909 / ev-03909-verb-01</sub>
+
+## 2303. interfere
+
+**品詞：** phrasal verb　**発音：** /ˌɪntərˈfɪər/
+
+<sub>よく知られている意味：干渉する、口出しする</sub>
+
+**見落としやすい意味：（interfere with ～）物事の進行や機能を妨げる**
+
+**例文：** The noise interfered with our ability to concentrate.
+
+**和訳：** その騒音は私たちの集中を妨げた。
+
+**コアイメージ：** interfere は本来別に進んでいることの間に入り込むこと。with が続くと、機能や進行を邪魔する意味になる。
+
+```mermaid
+flowchart LR
+    A["中心: 進行の間に入り込む"]
+    B["既知: 干渉する、口出しする"]
+    C["注目: （interfere with ～）物事の進行や機能を妨げる"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** interfere with ～：～を妨げる
+
+<sub>元データ：index 3910 / ev-03910-phrasal-verb-01</sub>
+
+## 2304. hack
+
+**品詞：** noun　**発音：** /hæk/
+
+<sub>よく知られている意味：コンピューターに侵入すること</sub>
+
+**見落としやすい意味：問題を簡単に解決する工夫・裏技（口語）**
+
+**例文：** This simple storage hack saves space in a small room.
+
+**和訳：** この簡単な収納の工夫なら、小さな部屋でも空間を節約できる。
+
+**コアイメージ：** hack は元のやり方に手を加えて目的を達する発想と結びつく。口語では手間を省く便利な工夫や裏技を指す。
+
+```mermaid
+flowchart LR
+    A["中心: やり方を工夫して突破する"]
+    B["既知: コンピューターに侵入すること"]
+    C["注目: 問題を簡単に解決する工夫・裏技（口語）"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** a life hack：生活に役立つちょっとした工夫
+
+<sub>元データ：index 3912 / ev-03912-noun-01</sub>
+
+## 2305. beneficiary
+
+**品詞：** noun　**発音：** /ˌbenɪˈfɪʃəri/
+
+<sub>よく知られている意味：利益を受ける人</sub>
+
+**見落としやすい意味：保険金・遺産などを受け取るよう指定された人**
+
+**例文：** She named her brother as the beneficiary of the policy.
+
+**和訳：** 彼女はその保険契約の受取人に兄を指定した。
+
+**コアイメージ：** beneficiary は何かの利益を受け取る人。保険や遺産の文脈では、正式に給付や財産を受け取るよう定められた人を表す。
+
+```mermaid
+flowchart LR
+    A["中心: 利益を受け取る立場"]
+    B["既知: 利益を受ける人"]
+    C["注目: 保険金・遺産などを受け取るよう指定された人"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** designated beneficiary：指定受取人
+
+<sub>元データ：index 3917 / ev-03917-noun-01</sub>
+
+## 2306. graphic
+
+**品詞：** adjective　**発音：** /ˈɡræfɪk/
+
+<sub>よく知られている意味：図表の、画像の</sub>
+
+**見落としやすい意味：描写が生々しく具体的で、読者に強い印象を与える**
+
+**例文：** The journalist gave a graphic description of the flood's impact.
+
+**和訳：** 記者は洪水の影響を生々しく具体的に描写した。
+
+**コアイメージ：** graphic は見て分かるほど鮮明に示すことと関係する。文章にも用い、読者が情景を強く思い浮かべるような描写を表す。
+
+```mermaid
+flowchart LR
+    A["中心: 目に見えるほど鮮明"]
+    B["既知: 図表の、画像の"]
+    C["注目: 描写が生々しく具体的で、読者に強い印象を与える"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** a graphic description：生々しく具体的な描写
+
+<sub>元データ：index 3922 / ev-03922-adjective-01</sub>
+
+## 2307. balloon
+
+**品詞：** verb　**発音：** /bəˈluːn/
+
+<sub>よく知られている意味：風船</sub>
+
+**見落としやすい意味：数量・価格・費用などが急激に膨らみ、増加する**
+
+**例文：** The project budget ballooned after the design changed.
+
+**和訳：** 設計の変更後、事業予算は急激に膨らんだ。
+
+**コアイメージ：** 風船は空気を入れると一気に大きくなる。動詞では、費用や数値が予想を超えて急増する様子を表す。
+
+```mermaid
+flowchart LR
+    A["中心: 風船のように膨らむ"]
+    B["既知: 風船"]
+    C["注目: 数量・価格・費用などが急激に膨らみ、増加する"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** costs balloon：費用が急増する
+
+<sub>元データ：index 3928 / ev-03928-verb-01</sub>
+
+## 2308. freeze
+
+**品詞：** verb　**発音：** /friːz/
+
+<sub>よく知られている意味：凍る、凍らせる</sub>
+
+**見落としやすい意味：利率・価格などを一定に固定し、変更させない**
+
+**例文：** The city decided to freeze bus fares for a year.
+
+**和訳：** 市はバス運賃を一年間据え置くことにした。
+
+**コアイメージ：** 凍ったものは動きが止まり、その状態に固定される。価格や賃金を変えないようにする経済的な用法につながる。
+
+```mermaid
+flowchart LR
+    A["中心: 変化を止めて固定する"]
+    B["既知: 凍る、凍らせる"]
+    C["注目: 利率・価格などを一定に固定し、変更させない"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** freeze prices / wages：価格・賃金を据え置く
+
+<sub>元データ：index 3929 / ev-03929-verb-01</sub>
+
+## 2309. freeze
+
+**品詞：** verb　**発音：** /friːz/
+
+<sub>よく知られている意味：凍る、凍らせる</sub>
+
+**見落としやすい意味：資金や資産の利用・引き出しを禁止する**
+
+**例文：** The court ordered the bank to freeze the account.
+
+**和訳：** 裁判所は銀行にその口座の資産を凍結するよう命じた。
+
+**コアイメージ：** 凍結すると自由に動かせなくなる。金融では、預金や資産を移動・利用できない状態にすることを表す。
+
+```mermaid
+flowchart LR
+    A["中心: 自由な動きを封じる"]
+    B["既知: 凍る、凍らせる"]
+    C["注目: 資金や資産の利用・引き出しを禁止する"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** freeze an account / assets：口座・資産を凍結する
+
+<sub>元データ：index 3929 / ev-03929-verb-02</sub>
+
+## 2310. mad
+
+**品詞：** adjective　**発音：** /mæd/
+
+<sub>よく知られている意味：怒っている、正気でない</sub>
+
+**見落としやすい意味：（be mad about ～）～が大好きで熱中している**
+
+**例文：** My sister is mad about astronomy.
+
+**和訳：** 妹は天文学に夢中だ。
+
+**コアイメージ：** mad は気持ちが普通の範囲を超えて強い状態を表す。about の後に好きなものが来ると、熱中している意味になる。
+
+```mermaid
+flowchart LR
+    A["中心: 感情が極端に強い"]
+    B["既知: 怒っている、正気でない"]
+    C["注目: （be mad about ～）～が大好きで熱中している"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** be mad about ～：～が大好きで夢中だ
+
+<sub>元データ：index 3931 / ev-03931-adjective-01</sub>
+
+## 2311. merchandise
+
+**品詞：** verb　**発音：** /ˈmɜːtʃəndaɪz/
+
+<sub>よく知られている意味：商品、販売品</sub>
+
+**見落としやすい意味：商品を市場向けに企画・宣伝・販売する**
+
+**例文：** The company merchandises its products through local shops.
+
+**和訳：** その会社は地元の店舗を通じて商品を売り出している。
+
+**コアイメージ：** merchandise は販売する商品そのもの。動詞では、商品を買ってもらえるよう企画・宣伝・陳列・販売する活動を表す。
+
+```mermaid
+flowchart LR
+    A["中心: 商品を市場へ届ける"]
+    B["既知: 商品、販売品"]
+    C["注目: 商品を市場向けに企画・宣伝・販売する"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** merchandise a product：商品を販売促進する
+
+<sub>元データ：index 3935 / ev-03935-verb-01</sub>
+
+## 2312. spectacle
+
+**品詞：** noun　**発音：** /ˈspektəkəl/
+
+<sub>よく知られている意味：見せ物、壮観</sub>
+
+**見落としやすい意味：（複数形 spectacles）眼鏡**
+
+**例文：** He put on his spectacles to read the small print.
+
+**和訳：** 彼は小さな文字を読むために眼鏡をかけた。
+
+**コアイメージ：** spectacle には見ることに関係する意味の広がりがある。複数形 spectacles は視力を補ってものを見るための眼鏡を指す。
+
+```mermaid
+flowchart LR
+    A["中心: 見ることを助けるもの"]
+    B["既知: 見せ物、壮観"]
+    C["注目: （複数形 spectacles）眼鏡"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** a pair of spectacles：眼鏡一つ
+
+<sub>元データ：index 3936 / ev-03936-noun-01</sub>
+
+## 2313. bloody
+
+**品詞：** adjective　**発音：** /ˈblʌdi/
+
+<sub>よく知られている意味：血の、血だらけの</sub>
+
+**見落としやすい意味：非常に、ひどく（英国英語のくだけた強意）**
+
+**例文：** That puzzle was bloody difficult.
+
+**和訳：** そのパズルはものすごく難しかった。
+
+**コアイメージ：** bloody は英国英語のくだけた会話で、感情を強める語としても働く。ここでは血とは無関係で、後ろの形容詞の程度を強調する。
+
+```mermaid
+flowchart LR
+    A["中心: 感情を強く押し出す"]
+    B["既知: 血の、血だらけの"]
+    C["注目: 非常に、ひどく（英国英語のくだけた強意）"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** bloody difficult：ひどく難しい（くだけた表現）
+
+<sub>元データ：index 3944 / ev-03944-adjective-01</sub>
+
+## 2314. documentary
+
+**品詞：** adjective　**発音：** /ˌdɒkjʊˈmentəri/
+
+<sub>よく知られている意味：ドキュメンタリー映画</sub>
+
+**見落としやすい意味：文書・記録に基づく、文書による**
+
+**例文：** The investigators requested documentary evidence.
+
+**和訳：** 調査担当者たちは文書による証拠を求めた。
+
+**コアイメージ：** document は記録を残す文書。documentary が形容詞として使われると、記録文書に基づくことや文書の形で示すことを表す。
+
+```mermaid
+flowchart LR
+    A["中心: 記録文書に基づく"]
+    B["既知: ドキュメンタリー映画"]
+    C["注目: 文書・記録に基づく、文書による"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** documentary evidence：文書による証拠
+
+<sub>元データ：index 3945 / ev-03945-adjective-01</sub>
+
+## 2315. format
+
+**品詞：** verb　**発音：** /ˈfɔːrmæt/
+
+<sub>よく知られている意味：形式、体裁を整える</sub>
+
+**見落としやすい意味：記憶媒体を所定の形式に初期化する**
+
+**例文：** The technician formatted the new drive before using it.
+
+**和訳：** 技術者は新しいドライブを使用する前に初期化した。
+
+**コアイメージ：** format は情報を一定の形式に整えること。記憶媒体については、保存できる形式に準備する処理を指し、保存データを消去する場合もある。
+
+```mermaid
+flowchart LR
+    A["中心: 決まった形式に整える"]
+    B["既知: 形式、体裁を整える"]
+    C["注目: 記憶媒体を所定の形式に初期化する"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** format a drive：ドライブを初期化する
+
+<sub>元データ：index 3946 / ev-03946-verb-01</sub>
+
+## 2316. ownership
+
+**品詞：** noun　**発音：** /ˈəʊnəʃɪp/
+
+<sub>よく知られている意味：所有、所有権</sub>
+
+**見落としやすい意味：仕事・結果などに責任を持ち、主体的に引き受けること**
+
+**例文：** She took ownership of the mistake and corrected it.
+
+**和訳：** 彼女はその間違いに自分の責任として向き合い、修正した。
+
+**コアイメージ：** ownership は自分のものとして引き受けること。物の所有だけでなく、仕事や問題を自分事として責任を持つ姿勢も表す。
+
+```mermaid
+flowchart LR
+    A["中心: 自分のものとして引き受ける"]
+    B["既知: 所有、所有権"]
+    C["注目: 仕事・結果などに責任を持ち、主体的に引き受けること"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** take ownership of ～：～に主体的に責任を持つ
+
+<sub>元データ：index 3949 / ev-03949-noun-01</sub>
+
+## 2317. shame
+
+**品詞：** noun　**発音：** /ʃeɪm/
+
+<sub>よく知られている意味：恥、羞恥心</sub>
+
+**見落としやすい意味：（what a shame）残念なこと、気の毒なこと**
+
+**例文：** What a shame you can't come to the concert!
+
+**和訳：** あなたがコンサートに来られないなんて残念だね。
+
+**コアイメージ：** shame は望ましくないと感じる気持ちを表す。what a shame は相手や出来事を恥ずべきだと責めるのではなく、残念に思う表現。
+
+```mermaid
+flowchart LR
+    A["中心: 望ましくないことへの残念さ"]
+    B["既知: 恥、羞恥心"]
+    C["注目: （what a shame）残念なこと、気の毒なこと"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** What a shame!：それは残念！
+
+<sub>元データ：index 3952 / ev-03952-noun-01</sub>
+
+## 2318. swamp
+
+**品詞：** verb　**発音：** /swɒmp/
+
+<sub>よく知られている意味：沼地</sub>
+
+**見落としやすい意味：仕事・情報・依頼などが大量に押し寄せて圧倒する**
+
+**例文：** The office was swamped with applications after the announcement.
+
+**和訳：** 発表後、事務局には応募が殺到して対応に追われた。
+
+**コアイメージ：** 沼に沈むと周囲のものに覆われ、身動きが取りにくい。仕事や依頼が大量に来て人を圧倒する様子を表す。
+
+```mermaid
+flowchart LR
+    A["中心: 大量のものに埋もれる"]
+    B["既知: 沼地"]
+    C["注目: 仕事・情報・依頼などが大量に押し寄せて圧倒する"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** be swamped with ～：～が殺到して忙殺される
+
+<sub>元データ：index 3957 / ev-03957-verb-01</sub>
+
+## 2319. prosecution
+
+**品詞：** noun　**発音：** /ˌprɒsɪˈkjuːʃən/
+
+<sub>よく知られている意味：起訴、訴追</sub>
+
+**見落としやすい意味：裁判における検察側・訴追側**
+
+**例文：** The prosecution argued that the evidence was reliable.
+
+**和訳：** 検察側はその証拠には信頼性があると主張した。
+
+**コアイメージ：** prosecution は犯罪を法廷で訴追する行為。the prosecution と言うと、その行為を担当する検察側の人々も指す。
+
+```mermaid
+flowchart LR
+    A["中心: 訴追する側の立場"]
+    B["既知: 起訴、訴追"]
+    C["注目: 裁判における検察側・訴追側"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** the prosecution and the defense：検察側と弁護側
+
+<sub>元データ：index 3968 / ev-03968-noun-01</sub>
+
+## 2320. provincial
+
+**品詞：** adjective　**発音：** /prəˈvɪnʃəl/
+
+<sub>よく知られている意味：地方の、州の</sub>
+
+**見落としやすい意味：考え方が地方的・閉鎖的で視野が狭い**
+
+**例文：** His provincial attitude made him dismiss unfamiliar ideas.
+
+**和訳：** 彼の視野の狭い態度は、なじみのない考えを退けさせた。
+
+**コアイメージ：** provincial は大きな中心から離れた地方に関係する語。考え方に用いると、自分の狭い世界だけで判断する否定的な意味を持つ。
+
+```mermaid
+flowchart LR
+    A["中心: 限られた範囲だけを見る"]
+    B["既知: 地方の、州の"]
+    C["注目: 考え方が地方的・閉鎖的で視野が狭い"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** a provincial outlook：視野の狭い見方
+
+<sub>元データ：index 3969 / ev-03969-adjective-01</sub>
