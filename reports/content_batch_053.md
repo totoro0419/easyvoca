@@ -35,4 +35,4 @@
 
 - 教材・JSONL完成コミット： https://github.com/totoro0419/easyvoca/commit/38e8f1b1a42634319ae11a0ee81a1ac9754dca5c
 - ブランチ：`content/batch-053`
-- PR：作成後に追記
+- PR： https://github.com/totoro0419/easyvoca/pull/77
