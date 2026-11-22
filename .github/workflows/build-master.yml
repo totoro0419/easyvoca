@@ -1,0 +1,35 @@
+name: Build EasyVoca 12000-word master
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/build_master.py"
+      - ".github/workflows/build-master.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  build-master:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Build and validate from attributed sources
+        run: |
+          python3 scripts/build_master.py
+          python3 scripts/validate_master.py
+      - name: Commit fixed master and its source manifest
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/master/words.jsonl data/master/batches.json data/master/manifest.json
+          if git diff --cached --quiet; then
+            echo "Master unchanged"
+          else
+            git commit -m "data: generate fixed 12000-headword research master"
+            git push origin HEAD:main
+          fi
