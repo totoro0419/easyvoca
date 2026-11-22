@@ -72,7 +72,7 @@ export default function SwipeReader({identity,canPrev,canNext,prev,next,onMove,c
   function onDown(e:PointerEvent<HTMLDivElement>){
     if(!e.isPrimary||e.button!==0||phase.current==='exit')return;
     const target=e.target as HTMLElement;
-    if(target.closest('button,a,input,textarea,select,[contenteditable="true"],.diagram-wrap'))return;
+    if(target.closest('button,a,input,textarea,select,[contenteditable="true"]'))return;
     if(e.pointerType==='touch'&&(e.clientX<26||e.clientX>window.innerWidth-26))return;
     if(window.getSelection()?.type==='Range')return;
     if(phase.current==='settling'){
