@@ -91,7 +91,7 @@
 {"index":10591,"word":"inviting","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":10592,"word":"irresponsibility","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10593,"word":"irreverent","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":10594,"word":"jack","status":"verified_selected","candidate_count":1,"accepted_count":1}
+{"index":10594,"word":"jack","status":"verified_selected","candidate_count":2,"accepted_count":2}
 {"index":10595,"word":"jeep","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10596,"word":"judicious","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10597,"word":"justifiably","status":"needs_review","candidate_count":0,"accepted_count":0}
@@ -159,7 +159,7 @@
 {"index":10659,"word":"oval","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10660,"word":"overcapacity","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10661,"word":"overdue","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":10662,"word":"overrule","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":10662,"word":"overrule","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":10663,"word":"overt","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10664,"word":"overweight","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10665,"word":"overwrought","status":"needs_review","candidate_count":0,"accepted_count":0}
@@ -171,7 +171,7 @@
 {"index":10671,"word":"pastry","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10672,"word":"pathology","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":10673,"word":"patina","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":10674,"word":"patronize","status":"verified_selected","candidate_count":2,"accepted_count":2}
+{"index":10674,"word":"patronize","status":"verified_selected","candidate_count":3,"accepted_count":3}
 {"index":10675,"word":"pelt","status":"verified_selected","candidate_count":2,"accepted_count":1}
 {"index":10676,"word":"percentile","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10677,"word":"perennially","status":"needs_review","candidate_count":0,"accepted_count":0}
@@ -207,7 +207,7 @@
 {"index":10707,"word":"reaffirm","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10708,"word":"reasonableness","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10709,"word":"reassess","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":10710,"word":"receiver","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":10710,"word":"receiver","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":10711,"word":"reciprocal","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":10712,"word":"reciprocate","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10713,"word":"recklessness","status":"needs_review","candidate_count":0,"accepted_count":0}
@@ -419,7 +419,7 @@
 {"index":10919,"word":"architecturally","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10920,"word":"aroma","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10921,"word":"assortment","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":10922,"word":"assumed","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":10922,"word":"assumed","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":10923,"word":"atrium","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":10924,"word":"attic","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10925,"word":"autoroute","status":"needs_review","candidate_count":0,"accepted_count":0}
