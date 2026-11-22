@@ -410,9 +410,9 @@ flowchart LR
 
 **見落としやすい意味：増加や進行を抑える、阻止する**
 
-**例文：** The new rules helped check the spread of the fire.
+**例文：** The firefighters worked to check the spread of the flames.
 
-**和訳：** 新しい規則は火災の拡大を抑えるのに役立った。
+**和訳：** 消防隊員たちは炎が広がるのを食い止めようとした。
 
 **コアイメージ：** check は調べるだけでなく、動いているものを食い止めるという意味も持つ。広がりや増加を途中で止める場面で使われる。
 
@@ -935,9 +935,9 @@ flowchart LR
 
 **見落としやすい意味：逃亡、逃走**
 
-**例文：** The sudden noise sent the birds into flight.
+**例文：** The official's sudden flight from the country raised questions.
 
-**和訳：** 突然の音で鳥たちは飛び去った。
+**和訳：** その役人が突然国外へ逃亡したことで、疑問の声が上がった。
 
 **コアイメージ：** flight は飛ぶ動きから、危険などを避けてその場から去る行為も指す。人の逃亡にも使われ、単なる飛行とは文脈が異なる。
 
@@ -1285,9 +1285,9 @@ flowchart LR
 
 **見落としやすい意味：独立した法人、法的主体**
 
-**例文：** The two branches are separate legal entities.
+**例文：** The two organizations are separate legal entities.
 
-**和訳：** その二つの支店は別々の法人として扱われる。
+**和訳：** その二つの組織は、それぞれ独立した法人である。
 
 **コアイメージ：** entity は一つの独立した存在やまとまりを意味する。法律や経済の文章では、権利や義務を持つ独立した組織を指す。
 
@@ -1735,9 +1735,9 @@ flowchart LR
 
 **見落としやすい意味：規則を取り締まり、監視する**
 
-**例文：** An independent group polices the industry's rules.
+**例文：** An independent agency polices compliance with the industry's rules.
 
-**和訳：** 独立した団体がその業界の規則の遵守を監視している。
+**和訳：** 独立した機関がその業界の規則の遵守状況を監視している。
 
 **コアイメージ：** police は警察組織という名詞だけでなく、規則が守られるように監視・取り締まる動詞にもなる。行為者は警察に限らない。
 
