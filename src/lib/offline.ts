@@ -94,7 +94,7 @@ export async function inspectOffline(meta:ContentMeta):Promise<OfflineStatus>{
   const total=allContentUrls(meta).length;
   const done=await countValid(meta);
   const appReady=await appShellCached();
-  const ready=done===total&&appReady;
+  const ready=done===total&&appReady&&savedSnapshot()?.version===meta.version;
   update({done,total,ready,appReady,version:meta.version,error:ready?'':status.error});
   return status;
 }
