@@ -35,7 +35,7 @@
 {"index":1535,"word":"rent","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1536,"word":"crowd","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1537,"word":"edge","status":"needs_review","candidate_count":1,"accepted_count":1,"research_stage":"at_least_one_candidate_source_verified_word_audit_pending"}
-{"index":1538,"word":"cave","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
+{"index":1538,"word":"cave","status":"needs_review","candidate_count":1,"accepted_count":1,"research_stage":"at_least_one_candidate_source_verified_word_audit_pending"}
 {"index":1539,"word":"root","status":"needs_review","candidate_count":1,"accepted_count":1,"research_stage":"at_least_one_candidate_source_verified_word_audit_pending"}
 {"index":1540,"word":"percentage","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1541,"word":"heavy","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
@@ -81,15 +81,15 @@
 {"index":1581,"word":"brother","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1582,"word":"beginning","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1583,"word":"gate","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
-{"index":1584,"word":"gather","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
+{"index":1584,"word":"gather","status":"needs_review","candidate_count":1,"accepted_count":1,"research_stage":"at_least_one_candidate_source_verified_word_audit_pending"}
 {"index":1585,"word":"faith","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
-{"index":1586,"word":"cast","status":"needs_review","candidate_count":1,"accepted_count":1,"research_stage":"at_least_one_candidate_source_verified_word_audit_pending"}
+{"index":1586,"word":"cast","status":"needs_review","candidate_count":2,"accepted_count":2,"research_stage":"at_least_one_candidate_source_verified_word_audit_pending"}
 {"index":1587,"word":"busy","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1588,"word":"attractive","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1589,"word":"onto","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1590,"word":"pair","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1591,"word":"ten","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
-{"index":1592,"word":"draft","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
+{"index":1592,"word":"draft","status":"needs_review","candidate_count":3,"accepted_count":3,"research_stage":"at_least_one_candidate_source_verified_word_audit_pending"}
 {"index":1593,"word":"bombing","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1594,"word":"evening","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1595,"word":"elsewhere","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
@@ -106,7 +106,7 @@
 {"index":1606,"word":"giant","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1607,"word":"presence","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1608,"word":"impressive","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
-{"index":1609,"word":"odd","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
+{"index":1609,"word":"odd","status":"needs_review","candidate_count":1,"accepted_count":1,"research_stage":"at_least_one_candidate_source_verified_word_audit_pending"}
 {"index":1610,"word":"regime","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1611,"word":"insist","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1612,"word":"fresh","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
@@ -141,8 +141,8 @@
 {"index":1641,"word":"everybody","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1642,"word":"scholar","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1643,"word":"disease","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
-{"index":1644,"word":"submit","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
-{"index":1645,"word":"farm","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
+{"index":1644,"word":"submit","status":"needs_review","candidate_count":2,"accepted_count":2,"research_stage":"at_least_one_candidate_source_verified_word_audit_pending"}
+{"index":1645,"word":"farm","status":"needs_review","candidate_count":1,"accepted_count":1,"research_stage":"at_least_one_candidate_source_verified_word_audit_pending"}
 {"index":1646,"word":"cool","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1647,"word":"airport","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1648,"word":"listen","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
@@ -152,7 +152,7 @@
 {"index":1652,"word":"proper","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1653,"word":"mainly","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1654,"word":"constitute","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
-{"index":1655,"word":"master","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
+{"index":1655,"word":"master","status":"needs_review","candidate_count":1,"accepted_count":1,"research_stage":"at_least_one_candidate_source_verified_word_audit_pending"}
 {"index":1656,"word":"cable","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1657,"word":"ahead","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1658,"word":"essay","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
@@ -193,7 +193,7 @@
 {"index":1693,"word":"christian","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1694,"word":"interrogation","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1695,"word":"vary","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
-{"index":1696,"word":"virtually","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
+{"index":1696,"word":"virtually","status":"needs_review","candidate_count":1,"accepted_count":0,"research_stage":"at_least_one_candidate_source_verified_word_audit_pending"}
 {"index":1697,"word":"cap","status":"needs_review","candidate_count":1,"accepted_count":1,"research_stage":"at_least_one_candidate_source_verified_word_audit_pending"}
 {"index":1698,"word":"existence","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1699,"word":"jury","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
@@ -221,7 +221,7 @@
 {"index":1721,"word":"twice","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1722,"word":"slave","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1723,"word":"association","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
-{"index":1724,"word":"plain","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
+{"index":1724,"word":"plain","status":"needs_review","candidate_count":1,"accepted_count":0,"research_stage":"at_least_one_candidate_source_verified_word_audit_pending"}
 {"index":1725,"word":"unlikely","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1726,"word":"evil","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1727,"word":"construct","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
@@ -250,11 +250,11 @@
 {"index":1750,"word":"ally","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1751,"word":"understanding","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1752,"word":"pop","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
-{"index":1753,"word":"map","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
+{"index":1753,"word":"map","status":"needs_review","candidate_count":1,"accepted_count":1,"research_stage":"at_least_one_candidate_source_verified_word_audit_pending"}
 {"index":1754,"word":"danger","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1755,"word":"independence","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1756,"word":"blow","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
-{"index":1757,"word":"flat","status":"needs_review","candidate_count":1,"accepted_count":1,"research_stage":"at_least_one_candidate_source_verified_word_audit_pending"}
+{"index":1757,"word":"flat","status":"needs_review","candidate_count":2,"accepted_count":2,"research_stage":"at_least_one_candidate_source_verified_word_audit_pending"}
 {"index":1758,"word":"professor","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1759,"word":"suddenly","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1760,"word":"provider","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
@@ -307,7 +307,7 @@
 {"index":1807,"word":"expectation","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1808,"word":"joke","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1809,"word":"youth","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
-{"index":1810,"word":"passage","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
+{"index":1810,"word":"passage","status":"needs_review","candidate_count":1,"accepted_count":1,"research_stage":"at_least_one_candidate_source_verified_word_audit_pending"}
 {"index":1811,"word":"charm","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1812,"word":"distinction","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1813,"word":"fraud","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
@@ -377,7 +377,7 @@
 {"index":1877,"word":"divorce","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1878,"word":"sophisticated","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1879,"word":"hate","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
-{"index":1880,"word":"dry","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
+{"index":1880,"word":"dry","status":"needs_review","candidate_count":1,"accepted_count":1,"research_stage":"at_least_one_candidate_source_verified_word_audit_pending"}
 {"index":1881,"word":"warm","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1882,"word":"camera","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1883,"word":"mere","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
@@ -411,7 +411,7 @@
 {"index":1911,"word":"beer","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1912,"word":"trail","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1913,"word":"transaction","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
-{"index":1914,"word":"mouth","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
+{"index":1914,"word":"mouth","status":"needs_review","candidate_count":1,"accepted_count":1,"research_stage":"at_least_one_candidate_source_verified_word_audit_pending"}
 {"index":1915,"word":"carefully","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1916,"word":"communicate","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1917,"word":"evaluate","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
@@ -432,7 +432,7 @@
 {"index":1932,"word":"mix","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1933,"word":"greek","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1934,"word":"guidance","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
-{"index":1935,"word":"flag","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
+{"index":1935,"word":"flag","status":"needs_review","candidate_count":1,"accepted_count":1,"research_stage":"at_least_one_candidate_source_verified_word_audit_pending"}
 {"index":1936,"word":"farmer","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1937,"word":"festival","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1938,"word":"laboratory","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
@@ -462,7 +462,7 @@
 {"index":1962,"word":"necessarily","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1963,"word":"investigator","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1964,"word":"refuge","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
-{"index":1965,"word":"hang","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
+{"index":1965,"word":"hang","status":"needs_review","candidate_count":1,"accepted_count":1,"research_stage":"at_least_one_candidate_source_verified_word_audit_pending"}
 {"index":1966,"word":"smart","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1967,"word":"forth","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1968,"word":"confidence","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
@@ -474,7 +474,7 @@
 {"index":1974,"word":"illustrate","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1975,"word":"lunch","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1976,"word":"disappear","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
-{"index":1977,"word":"custom","status":"needs_review","candidate_count":1,"accepted_count":1,"research_stage":"at_least_one_candidate_source_verified_word_audit_pending"}
+{"index":1977,"word":"custom","status":"needs_review","candidate_count":2,"accepted_count":2,"research_stage":"at_least_one_candidate_source_verified_word_audit_pending"}
 {"index":1978,"word":"tale","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1979,"word":"remarkable","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1980,"word":"substance","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
@@ -485,7 +485,7 @@
 {"index":1985,"word":"pleasant","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1986,"word":"admission","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1987,"word":"govern","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
-{"index":1988,"word":"jump","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
+{"index":1988,"word":"jump","status":"needs_review","candidate_count":1,"accepted_count":1,"research_stage":"at_least_one_candidate_source_verified_word_audit_pending"}
 {"index":1989,"word":"prime","status":"needs_review","candidate_count":1,"accepted_count":1,"research_stage":"at_least_one_candidate_source_verified_word_audit_pending"}
 {"index":1990,"word":"violate","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
 {"index":1991,"word":"component","status":"needs_review","candidate_count":0,"accepted_count":0,"research_stage":"not_started"}
