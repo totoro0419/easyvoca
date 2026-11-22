@@ -12,7 +12,7 @@
 - 元ブランチ：`main`
 - 確認時のmain：`a0729f62003a1d15366a9c8c4b0650258c8489b4`
 - 参照元：`data/candidates/batch_10001_10500.jsonl` と `data/candidates/batch_10501_11000.jsonl`
-- 採用条件：`decision == "accepted"` のみ。全5,111件を `index`、`candidate_id` の順に並べた56? ではなく**58番目**の80件（4561〜4640）を教材化。
+- 採用条件：`decision == "accepted"` のみ。全5,111件を `index`、`candidate_id` の順に並べた中から、担当58の80件（4561〜4640）を教材化。
 - 既存採用語義の変更・追加・再選定、アプリコード変更、辞書本文の転載は行っていない。
 
 ## 作成ファイル
