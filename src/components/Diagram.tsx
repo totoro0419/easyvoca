@@ -37,8 +37,9 @@ export default function Diagram({source,cardId}:{source:string;cardId:string}) {
     void job.then(svg=>{if(live)setResult({svg});}).catch(()=>{if(live)setResult({error:'図を表示できませんでした。説明文はそのまま読めます。'});});
     return ()=>{live=false;};
   },[source,cardId]);
-  return <div className="diagram-wrap" aria-label="コアイメージの図">
+  return <div className="diagram-wrap" aria-label="コアイメージの図。横方向にスクロールできます" tabIndex={0}>
     {result.svg?<div className="diagram-svg" role="img" aria-label="語義の関係を表す図" dangerouslySetInnerHTML={{__html:result.svg}}/>:
       <p className="diagram-state">{result.error||'図を読み込んでいます…'}</p>}
+    {result.svg&&<p className="diagram-hint">左右にスクロールして図全体を見られます</p>}
   </div>;
 }
