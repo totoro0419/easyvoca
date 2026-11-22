@@ -12,7 +12,8 @@ test('ホームから学習、矢印キー、進捗保存と再起動後の再�
   await expect(page.locator('.study-position strong')).toContainText(/2\s*\/\s*20/);
   await expect(page.locator('.reading-page .vocab-head h1')).toBeVisible();
   await page.reload();
-  await page.getByRole('button',{name:'続きから学習'}).click();
+  // A direct #study reload now resumes in place; home-resume remains supported.
+  await expect(page.locator('.study-position strong')).toBeVisible();
   await expect(page.locator('.study-position strong')).toContainText(/2\s*\/\s*20/);
   await page.keyboard.press('ArrowLeft');
   await expect(page.locator('.study-position strong')).toContainText(/1\s*\/\s*20/);
