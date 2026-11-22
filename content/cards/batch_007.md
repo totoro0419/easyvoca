@@ -362,7 +362,7 @@ flowchart LR
 
 **例文**：The second film was not nearly as exciting as the first.
 
-**和訳**：二作目は一作目ほど面白くは到底なかった。
+**和訳**：二作目は一作目に比べて全然面白くなかった。
 
 **コアイメージ**：nearly はある水準に近い状態を表す。否定と組み合わさると、その水準に全く近づかないことを強調できる。
 
