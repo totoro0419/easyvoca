@@ -244,3 +244,5 @@ button{-webkit-tap-highlight-color:transparent}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
 
 .status-hold{font-weight:650;color:#985c22!important}
+
+.quiz-context{border-left:2px solid #ccd8fd;margin:-5px 0 23px;padding:5px 0 5px 13px;color:#526681;font-size:14px;line-height:1.8;overflow-wrap:anywhere}

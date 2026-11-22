@@ -221,6 +221,8 @@ function ReviewView({catalog,p,onAnswer,onStart,onOpen}:{catalog:CardSummary[];p
   useEffect(()=>{setQueue(q=>q===null?due.map(s=>s.candidate_id):q);},[due]);
   const lookup=useMemo(()=>new Map(catalog.map(s=>[s.candidate_id,s])),[catalog]);
   const target=lookup.get(queue?.[0]??'');
+  const [questionExample,setQuestionExample]=useState<string|null>(null);
+  useEffect(()=>{let live=true;setQuestionExample(null);if(target)void getCard(target).then(c=>{if(live)setQuestionExample(c.example_en||null);}).catch(()=>undefined);return()=>{live=false;};},[target]);
   const options=useMemo(()=>target?makeChoices(target,catalog):[],[target,catalog]);
   const resolved=options.find(o=>o.id===answer);
   const next=()=>{setQueue(q=>q?.slice(1)??[]);setAnswer(null);};
@@ -228,7 +230,7 @@ function ReviewView({catalog,p,onAnswer,onStart,onOpen}:{catalog:CardSummary[];p
   const hadViewed=Object.keys(p.viewed).length>0;
   return <div className="standard-view review-view"><div className="page-intro"><p className="tiny-label">RECALL & RETAIN</p><h1>意味を確かめる</h1><p>4択で記憶を確認し、結果に応じて次の復習を決めます。</p></div>
     {queue===null?<Spinner/>:!target?<div className="review-empty"><div className="complete-circle"><Check size={29}/></div><h2>{hadViewed?'いま復習する問題はありません':'まずは単語を読んでみましょう'}</h2><p>{hadViewed?'次の復習予定が来ると、ここに問題が表示されます。':'学習した語義が、4択の復習問題になります。'}</p><button className="primary-button" onClick={onStart}>学習する<ArrowRight size={18}/></button></div>:
-    <div className="quiz"><div className="quiz-top"><span>復習問題</span><strong>残り {queue.length} 件</strong></div><div className="quiz-word"><h2>{target.word}</h2><span>{target.pos}</span></div><p className="quiz-instruction">この語義の「見落としやすい意味」は？</p><div className="quiz-options">{options.map((o,i)=>{const state=answer?(o.correct?'correct':o.id===answer?'wrong':'muted'):'';return <button key={o.id} disabled={Boolean(answer)} className={'quiz-option '+state} onClick={()=>choose(o.id)}><span className="option-letter">{String.fromCharCode(65+i)}</span><span>{o.label}</span>{answer&&o.correct&&<Check size={20}/>}</button>;})}</div>
+    <div className="quiz"><div className="quiz-top"><span>復習問題</span><strong>残り {queue.length} 件</strong></div><div className="quiz-word"><h2>{target.word}</h2><span>{target.pos}</span></div><p className="quiz-instruction">この語義の「見落としやすい意味」は？</p>{questionExample&&<p className="quiz-context">{questionExample}</p>}<div className="quiz-options">{options.map((o,i)=>{const state=answer?(o.correct?'correct':o.id===answer?'wrong':'muted'):'';return <button key={o.id} disabled={Boolean(answer)} className={'quiz-option '+state} onClick={()=>choose(o.id)}><span className="option-letter">{String.fromCharCode(65+i)}</span><span>{o.label}</span>{answer&&o.correct&&<Check size={20}/>}</button>;})}</div>
     {answer&&<div className={'quiz-feedback '+(resolved?.correct?'ok':'ng')} role="status"><strong>{resolved?.correct?'正解です。':'もう一度確認しましょう。'}</strong><p>正解：{target.hidden_meaning_ja}</p><div className="quiz-feedback-actions"><button className="text-button" onClick={()=>onOpen([target.candidate_id],0)}>教材を読む</button><button className="primary-button" onClick={next}>次の問題へ<ArrowRight size={18}/></button></div></div>}</div>}
     <p className="subtle-note review-note">正解：1日→3日→7日→14日→30日→60日後。不正解：10分後に再出題。閲覧数とは別に記録します。</p>
   </div>;
