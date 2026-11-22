@@ -9,7 +9,7 @@
 - 検査：元データのcandidate_id/indexの対応80件一致、JSONL80行、Markdown80カード、Mermaid80図、必須キーあり、順序一致
 - 入力スナップショット：main `a0729f62003a1d15366a9c8c4b0650258c8489b4`
 - コミット：https://github.com/totoro0419/easyvoca/commit/6a6f019397092bfb4d4fb1743ee2e10141f6c444
-- PR：作成後に記入
+- PR：https://github.com/totoro0419/easyvoca/pull/79
 
 ## 編集範囲
 
