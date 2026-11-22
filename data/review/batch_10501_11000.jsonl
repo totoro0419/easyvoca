@@ -10,20 +10,20 @@
 {"index":10510,"word":"elective","status":"verified_selected","candidate_count":2,"accepted_count":2}
 {"index":10511,"word":"enigmatic","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10512,"word":"environmentally","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":10513,"word":"ephemeral","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":10514,"word":"epitome","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":10513,"word":"ephemeral","status":"verified_none","candidate_count":0,"accepted_count":0,"review_sources":[{"name":"Cambridge Dictionary","url":"https://dictionary.cambridge.org/dictionary/english/ephemeral","checked_at":"2026-11-22"}],"review_note":"英英辞書で主な品詞・語義・用法を確認。既知の基本義から大きく外れる、誤読リスクの高い別義は今回見いだせず。"}
+{"index":10514,"word":"epitome","status":"verified_none","candidate_count":0,"accepted_count":0,"review_sources":[{"name":"Cambridge Dictionary","url":"https://dictionary.cambridge.org/dictionary/english/epitome","checked_at":"2026-11-22"}],"review_note":"英英辞書で主な品詞・語義・用法を確認。既知の基本義から大きく外れる、誤読リスクの高い別義は今回見いだせず。"}
 {"index":10515,"word":"expediency","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10516,"word":"extramarital","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":10517,"word":"extraneous","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":10517,"word":"extraneous","status":"verified_none","candidate_count":0,"accepted_count":0,"review_sources":[{"name":"Cambridge Dictionary","url":"https://dictionary.cambridge.org/dictionary/english/extraneous","checked_at":"2026-11-22"}],"review_note":"英英辞書で主な品詞・語義・用法を確認。既知の基本義から大きく外れる、誤読リスクの高い別義は今回見いだせず。"}
 {"index":10518,"word":"extraterrestrial","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":10519,"word":"fable","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":10519,"word":"fable","status":"verified_none","candidate_count":0,"accepted_count":0,"review_sources":[{"name":"Cambridge Dictionary","url":"https://dictionary.cambridge.org/dictionary/english/fable","checked_at":"2026-11-22"}],"review_note":"英英辞書で主な品詞・語義・用法を確認。既知の基本義から大きく外れる、誤読リスクの高い別義は今回見いだせず。"}
 {"index":10520,"word":"faithfully","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":10521,"word":"fanatical","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":10521,"word":"fanatical","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":10522,"word":"faraway","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10523,"word":"fascism","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10524,"word":"fertilization","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":10525,"word":"fieldwork","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":10526,"word":"filthy","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":10525,"word":"fieldwork","status":"verified_none","candidate_count":0,"accepted_count":0,"review_sources":[{"name":"Cambridge Dictionary","url":"https://dictionary.cambridge.org/dictionary/english/fieldwork","checked_at":"2026-11-22"}],"review_note":"英英辞書で主な品詞・語義・用法を確認。既知の基本義から大きく外れる、誤読リスクの高い別義は今回見いだせず。"}
+{"index":10526,"word":"filthy","status":"verified_selected","candidate_count":2,"accepted_count":2}
 {"index":10527,"word":"finesse","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":10528,"word":"fingerprint","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10529,"word":"flare","status":"verified_selected","candidate_count":2,"accepted_count":2}
@@ -40,20 +40,20 @@
 {"index":10540,"word":"galvanize","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":10541,"word":"gangsta","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10542,"word":"generational","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":10543,"word":"glee","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":10544,"word":"gleeful","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":10543,"word":"glee","status":"verified_none","candidate_count":0,"accepted_count":0,"review_sources":[{"name":"Cambridge Dictionary","url":"https://dictionary.cambridge.org/dictionary/english/glee","checked_at":"2026-11-22"}],"review_note":"英英辞書で主な品詞・語義・用法を確認。既知の基本義から大きく外れる、誤読リスクの高い別義は今回見いだせず。"}
+{"index":10544,"word":"gleeful","status":"verified_none","candidate_count":0,"accepted_count":0,"review_sources":[{"name":"Cambridge Dictionary","url":"https://dictionary.cambridge.org/dictionary/english/gleeful","checked_at":"2026-11-22"}],"review_note":"英英辞書で主な品詞・語義・用法を確認。既知の基本義から大きく外れる、誤読リスクの高い別義は今回見いだせず。"}
 {"index":10545,"word":"glorify","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10546,"word":"gone","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10547,"word":"grader","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10548,"word":"gunpowder","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10549,"word":"handout","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":10550,"word":"handwritten","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":10550,"word":"handwritten","status":"verified_none","candidate_count":0,"accepted_count":0,"review_sources":[{"name":"Cambridge Dictionary","url":"https://dictionary.cambridge.org/dictionary/english/handwritten","checked_at":"2026-11-22"}],"review_note":"英英辞書で主な品詞・語義・用法を確認。既知の基本義から大きく外れる、誤読リスクの高い別義は今回見いだせず。"}
 {"index":10551,"word":"harbinger","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10552,"word":"hardness","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10553,"word":"harp","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":10554,"word":"heartless","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10555,"word":"heath","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":10556,"word":"hegemony","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":10556,"word":"hegemony","status":"verified_none","candidate_count":0,"accepted_count":0,"review_sources":[{"name":"Cambridge Dictionary","url":"https://dictionary.cambridge.org/dictionary/english/hegemony","checked_at":"2026-11-22"}],"review_note":"英英辞書で主な品詞・語義・用法を確認。既知の基本義から大きく外れる、誤読リスクの高い別義は今回見いだせず。"}
 {"index":10557,"word":"helpfully","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10558,"word":"heron","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10559,"word":"hewn","status":"needs_review","candidate_count":0,"accepted_count":0}
@@ -64,15 +64,15 @@
 {"index":10564,"word":"humanism","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10565,"word":"humanist","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10566,"word":"humorless","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":10567,"word":"hydrogen","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":10567,"word":"hydrogen","status":"verified_none","candidate_count":0,"accepted_count":0,"review_sources":[{"name":"Cambridge Dictionary","url":"https://dictionary.cambridge.org/dictionary/english/hydrogen","checked_at":"2026-11-22"}],"review_note":"英英辞書で主な品詞・語義・用法を確認。既知の基本義から大きく外れる、誤読リスクの高い別義は今回見いだせず。"}
 {"index":10568,"word":"identifier","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":10569,"word":"idiomatic","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":10569,"word":"idiomatic","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":10570,"word":"illogical","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10571,"word":"impaired","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10572,"word":"impossibly","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":10573,"word":"inadvertent","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":10573,"word":"inadvertent","status":"verified_none","candidate_count":0,"accepted_count":0,"review_sources":[{"name":"Cambridge Dictionary","url":"https://dictionary.cambridge.org/dictionary/english/inadvertent","checked_at":"2026-11-22"}],"review_note":"英英辞書で主な品詞・語義・用法を確認。既知の基本義から大きく外れる、誤読リスクの高い別義は今回見いだせず。"}
 {"index":10574,"word":"inauguration","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":10575,"word":"inconceivable","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":10575,"word":"inconceivable","status":"verified_none","candidate_count":0,"accepted_count":0,"review_sources":[{"name":"Cambridge Dictionary","url":"https://dictionary.cambridge.org/dictionary/english/inconceivable","checked_at":"2026-11-22"}],"review_note":"英英辞書で主な品詞・語義・用法を確認。既知の基本義から大きく外れる、誤読リスクの高い別義は今回見いだせず。"}
 {"index":10576,"word":"indelible","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":10577,"word":"inexorably","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10578,"word":"inexperience","status":"needs_review","candidate_count":0,"accepted_count":0}
@@ -96,8 +96,8 @@
 {"index":10596,"word":"judicious","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10597,"word":"justifiably","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10598,"word":"kg","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":10599,"word":"kitsch","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":10600,"word":"knack","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":10599,"word":"kitsch","status":"verified_none","candidate_count":0,"accepted_count":0,"review_sources":[{"name":"Cambridge Dictionary","url":"https://dictionary.cambridge.org/dictionary/english/kitsch","checked_at":"2026-11-22"}],"review_note":"英英辞書で主な品詞・語義・用法を確認。既知の基本義から大きく外れる、誤読リスクの高い別義は今回見いだせず。"}
+{"index":10600,"word":"knack","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":10601,"word":"lactose","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10602,"word":"laden","status":"needs_review","candidate_count":0,"accepted_count":0}
 {"index":10603,"word":"lakeside","status":"needs_review","candidate_count":0,"accepted_count":0}
