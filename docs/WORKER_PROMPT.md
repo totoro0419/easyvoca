@@ -1,3 +1,5 @@
+> **旧草案・配布しないこと**：この文書は最終プロンプトではありません。単語マスターと24分割の準備完了後に、末尾番号方式の最終プロンプトを別途作成する予定です。調査を開始する際は最新の `docs/PREPARATION.md` と `docs/BATCH_PROTOCOL.md` を参照してください。
+
 # EasyVoca｜500語の意外な語義・品詞・語法を選定・検証する
 
 Repository：https://github.com/totoro0419/easyvoca
