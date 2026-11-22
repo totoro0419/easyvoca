@@ -76,13 +76,23 @@ def validate(batch, allow_incomplete):
         require(decision in {"accepted", "rejected", "needs_review"}, f"{cid}: bad decision")
         if decision != "needs_review":
             require(isinstance(row.get("decision_reason"), str) and row["decision_reason"].strip(), f"{cid}: missing decision reason")
+        # AI-first review is allowed. Its outcome must be explicitly marked
+        # as AI judgment rather than masquerading as external source verification.
+        method = row.get("verification_method")
+        require(method in (None, "ai_judgment", "dictionary_checked"),
+                f"{cid}: invalid verification_method")
+        sources = row.get("sources", [])
+        require(isinstance(sources, list), f"{cid}: sources must be list")
         if decision == "accepted":
-            sources = row.get("sources")
-            require(isinstance(sources, list) and sources, f"{cid}: accepted without verified source")
-            for src in sources:
-                require(isinstance(src, dict) and isinstance(src.get("name"), str) and src["name"].strip(), f"{cid}: invalid source")
-                require(isinstance(src.get("url"), str) and src["url"].startswith("https://"), f"{cid}: invalid source url")
-                require(isinstance(src.get("checked_at"), str) and len(src["checked_at"]) == 10, f"{cid}: missing source checked_at")
+            if method == "ai_judgment":
+                require(row.get("confidence") == "high",
+                        f"{cid}: AI-only acceptance requires high confidence")
+            else:
+                require(bool(sources), f"{cid}: accepted without verified source or AI judgment marker")
+        for src in sources:
+            require(isinstance(src, dict) and isinstance(src.get("name"), str) and src["name"].strip(), f"{cid}: invalid source")
+            require(isinstance(src.get("url"), str) and src["url"].startswith("https://"), f"{cid}: invalid source url")
+            require(isinstance(src.get("checked_at"), str) and len(src["checked_at"]) == 10, f"{cid}: missing source checked_at")
         by_index[index] += 1
         accepted_by_index[index] += int(decision == "accepted")
         undecided_by_index[index] += int(decision == "needs_review")
