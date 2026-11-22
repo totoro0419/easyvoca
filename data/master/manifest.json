@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "EasyVoca research seed (not SVL12000 or an exam-approved list)",
-  "generated_at_utc": "2026-11-22T02:21:31.229071+00:00",
+  "generated_at_utc": "2026-11-22T02:23:06.416674+00:00",
   "count": 12000,
   "word_sha256": "2f91877e62137559111493a1d82bdf081e69cc8799f0fe67a064046c0c14cd8f",
   "oanc_lemma_total": 22344,
