@@ -13,7 +13,7 @@
 {"index":2513,"word":"farther","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2514,"word":"crew","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2515,"word":"nationwide","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
-{"index":2516,"word":"rape","status":"verified_none","candidate_count":1,"accepted_count":0}
+{"index":2516,"word":"rape","status":"verified_none","candidate_count":1,"accepted_count":0,"review_reason":"辞書には見られるが、現代の一般的な大学入試読解での優先度が低い、または独立見出し語として適切でないため不採用。。検討後、採用語義なし。","review_source":"Princeton WordNet 3.1 (mirror: delver/wordnet-db)","checked_at":"2026-11-22"}
 {"index":2517,"word":"genetic","status":"verified_selected","candidate_count":2,"accepted_count":2}
 {"index":2518,"word":"owe","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2519,"word":"amendment","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"品詞別の語義を確認し、一般的な訳語との違いだけでは独立した学習価値が低いと判定した。"}
@@ -34,9 +34,9 @@
 {"index":2534,"word":"merit","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2535,"word":"metaphor","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2536,"word":"technological","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
-{"index":2537,"word":"metal","status":"verified_none","candidate_count":1,"accepted_count":0}
+{"index":2537,"word":"metal","status":"verified_none","candidate_count":1,"accepted_count":0,"review_reason":"辞書には見られるが、現代の一般的な大学入試読解での優先度が低い、または独立見出し語として適切でないため不採用。。検討後、採用語義なし。","review_source":"Princeton WordNet 3.1 (mirror: delver/wordnet-db)","checked_at":"2026-11-22"}
 {"index":2538,"word":"alarm","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2539,"word":"weekly","status":"verified_none","candidate_count":1,"accepted_count":0}
+{"index":2539,"word":"weekly","status":"verified_none","candidate_count":1,"accepted_count":0,"review_reason":"基本義から容易に推測できる品詞転換で、独立収録の優先度が低いため不採用。。検討後、採用語義なし。","review_source":"Princeton WordNet 3.1 (mirror: delver/wordnet-db)","checked_at":"2026-11-22"}
 {"index":2540,"word":"creative","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2541,"word":"web","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2542,"word":"collective","status":"verified_selected","candidate_count":2,"accepted_count":1}
@@ -51,14 +51,14 @@
 {"index":2551,"word":"philosophy","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2552,"word":"punishment","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2553,"word":"rebel","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2554,"word":"output","status":"verified_none","candidate_count":1,"accepted_count":0}
+{"index":2554,"word":"output","status":"verified_none","candidate_count":1,"accepted_count":0,"review_reason":"出力という基本義から容易に推測でき、特別な読み違いを生む語義ではないため不採用。。検討後、採用語義なし。","review_source":"Princeton WordNet 3.1 (mirror: delver/wordnet-db)","checked_at":"2026-11-22"}
 {"index":2555,"word":"database","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2556,"word":"effectiveness","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"品詞別の語義を確認し、一般的な訳語との違いだけでは独立した学習価値が低いと判定した。"}
 {"index":2557,"word":"legislative","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2558,"word":"measurement","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2559,"word":"restrict","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"品詞別の語義を確認し、一般的な訳語との違いだけでは独立した学習価値が低いと判定した。"}
 {"index":2560,"word":"rulemaking","status":"verified_none","candidate_count":0,"accepted_count":0,"review_reason":"米国行政の規則制定過程を米国議会図書館の説明で確認したが、複合語の意味から推測できるため別義を採用しなかった。","review_source":"https://guides.loc.gov/administrative-law/rules","checked_at":"2026-11-22"}
-{"index":2561,"word":"sky","status":"verified_none","candidate_count":1,"accepted_count":0}
+{"index":2561,"word":"sky","status":"verified_none","candidate_count":1,"accepted_count":0,"review_reason":"辞書には見られるが、現代の一般的な大学入試読解での優先度が低い、または独立見出し語として適切でないため不採用。。検討後、採用語義なし。","review_source":"Princeton WordNet 3.1 (mirror: delver/wordnet-db)","checked_at":"2026-11-22"}
 {"index":2562,"word":"grace","status":"verified_selected","candidate_count":2,"accepted_count":2}
 {"index":2563,"word":"stable","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2564,"word":"rage","status":"verified_selected","candidate_count":1,"accepted_count":1}
@@ -105,7 +105,7 @@
 {"index":2605,"word":"tall","status":"verified_selected","candidate_count":2,"accepted_count":1}
 {"index":2606,"word":"bath","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2607,"word":"sing","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2608,"word":"fortune","status":"verified_none","candidate_count":1,"accepted_count":0}
+{"index":2608,"word":"fortune","status":"verified_none","candidate_count":1,"accepted_count":0,"review_reason":"財産・富はfortuneの一般的な語義であり、独立した意外な意味としての収録価値が低いため不採用。。検討後、採用語義なし。","review_source":"Princeton WordNet 3.1 (mirror: delver/wordnet-db)","checked_at":"2026-11-22"}
 {"index":2609,"word":"countryside","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2610,"word":"survival","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"品詞別の語義を確認し、一般的な訳語との違いだけでは独立した学習価値が低いと判定した。"}
 {"index":2611,"word":"ease","status":"verified_selected","candidate_count":1,"accepted_count":1}
@@ -187,10 +187,10 @@
 {"index":2687,"word":"exotic","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2688,"word":"legacy","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2689,"word":"register","status":"verified_selected","candidate_count":3,"accepted_count":3}
-{"index":2690,"word":"splendid","status":"verified_none","candidate_count":1,"accepted_count":0}
+{"index":2690,"word":"splendid","status":"verified_none","candidate_count":1,"accepted_count":0,"review_reason":"辞書上の語義は確認できたが、意外性または現代の一般的な入試での優先度が低いため除外。検討後、採用語義なし。","review_source":"Open Dictionary（Wiktionary由来の公開データ）","checked_at":"2026-11-22"}
 {"index":2691,"word":"traditionally","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2692,"word":"update","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2693,"word":"reportedly","status":"verified_none","candidate_count":1,"accepted_count":0}
+{"index":2693,"word":"reportedly","status":"verified_none","candidate_count":1,"accepted_count":0,"review_reason":"辞書上の語義は確認できたが、意外性または現代の一般的な入試での優先度が低いため除外。検討後、採用語義なし。","review_source":"Open Dictionary（Wiktionary由来の公開データ）","checked_at":"2026-11-22"}
 {"index":2694,"word":"strengthen","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"品詞別の語義を確認し、一般的な訳語との違いだけでは独立した学習価値が低いと判定した。"}
 {"index":2695,"word":"teen","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"品詞別の語義を確認し、一般的な訳語との違いだけでは独立した学習価値が低いと判定した。"}
 {"index":2696,"word":"drawing","status":"verified_selected","candidate_count":1,"accepted_count":1}
@@ -202,7 +202,7 @@
 {"index":2702,"word":"fiction","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2703,"word":"medium","status":"verified_selected","candidate_count":2,"accepted_count":2}
 {"index":2704,"word":"emotion","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
-{"index":2705,"word":"genius","status":"verified_none","candidate_count":1,"accepted_count":0}
+{"index":2705,"word":"genius","status":"verified_none","candidate_count":1,"accepted_count":0,"review_reason":"才能はgeniusの一般的な語義であり、語義の意外性が低いため不採用。。検討後、採用語義なし。","review_source":"Princeton WordNet 3.1 (mirror: delver/wordnet-db)","checked_at":"2026-11-22"}
 {"index":2706,"word":"plausible","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2707,"word":"hypothesis","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"品詞別の語義を確認し、一般的な訳語との違いだけでは独立した学習価値が低いと判定した。"}
 {"index":2708,"word":"inland","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"品詞別の語義を確認し、一般的な訳語との違いだけでは独立した学習価値が低いと判定した。"}
@@ -368,13 +368,13 @@
 {"index":2868,"word":"expertise","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2869,"word":"founder","status":"verified_selected","candidate_count":2,"accepted_count":2}
 {"index":2870,"word":"gamble","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"品詞別の語義を確認し、一般的な訳語との違いだけでは独立した学習価値が低いと判定した。"}
-{"index":2871,"word":"ly","status":"verified_none","candidate_count":1,"accepted_count":0,"master_quality_note":"見出し語はlyだが辞書の見出しは接尾辞-ly。マスター自体は変更せず、単独の語として扱わない。"}
+{"index":2871,"word":"ly","status":"verified_none","candidate_count":1,"accepted_count":0,"master_quality_note":"見出し語はlyだが辞書の見出しは接尾辞-ly。マスター自体は変更せず、単独の語として扱わない。","review_reason":"辞書には見られるが、現代の一般的な大学入試読解での優先度が低い、または独立見出し語として適切でないため不採用。。検討後、採用語義なし。","review_source":"Cambridge Dictionary (-ly suffix)","checked_at":"2026-11-22"}
 {"index":2872,"word":"self","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"品詞別の語義を確認し、一般的な訳語との違いだけでは独立した学習価値が低いと判定した。"}
 {"index":2873,"word":"lucky","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"品詞別の語義を確認し、一般的な訳語との違いだけでは独立した学習価値が低いと判定した。"}
 {"index":2874,"word":"striking","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2875,"word":"fate","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2876,"word":"revive","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2877,"word":"billion","status":"verified_none","candidate_count":1,"accepted_count":0}
+{"index":2877,"word":"billion","status":"verified_none","candidate_count":1,"accepted_count":0,"review_reason":"辞書には見られるが、現代の一般的な大学入試読解での優先度が低い、または独立見出し語として適切でないため不採用。。検討後、採用語義なし。","review_source":"Princeton WordNet 3.1 (mirror: delver/wordnet-db)","checked_at":"2026-11-22"}
 {"index":2878,"word":"observer","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2879,"word":"offshore","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2880,"word":"outrage","status":"verified_selected","candidate_count":1,"accepted_count":1}
@@ -441,12 +441,12 @@
 {"index":2941,"word":"signature","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2942,"word":"surgery","status":"verified_selected","candidate_count":2,"accepted_count":2}
 {"index":2943,"word":"frequency","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2944,"word":"pension","status":"verified_none","candidate_count":1,"accepted_count":0}
+{"index":2944,"word":"pension","status":"verified_none","candidate_count":1,"accepted_count":0,"review_reason":"名詞「年金」から容易に推測できる動詞用法で、誤読リスクが低いため不採用。。検討後、採用語義なし。","review_source":"Princeton WordNet 3.1 (mirror: delver/wordnet-db)","checked_at":"2026-11-22"}
 {"index":2945,"word":"segment","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2946,"word":"reasonably","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2947,"word":"aggregate","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2948,"word":"evoke","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"品詞別の語義を確認し、一般的な訳語との違いだけでは独立した学習価値が低いと判定した。"}
-{"index":2949,"word":"accuracy","status":"verified_none","candidate_count":1,"accepted_count":0}
+{"index":2949,"word":"accuracy","status":"verified_none","candidate_count":1,"accepted_count":0,"review_reason":"辞書には見られるが、現代の一般的な大学入試読解での優先度が低い、または独立見出し語として適切でないため不採用。。検討後、採用語義なし。","review_source":"Princeton WordNet 3.1 (mirror: delver/wordnet-db)","checked_at":"2026-11-22"}
 {"index":2950,"word":"diplomatic","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2951,"word":"merchant","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2952,"word":"shut","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"品詞別の語義を確認し、一般的な訳語との違いだけでは独立した学習価値が低いと判定した。"}
