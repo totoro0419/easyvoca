@@ -3,7 +3,7 @@
 
 Sources:
 - Lingevo/OANC written lemma frequency list: unrestricted with attribution.
-- LexiCore-5000 v1.0.0: CC BY 4.0, headword membership only.
+- LexiCore-5000 v1.0.0: CC BY 4.0, corroborated headword membership only.
 The 12 bands are EasyVoca ordering bands, NOT SVL levels or verified CEFR.
 """
 from __future__ import annotations
@@ -75,7 +75,10 @@ def main() -> None:
     if len(core) < 4800:
         raise RuntimeError(f"Unexpected LexiCore size {len(core)}, inspect source and format")
 
-    selected = set(core) | set(ESSENTIALS)
+    # Trust OANC lemmatized entries as the primary anchor. LexiCore provides
+    # a learning relevance boost only when the word is attested as a lemma.
+    # Its 5,000 list includes some inflected surface forms (e.g. 'are').
+    selected = (set(core) & set(counts)) | set(ESSENTIALS)
     oanc_order = sorted(counts, key=lambda word: (-counts[word], word))
     for word in oanc_order:
         if len(selected) == 12000:
@@ -160,7 +163,7 @@ def main() -> None:
         "limitations": [
             "Approximate corpus-based ordering, NOT official SVL ranks or verified CEFR.",
             "OANC count comes from a small American corpus with journalistic genre bias.",
-            "Some LexiCore headwords may be inflected forms or need individual lemma verification.",
+            "Only LexiCore entries backed by OANC lemma data are included by default; exceptional everyday probes are flagged.",
             "Each word's unusual senses must be researched and verified separately.",
         ],
     }
