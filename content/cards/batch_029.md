@@ -1081,3 +1081,543 @@ flowchart LR
 **重要語法：** child custody：子の監護・監護権
 
 <sub>元データ：index 3862 / ev-03862-noun-01</sub>
+
+## 2281. equation
+
+**品詞：** idiom　**発音：** /ɪˈkweɪʒən/
+
+<sub>よく知られている意味：方程式</sub>
+
+**見落としやすい意味：（take ～ out of the equation）～を検討対象・考慮から外す**
+
+**例文：** Take the price out of the equation, and this model looks ideal.
+
+**和訳：** 価格を考慮から外せば、このモデルは理想的に見える。
+
+**コアイメージ：** 方程式では複数の要素が結果を左右する。比喩的には、判断に影響する要素の一つを計算から外すことを表す。
+
+```mermaid
+flowchart LR
+    A["中心: 結果を左右する要素"]
+    B["既知: 方程式"]
+    C["注目: （take ～ out of the equation）～を検討対象・考慮から外す"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** take A out of the equation：Aを考慮から外す
+
+<sub>元データ：index 3864 / ev-03864-idiom-01</sub>
+
+## 2282. league
+
+**品詞：** idiom　**発音：** /liːɡ/
+
+<sub>よく知られている意味：競技連盟、同盟</sub>
+
+**見落としやすい意味：（in a league of one's own）ほかと比較にならないほど優れている**
+
+**例文：** As a pianist, she is in a league of her own.
+
+**和訳：** ピアニストとして彼女はほかの人と比べものにならないほど優れている。
+
+**コアイメージ：** league は競う相手を同じ水準にまとめた集団。自分だけのリーグにいるという比喩で、他者とは別格だと表す。
+
+```mermaid
+flowchart LR
+    A["中心: 同じ水準で競う集団"]
+    B["既知: 競技連盟、同盟"]
+    C["注目: （in a league of one's own）ほかと比較にならないほど優れている"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** in a league of one's own：独自の抜きん出た水準にいる
+
+<sub>元データ：index 3868 / ev-03868-idiom-01</sub>
+
+## 2283. sanctuary
+
+**品詞：** noun　**発音：** /ˈsæŋktʃuəri/
+
+<sub>よく知られている意味：聖所、神聖な場所</sub>
+
+**見落としやすい意味：迫害や危険から逃れて身を寄せる避難所・保護区域**
+
+**例文：** The shelter offered sanctuary to families fleeing the floods.
+
+**和訳：** その避難施設は洪水から逃れた家族に安全な居場所を提供した。
+
+**コアイメージ：** sanctuary は危害を受けない守られた場所を表す。宗教的な聖所だけでなく、危険から身を守れる避難先にも使う。
+
+```mermaid
+flowchart LR
+    A["中心: 外の危険から守られる場所"]
+    B["既知: 聖所、神聖な場所"]
+    C["注目: 迫害や危険から逃れて身を寄せる避難所・保護区域"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** seek sanctuary：保護・避難先を求める
+
+<sub>元データ：index 3870 / ev-03870-noun-01</sub>
+
+## 2284. broken
+
+**品詞：** adjective　**発音：** /ˈbrəʊkən/
+
+<sub>よく知られている意味：壊れた、折れた</sub>
+
+**見落としやすい意味：（broken English）文法・表現が不完全なたどたどしい英語**
+
+**例文：** He explained the directions in broken English.
+
+**和訳：** 彼はたどたどしい英語で道順を説明した。
+
+**コアイメージ：** broken は一つにつながっていたものが欠けたり途切れたりした状態。言語では、文法や表現が整わない不完全な話し方を表す。
+
+```mermaid
+flowchart LR
+    A["中心: 完全なつながりが欠ける"]
+    B["既知: 壊れた、折れた"]
+    C["注目: （broken English）文法・表現が不完全なたどたどしい英語"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** broken English：不完全でたどたどしい英語
+
+<sub>元データ：index 3873 / ev-03873-adjective-01</sub>
+
+## 2285. diary
+
+**品詞：** noun　**発音：** /ˈdaɪəri/
+
+<sub>よく知られている意味：日記</sub>
+
+**見落としやすい意味：予定・約束などを書き込む手帳（主に英国英語）**
+
+**例文：** Let me check my diary before I confirm the meeting.
+
+**和訳：** 会議の予定を確定する前に手帳を確認させてください。
+
+**コアイメージ：** diary は日ごとに出来事を記録するもの。英国英語では、これからの日々の予定を書き込む手帳も指す。
+
+```mermaid
+flowchart LR
+    A["中心: 日ごとの記録"]
+    B["既知: 日記"]
+    C["注目: 予定・約束などを書き込む手帳（主に英国英語）"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** check one's diary：予定表を確認する
+
+<sub>元データ：index 3875 / ev-03875-noun-01</sub>
+
+## 2286. swallow
+
+**品詞：** noun　**発音：** /ˈswɒləʊ/
+
+<sub>よく知られている意味：飲み込む</sub>
+
+**見落としやすい意味：ツバメという鳥**
+
+**例文：** A swallow built its nest under the roof.
+
+**和訳：** 一羽のツバメが屋根の下に巣を作った。
+
+**コアイメージ：** swallow には同じ綴りの動詞と鳥の名詞がある。鳥を指す場合は「飲み込む」という動作から意味を導くのではなく、別の語として捉える。
+
+```mermaid
+flowchart LR
+    A["中心: 同綴りの別語"]
+    B["既知: 飲み込む"]
+    C["注目: ツバメという鳥"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** a swallow：一羽のツバメ
+
+<sub>元データ：index 3876 / ev-03876-noun-02</sub>
+
+## 2287. swallow
+
+**品詞：** verb　**発音：** /ˈswɒləʊ/
+
+<sub>よく知られている意味：飲み込む</sub>
+
+**見落としやすい意味：嫌なこと・屈辱などを我慢して受け入れる**
+
+**例文：** She swallowed her pride and apologized.
+
+**和訳：** 彼女はプライドを抑えて謝罪した。
+
+**コアイメージ：** 飲み込みにくいものを体内に押し込む動きが中心。嫌な感情や屈辱を表に出さず受け入れることに広がる。
+
+```mermaid
+flowchart LR
+    A["中心: 嫌なものを内に収める"]
+    B["既知: 飲み込む"]
+    C["注目: 嫌なこと・屈辱などを我慢して受け入れる"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** swallow one's pride：プライドを抑える
+
+<sub>元データ：index 3876 / ev-03876-verb-01</sub>
+
+## 2288. compact
+
+**品詞：** noun　**発音：** /ˈkɒmpækt/
+
+<sub>よく知られている意味：小型でまとまった</sub>
+
+**見落としやすい意味：国家や当事者間で結ばれた協定・盟約**
+
+**例文：** The two towns signed a compact to share water resources.
+
+**和訳：** 二つの町は水資源を共有する協定を結んだ。
+
+**コアイメージ：** compact には各部分がしっかり結びつく感覚がある。名詞では、当事者どうしを約束で結びつける正式な協定を指す。
+
+```mermaid
+flowchart LR
+    A["中心: 緊密に結びつく"]
+    B["既知: 小型でまとまった"]
+    C["注目: 国家や当事者間で結ばれた協定・盟約"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** enter into a compact：協定を結ぶ
+
+<sub>元データ：index 3877 / ev-03877-noun-01</sub>
+
+## 2289. monthly
+
+**品詞：** noun　**発音：** /ˈmʌnθli/
+
+<sub>よく知られている意味：毎月の、月に一度</sub>
+
+**見落としやすい意味：月刊誌・月刊の出版物**
+
+**例文：** She writes a column for a science monthly.
+
+**和訳：** 彼女は科学の月刊誌にコラムを書いている。
+
+**コアイメージ：** monthly は毎月という周期を示す。形容詞だけでなく、月に一度発行される雑誌などをそのまま名詞で表せる。
+
+```mermaid
+flowchart LR
+    A["中心: 月ごとの周期"]
+    B["既知: 毎月の、月に一度"]
+    C["注目: 月刊誌・月刊の出版物"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** a literary monthly：文芸月刊誌
+
+<sub>元データ：index 3879 / ev-03879-noun-01</sub>
+
+## 2290. glance
+
+**品詞：** phrasal verb　**発音：** /ɡlɑːns/
+
+<sub>よく知られている意味：ちらっと見る</sub>
+
+**見落としやすい意味：（glance off ～）かすめて斜めにはね返る**
+
+**例文：** The ball glanced off the post and rolled away.
+
+**和訳：** ボールは柱をかすめて斜めにはね返り、転がっていった。
+
+**コアイメージ：** glance は長くとどまらず、一瞬だけ触れるような動きと関係する。物体が表面を斜めにかすめて跳ね返る場合にも使う。
+
+```mermaid
+flowchart LR
+    A["中心: 一瞬かすめて離れる"]
+    B["既知: ちらっと見る"]
+    C["注目: （glance off ～）かすめて斜めにはね返る"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** glance off ～：～をかすめてはね返る
+
+<sub>元データ：index 3881 / ev-03881-phrasal-verb-01</sub>
+
+## 2291. toss
+
+**品詞：** noun　**発音：** /tɒs/
+
+<sub>よく知られている意味：軽く投げる</sub>
+
+**見落としやすい意味：（a toss-up）結果がどちらに転ぶか分からないこと**
+
+**例文：** With one round left, the championship is still a toss-up.
+
+**和訳：** 残り一回戦の時点で、優勝がどちらになるかはまだ分からない。
+
+**コアイメージ：** toss は物を投げ上げ、どちらへ落ちるか分からない動き。toss-up はコイン投げのように結果が五分五分で予測しにくいことを指す。
+
+```mermaid
+flowchart LR
+    A["中心: どちらへ転ぶか分からない"]
+    B["既知: 軽く投げる"]
+    C["注目: （a toss-up）結果がどちらに転ぶか分からないこと"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** a toss-up between A and B：AとBのどちらになるか分からない状況
+
+<sub>元データ：index 3882 / ev-03882-noun-01</sub>
+
+## 2292. grain
+
+**品詞：** idiom　**発音：** /ɡreɪn/
+
+<sub>よく知られている意味：穀粒、粒</sub>
+
+**見落としやすい意味：（a grain of truth）ごくわずかの真実**
+
+**例文：** There is a grain of truth in that rumor.
+
+**和訳：** そのうわさにも、ごくわずかな真実は含まれている。
+
+**コアイメージ：** grain は小さな粒を表す。真実の中の一粒という比喩で、わずかながら本当の部分があることを示す。
+
+```mermaid
+flowchart LR
+    A["中心: 全体の中の小さな一粒"]
+    B["既知: 穀粒、粒"]
+    C["注目: （a grain of truth）ごくわずかの真実"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** a grain of truth：一片の真実
+
+<sub>元データ：index 3883 / ev-03883-idiom-01</sub>
+
+## 2293. withdrawal
+
+**品詞：** noun　**発音：** /wɪðˈdrɔːəl/
+
+<sub>よく知られている意味：撤退、引き出し</sub>
+
+**見落としやすい意味：薬などの使用をやめた際に生じる離脱症状**
+
+**例文：** The patient experienced withdrawal symptoms after stopping the medicine.
+
+**和訳：** その患者は薬をやめた後、離脱症状が現れた。
+
+**コアイメージ：** withdrawal は何かを取り去る・使うのをやめること。身体が慣れた薬物などを取り除いたときに起こる反応も指す。
+
+```mermaid
+flowchart LR
+    A["中心: 慣れたものが取り除かれる"]
+    B["既知: 撤退、引き出し"]
+    C["注目: 薬などの使用をやめた際に生じる離脱症状"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** withdrawal symptoms：離脱症状
+
+<sub>元データ：index 3885 / ev-03885-noun-01</sub>
+
+## 2294. applaud
+
+**品詞：** verb　**発音：** /əˈplɔːd/
+
+<sub>よく知られている意味：拍手する</sub>
+
+**見落としやすい意味：判断・行動などを高く評価し、称賛する**
+
+**例文：** Many teachers applauded the decision to extend library hours.
+
+**和訳：** 多くの教師が図書館の開館時間を延長する決定を称賛した。
+
+**コアイメージ：** 拍手は良いと認めた気持ちを表す行動。実際に手をたたかなくても、決定や行動を高く評価することを示せる。
+
+```mermaid
+flowchart LR
+    A["中心: 評価を表してたたえる"]
+    B["既知: 拍手する"]
+    C["注目: 判断・行動などを高く評価し、称賛する"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** applaud a decision：決定を称賛する
+
+<sub>元データ：index 3887 / ev-03887-verb-01</sub>
+
+## 2295. explode
+
+**品詞：** verb　**発音：** /ɪkˈspləʊd/
+
+<sub>よく知られている意味：爆発する</sub>
+
+**見落としやすい意味：うわさ・理論・神話などが誤りだと示す**
+
+**例文：** The research exploded the myth that adults cannot learn new skills.
+
+**和訳：** その研究は、大人は新しい技能を学べないという通説を覆した。
+
+**コアイメージ：** 爆発は形を一気に壊すこと。議論では、信じられていた説明や神話の根拠を崩して誤りを示す意味になる。
+
+```mermaid
+flowchart LR
+    A["中心: 形や前提を一気に崩す"]
+    B["既知: 爆発する"]
+    C["注目: うわさ・理論・神話などが誤りだと示す"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** explode a myth：俗説の誤りを暴く
+
+<sub>元データ：index 3892 / ev-03892-verb-01</sub>
+
+## 2296. manipulate
+
+**品詞：** verb　**発音：** /məˈnɪpjʊleɪt/
+
+<sub>よく知られている意味：手で巧みに扱う</sub>
+
+**見落としやすい意味：数値・情報・世論などを都合よく操作する**
+
+**例文：** The company was accused of manipulating its sales figures.
+
+**和訳：** その会社は売上数値を都合よく操作したとして非難された。
+
+**コアイメージ：** manipulate は手で巧みに動かし、望む形に変えること。情報や数字に使うと、都合のよい結果へ導くために操作する意味になる。
+
+```mermaid
+flowchart LR
+    A["中心: 思いどおりの形に動かす"]
+    B["既知: 手で巧みに扱う"]
+    C["注目: 数値・情報・世論などを都合よく操作する"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** manipulate data：データを操作する
+
+<sub>元データ：index 3895 / ev-03895-verb-01</sub>
+
+## 2297. premature
+
+**品詞：** adjective　**発音：** /ˌpreməˈtʃʊər/
+
+<sub>よく知られている意味：早産の、予定より早い</sub>
+
+**見落としやすい意味：判断・結論などが早まった、時期尚早の**
+
+**例文：** It is premature to call the project a success.
+
+**和訳：** その計画を成功だと呼ぶのはまだ時期尚早だ。
+
+**コアイメージ：** premature は適切な時期より前に起こること。判断や結論では、証拠が揃う前に決めてしまう早まった行為を表す。
+
+```mermaid
+flowchart LR
+    A["中心: ふさわしい時期より早い"]
+    B["既知: 早産の、予定より早い"]
+    C["注目: 判断・結論などが早まった、時期尚早の"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** a premature conclusion：早まった結論
+
+<sub>元データ：index 3896 / ev-03896-adjective-01</sub>
+
+## 2298. surf
+
+**品詞：** verb　**発音：** /sɜːrf/
+
+<sub>よく知られている意味：波乗りをする</sub>
+
+**見落としやすい意味：インターネット上をあちこち閲覧する**
+
+**例文：** He spent the evening surfing the web for recipes.
+
+**和訳：** 彼は夕方、レシピを探してインターネットをあちこち見ていた。
+
+**コアイメージ：** サーフィンでは波の上を次々に移動する。ウェブページの間を興味に任せて移動することにも同じ動きを重ねる。
+
+```mermaid
+flowchart LR
+    A["中心: 次々と表面を渡り歩く"]
+    B["既知: 波乗りをする"]
+    C["注目: インターネット上をあちこち閲覧する"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** surf the web：ネットを閲覧して回る
+
+<sub>元データ：index 3899 / ev-03899-verb-01</sub>
+
+## 2299. lane
+
+**品詞：** idiom　**発音：** /leɪn/
+
+<sub>よく知られている意味：車線、小道</sub>
+
+**見落としやすい意味：（stay in one's lane）自分の担当・専門の範囲を守る**
+
+**例文：** The coach reminded each player to stay in their lane.
+
+**和訳：** コーチは各選手に自分の役割の範囲を守るよう念を押した。
+
+**コアイメージ：** lane は進むべき領域を区切る車線。比喩では、自分が担当する領域をはみ出さないことを表す。
+
+```mermaid
+flowchart LR
+    A["中心: 自分に割り当てられた通り道"]
+    B["既知: 車線、小道"]
+    C["注目: （stay in one's lane）自分の担当・専門の範囲を守る"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** stay in one's lane：自分の分野・担当を守る
+
+<sub>元データ：index 3900 / ev-03900-idiom-01</sub>
+
+## 2300. anxious
+
+**品詞：** adjective　**発音：** /ˈæŋkʃəs/
+
+<sub>よく知られている意味：心配している、不安な</sub>
+
+**見落としやすい意味：熱心に～したいと願う、強く望む**
+
+**例文：** The students were anxious to begin their exchange program.
+
+**和訳：** 生徒たちは交流プログラムの開始を強く待ち望んでいた。
+
+**コアイメージ：** anxious は心が落ち着かないほど強く気にかけること。悪いことを心配するだけでなく、何かをしたい気持ちの強さにも使う。
+
+```mermaid
+flowchart LR
+    A["中心: 気持ちが強く向かう"]
+    B["既知: 心配している、不安な"]
+    C["注目: 熱心に～したいと願う、強く望む"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** be anxious to do：ぜひ～したいと願う
+
+<sub>元データ：index 3901 / ev-03901-adjective-01</sub>
