@@ -32,8 +32,8 @@ function whenIdle(work:()=>void):()=>void{
     const id=window.requestIdleCallback(work,{timeout:650});
     return ()=>window.cancelIdleCallback(id);
   }
-  const id=window.setTimeout(work,48);
-  return ()=>window.clearTimeout(id);
+  const id=setTimeout(work,48);
+  return ()=>clearTimeout(id);
 }
 export default function Diagram({source,cardId}:{source:string;cardId:string}) {
   const [result,setResult]=useState<Result>({});
