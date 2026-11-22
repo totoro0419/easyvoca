@@ -11,7 +11,7 @@
 {"index":3011,"word":"quit","status":"verified_none","candidate_count":0,"accepted_count":0}
 {"index":3012,"word":"respectively","status":"verified_none","candidate_count":0,"accepted_count":0}
 {"index":3013,"word":"towards","status":"verified_none","candidate_count":0,"accepted_count":0}
-{"index":3014,"word":"wire","status":"needs_review","candidate_count":1,"accepted_count":0}
+{"index":3014,"word":"wire","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":3015,"word":"legally","status":"verified_none","candidate_count":0,"accepted_count":0}
 {"index":3016,"word":"fashionable","status":"verified_none","candidate_count":0,"accepted_count":0}
 {"index":3017,"word":"deliberately","status":"verified_none","candidate_count":0,"accepted_count":0}
@@ -22,7 +22,7 @@
 {"index":3022,"word":"contend","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":3023,"word":"da","status":"verified_none","candidate_count":0,"accepted_count":0}
 {"index":3024,"word":"northwest","status":"verified_none","candidate_count":0,"accepted_count":0}
-{"index":3025,"word":"pp","status":"needs_review","candidate_count":1,"accepted_count":0}
+{"index":3025,"word":"pp","status":"verified_none","candidate_count":1,"accepted_count":0}
 {"index":3026,"word":"tourism","status":"verified_none","candidate_count":0,"accepted_count":0}
 {"index":3027,"word":"orange","status":"verified_none","candidate_count":0,"accepted_count":0}
 {"index":3028,"word":"bell","status":"verified_none","candidate_count":1,"accepted_count":0}
@@ -149,7 +149,7 @@
 {"index":3149,"word":"tennis","status":"verified_none","candidate_count":0,"accepted_count":0}
 {"index":3150,"word":"gentle","status":"verified_none","candidate_count":0,"accepted_count":0}
 {"index":3151,"word":"steady","status":"verified_none","candidate_count":0,"accepted_count":0}
-{"index":3152,"word":"wound","status":"needs_review","candidate_count":1,"accepted_count":0}
+{"index":3152,"word":"wound","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":3153,"word":"flash","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":3154,"word":"bitter","status":"verified_none","candidate_count":0,"accepted_count":0}
 {"index":3155,"word":"jungle","status":"verified_none","candidate_count":0,"accepted_count":0}
