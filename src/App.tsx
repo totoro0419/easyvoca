@@ -1,4 +1,4 @@
-import {useCallback,useEffect,useMemo,useRef,useState,useDeferredValue} from 'react';
+import {useCallback,useEffect,useLayoutEffect,useMemo,useRef,useState,useDeferredValue,memo} from 'react';
 import {ArrowLeft,ArrowRight,BookOpen,Check,ChevronLeft,ChevronRight,Download,Heart,Home,Search,Settings,Volume2,X,RotateCcw,WifiOff,AlertCircle,Layers3,Play,SlidersHorizontal} from 'lucide-react';
 import Diagram from './components/Diagram';
 import SwipeReader from './components/SwipeReader';
@@ -30,11 +30,30 @@ export default function App(){
   const [browseIds,setBrowseIds]=useState<string[]|null>(null);
   const [browseCursor,setBrowseCursor]=useState(0);
   const [browseOrigin,setBrowseOrigin]=useState<Tab>('search');
+  const [searchOpened,setSearchOpened]=useState(false);
+  const mainRef=useRef<HTMLElement|null>(null);
+  const currentTab=useRef<Tab>('home');
+  currentTab.current=tab;
+  const scrollPositions=useRef<Record<Tab,number>>({home:0,study:0,search:0,review:0});
+  const searchProgress=useRef<Progress|null>(null);
+  if(tab==='search'&&progress)searchProgress.current=progress;
+  useLayoutEffect(()=>{
+    if(tab!=='study'&&mainRef.current)mainRef.current.scrollTop=scrollPositions.current[tab]??0;
+  },[tab]);
   useEffect(()=>{
     let mounted=true;
     void readProgress().then(p=>{if(mounted){progressRef.current=p;setProgress(p);}}).catch(()=>{if(mounted){const p=emptyProgress();progressRef.current=p;setProgress(p);setSaveError('学習記録を読み込めませんでした。保存の状態を確認してください。');}});
     void loadMeta().then(m=>{if(mounted)setMeta(m);}).catch(e=>{if(mounted)setUiError(String(e));});
-    const onPop=()=>{const name=location.hash.replace('#','');setTab((['home','study','search','review'] as string[]).includes(name)?name as Tab:'home');};
+    const onPop=()=>{
+      const current=currentTab.current;
+      if(current!=='study'&&mainRef.current)scrollPositions.current[current]=mainRef.current.scrollTop;
+      const name=location.hash.replace('#','');
+      const next=(['home','study','search','review'] as string[]).includes(name)?name as Tab:'home';
+      if(next==='search')setSearchOpened(true);
+      if(next==='study'||next==='search'||next==='review')void loadCatalog().then(setCatalog).catch(e=>setUiError(String(e)));
+      setTab(next);
+    };
+    if(location.hash&&location.hash!=='#home')onPop();
     window.addEventListener('popstate',onPop);
     return ()=>{mounted=false;window.removeEventListener('popstate',onPop);};
   },[]);
@@ -48,6 +67,8 @@ export default function App(){
     writeQueue.current=writeQueue.current.catch(()=>undefined).then(()=>writeProgress(next)).then(()=>setSaveError(''),e=>setSaveError('学習記録の保存に失敗しました: '+String(e)));
   },[]);
   const route=useCallback((next:Tab)=>{
+    if(tab!==next&&tab!=='study'&&mainRef.current)scrollPositions.current[tab]=mainRef.current.scrollTop;
+    if(next==='search')setSearchOpened(true);
     if(next!==tab)history.pushState({},'',next==='home'?'#home':'#'+next);
     setTab(next);
   },[tab]);
@@ -107,10 +128,11 @@ export default function App(){
     <aside className="desktop-rail"><Brand/><AppNav active={tab} onSelect={selectTab}/><div className="rail-foot">学びの、その先へ。</div></aside>
     <div className="app-content">
       <header className="global-header"><Brand/><div className="header-actions"><button className="icon-button" aria-label="設定" title="設定" onClick={()=>setSettingsOpen(true)}><Settings size={21}/></button></div></header>
-      <main className={'main-view view-'+tab}>
+      <main ref={mainRef} className={'main-view view-'+tab}>
         {tab==='home'?<HomeView p={progress} meta={meta} onStudy={()=>void startLearning()} onReview={()=>selectTab('review')} onOpen={(id)=>{void ensureCatalog().then(list=>{const idx=list.findIndex(s=>s.candidate_id===id);if(idx>=0)openDetail([id],0,'home');}).catch(e=>setUiError(String(e)));}}/>:null}
         {tab==='study'?(catalog?<StudyView p={progress} catalog={catalog} browseIds={browseIds} browseCursor={browseCursor} onExit={studyExit} onMove={navigateStudy} onFavorite={toggleFavorite} onViewed={markViewed} onContinue={()=>void finishAndContinue()}/>:<Spinner/>):null}
-        {tab==='search'?(catalog?<SearchView catalog={catalog} p={progress} onOpen={(ids,pos)=>openDetail(ids,pos,'search')}/>:<Spinner/>):null}
+        {searchOpened&&catalog&&<div className="persistent-search" hidden={tab!=='search'}><SearchViewStable catalog={catalog} p={tab==='search'?progress:searchProgress.current??progress} onOpen={(ids,pos)=>openDetail(ids,pos,'search')}/></div>}
+        {tab==='search'&&!catalog?<Spinner/>:null}
         {tab==='review'?(catalog?<ReviewView catalog={catalog} p={progress} onAnswer={reviewed} onStart={()=>void startLearning()} onOpen={(ids,pos)=>openDetail(ids,pos,'review')}/>:<Spinner/>):null}
       </main>
       <div className="mobile-nav"><AppNav active={tab} onSelect={selectTab}/></div>
@@ -221,6 +243,7 @@ function StudyView({p,catalog,browseIds,browseCursor,onExit,onMove,onFavorite,on
   </div>;
 }
 
+const SearchViewStable=memo(SearchView);
 function SearchView({catalog,p,onOpen}:{catalog:CardSummary[];p:Progress;onOpen:(ids:string[],index:number)=>void}){
   const [query,setQuery]=useState('');
   const [pos,setPos]=useState('');
