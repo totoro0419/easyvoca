@@ -14,6 +14,7 @@ export default function Diagram({source,cardId}:{source:string;cardId:string}) {
       mermaid.initialize({
         startOnLoad:false,
         securityLevel:'strict',
+        htmlLabels:false,
         theme:'base',
         themeVariables:{
           fontFamily:'Inter, Noto Sans JP, sans-serif',
