@@ -4,13 +4,13 @@
 
 main の `data/candidates/` の `decision == "accepted"` を `index` → `candidate_id` 順に整列したデータに基づく。各カードの例文・和訳・コアイメージ文・Mermaid模式図は本バッチ用に作成したオリジナル教材。
 
-よく知られている意味は補足とし、見落としやすい意味を中心に示す。構文・熟語では、辞書的な逐語訳よりも実際の文脈での働きを重視する。
+よく知られている意味は補足とし、見落としやすい意味を中心に示す。構文・熟語では、辞書的な逐語訳よりも実際の文脈での働きを重視する。同綴りでも意味のつながらない語は図上で無理に共通の意味を設定しない。
 
 ---
 
 ## 081. state
 
-**品詞：** verb　　**発音：** /steɪt/
+**品詞：** 動詞　　**発音：** /steɪt/
 
 <small>よく知られている意味：状態</small>
 
@@ -51,7 +51,7 @@ flowchart LR
 
 ## 082. much
 
-**品詞：** conjunction　　**発音：** /mʌtʃ/
+**品詞：** 接続詞　　**発音：** /mʌtʃ/
 
 <small>よく知られている意味：多く</small>
 
@@ -92,7 +92,7 @@ flowchart LR
 
 ## 083. then
 
-**品詞：** adjective　　**発音：** /ðen/
+**品詞：** 形容詞　　**発音：** /ðen/
 
 <small>よく知られている意味：そのとき</small>
 
@@ -133,7 +133,7 @@ flowchart LR
 
 ## 084. become
 
-**品詞：** verb　　**発音：** /bɪˈkʌm/
+**品詞：** 動詞　　**発音：** /bɪˈkʌm/
 
 <small>よく知られている意味：〜になる</small>
 
@@ -174,7 +174,7 @@ flowchart LR
 
 ## 085. most
 
-**品詞：** construction　　**発音：** /moʊst/
+**品詞：** 構文・熟語　　**発音：** /moʊst/
 
 <small>よく知られている意味：最も多く</small>
 
@@ -215,7 +215,7 @@ flowchart LR
 
 ## 086. through
 
-**品詞：** construction　　**発音：** /θruː/
+**品詞：** 構文・熟語　　**発音：** /θruː/
 
 <small>よく知られている意味：〜を通り抜けて</small>
 
@@ -256,7 +256,7 @@ flowchart LR
 
 ## 087. think
 
-**品詞：** construction　　**発音：** /θɪŋk/
+**品詞：** 構文・熟語　　**発音：** /θɪŋk/
 
 <small>よく知られている意味：考える</small>
 
@@ -297,7 +297,7 @@ flowchart LR
 
 ## 088. provide
 
-**品詞：** conjunction　　**発音：** /prəˈvaɪd/
+**品詞：** 接続詞　　**発音：** /prəˈvaɪd/
 
 <small>よく知られている意味：提供する</small>
 
@@ -338,7 +338,7 @@ flowchart LR
 
 ## 089. day
 
-**品詞：** construction　　**発音：** /deɪ/
+**品詞：** 構文・熟語　　**発音：** /deɪ/
 
 <small>よく知られている意味：日</small>
 
@@ -379,7 +379,7 @@ flowchart LR
 
 ## 090. story
 
-**品詞：** noun　　**発音：** /ˈstɔːri/
+**品詞：** 名詞　　**発音：** /ˈstɔːri/
 
 <small>よく知られている意味：物語</small>
 
@@ -420,7 +420,7 @@ flowchart LR
 
 ## 091. case
 
-**品詞：** construction　　**発音：** /keɪs/
+**品詞：** 構文・熟語　　**発音：** /keɪs/
 
 <small>よく知られている意味：場合</small>
 
@@ -461,7 +461,7 @@ flowchart LR
 
 ## 092. well
 
-**品詞：** adjective　　**発音：** /wel/
+**品詞：** 形容詞　　**発音：** /wel/
 
 <small>よく知られている意味：上手に</small>
 
@@ -502,7 +502,7 @@ flowchart LR
 
 ## 093. well
 
-**品詞：** noun　　**発音：** /wel/
+**品詞：** 名詞　　**発音：** /wel/
 
 <small>よく知られている意味：上手に</small>
 
@@ -525,7 +525,7 @@ The village gets its drinking water from a well.
 ```mermaid
 
 flowchart LR
-    A["中心イメージ：地下の水がある場所"]
+    A["同綴りの well（副詞と名詞は別系統）"]
     B["既知：上手に"]
     C["注目：井戸"]
     A --> B
@@ -543,7 +543,7 @@ flowchart LR
 
 ## 094. well
 
-**品詞：** verb　　**発音：** /wel/
+**品詞：** 動詞　　**発音：** /wel/
 
 <small>よく知られている意味：上手に</small>
 
@@ -566,7 +566,7 @@ Water welled up from a crack in the ground.
 ```mermaid
 
 flowchart LR
-    A["中心イメージ：内側から外へ湧き上がる"]
+    A["同綴りの well（副詞と動詞は別系統）"]
     B["既知：上手に"]
     C["注目：（液体が）湧き出る"]
     A --> B
@@ -584,7 +584,7 @@ flowchart LR
 
 ## 095. while
 
-**品詞：** conjunction　　**発音：** /waɪl/
+**品詞：** 接続詞　　**発音：** /waɪl/
 
 <small>よく知られている意味：〜する間に</small>
 
@@ -625,7 +625,7 @@ flowchart LR
 
 ## 096. still
 
-**品詞：** adjective　　**発音：** /stɪl/
+**品詞：** 形容詞　　**発音：** /stɪl/
 
 <small>よく知られている意味：まだ</small>
 
@@ -666,7 +666,7 @@ flowchart LR
 
 ## 097. name
 
-**品詞：** construction　　**発音：** /neɪm/
+**品詞：** 構文・熟語　　**発音：** /neɪm/
 
 <small>よく知られている意味：名前</small>
 
@@ -707,7 +707,7 @@ flowchart LR
 
 ## 098. lead
 
-**品詞：** noun　　**発音：** /led/
+**品詞：** 名詞　　**発音：** /led/
 
 <small>よく知られている意味：導く</small>
 
@@ -730,7 +730,7 @@ The old roof contained lead.
 ```mermaid
 
 flowchart LR
-    A["中心イメージ：同じ綴りで別の単語"]
+    A["同綴りの lead（発音と意味は別）"]
     B["既知：導く"]
     C["注目：鉛（金属。手がかりのleadと発音が異なる）"]
     A --> B
@@ -748,7 +748,7 @@ flowchart LR
 
 ## 099. lead
 
-**品詞：** noun　　**発音：** /liːd/
+**品詞：** 名詞　　**発音：** /liːd/
 
 <small>よく知られている意味：導く</small>
 
@@ -789,7 +789,7 @@ flowchart LR
 
 ## 100. word
 
-**品詞：** construction　　**発音：** /wɝːd/
+**品詞：** 構文・熟語　　**発音：** /wɝːd/
 
 <small>よく知られている意味：言葉</small>
 
@@ -830,7 +830,7 @@ flowchart LR
 
 ## 101. word
 
-**品詞：** noun　　**発音：** /wɝːd/
+**品詞：** 名詞　　**発音：** /wɝːd/
 
 <small>よく知られている意味：言葉</small>
 
@@ -871,7 +871,7 @@ flowchart LR
 
 ## 102. cost
 
-**品詞：** verb　　**発音：** /kɔːst/
+**品詞：** 動詞　　**発音：** /kɔːst/
 
 <small>よく知られている意味：費用がかかる</small>
 
@@ -912,7 +912,7 @@ flowchart LR
 
 ## 103. might
 
-**品詞：** noun　　**発音：** /maɪt/
+**品詞：** 名詞　　**発音：** /maɪt/
 
 <small>よく知られている意味：〜かもしれない</small>
 
@@ -935,7 +935,7 @@ The team fought with all its might.
 ```mermaid
 
 flowchart LR
-    A["中心イメージ：持っている力を注ぐ"]
+    A["同綴りの might（助動詞と名詞）"]
     B["既知：〜かもしれない"]
     C["注目：力、威力"]
     A --> B
@@ -953,7 +953,7 @@ flowchart LR
 
 ## 104. own
 
-**品詞：** construction　　**発音：** /oʊn/
+**品詞：** 構文・熟語　　**発音：** /oʊn/
 
 <small>よく知られている意味：自分自身の</small>
 
@@ -994,7 +994,7 @@ flowchart LR
 
 ## 105. point
 
-**品詞：** construction　　**発音：** /pɔɪnt/
+**品詞：** 構文・熟語　　**発音：** /pɔɪnt/
 
 <small>よく知られている意味：点</small>
 
@@ -1035,7 +1035,7 @@ flowchart LR
 
 ## 106. point
 
-**品詞：** construction　　**発音：** /pɔɪnt/
+**品詞：** 構文・熟語　　**発音：** /pɔɪnt/
 
 <small>よく知られている意味：点</small>
 
@@ -1076,7 +1076,7 @@ flowchart LR
 
 ## 107. change
 
-**品詞：** noun　　**発音：** /tʃeɪndʒ/
+**品詞：** 名詞　　**発音：** /tʃeɪndʒ/
 
 <small>よく知られている意味：変化</small>
 
@@ -1117,7 +1117,7 @@ flowchart LR
 
 ## 108. show
 
-**品詞：** construction　　**発音：** /ʃoʊ/
+**品詞：** 構文・熟語　　**発音：** /ʃoʊ/
 
 <small>よく知られている意味：見せる</small>
 
@@ -1158,7 +1158,7 @@ flowchart LR
 
 ## 109. few
 
-**品詞：** construction　　**発音：** /fjuː/
+**品詞：** 構文・熟語　　**発音：** /fjuː/
 
 <small>よく知られている意味：少数の</small>
 
@@ -1199,7 +1199,7 @@ flowchart LR
 
 ## 110. right
 
-**品詞：** noun　　**発音：** /raɪt/
+**品詞：** 名詞　　**発音：** /raɪt/
 
 <small>よく知られている意味：正しい</small>
 
@@ -1240,7 +1240,7 @@ flowchart LR
 
 ## 111. last
 
-**品詞：** verb　　**発音：** /læst/
+**品詞：** 動詞　　**発音：** /læst/
 
 <small>よく知られている意味：最後の</small>
 
@@ -1281,7 +1281,7 @@ flowchart LR
 
 ## 112. place
 
-**品詞：** construction　　**発音：** /pleɪs/
+**品詞：** 構文・熟語　　**発音：** /pleɪs/
 
 <small>よく知られている意味：場所</small>
 
@@ -1322,7 +1322,7 @@ flowchart LR
 
 ## 113. want
 
-**品詞：** construction　　**発音：** /wɑːnt/
+**品詞：** 構文・熟語　　**発音：** /wɑːnt/
 
 <small>よく知られている意味：欲しい</small>
 
@@ -1363,7 +1363,7 @@ flowchart LR
 
 ## 114. another
 
-**品詞：** construction　　**発音：** /əˈnʌðər/
+**品詞：** 構文・熟語　　**発音：** /əˈnʌðər/
 
 <small>よく知られている意味：もう一つの</small>
 
@@ -1404,7 +1404,7 @@ flowchart LR
 
 ## 115. look
 
-**品詞：** noun　　**発音：** /lʊk/
+**品詞：** 名詞　　**発音：** /lʊk/
 
 <small>よく知られている意味：見る</small>
 
@@ -1445,7 +1445,7 @@ flowchart LR
 
 ## 116. too
 
-**品詞：** construction　　**発音：** /tuː/
+**品詞：** 構文・熟語　　**発音：** /tuː/
 
 <small>よく知られている意味：〜もまた</small>
 
@@ -1486,7 +1486,7 @@ flowchart LR
 
 ## 117. write
 
-**品詞：** construction　　**発音：** /raɪt/
+**品詞：** 構文・熟語　　**発音：** /raɪt/
 
 <small>よく知られている意味：書く</small>
 
@@ -1527,7 +1527,7 @@ flowchart LR
 
 ## 118. service
 
-**品詞：** noun　　**発音：** /ˈsɝːvɪs/
+**品詞：** 名詞　　**発音：** /ˈsɝːvɪs/
 
 <small>よく知られている意味：サービス</small>
 
@@ -1568,7 +1568,7 @@ flowchart LR
 
 ## 119. very
 
-**品詞：** adjective　　**発音：** /ˈveri/
+**品詞：** 形容詞　　**発音：** /ˈveri/
 
 <small>よく知られている意味：とても</small>
 
@@ -1609,7 +1609,7 @@ flowchart LR
 
 ## 120. number
 
-**品詞：** construction　　**発音：** /ˈnʌmbər/
+**品詞：** 構文・熟語　　**発音：** /ˈnʌmbər/
 
 <small>よく知られている意味：数</small>
 
@@ -1650,7 +1650,7 @@ flowchart LR
 
 ## 121. help
 
-**品詞：** construction　　**発音：** /help/
+**品詞：** 構文・熟語　　**発音：** /help/
 
 <small>よく知られている意味：助ける</small>
 
@@ -1691,7 +1691,7 @@ flowchart LR
 
 ## 122. man
 
-**品詞：** verb　　**発音：** /mæn/
+**品詞：** 動詞　　**発音：** /mæn/
 
 <small>よく知られている意味：男性</small>
 
@@ -1732,7 +1732,7 @@ flowchart LR
 
 ## 123. issue
 
-**品詞：** noun　　**発音：** /ˈɪʃuː/
+**品詞：** 名詞　　**発音：** /ˈɪʃuː/
 
 <small>よく知られている意味：問題</small>
 
@@ -1773,7 +1773,7 @@ flowchart LR
 
 ## 124. issue
 
-**品詞：** verb　　**発音：** /ˈɪʃuː/
+**品詞：** 動詞　　**発音：** /ˈɪʃuː/
 
 <small>よく知られている意味：問題</small>
 
@@ -1814,7 +1814,7 @@ flowchart LR
 
 ## 125. part
 
-**品詞：** verb　　**発音：** /pɑːrt/
+**品詞：** 動詞　　**発音：** /pɑːrt/
 
 <small>よく知られている意味：部分</small>
 
@@ -1855,7 +1855,7 @@ flowchart LR
 
 ## 126. public
 
-**品詞：** noun　　**発音：** /ˈpʌblɪk/
+**品詞：** 名詞　　**発音：** /ˈpʌblɪk/
 
 <small>よく知られている意味：公の</small>
 
@@ -1896,7 +1896,7 @@ flowchart LR
 
 ## 127. since
 
-**品詞：** conjunction　　**発音：** /sɪns/
+**品詞：** 接続詞　　**発音：** /sɪns/
 
 <small>よく知られている意味：〜以来</small>
 
@@ -1937,7 +1937,7 @@ flowchart LR
 
 ## 128. back
 
-**品詞：** verb　　**発音：** /bæk/
+**品詞：** 動詞　　**発音：** /bæk/
 
 <small>よく知られている意味：後ろ</small>
 
@@ -1978,7 +1978,7 @@ flowchart LR
 
 ## 129. under
 
-**品詞：** construction　　**発音：** /ˈʌndər/
+**品詞：** 構文・熟語　　**発音：** /ˈʌndər/
 
 <small>よく知られている意味：〜の下に</small>
 
@@ -2019,7 +2019,7 @@ flowchart LR
 
 ## 130. must
 
-**品詞：** construction　　**発音：** /mʌst/
+**品詞：** 構文・熟語　　**発音：** /mʌst/
 
 <small>よく知られている意味：〜しなければならない</small>
 
@@ -2101,7 +2101,7 @@ flowchart LR
 
 ## 132. less
 
-**品詞：** construction　　**発音：** /les/
+**品詞：** 構文・熟語　　**発音：** /les/
 
 <small>よく知られている意味：より少ない</small>
 
@@ -2142,7 +2142,7 @@ flowchart LR
 
 ## 133. however
 
-**品詞：** construction　　**発音：** /haʊˈevər/
+**品詞：** 構文・熟語　　**発音：** /haʊˈevər/
 
 <small>よく知られている意味：しかし</small>
 
@@ -2183,7 +2183,7 @@ flowchart LR
 
 ## 134. long
 
-**品詞：** verb　　**発音：** /lɔːŋ/
+**品詞：** 動詞　　**発音：** /lɔːŋ/
 
 <small>よく知られている意味：長い</small>
 
@@ -2224,7 +2224,7 @@ flowchart LR
 
 ## 135. law
 
-**品詞：** noun　　**発音：** /lɔː/
+**品詞：** 名詞　　**発音：** /lɔː/
 
 <small>よく知られている意味：法律</small>
 
@@ -2265,7 +2265,7 @@ flowchart LR
 
 ## 136. end
 
-**品詞：** construction　　**発音：** /end/
+**品詞：** 構文・熟語　　**発音：** /end/
 
 <small>よく知られている意味：終わり</small>
 
@@ -2306,7 +2306,7 @@ flowchart LR
 
 ## 137. end
 
-**品詞：** construction　　**発音：** /end/
+**品詞：** 構文・熟語　　**発音：** /end/
 
 <small>よく知られている意味：終わる</small>
 
@@ -2347,7 +2347,7 @@ flowchart LR
 
 ## 138. country
 
-**品詞：** noun　　**発音：** /ˈkʌntri/
+**品詞：** 名詞　　**発音：** /ˈkʌntri/
 
 <small>よく知られている意味：国</small>
 
@@ -2388,7 +2388,7 @@ flowchart LR
 
 ## 139. book
 
-**品詞：** verb　　**発音：** /bʊk/
+**品詞：** 動詞　　**発音：** /bʊk/
 
 <small>よく知られている意味：本</small>
 
@@ -2429,7 +2429,7 @@ flowchart LR
 
 ## 140. book
 
-**品詞：** verb　　**発音：** /bʊk/
+**品詞：** 動詞　　**発音：** /bʊk/
 
 <small>よく知られている意味：本</small>
 
@@ -2470,7 +2470,7 @@ flowchart LR
 
 ## 141. tell
 
-**品詞：** construction　　**発音：** /tel/
+**品詞：** 構文・熟語　　**発音：** /tel/
 
 <small>よく知られている意味：話す</small>
 
@@ -2511,7 +2511,7 @@ flowchart LR
 
 ## 142. tell
 
-**品詞：** construction　　**発音：** /tel/
+**品詞：** 構文・熟語　　**発音：** /tel/
 
 <small>よく知られている意味：話す</small>
 
@@ -2552,7 +2552,7 @@ flowchart LR
 
 ## 143. mean
 
-**品詞：** adjective　　**発音：** /miːn/
+**品詞：** 形容詞　　**発音：** /miːn/
 
 <small>よく知られている意味：意味する</small>
 
@@ -2575,7 +2575,7 @@ mean には動詞の「意味する」と異なる形容詞用法がある。人
 ```mermaid
 
 flowchart LR
-    A["中心イメージ：他人への配慮を欠く"]
+    A["同綴りの mean（動詞と形容詞）"]
     B["既知：意味する"]
     C["注目：意地悪な"]
     A --> B
@@ -2593,7 +2593,7 @@ flowchart LR
 
 ## 144. mean
 
-**品詞：** noun　　**発音：** /miːn/
+**品詞：** 名詞　　**発音：** /miːn/
 
 <small>よく知られている意味：意味する</small>
 
@@ -2616,7 +2616,7 @@ The mean of 2, 4, and 6 is 4.
 ```mermaid
 
 flowchart LR
-    A["中心イメージ：数値の中心を取る"]
+    A["同綴りの mean（動詞と名詞）"]
     B["既知：意味する"]
     C["注目：平均値"]
     A --> B
@@ -2634,7 +2634,7 @@ flowchart LR
 
 ## 145. paper
 
-**品詞：** noun　　**発音：** /ˈpeɪpər/
+**品詞：** 名詞　　**発音：** /ˈpeɪpər/
 
 <small>よく知られている意味：紙</small>
 
@@ -2675,7 +2675,7 @@ flowchart LR
 
 ## 146. large
 
-**品詞：** construction　　**発音：** /lɑːrdʒ/
+**品詞：** 構文・熟語　　**発音：** /lɑːrdʒ/
 
 <small>よく知られている意味：大きい</small>
 
@@ -2716,7 +2716,7 @@ flowchart LR
 
 ## 147. company
 
-**品詞：** noun　　**発音：** /ˈkʌmpəni/
+**品詞：** 名詞　　**発音：** /ˈkʌmpəni/
 
 <small>よく知られている意味：会社</small>
 
@@ -2757,7 +2757,7 @@ flowchart LR
 
 ## 148. down
 
-**品詞：** construction　　**発音：** /daʊn/
+**品詞：** 構文・熟語　　**発音：** /daʊn/
 
 <small>よく知られている意味：下へ</small>
 
@@ -2798,7 +2798,7 @@ flowchart LR
 
 ## 149. little
 
-**品詞：** construction　　**発音：** /ˈlɪtəl/
+**品詞：** 構文・熟語　　**発音：** /ˈlɪtəl/
 
 <small>よく知られている意味：少し</small>
 
@@ -2839,7 +2839,7 @@ flowchart LR
 
 ## 150. question
 
-**品詞：** construction　　**発音：** /ˈkwestʃən/
+**品詞：** 構文・熟語　　**発音：** /ˈkwestʃən/
 
 <small>よく知られている意味：質問</small>
 
@@ -2880,7 +2880,7 @@ flowchart LR
 
 ## 151. result
 
-**品詞：** construction　　**発音：** /rɪˈzʌlt/
+**品詞：** 構文・熟語　　**発音：** /rɪˈzʌlt/
 
 <small>よく知られている意味：結果</small>
 
@@ -2921,7 +2921,7 @@ flowchart LR
 
 ## 152. result
 
-**品詞：** construction　　**発音：** /rɪˈzʌlt/
+**品詞：** 構文・熟語　　**発音：** /rɪˈzʌlt/
 
 <small>よく知られている意味：結果</small>
 
@@ -2962,7 +2962,7 @@ flowchart LR
 
 ## 153. rule
 
-**品詞：** verb　　**発音：** /ruːl/
+**品詞：** 動詞　　**発音：** /ruːl/
 
 <small>よく知られている意味：規則</small>
 
@@ -3003,7 +3003,7 @@ flowchart LR
 
 ## 154. run
 
-**品詞：** verb　　**発音：** /rʌn/
+**品詞：** 動詞　　**発音：** /rʌn/
 
 <small>よく知られている意味：走る</small>
 
@@ -3044,7 +3044,7 @@ flowchart LR
 
 ## 155. run
 
-**品詞：** verb　　**発音：** /rʌn/
+**品詞：** 動詞　　**発音：** /rʌn/
 
 <small>よく知られている意味：走る</small>
 
@@ -3085,7 +3085,7 @@ flowchart LR
 
 ## 156. run
 
-**品詞：** verb　　**発音：** /rʌn/
+**品詞：** 動詞　　**発音：** /rʌn/
 
 <small>よく知られている意味：走る</small>
 
@@ -3126,7 +3126,7 @@ flowchart LR
 
 ## 157. support
 
-**品詞：** verb　　**発音：** /səˈpɔːrt/
+**品詞：** 動詞　　**発音：** /səˈpɔːrt/
 
 <small>よく知られている意味：支える</small>
 
@@ -3167,7 +3167,7 @@ flowchart LR
 
 ## 158. off
 
-**品詞：** construction　　**発音：** /ɔːf/
+**品詞：** 構文・熟語　　**発音：** /ɔːf/
 
 <small>よく知られている意味：離れて</small>
 
@@ -3208,7 +3208,7 @@ flowchart LR
 
 ## 159. agency
 
-**品詞：** noun　　**発音：** /ˈeɪdʒənsi/
+**品詞：** 名詞　　**発音：** /ˈeɪdʒənsi/
 
 <small>よく知られている意味：代理店</small>
 
@@ -3249,7 +3249,7 @@ flowchart LR
 
 ## 160. begin
 
-**品詞：** construction　　**発音：** /bɪˈɡɪn/
+**品詞：** 構文・熟語　　**発音：** /bɪˈɡɪn/
 
 <small>よく知られている意味：始める</small>
 
