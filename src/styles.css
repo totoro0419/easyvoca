@@ -246,3 +246,6 @@ button{-webkit-tap-highlight-color:transparent}
 .status-hold{font-weight:650;color:#985c22!important}
 
 .quiz-context{border-left:2px solid #ccd8fd;margin:-5px 0 23px;padding:5px 0 5px 13px;color:#526681;font-size:14px;line-height:1.8;overflow-wrap:anywhere}
+
+.diagram-hint{display:none}
+@media(max-width:600px){.diagram-wrap{overflow-x:auto;overscroll-behavior-x:contain;touch-action:pan-x pan-y;scrollbar-width:thin}.diagram-svg svg{width:580px!important;min-width:580px;max-width:none!important;max-height:none}.diagram-hint{display:block;color:#7786a1;font-size:11px;margin-top:12px;text-align:center}}
