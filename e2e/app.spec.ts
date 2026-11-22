@@ -5,14 +5,15 @@ test('ホームから学習、矢印キー、進捗保存と再起動後の再�
   await expect(page.getByRole('heading',{name:/英単語の、/})).toBeVisible();
   await page.screenshot({path:'test-results/desktop-home.png',fullPage:true});
   await page.getByRole('button',{name:'学習を始める'}).click();
-  await expect(page.locator('.vocab-head h1')).toHaveText('the');
+  await expect(page.locator('.reading-page .vocab-head h1')).toHaveText('the');
   await page.screenshot({path:'test-results/desktop-study.png'});
   await expect(page.locator('.study-position strong')).toContainText(/1\s*\/\s*20/);
   await page.keyboard.press('ArrowRight');
   await expect(page.locator('.study-position strong')).toContainText(/2\s*\/\s*20/);
-  await expect(page.locator('.vocab-head h1')).toBeVisible();
+  await expect(page.locator('.reading-page .vocab-head h1')).toBeVisible();
   await page.reload();
-  await page.getByRole('button',{name:'続きから学習'}).click();
+  // A direct #study reload now resumes in place; home-resume remains supported.
+  await expect(page.locator('.study-position strong')).toBeVisible();
   await expect(page.locator('.study-position strong')).toContainText(/2\s*\/\s*20/);
   await page.keyboard.press('ArrowLeft');
   await expect(page.locator('.study-position strong')).toContainText(/1\s*\/\s*20/);
@@ -27,7 +28,7 @@ test('検索、別語義の閲覧、復習の4択と結果保存',async({page})=
   await search.fill('the');
   await expect(page.locator('.result-item').first()).toBeVisible();
   await page.locator('.result-item').first().click();
-  await expect(page.locator('.vocab-head h1')).toBeVisible();
+  await expect(page.locator('.reading-page .vocab-head h1')).toBeVisible();
   await page.getByRole('button',{name:'戻る'}).click();
   await page.getByRole('button',{name:'復習',exact:true}).click();
   await expect(page.locator('.quiz-word h2')).toBeVisible();
@@ -45,7 +46,7 @@ test('モバイルで左右ドラッグと縦スクロール',async({page})=>{
   await page.setViewportSize({width:390,height:844});
   await page.goto('/');
   await page.getByRole('button',{name:'学習を始める'}).click();
-  await expect(page.locator('.vocab-head h1')).toBeVisible();
+  await expect(page.locator('.reading-page .vocab-head h1')).toBeVisible();
   const box=await page.locator('.reading-scroll').boundingBox();
   expect(box).not.toBeNull();
   const x=box!.x+Math.min(box!.width-20,300), y=box!.y+Math.min(box!.height-30,220);
