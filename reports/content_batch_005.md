@@ -39,4 +39,4 @@
 
 ## PR
 
-- PR URL: 作成後に追記
+- PR URL: https://github.com/totoro0419/easyvoca/pull/31
