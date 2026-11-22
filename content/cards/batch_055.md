@@ -817,9 +817,9 @@ flowchart LR
 
 ### 見落としやすい意味：希望や感情が一瞬現れて消える
 
-**例文：** A flicker of hope appeared when we heard the good news.
+**例文：** Hope flickered briefly when we heard the good news.
 
-**和訳：** 良い知らせを聞いたとき、かすかな希望が一瞬芽生えた。
+**和訳：** 良い知らせを聞いたとき、希望が一瞬だけ心に浮かんだ。
 
 **コアイメージ：** flicker は光が短く不安定に現れる動きです。希望や感情にも使うと、ほんの一瞬かすかに現れる様子を表せます。
 
