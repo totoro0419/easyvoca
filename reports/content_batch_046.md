@@ -14,5 +14,5 @@
 - 品質上の留意点：発音は米語系の代表的IPAを目安とする。元の採否は変更しておらず、教材の全例文・説明の外部校閲は未実施。
 - 変更したファイル：`content/cards/batch_046.md`、`content/data/batch_046.jsonl`、`reports/content_batch_046.md`
 - ブランチ：`content/batch-046`（mainには直接書き込まない）
-- コミット：PR作成後に追記
-- PR URL：PR作成後に追記
+- コミット：[`1f1eeef0f61c`](https://github.com/totoro0419/easyvoca/commit/1f1eeef0f61cd6f2370799cd044926e58252b122)（content/cards/batch_046.md）、[`9624d6b9c26d`](https://github.com/totoro0419/easyvoca/commit/9624d6b9c26d208d6df47d8dfd790a213d261a19)（content/data/batch_046.jsonl）、[`3116d4cb104a`](https://github.com/totoro0419/easyvoca/commit/3116d4cb104ab993917902fa4aa72b1ee9efba7c)（reports/content_batch_046.md）
+- PR URL：https://github.com/totoro0419/easyvoca/pull/60
