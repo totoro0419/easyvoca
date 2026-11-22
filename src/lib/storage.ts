@@ -8,7 +8,7 @@ const dbPromise = typeof indexedDB === 'undefined' ? null : openDB('easyvoca',1,
 function isValid(v:unknown):v is Progress {
   if(!v||typeof v!=='object')return false;
   const p=v as Progress;
-  return p.schemaVersion===1&&typeof p.revision==='number'&&p.viewed&&Array.isArray(p.favorites)&&p.reviews;
+  return p.schemaVersion===1&&typeof p.revision==='number'&&Boolean(p.viewed)&&Array.isArray(p.favorites)&&Boolean(p.reviews);
 }
 export async function readProgress():Promise<Progress> {
   let local:Progress|undefined;
