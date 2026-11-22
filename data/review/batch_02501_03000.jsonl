@@ -9,7 +9,7 @@
 {"index":2509,"word":"prediction","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2510,"word":"vocabulary","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2511,"word":"steal","status":"verified_selected","candidate_count":2,"accepted_count":2}
-{"index":2512,"word":"bound","status":"verified_selected","candidate_count":6,"accepted_count":6}
+{"index":2512,"word":"bound","status":"verified_selected","candidate_count":6,"accepted_count":4}
 {"index":2513,"word":"farther","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2514,"word":"crew","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2515,"word":"nationwide","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
@@ -36,10 +36,10 @@
 {"index":2536,"word":"technological","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2537,"word":"metal","status":"verified_none","candidate_count":1,"accepted_count":0}
 {"index":2538,"word":"alarm","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2539,"word":"weekly","status":"verified_selected","candidate_count":1,"accepted_count":1}
+{"index":2539,"word":"weekly","status":"verified_none","candidate_count":1,"accepted_count":0}
 {"index":2540,"word":"creative","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2541,"word":"web","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2542,"word":"collective","status":"verified_selected","candidate_count":2,"accepted_count":2}
+{"index":2542,"word":"collective","status":"verified_selected","candidate_count":2,"accepted_count":1}
 {"index":2543,"word":"height","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2544,"word":"dignity","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2545,"word":"fame","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
@@ -51,7 +51,7 @@
 {"index":2551,"word":"philosophy","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2552,"word":"punishment","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2553,"word":"rebel","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2554,"word":"output","status":"verified_selected","candidate_count":1,"accepted_count":1}
+{"index":2554,"word":"output","status":"verified_none","candidate_count":1,"accepted_count":0}
 {"index":2555,"word":"database","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2556,"word":"effectiveness","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"品詞別の語義を確認し、一般的な訳語との違いだけでは独立した学習価値が低いと判定した。"}
 {"index":2557,"word":"legislative","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
@@ -102,10 +102,10 @@
 {"index":2602,"word":"prohibit","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2603,"word":"reviewer","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2604,"word":"string","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2605,"word":"tall","status":"verified_selected","candidate_count":2,"accepted_count":2}
+{"index":2605,"word":"tall","status":"verified_selected","candidate_count":2,"accepted_count":1}
 {"index":2606,"word":"bath","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2607,"word":"sing","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2608,"word":"fortune","status":"verified_selected","candidate_count":1,"accepted_count":1}
+{"index":2608,"word":"fortune","status":"verified_none","candidate_count":1,"accepted_count":0}
 {"index":2609,"word":"countryside","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2610,"word":"survival","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"品詞別の語義を確認し、一般的な訳語との違いだけでは独立した学習価値が低いと判定した。"}
 {"index":2611,"word":"ease","status":"verified_selected","candidate_count":1,"accepted_count":1}
@@ -176,7 +176,7 @@
 {"index":2676,"word":"framework","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"品詞別の語義を確認し、一般的な訳語との違いだけでは独立した学習価値が低いと判定した。"}
 {"index":2677,"word":"marketing","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2678,"word":"resemble","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
-{"index":2679,"word":"excuse","status":"verified_selected","candidate_count":2,"accepted_count":2}
+{"index":2679,"word":"excuse","status":"verified_selected","candidate_count":2,"accepted_count":1}
 {"index":2680,"word":"basically","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2681,"word":"generous","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2682,"word":"civilization","status":"verified_selected","candidate_count":1,"accepted_count":1}
@@ -202,7 +202,7 @@
 {"index":2702,"word":"fiction","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2703,"word":"medium","status":"verified_selected","candidate_count":2,"accepted_count":2}
 {"index":2704,"word":"emotion","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
-{"index":2705,"word":"genius","status":"verified_selected","candidate_count":1,"accepted_count":1}
+{"index":2705,"word":"genius","status":"verified_none","candidate_count":1,"accepted_count":0}
 {"index":2706,"word":"plausible","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2707,"word":"hypothesis","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"品詞別の語義を確認し、一般的な訳語との違いだけでは独立した学習価値が低いと判定した。"}
 {"index":2708,"word":"inland","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"品詞別の語義を確認し、一般的な訳語との違いだけでは独立した学習価値が低いと判定した。"}
@@ -216,7 +216,7 @@
 {"index":2716,"word":"shadow","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2717,"word":"assistant","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"品詞別の語義を確認し、一般的な訳語との違いだけでは独立した学習価値が低いと判定した。"}
 {"index":2718,"word":"iron","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2719,"word":"passport","status":"verified_selected","candidate_count":2,"accepted_count":2}
+{"index":2719,"word":"passport","status":"verified_selected","candidate_count":2,"accepted_count":1}
 {"index":2720,"word":"tension","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2721,"word":"myth","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2722,"word":"legitimate","status":"verified_selected","candidate_count":1,"accepted_count":1}
@@ -336,7 +336,7 @@
 {"index":2836,"word":"silk","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"品詞別の語義を確認し、一般的な訳語との違いだけでは独立した学習価値が低いと判定した。"}
 {"index":2837,"word":"eager","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"品詞別の語義を確認し、一般的な訳語との違いだけでは独立した学習価値が低いと判定した。"}
 {"index":2838,"word":"execution","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2839,"word":"strictly","status":"verified_selected","candidate_count":2,"accepted_count":2}
+{"index":2839,"word":"strictly","status":"verified_selected","candidate_count":2,"accepted_count":1}
 {"index":2840,"word":"likewise","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2841,"word":"accommodation","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2842,"word":"accessible","status":"verified_selected","candidate_count":2,"accepted_count":2}
@@ -403,14 +403,14 @@
 {"index":2903,"word":"grammar","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"4品詞の語義を確認した結果、独立して覚える価値がある意外な別義を選定しなかった。"}
 {"index":2904,"word":"mirror","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2905,"word":"ill","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2906,"word":"float","status":"verified_selected","candidate_count":3,"accepted_count":3}
+{"index":2906,"word":"float","status":"verified_selected","candidate_count":3,"accepted_count":2}
 {"index":2907,"word":"sharp","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2908,"word":"chaos","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2909,"word":"alike","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2910,"word":"acid","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2911,"word":"whereas","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2912,"word":"assurance","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":"Princeton WordNet 3.1","checked_at":"2026-11-22","review_reason":"品詞別の語義を確認し、一般的な訳語との違いだけでは独立した学習価値が低いと判定した。"}
-{"index":2913,"word":"flaw","status":"verified_selected","candidate_count":3,"accepted_count":3}
+{"index":2913,"word":"flaw","status":"verified_selected","candidate_count":3,"accepted_count":2}
 {"index":2914,"word":"diminish","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2915,"word":"bias","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2916,"word":"emphasis","status":"verified_selected","candidate_count":1,"accepted_count":1}
@@ -441,7 +441,7 @@
 {"index":2941,"word":"signature","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2942,"word":"surgery","status":"verified_selected","candidate_count":2,"accepted_count":2}
 {"index":2943,"word":"frequency","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":2944,"word":"pension","status":"verified_selected","candidate_count":1,"accepted_count":1}
+{"index":2944,"word":"pension","status":"verified_none","candidate_count":1,"accepted_count":0}
 {"index":2945,"word":"segment","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2946,"word":"reasonably","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":2947,"word":"aggregate","status":"verified_selected","candidate_count":1,"accepted_count":1}
