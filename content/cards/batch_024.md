@@ -1092,7 +1092,7 @@ flowchart LR
 ---
 ### 1880. segment
 
-**品詞**：verb　**発音**：/ˈseɡment/（動詞も同形）
+**品詞**：verb　**発音**：/seɡˈment/
 
 <small>よく知られている意味：区分・部分（名詞）</small>
 
@@ -1116,5 +1116,1125 @@ flowchart LR
 **重要語法**：`segment A by B`
 
 <small>出典候補ID：ev-02945-verb-01（index 2945）</small>
+
+---
+### 1881. reasonably
+
+**品詞**：adverb　**発音**：/ˈriːzənəbli/
+
+<small>よく知られている意味：合理的に・適切に</small>
+
+**見落としやすい意味：かなり、ある程度**
+
+**例文**：The instructions were reasonably clear.
+
+**和訳**：説明はかなり分かりやすかった。
+
+**コアイメージ**：reasonablyは理にかなっている様子を表す。程度を示す副詞では、期待に照らしてまずまず十分な水準にあることを表す。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：無理のない範囲で十分に"]
+    B["既知の意味：合理的に・適切に"]
+    C["見落としやすい意味：かなり、ある程度"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：`reasonably good / reasonably clear`
+
+<small>出典候補ID：ev-02946-adverb-01（index 2946）</small>
+
+---
+### 1882. aggregate
+
+**品詞**：verb　**発音**：/ˈæɡrɪɡeɪt/（動詞）
+
+<small>よく知られている意味：集計・総計（名詞）</small>
+
+**見落としやすい意味：合計すると一定の額になる**
+
+**例文**：The fees aggregate to nearly a thousand dollars.
+
+**和訳**：手数料は合計すると千ドル近くになる。
+
+**コアイメージ**：aggregateはばらばらの要素を集めることを表す。動詞では個々の数値が集まり、合計で一定の額になる意味になる。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：小さなものが集まって全体になる"]
+    B["既知の意味：集計・総計（名詞）"]
+    C["見落としやすい意味：合計すると一定の額になる"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：`aggregate to ...`
+
+<small>出典候補ID：ev-02947-verb-01（index 2947）</small>
+
+---
+### 1883. diplomatic
+
+**品詞**：adjective　**発音**：/ˌdɪpləˈmætɪk/
+
+<small>よく知られている意味：外交の</small>
+
+**見落としやすい意味：人への対応が巧みで気配りがある**
+
+**例文**：She was diplomatic when pointing out his error.
+
+**和訳**：彼女は彼の誤りを指摘するとき、相手に配慮した言い方をした。
+
+**コアイメージ**：diplomaticは国や人の間の関係を円滑に扱うことと結び付く。対人場面では、角を立てずに伝える気配りや巧みさを表す。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：関係を壊さず調整する"]
+    B["既知の意味：外交の"]
+    C["見落としやすい意味：人への対応が巧みで気配りがある"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：`a diplomatic response`
+
+<small>出典候補ID：ev-02950-adjective-01（index 2950）</small>
+
+---
+### 1884. skirt
+
+**品詞**：verb　**発音**：/skɜːrt/
+
+<small>よく知られている意味：スカート（名詞）</small>
+
+**見落としやすい意味：問題・質問・義務などを避ける**
+
+**例文**：The speaker skirted the difficult question.
+
+**和訳**：講演者はその難しい質問を避けた。
+
+**コアイメージ**：skirtは物の周囲や縁に関わる語。動詞では問題の中心に踏み込まず、その周りを通って回避することを意味する。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：縁を回り込む"]
+    B["既知の意味：スカート（名詞）"]
+    C["見落としやすい意味：問題・質問・義務などを避ける"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：`skirt an issue / skirt a question`
+
+<small>出典候補ID：ev-02954-verb-01（index 2954）</small>
+
+---
+### 1885. ok
+
+**品詞**：noun　**発音**：/ˌoʊˈkeɪ/
+
+<small>よく知られている意味：大丈夫・よい（形容詞）</small>
+
+**見落としやすい意味：許可、了承**
+
+**例文**：We finally got the OK to begin the project.
+
+**和訳**：私たちはついにその企画を始める許可を得た。
+
+**コアイメージ**：OKは物事に問題がないと認める表現。名詞として使うと、開始や実行を認める了承・許可そのものを指す。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：問題ないという合図"]
+    B["既知の意味：大丈夫・よい（形容詞）"]
+    C["見落としやすい意味：許可、了承"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：`get the OK / give the OK`
+
+<small>出典候補ID：ev-02955-noun-01（index 2955）</small>
+
+---
+### 1886. smooth
+
+**品詞**：verb　**発音**：/smuːð/
+
+<small>よく知られている意味：滑らかな（形容詞）</small>
+
+**見落としやすい意味：障害を取り除いて進みやすくする**
+
+**例文**：The new policy smoothed the way for small firms.
+
+**和訳**：新しい政策は小規模企業が進出しやすいよう道を整えた。
+
+**コアイメージ**：smoothは表面の凹凸をなくして滑らかにすること。動詞で手続きや計画に使うと、障害を取り除いて進行を円滑にする意味になる。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：でこぼこをなくす"]
+    B["既知の意味：滑らかな（形容詞）"]
+    C["見落としやすい意味：障害を取り除いて進みやすくする"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：`smooth the way for ...`
+
+<small>出典候補ID：ev-02956-verb-01（index 2956）</small>
+
+---
+### 1887. tap
+
+**品詞**：verb　**発音**：/tæp/
+
+<small>よく知られている意味：軽くたたく</small>
+
+**見落としやすい意味：資源・知識などを利用する**
+
+**例文**：The team tapped local knowledge to solve the problem.
+
+**和訳**：チームは問題を解決するために地域の知識を活用した。
+
+**コアイメージ**：tapは軽く触れる意味のほかに、容器から液体を取り出す栓にも関係する。そこから知識・人材・資金などを引き出して利用する意味になる。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：中にある資源を引き出す"]
+    B["既知の意味：軽くたたく"]
+    C["見落としやすい意味：資源・知識などを利用する"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：`tap into resources / tap expertise`
+
+<small>出典候補ID：ev-02958-verb-01（index 2958）</small>
+
+---
+### 1888. precious
+
+**品詞**：adverb　**発音**：/ˈpreʃəs/
+
+<small>よく知られている意味：貴重な（形容詞）</small>
+
+**見落としやすい意味：極めて（少ないことを強調して）**
+
+**例文**：We have precious little time to prepare.
+
+**和訳**：準備する時間は本当にごくわずかしかない。
+
+**コアイメージ**：preciousは大切で価値が高いことを表す。少なさを表す語の前では、その少なさを強調して『ほんのわずか』という意味になる。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：価値を強く感じさせる"]
+    B["既知の意味：貴重な（形容詞）"]
+    C["見落としやすい意味：極めて（少ないことを強調して）"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：`precious little / precious few`
+
+<small>出典候補ID：ev-02959-adverb-01（index 2959）</small>
+
+---
+### 1889. clinic
+
+**品詞**：noun　**発音**：/ˈklɪnɪk/
+
+<small>よく知られている意味：診療所</small>
+
+**見落としやすい意味：問題を診断して実地指導する講習会**
+
+**例文**：The school held a writing clinic for new students.
+
+**和訳**：学校は新入生向けに作文の実地指導講習会を開いた。
+
+**コアイメージ**：clinicは医師が症状を見て適切に対処する場所。教育やスポーツでは、個々の問題を見つけて実践的に教える講習会を指す。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：問題点を見つけて改善する場"]
+    B["既知の意味：診療所"]
+    C["見落としやすい意味：問題を診断して実地指導する講習会"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：`a writing clinic / a sports clinic`
+
+<small>出典候補ID：ev-02960-noun-01（index 2960）</small>
+
+---
+### 1890. dynamic
+
+**品詞**：adjective　**発音**：/daɪˈnæmɪk/
+
+<small>よく知られている意味：活動的な・力強い</small>
+
+**見落としやすい意味：動詞が動作・変化を表す**
+
+**例文**：Walk is a dynamic verb, but know is usually stative.
+
+**和訳**：walkは動作動詞だが、knowは普通、状態動詞だ。
+
+**コアイメージ**：dynamicは動きや変化のある性質を表す。文法では動作・変化を表す動詞をdynamic verbといい、状態を示す動詞と区別する。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：変化や動きを伴う"]
+    B["既知の意味：活動的な・力強い"]
+    C["見落としやすい意味：動詞が動作・変化を表す"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：`dynamic verb / stative verb`
+
+<small>出典候補ID：ev-02961-adjective-01（index 2961）</small>
+
+---
+### 1891. alongside
+
+**品詞**：preposition　**発音**：/əˌlɔːŋˈsaɪd/
+
+<small>よく知られている意味：〜の横に</small>
+
+**見落としやすい意味：〜と共に、〜と並行して**
+
+**例文**：Volunteers worked alongside local doctors.
+
+**和訳**：ボランティアは地元の医師たちと共に活動した。
+
+**コアイメージ**：alongsideは物理的に隣に並ぶことを表す。人や活動については、同じ方向に協力したり並行して行ったりする意味になる。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：横に並んで進む"]
+    B["既知の意味：〜の横に"]
+    C["見落としやすい意味：〜と共に、〜と並行して"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：`work alongside ...`
+
+<small>出典候補ID：ev-02962-preposition-01（index 2962）</small>
+
+---
+### 1892. rally
+
+**品詞**：verb　**発音**：/ˈræli/
+
+<small>よく知られている意味：集会・結集する</small>
+
+**見落としやすい意味：体力・株価などが回復する**
+
+**例文**：The stock market rallied after the announcement.
+
+**和訳**：その発表を受けて株式市場は持ち直した。
+
+**コアイメージ**：rallyは人々や力を再び集めることを表す。体力や株価などでは、落ち込んだ状態から勢いを取り戻す意味になる。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：散った力を再び集める"]
+    B["既知の意味：集会・結集する"]
+    C["見落としやすい意味：体力・株価などが回復する"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：`rally after a fall`
+
+<small>出典候補ID：ev-02963-verb-01（index 2963）</small>
+
+---
+### 1893. columns
+
+**品詞**：noun　**発音**：/ˈkɑːləmz/
+
+<small>よく知られている意味：柱・縦の列</small>
+
+**見落としやすい意味：新聞・雑誌の連載コラム、寄稿欄（複数形）**
+
+**例文**：She writes weekly columns for a local newspaper.
+
+**和訳**：彼女は地元紙に毎週コラムを寄稿している。
+
+**コアイメージ**：columnは紙面に縦に分かれた欄を指す。そこに載る定期的な論評記事もcolumnと呼び、複数形では一連の寄稿記事を指すことがある。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：紙面の縦の区画"]
+    B["既知の意味：柱・縦の列"]
+    C["見落としやすい意味：新聞・雑誌の連載コラム、寄稿欄（複数形）"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：`write a column / weekly columns`
+
+<small>出典候補ID：ev-02966-noun-01（index 2966）</small>
+
+---
+### 1894. contributor
+
+**品詞**：noun　**発音**：/kənˈtrɪbjətər/
+
+<small>よく知られている意味：貢献者・寄与するもの</small>
+
+**見落としやすい意味：雑誌・新聞などの寄稿者**
+
+**例文**：The magazine invited several contributors to write essays.
+
+**和訳**：その雑誌は複数の寄稿者に随筆の執筆を依頼した。
+
+**コアイメージ**：contributorは活動や成果に何かを提供する人。雑誌や新聞では、記事を提供する執筆者、つまり寄稿者を意味する。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：全体に何かを加える人"]
+    B["既知の意味：貢献者・寄与するもの"]
+    C["見落としやすい意味：雑誌・新聞などの寄稿者"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：`a regular contributor to a magazine`
+
+<small>出典候補ID：ev-02968-noun-01（index 2968）</small>
+
+---
+### 1895. meant
+
+**品詞**：verb　**発音**：/ment/
+
+<small>よく知られている意味：meanの過去形・意図した</small>
+
+**見落としやすい意味：be meant to do：〜することになっている、〜する意図である**
+
+**例文**：You are meant to sign at the bottom of the form.
+
+**和訳**：あなたは用紙の一番下に署名することになっています。
+
+**コアイメージ**：meanには言葉が意味することだけでなく、意図することも含まれる。be meant to doは、その意図や取り決めによって何かをすることになっている状態を表す。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：ある目的や予定が定められている"]
+    B["既知の意味：meanの過去形・意図した"]
+    C["見落としやすい意味：be meant to do：〜することになっている、〜する意図である"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：`be meant to do`
+
+<small>出典候補ID：ev-02970-verb-01（index 2970）</small>
+
+---
+### 1896. meant
+
+**品詞**：verb　**発音**：/ment/
+
+<small>よく知られている意味：meanの過去形・意図した</small>
+
+**見落としやすい意味：be meant for：〜向けに作られた、〜を対象としている**
+
+**例文**：This guide is meant for first-time visitors.
+
+**和訳**：この案内書は初めて訪れる人向けに作られている。
+
+**コアイメージ**：何かをmeanするのは、その目的や意図を持つことでもある。be meant forでは、物やサービスの利用者・用途が初めから想定されている。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：対象があらかじめ想定されている"]
+    B["既知の意味：meanの過去形・意図した"]
+    C["見落としやすい意味：be meant for：〜向けに作られた、〜を対象としている"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：`be meant for ...`
+
+<small>出典候補ID：ev-02970-verb-02（index 2970）</small>
+
+---
+### 1897. mount
+
+**品詞**：verb　**発音**：/maʊnt/
+
+<small>よく知られている意味：山（名詞）・登る</small>
+
+**見落としやすい意味：運動・活動などを始める**
+
+**例文**：The students mounted a campaign to save the library.
+
+**和訳**：生徒たちは図書館を守る運動を始めた。
+
+**コアイメージ**：mountには登る、上へ持ち上げるという感覚がある。運動や調査などを目的に向けて組み立て、実行に移す意味でも使われる。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：活動を立ち上げる"]
+    B["既知の意味：山（名詞）・登る"]
+    C["見落としやすい意味：運動・活動などを始める"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：`mount a campaign / mount an investigation`
+
+<small>出典候補ID：ev-02971-verb-01（index 2971）</small>
+
+---
+### 1898. mount
+
+**品詞**：verb　**発音**：/maʊnt/
+
+<small>よく知られている意味：登る・取り付ける</small>
+
+**見落としやすい意味：数値・数量などが増加する**
+
+**例文**：Public concern mounted as the storm approached.
+
+**和訳**：嵐が近づくにつれて市民の不安が高まった。
+
+**コアイメージ**：mountは高い所に上がる動きを表す。数値・不安・圧力などについては、量や程度が次第に増す意味になる。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：上に積み重なっていく"]
+    B["既知の意味：登る・取り付ける"]
+    C["見落としやすい意味：数値・数量などが増加する"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：`pressure mounts / costs mount`
+
+<small>出典候補ID：ev-02971-verb-02（index 2971）</small>
+
+---
+### 1899. shake
+
+**品詞**：verb　**発音**：/ʃeɪk/
+
+<small>よく知られている意味：振る・揺らす</small>
+
+**見落としやすい意味：信頼・確信などを揺るがす**
+
+**例文**：The news shook her confidence in the plan.
+
+**和訳**：その知らせは彼女の計画への確信を揺るがした。
+
+**コアイメージ**：shakeは物理的に揺らすこと。自信や信頼といった心の支えについても、安定を崩して不安にさせることを表す。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：安定していたものが揺れる"]
+    B["既知の意味：振る・揺らす"]
+    C["見落としやすい意味：信頼・確信などを揺るがす"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：`shake someone's confidence`
+
+<small>出典候補ID：ev-02973-verb-01（index 2973）</small>
+
+---
+### 1900. pour
+
+**品詞**：verb　**発音**：/pɔːr/
+
+<small>よく知られている意味：液体を注ぐ</small>
+
+**見落としやすい意味：人々が大量に押し寄せる**
+
+**例文**：Fans poured into the stadium before the match.
+
+**和訳**：試合前にファンが競技場へ大勢押し寄せた。
+
+**コアイメージ**：pourは液体が勢いよく流れる様子を表す。人や情報にも使うと、次々に大量に押し寄せるという意味になる。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：大量のものが途切れず流れる"]
+    B["既知の意味：液体を注ぐ"]
+    C["見落としやすい意味：人々が大量に押し寄せる"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：`pour into / pour out of`
+
+<small>出典候補ID：ev-02974-verb-01（index 2974）</small>
+
+---
+### 1901. glory
+
+**品詞**：verb　**発音**：/ˈɡlɔːri/
+
+<small>よく知られている意味：栄光（名詞）</small>
+
+**見落としやすい意味：誇らしげに喜ぶ**
+
+**例文**：She gloried in her team's unexpected victory.
+
+**和訳**：彼女はチームの予想外の勝利を誇らしげに喜んだ。
+
+**コアイメージ**：gloryは栄光や名誉を意味する。動詞のglory inでは、よい結果や自分の立場を誇りに思い、喜びを感じることをいう。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：栄誉を十分に味わう"]
+    B["既知の意味：栄光（名詞）"]
+    C["見落としやすい意味：誇らしげに喜ぶ"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：`glory in ...`
+
+<small>出典候補ID：ev-02975-verb-01（index 2975）</small>
+
+---
+### 1902. explosion
+
+**品詞**：noun　**発音**：/ɪkˈsploʊʒən/
+
+<small>よく知られている意味：爆発</small>
+
+**見落としやすい意味：人口や情報などの急増**
+
+**例文**：The city saw an explosion in demand for housing.
+
+**和訳**：その都市では住宅需要が急増した。
+
+**コアイメージ**：explosionは突然大きな力が解き放たれること。人口・情報・需要などでは、短期間で急激に増える様子を表す。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：短時間で一気に広がる"]
+    B["既知の意味：爆発"]
+    C["見落としやすい意味：人口や情報などの急増"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：`an explosion in demand / population explosion`
+
+<small>出典候補ID：ev-02976-noun-01（index 2976）</small>
+
+---
+### 1903. sheer
+
+**品詞**：adjective　**発音**：/ʃɪr/
+
+<small>よく知られている意味：薄く透ける・切り立った</small>
+
+**見落としやすい意味：まったくの、純然たる（強調用法）**
+
+**例文**：The sheer scale of the problem surprised everyone.
+
+**和訳**：問題のあまりの規模の大きさに皆が驚いた。
+
+**コアイメージ**：sheerには余計なものがなく、まっすぐ純粋な感覚がある。数量や大きさの前に置くと、それ自体が圧倒的だと強調する。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：ほかの要素を取り去った、まさにそれだけの"]
+    B["既知の意味：薄く透ける・切り立った"]
+    C["見落としやすい意味：まったくの、純然たる（強調用法）"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：`the sheer size / sheer luck`
+
+<small>出典候補ID：ev-02977-adjective-01（index 2977）</small>
+
+---
+### 1904. sheer
+
+**品詞**：verb　**発音**：/ʃɪr/
+
+<small>よく知られている意味：まったくの（形容詞）</small>
+
+**見落としやすい意味：急に進路を変える**
+
+**例文**：The boat sheered away from the rocks.
+
+**和訳**：船は岩場から急に進路を変えた。
+
+**コアイメージ**：動詞のsheerは船などが進む向きを突然変えること。形容詞の強調用法とは区別して、進路の変化として覚えるとよい。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：進む向きが急にそれる"]
+    B["既知の意味：まったくの（形容詞）"]
+    C["見落としやすい意味：急に進路を変える"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：`sheer away from ...`
+
+<small>出典候補ID：ev-02977-verb-01（index 2977）</small>
+
+---
+### 1905. pirate
+
+**品詞**：verb　**発音**：/ˈpaɪrət/
+
+<small>よく知られている意味：海賊（名詞）</small>
+
+**見落としやすい意味：著作物などを無断で複製する**
+
+**例文**：The company discovered that its software had been pirated.
+
+**和訳**：その会社は自社ソフトウェアが無断複製されていたと知った。
+
+**コアイメージ**：pirateはもともと海上で略奪する人物。動詞では著作物やソフトなどを権利者の許可なくコピー・配布する行為を表す。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：許可なく他人のものを奪う"]
+    B["既知の意味：海賊（名詞）"]
+    C["見落としやすい意味：著作物などを無断で複製する"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：`pirated software`
+
+<small>出典候補ID：ev-02981-verb-01（index 2981）</small>
+
+---
+### 1906. chart
+
+**品詞**：verb　**発音**：/tʃɑːrt/
+
+<small>よく知られている意味：図表・海図（名詞）</small>
+
+**見落としやすい意味：詳細に計画する**
+
+**例文**：The team charted a course toward lower emissions.
+
+**和訳**：チームは排出量削減に向けて詳しい方針を立てた。
+
+**コアイメージ**：chartは海図や表など、情報を見える形にするもの。動詞では目標までの道筋を考え、具体的な計画として示すことを意味する。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：先の道筋を図に描く"]
+    B["既知の意味：図表・海図（名詞）"]
+    C["見落としやすい意味：詳細に計画する"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：`chart a course for ...`
+
+<small>出典候補ID：ev-02982-verb-01（index 2982）</small>
+
+---
+### 1907. climate
+
+**品詞**：noun　**発音**：/ˈklaɪmət/
+
+<small>よく知られている意味：気候</small>
+
+**見落としやすい意味：世論や社会の雰囲気**
+
+**例文**：The political climate became more favorable to reform.
+
+**和訳**：改革に好意的な政治的雰囲気が強まった。
+
+**コアイメージ**：climateはある地域を長期にわたって特徴づける気候を表す。比喩的には社会・政治などの全体に広がる雰囲気や風潮を指す。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：周囲を取り巻く全体的な状態"]
+    B["既知の意味：気候"]
+    C["見落としやすい意味：世論や社会の雰囲気"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：`political climate / climate of opinion`
+
+<small>出典候補ID：ev-02983-noun-01（index 2983）</small>
+
+---
+### 1908. offering
+
+**品詞**：noun　**発音**：/ˈɔːfərɪŋ/
+
+<small>よく知られている意味：提供すること・供え物</small>
+
+**見落としやすい意味：企業などが提供する製品・サービスや提案**
+
+**例文**：The firm's newest offering is a free language-learning app.
+
+**和訳**：その企業が新たに提供する製品は、無料の語学学習アプリだ。
+
+**コアイメージ**：offerは提案したり差し出したりすること。offeringは企業や組織が利用者に向けて提供する製品・サービス・提案そのものを指す。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：相手に差し出すもの"]
+    B["既知の意味：提供すること・供え物"]
+    C["見落としやすい意味：企業などが提供する製品・サービスや提案"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：`a new offering / product offerings`
+
+<small>出典候補ID：ev-02984-noun-01（index 2984）</small>
+
+---
+### 1909. quantum
+
+**品詞**：noun　**発音**：/ˈkwɑːntəm/
+
+<small>よく知られている意味：量子</small>
+
+**見落としやすい意味：まとまりとして区切られた一定量**
+
+**例文**：The atom absorbed a quantum of energy.
+
+**和訳**：その原子は一定のまとまりのエネルギーを吸収した。
+
+**コアイメージ**：quantumは連続しているように見える量のうち、区切られた一まとまりを表す。物理ではエネルギーなどが一定の単位でやり取りされることに関わる。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：切り分けられた一単位の量"]
+    B["既知の意味：量子"]
+    C["見落としやすい意味：まとまりとして区切られた一定量"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：`a quantum of energy`
+
+<small>出典候補ID：ev-02986-noun-01（index 2986）</small>
+
+---
+### 1910. tabloid
+
+**品詞**：noun　**発音**：/ˈtæblɔɪd/
+
+<small>よく知られている意味：大衆紙・タブロイド紙</small>
+
+**見落としやすい意味：扇情的な報道**
+
+**例文**：The report was little more than tabloid dressed up as analysis.
+
+**和訳**：その報道は分析を装った扇情的な記事にすぎなかった。
+
+**コアイメージ**：tabloidは大衆紙の形態や新聞を指す語。その報道の特徴から、事実の深い検討より刺激の強さを重んじる報道内容を表すこともある。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：人の注目を強く引く報道"]
+    B["既知の意味：大衆紙・タブロイド紙"]
+    C["見落としやすい意味：扇情的な報道"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：`tabloid journalism`
+
+<small>出典候補ID：ev-02987-noun-01（index 2987）</small>
+
+---
+### 1911. pocket
+
+**品詞**：noun　**発音**：/ˈpɑːkɪt/
+
+<small>よく知られている意味：ポケット</small>
+
+**見落としやすい意味：局地的に孤立した小集団・区域**
+
+**例文**：Small pockets of resistance remained in the region.
+
+**和訳**：その地域には抵抗勢力の小集団が点在していた。
+
+**コアイメージ**：pocketは物を入れるための小さな空間。比喩的には周囲と違う人や状況が局地的に残る小さな集団・区域を指す。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：周囲から区切られた小空間"]
+    B["既知の意味：ポケット"]
+    C["見落としやすい意味：局地的に孤立した小集団・区域"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：`pockets of resistance / pockets of poverty`
+
+<small>出典候補ID：ev-02989-noun-01（index 2989）</small>
+
+---
+### 1912. wash
+
+**品詞**：noun　**発音**：/wɑːʃ/
+
+<small>よく知られている意味：洗うこと（名詞）</small>
+
+**見落としやすい意味：損益を相殺して差し引きゼロになること**
+
+**例文**：The savings and extra costs made it a wash.
+
+**和訳**：節約分と追加費用が相殺され、差し引きゼロになった。
+
+**コアイメージ**：washは洗うことや水の流れに由来する語。損得が互いに打ち消されて結局同じになる場合、名詞で『差し引きゼロ』を表す。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：反対の力が打ち消し合う"]
+    B["既知の意味：洗うこと（名詞）"]
+    C["見落としやすい意味：損益を相殺して差し引きゼロになること"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：`be a wash（主に米口語）`
+
+<small>出典候補ID：ev-02990-noun-01（index 2990）</small>
+
+---
+### 1913. wash
+
+**品詞**：verb　**発音**：/wɑːʃ/
+
+<small>よく知られている意味：洗う</small>
+
+**見落としやすい意味：（主張・説明が）批判や検証に耐え、筋が通る**
+
+**例文**：That excuse won't wash with the committee.
+
+**和訳**：その言い訳は委員会には通用しないだろう。
+
+**コアイメージ**：washは通常は洗う動作を表す。口語では説明や言い訳が妥当なものとして受け入れられるかどうかを示し、否定文でよく使う。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：吟味に耐えて通る"]
+    B["既知の意味：洗う"]
+    C["見落としやすい意味：（主張・説明が）批判や検証に耐え、筋が通る"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：`that won't wash / wash with someone`
+
+<small>出典候補ID：ev-02990-verb-01（index 2990）</small>
+
+---
+### 1914. cow
+
+**品詞**：verb　**発音**：/kaʊ/
+
+<small>よく知られている意味：雌牛（名詞）</small>
+
+**見落としやすい意味：威圧して従わせる**
+
+**例文**：The witnesses refused to be cowed by threats.
+
+**和訳**：証人たちは脅迫されても屈しなかった。
+
+**コアイメージ**：名詞cowの牛とは別に、動詞cowは威圧によって相手をおとなしく従わせることを表す。受け身のbe cowed byがよく使われる。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：恐怖で相手を押さえつける"]
+    B["既知の意味：雌牛（名詞）"]
+    C["見落としやすい意味：威圧して従わせる"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：`be cowed by threats`
+
+<small>出典候補ID：ev-02991-verb-01（index 2991）</small>
+
+---
+### 1915. distant
+
+**品詞**：adjective　**発音**：/ˈdɪstənt/
+
+<small>よく知られている意味：遠い</small>
+
+**見落としやすい意味：感情的によそよそしい、冷淡な**
+
+**例文**：He became distant after the disagreement.
+
+**和訳**：意見が食い違ってから、彼はよそよそしくなった。
+
+**コアイメージ**：distantは場所や時間の隔たりを表す。人の態度に使うと、感情的な距離があり、親しみを感じさせない様子になる。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：心の距離が離れている"]
+    B["既知の意味：遠い"]
+    C["見落としやすい意味：感情的によそよそしい、冷淡な"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：`a distant manner`
+
+<small>出典候補ID：ev-02992-adjective-01（index 2992）</small>
+
+---
+### 1916. finger
+
+**品詞**：verb　**発音**：/ˈfɪŋɡər/
+
+<small>よく知られている意味：指（名詞）</small>
+
+**見落としやすい意味：手で触れて確かめる**
+
+**例文**：She fingered the worn fabric as she spoke.
+
+**和訳**：彼女は話しながら、すり切れた布を指で触って確かめた。
+
+**コアイメージ**：fingerは指そのものを指す名詞。動詞では指先で物を触ったり、細かな部分を確かめたりする動きを表す。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：指で触れ、感触を確かめる"]
+    B["既知の意味：指（名詞）"]
+    C["見落としやすい意味：手で触れて確かめる"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：`finger the fabric / finger an object`
+
+<small>出典候補ID：ev-02993-verb-01（index 2993）</small>
+
+---
+### 1917. ambitious
+
+**品詞**：adjective　**発音**：/æmˈbɪʃəs/
+
+<small>よく知られている意味：野心的な</small>
+
+**見落としやすい意味：多くの労力や能力を要する**
+
+**例文**：Completing the bridge in one year is an ambitious project.
+
+**和訳**：その橋を1年で完成させるのは、多大な労力を要する事業だ。
+
+**コアイメージ**：ambitiousは大きな成功を望む人だけに使う語ではない。計画や事業が通常より難しく、多くの努力や技術を必要とする場合にも使う。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：高い目標を掲げる"]
+    B["既知の意味：野心的な"]
+    C["見落としやすい意味：多くの労力や能力を要する"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：`an ambitious plan / an ambitious project`
+
+<small>出典候補ID：ev-02995-adjective-01（index 2995）</small>
+
+---
+### 1918. seal
+
+**品詞**：verb　**発音**：/siːl/
+
+<small>よく知られている意味：封をする・印章</small>
+
+**見落としやすい意味：結果・運命を決定づける**
+
+**例文**：Their final mistake sealed their defeat.
+
+**和訳**：最後のミスが彼らの敗北を決定づけた。
+
+**コアイメージ**：sealは封印して中身や状態を固定すること。結果や運命について使うと、もはや変えられないほど決定的にすることを表す。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：後から変えられないよう確定する"]
+    B["既知の意味：封をする・印章"]
+    C["見落としやすい意味：結果・運命を決定づける"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：`seal someone's fate / seal a victory`
+
+<small>出典候補ID：ev-02997-verb-01（index 2997）</small>
+
+---
+### 1919. oral
+
+**品詞**：noun　**発音**：/ˈɔːrəl/
+
+<small>よく知られている意味：口頭の（形容詞）</small>
+
+**見落としやすい意味：口頭試験**
+
+**例文**：My French oral is scheduled for Friday.
+
+**和訳**：私のフランス語の口頭試験は金曜日に予定されている。
+
+**コアイメージ**：oralは書面ではなく口を使うことを表す形容詞。名詞としては、特に学校などで口頭で受ける試験を指す。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：口で伝える形式"]
+    B["既知の意味：口頭の（形容詞）"]
+    C["見落としやすい意味：口頭試験"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：`an oral exam / an oral`
+
+<small>出典候補ID：ev-02998-noun-01（index 2998）</small>
+
+---
+### 1920. concede
+
+**品詞**：verb　**発音**：/kənˈsiːd/
+
+<small>よく知られている意味：譲歩する</small>
+
+**見落としやすい意味：不本意ながら事実や敗北を認める**
+
+**例文**：He conceded that the criticism was partly justified.
+
+**和訳**：彼はその批判に一部正当な点があると渋々認めた。
+
+**コアイメージ**：concedeは争っていた点について譲ることを表す。議論や競争では、不本意でも事実や敗北を認めることを意味する。
+
+```mermaid
+flowchart LR
+    A["中心イメージ：抵抗をやめて相手に認める"]
+    B["既知の意味：譲歩する"]
+    C["見落としやすい意味：不本意ながら事実や敗北を認める"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：`concede that ... / concede defeat`
+
+<small>出典候補ID：ev-03002-verb-01（index 3002）</small>
 
 ---
