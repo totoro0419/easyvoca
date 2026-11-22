@@ -33,7 +33,7 @@ export function reviewResult(prev:ReviewStat|undefined,correct:boolean,now=new D
 }
 export function dueSummaries(catalog:CardSummary[],p:Progress,now=new Date()):CardSummary[] {
   const time=now.getTime();
-  return catalog.filter(s=>p.viewed[s.candidate_id] && (!p.reviews[s.candidate_id]||Date.parse(p.reviews[s.candidate_id].dueAt)<=time))
+  return catalog.filter(s=>s.status!=='hold' && p.viewed[s.candidate_id] && (!p.reviews[s.candidate_id]||Date.parse(p.reviews[s.candidate_id].dueAt)<=time))
     .sort((a,b)=>(p.reviews[a.candidate_id]?.dueAt??'').localeCompare(p.reviews[b.candidate_id]?.dueAt??'')||a.global_order-b.global_order);
 }
 export function searchCards(catalog:CardSummary[],query:string,pos:string,onlyFav:boolean,onlyUnread:boolean,p:Progress):CardSummary[] {
@@ -47,7 +47,7 @@ function hashString(s:string):number { let h=2166136261; for(const ch of s){h=Ma
 export function makeChoices(target:CardSummary,catalog:CardSummary[]):{id:string;label:string;correct:boolean}[] {
   const answer=normalizeMeaning(target.hidden_meaning_ja);
   const targetLen=target.hidden_meaning_ja.length;
-  const pool=catalog.filter(c=>c.candidate_id!==target.candidate_id&&c.word!==target.word
+  const pool=catalog.filter(c=>c.candidate_id!==target.candidate_id&&c.status!=='hold'&&c.word!==target.word
     &&c.pos===target.pos&&Math.abs(c.hidden_meaning_ja.length-targetLen)<Math.max(16,targetLen*0.8)
     &&normalizeMeaning(c.hidden_meaning_ja)!==answer);
   pool.sort((a,b)=>hashString(a.candidate_id+target.candidate_id)-hashString(b.candidate_id+target.candidate_id));
@@ -61,7 +61,7 @@ export function makeChoices(target:CardSummary,catalog:CardSummary[]):{id:string
   if(selected.length<3) {
     for(const c of catalog) {
       const meaning=normalizeMeaning(c.hidden_meaning_ja);
-      if(c.candidate_id===target.candidate_id||c.word===target.word||!meaning||answer===meaning
+      if(c.candidate_id===target.candidate_id||c.status==='hold'||c.word===target.word||!meaning||answer===meaning
         ||selected.some(x=>normalizeMeaning(x.hidden_meaning_ja)===meaning))continue;
       if(answer.includes(meaning)||meaning.includes(answer))continue;
       selected.push(c);if(selected.length===3)break;

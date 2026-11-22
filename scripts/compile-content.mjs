@@ -12,7 +12,7 @@ for (let i = 0; i < 64; i++) {
 const cards = [];
 const ids = new Set();
 const orders = new Set();
-const required = ['candidate_id','global_order','word','pos','known_meaning_ja','hidden_meaning_ja','example_en','example_ja','core_image_explanation_ja','diagram_mermaid'];
+const required = ['candidate_id','global_order','word','pos','known_meaning_ja','hidden_meaning_ja','core_image_explanation_ja','diagram_mermaid'];
 for (const [index,name] of names.entries()) {
   const lines = (await readFile(join(sourceDir,name),'utf8')).split(/\r?\n/).filter(Boolean);
   if (!lines.length) throw new Error('空バッチ: ' + name);
@@ -45,6 +45,7 @@ const catalog=cards.map((card,i)=>({
   pos:card.pos,
   hidden_meaning_ja:card.hidden_meaning_ja,
   known_meaning_ja:card.known_meaning_ja,
+  status:card.status,
   chunk:Math.floor(i/chunkSize)
 }));
 const chunks=Math.ceil(cards.length/chunkSize);

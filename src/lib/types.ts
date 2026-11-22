@@ -6,6 +6,7 @@ export interface CardSummary {
   hidden_meaning_ja: string;
   known_meaning_ja: string;
   chunk: number;
+  status?: string;
 }
 export interface ContentCard {
   candidate_id: string;
