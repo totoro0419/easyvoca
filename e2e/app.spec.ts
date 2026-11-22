@@ -56,5 +56,8 @@ test('モバイルで左右ドラッグと縦スクロール',async({page})=>{
   await expect(page.locator('.study-position strong')).toContainText(/2\s*\/\s*20/);
   await page.mouse.wheel(0,360);
   await expect(page.locator('.study-position strong')).toContainText(/2\s*\/\s*20/);
+  await expect(page.locator('.diagram-svg svg')).toContainText('中心',{timeout:25000});
+  const width=await page.locator('.diagram-svg svg').evaluate(el=>el.getBoundingClientRect().width);
+  expect(width).toBeGreaterThanOrEqual(540);
   await page.screenshot({path:'test-results/mobile-study.png'});
 });
