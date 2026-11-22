@@ -8,7 +8,7 @@
 - **保留件数**：0件
 - **問題のあった候補**：対象範囲で欠落・識別子の不一致なし。教材の例文・解説はオリジナルのAI作成内容であり、外部辞書との全数校閲は行っていない。
 - **コミット（教材データ）**：[c9f687c](https://github.com/totoro0419/easyvoca/commit/c9f687cdd8a5f80abcbcdad9b41e2b461372c61e)
-- **PR URL**：作成後に追記
+- **PR URL**：[PR #46](https://github.com/totoro0419/easyvoca/pull/46)
 
 ## 作成物
 - `content/cards/batch_024.md`：80カード。既知の意味は小さく補足表示し、見落としやすい意味・例文・和訳・コアイメージ・Mermaid図・必要な語法を収録。
