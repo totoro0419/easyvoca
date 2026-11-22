@@ -1159,3 +1159,583 @@ flowchart LR
 **重要語法**：be defined by ...「〜によって特徴づけられる」。
 
 <small>index: 1075 / candidate_id: `ev-01075-verb-01`</small>
+
+---
+
+## 761. fly
+
+品詞：noun　｜　発音（米音目安）：/flaɪ/
+
+<small>よく知られている意味：飛ぶ・ハエ</small>
+
+**見落としやすい意味：ズボンの前部の開閉部分（ファスナー部分）**
+
+**例文**：The fly on my jeans is broken.
+
+**和訳**：私のジーンズの前開きが壊れている。
+
+**コアイメージ**：衣服の fly はズボンの前開きに当たる部分を指す名詞。「飛ぶ」や「ハエ」と同じ綴りだが、衣類の話では別の意味に切り替えて読む。
+
+```mermaid
+flowchart LR
+    A["中心: 衣類の前を開閉する部分"]
+    B["既知: 飛ぶ・ハエ"]
+    C["今回: ズボンの前部の開閉部分（ファスナー部分）"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：zip fly「ファスナー式の前開き」／button fly「ボタン式の前開き」。
+
+<small>index: 1076 / candidate_id: `ev-01076-noun-01`</small>
+
+---
+
+## 762. novel
+
+品詞：adjective　｜　発音（米音目安）：/ˈnɑːvəl/
+
+<small>よく知られている意味：小説（名詞）</small>
+
+**見落としやすい意味：新奇な、従来にない独創的な**
+
+**例文**：The researchers proposed a novel solution to the problem.
+
+**和訳**：研究者たちはその問題に対して斬新な解決策を提案した。
+
+**コアイメージ**：novel には「新しい、今までにない」という意味がある。小説という名詞以外に、従来の方法と異なる発想や技術を修飾する形容詞になる。
+
+```mermaid
+flowchart LR
+    A["中心: これまでになかった新しさ"]
+    B["既知: 小説（名詞）"]
+    C["今回: 新奇な、従来にない独創的な"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：a novel approach / a novel solution。
+
+<small>index: 1077 / candidate_id: `ev-01077-adjective-01`</small>
+
+---
+
+## 763. permit
+
+品詞：noun　｜　発音（米音目安）：/ˈpɝːmɪt/
+
+<small>よく知られている意味：許可する（動詞）</small>
+
+**見落としやすい意味：公的な許可証、許可を示す書類**
+
+**例文**：You need a permit to camp in this area.
+
+**和訳**：この区域でキャンプするには許可証が必要だ。
+
+**コアイメージ**：permit は許可を与えることに関わる語。名詞になると、許可があることを公的に証明する書類そのものを表す。
+
+```mermaid
+flowchart LR
+    A["中心: 許可があることを示すもの"]
+    B["既知: 許可する（動詞）"]
+    C["今回: 公的な許可証、許可を示す書類"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：名詞は第1音節、動詞 /pərˈmɪt/ は第2音節に強勢。
+
+<small>index: 1079 / candidate_id: `ev-01079-noun-01`</small>
+
+---
+
+## 764. narrow
+
+品詞：phrasal verb　｜　発音（米音目安）：/ˈneroʊ/
+
+<small>よく知られている意味：狭い</small>
+
+**見落としやすい意味：候補や範囲を絞り込む**
+
+**例文**：We narrowed down the list to three names.
+
+**和訳**：私たちは候補者リストを3人に絞り込んだ。
+
+**コアイメージ**：narrow の「幅が狭い」を、候補の数や可能性の範囲に当てはめる。narrow down は不要な選択肢を除いて少数に限定する動きを表す。
+
+```mermaid
+flowchart LR
+    A["中心: 選択肢の幅を狭くする"]
+    B["既知: 狭い"]
+    C["今回: 候補や範囲を絞り込む"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：narrow down A to B「AをBまで絞る」。
+
+<small>index: 1082 / candidate_id: `ev-01082-phrasal-verb-01`</small>
+
+---
+
+## 765. advantage
+
+品詞：construction　｜　発音（米音目安）：/ədˈvæntɪdʒ/
+
+<small>よく知られている意味：利点・有利さ</small>
+
+**見落としやすい意味：利用する・弱みにつけこむ**
+
+**例文**：He took advantage of her kindness.
+
+**和訳**：彼は彼女の親切心につけこんだ。
+
+**コアイメージ**：advantage は自分にとって有利なもの。take advantage of は、その有利さを自分のために利用することで、好機の活用にも他人の弱みにつけこむ場合にも使う。
+
+```mermaid
+flowchart LR
+    A["中心: 自分に有利な状況を利用する"]
+    B["既知: 利点・有利さ"]
+    C["今回: 利用する・弱みにつけこむ"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：take advantage of an opportunity「機会を生かす」／take advantage of someone「人につけこむ」。
+
+<small>index: 1085 / candidate_id: `ev-01085-construction-01`</small>
+
+---
+
+## 766. phrase
+
+品詞：verb　｜　発音（米音目安）：/freɪz/
+
+<small>よく知られている意味：句・言い回し（名詞）</small>
+
+**見落としやすい意味：言葉を選んで表現する・言い回す**
+
+**例文**：She phrased the question carefully to avoid confusion.
+
+**和訳**：彼女は誤解を避けるため、質問の言い方を慎重に選んだ。
+
+**コアイメージ**：phrase は言葉がひとまとまりになった表現を指す。動詞では、その言葉の組み立て方を考えて内容を表現することを意味する。
+
+```mermaid
+flowchart LR
+    A["中心: 言葉を組み立てて伝える"]
+    B["既知: 句・言い回し（名詞）"]
+    C["今回: 言葉を選んで表現する・言い回す"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：phrase a question / be carefully phrased。
+
+<small>index: 1086 / candidate_id: `ev-01086-verb-01`</small>
+
+---
+
+## 767. sentence
+
+品詞：verb　｜　発音（米音目安）：/ˈsentəns/
+
+<small>よく知られている意味：文・文章（名詞）</small>
+
+**見落としやすい意味：裁判で刑を宣告する**
+
+**例文**：The judge sentenced him to two years in prison.
+
+**和訳**：裁判官は彼に懲役2年を言い渡した。
+
+**コアイメージ**：sentence には裁判所が正式に言い渡す「判決・刑」という名詞の意味もある。動詞では、裁判官が刑罰を宣告する動きを表す。
+
+```mermaid
+flowchart LR
+    A["中心: 正式な判断を言い渡す"]
+    B["既知: 文・文章（名詞）"]
+    C["今回: 裁判で刑を宣告する"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：sentence someone to ...「人に〜の刑を宣告する」。
+
+<small>index: 1087 / candidate_id: `ev-01087-verb-01`</small>
+
+---
+
+## 768. cell
+
+品詞：noun　｜　発音（米音目安）：/sel/
+
+<small>よく知られている意味：細胞</small>
+
+**見落としやすい意味：独房、監房、修道院の小部屋**
+
+**例文**：The prisoner spent the night in a small cell.
+
+**和訳**：その囚人は小さな監房で一夜を過ごした。
+
+**コアイメージ**：cell は区切られた小さな空間を表す。生物の細胞だけでなく、建物の中で一人を収容する小部屋にも使われる。
+
+```mermaid
+flowchart LR
+    A["中心: 周囲から区切られた小区画"]
+    B["既知: 細胞"]
+    C["今回: 独房、監房、修道院の小部屋"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：prison cell「監房」／monk's cell「修道士の小部屋」。
+
+<small>index: 1088 / candidate_id: `ev-01088-noun-01`</small>
+
+---
+
+## 769. cell
+
+品詞：noun　｜　発音（米音目安）：/sel/
+
+<small>よく知られている意味：細胞</small>
+
+**見落としやすい意味：表計算や表の一つ一つのマス**
+
+**例文**：Enter the total in the last cell of the table.
+
+**和訳**：表の最後のマスに合計を入力してください。
+
+**コアイメージ**：cell の中心は区切られた小さな単位。表計算では、行と列で囲まれた一つ一つの入力欄を表す。
+
+```mermaid
+flowchart LR
+    A["中心: 境界で区切られた一単位"]
+    B["既知: 細胞"]
+    C["今回: 表計算や表の一つ一つのマス"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：spreadsheet cell「表計算のセル」。
+
+<small>index: 1088 / candidate_id: `ev-01088-noun-02`</small>
+
+---
+
+## 770. port
+
+品詞：noun　｜　発音（米音目安）：/pɔːrt/
+
+<small>よく知られている意味：港</small>
+
+**見落としやすい意味：機器やコンピューターの接続口・通信の接点**
+
+**例文**：Plug the cable into the USB port on the laptop.
+
+**和訳**：ノートパソコンのUSB接続口にケーブルを差し込んでください。
+
+**コアイメージ**：port は外部から入って来るものや出て行くものの接点を表す。港が船の出入り口であるのと同様に、機器の接続口や通信の窓口にも使う。
+
+```mermaid
+flowchart LR
+    A["中心: 内外をつなぐ出入り口"]
+    B["既知: 港"]
+    C["今回: 機器やコンピューターの接続口・通信の接点"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：USB port / network port。
+
+<small>index: 1091 / candidate_id: `ev-01091-noun-01`</small>
+
+---
+
+## 771. audience
+
+品詞：noun　｜　発音（米音目安）：/ˈɔːdiəns/
+
+<small>よく知られている意味：聴衆・観客</small>
+
+**見落としやすい意味：重要人物との公式な面会・謁見**
+
+**例文**：The ambassador was granted an audience with the king.
+
+**和訳**：その大使は国王との謁見を許された。
+
+**コアイメージ**：audience には話を聞くことと関係する意味がある。重要人物が面会者の話を聞く公式な機会を表すと、「謁見・面会」になる。
+
+```mermaid
+flowchart LR
+    A["中心: 重要人物に話を聞いてもらう機会"]
+    B["既知: 聴衆・観客"]
+    C["今回: 重要人物との公式な面会・謁見"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：an audience with + 人／grant someone an audience。
+
+<small>index: 1093 / candidate_id: `ev-01093-noun-01`</small>
+
+---
+
+## 772. conclude
+
+品詞：verb　｜　発音（米音目安）：/kənˈkluːd/
+
+<small>よく知られている意味：結論づける・終える</small>
+
+**見落としやすい意味：契約・協定を正式に締結する**
+
+**例文**：The two companies concluded an agreement on data sharing.
+
+**和訳**：その2社はデータ共有に関する協定を締結した。
+
+**コアイメージ**：conclude は物事を終結させ、決着をつける動きが中心。交渉や協議の文脈では、正式な合意を成立させることを意味する。
+
+```mermaid
+flowchart LR
+    A["中心: 話し合いに正式な決着をつける"]
+    B["既知: 結論づける・終える"]
+    C["今回: 契約・協定を正式に締結する"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：conclude an agreement / conclude a treaty。
+
+<small>index: 1094 / candidate_id: `ev-01094-verb-01`</small>
+
+---
+
+## 773. affair
+
+品詞：noun　｜　発音（米音目安）：/əˈfer/
+
+<small>よく知られている意味：事柄・用件</small>
+
+**見落としやすい意味：恋愛上の秘密の関係・不倫関係**
+
+**例文**：The newspaper reported that he had an affair with a colleague.
+
+**和訳**：新聞は、彼が同僚と秘密の恋愛関係にあったと報じた。
+
+**コアイメージ**：affair は人に関わる出来事や問題を指す。私生活を扱う文脈では、表に出していない恋愛関係、とりわけ不倫関係を表すことがある。
+
+```mermaid
+flowchart LR
+    A["中心: 人に関わる私的な出来事"]
+    B["既知: 事柄・用件"]
+    C["今回: 恋愛上の秘密の関係・不倫関係"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：have an affair with + 人。
+
+<small>index: 1096 / candidate_id: `ev-01096-noun-01`</small>
+
+---
+
+## 774. property
+
+品詞：noun　｜　発音（米音目安）：/ˈprɑːpərti/
+
+<small>よく知られている意味：財産・所有物</small>
+
+**見落としやすい意味：物質・対象が備える性質、特性**
+
+**例文**：Water has several unusual physical properties.
+
+**和訳**：水にはいくつかの珍しい物理的性質がある。
+
+**コアイメージ**：property はあるものに属しているものを表す語。所有する物だけでなく、その物が備えている性質や特徴も指す。
+
+```mermaid
+flowchart LR
+    A["中心: 対象が固有に持っているもの"]
+    B["既知: 財産・所有物"]
+    C["今回: 物質・対象が備える性質、特性"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：physical properties / chemical properties。
+
+<small>index: 1097 / candidate_id: `ev-01097-noun-01`</small>
+
+---
+
+## 775. seat
+
+品詞：noun　｜　発音（米音目安）：/siːt/
+
+<small>よく知られている意味：座席</small>
+
+**見落としやすい意味：議会などの議席・議員の地位**
+
+**例文**：She won a seat in parliament.
+
+**和訳**：彼女は議会の議席を獲得した。
+
+**コアイメージ**：seat は人が座るために割り当てられた場所。議会の文脈では、議員に与えられる席から議員の地位そのものを表す。
+
+```mermaid
+flowchart LR
+    A["中心: 人に割り当てられた席・立場"]
+    B["既知: 座席"]
+    C["今回: 議会などの議席・議員の地位"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：win a seat / hold a seat in parliament。
+
+<small>index: 1098 / candidate_id: `ev-01098-noun-01`</small>
+
+---
+
+## 776. shape
+
+品詞：verb　｜　発音（米音目安）：/ʃeɪp/
+
+<small>よく知られている意味：形（名詞）</small>
+
+**見落としやすい意味：将来や考え方などを形成し方向づける**
+
+**例文**：Childhood experiences often shape our values.
+
+**和訳**：幼い頃の経験は、しばしば私たちの価値観を形づくる。
+
+**コアイメージ**：shape は物に形を与えること。目に見えない価値観や将来にも用い、影響を重ねて方向性を作ることを表す。
+
+```mermaid
+flowchart LR
+    A["中心: 物事に形と方向を与える"]
+    B["既知: 形（名詞）"]
+    C["今回: 将来や考え方などを形成し方向づける"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：shape opinions / shape the future。
+
+<small>index: 1099 / candidate_id: `ev-01099-verb-01`</small>
+
+---
+
+## 777. connection
+
+品詞：noun　｜　発音（米音目安）：/kəˈnekʃən/
+
+<small>よく知られている意味：接続・関係</small>
+
+**見落としやすい意味：有力者とのつながり・コネ**
+
+**例文**：She has useful connections in the publishing industry.
+
+**和訳**：彼女には出版業界に役立つ人脈がある。
+
+**コアイメージ**：connection は人や物の間にある結び付き。仕事や社会の文脈では、助けを得られる知人や有力者とのつながりを指すことがある。
+
+```mermaid
+flowchart LR
+    A["中心: 人と人を結ぶネットワーク"]
+    B["既知: 接続・関係"]
+    C["今回: 有力者とのつながり・コネ"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：have connections in ...「〜業界に人脈がある」。
+
+<small>index: 1101 / candidate_id: `ev-01101-noun-01`</small>
+
+---
+
+## 778. commit
+
+品詞：construction　｜　発音（米音目安）：/kəˈmɪt/
+
+<small>よく知られている意味：（罪などを）犯す・確約する</small>
+
+**見落としやすい意味：自分の身をある目的・行動に投じる**
+
+**例文**：He committed himself to learning Japanese.
+
+**和訳**：彼は日本語の学習に本気で打ち込むと決めた。
+
+**コアイメージ**：commit は自分を何かに深く関わらせ、引き受ける動き。commit oneself to では、ある目的に自分の時間や力を投じることを表す。
+
+```mermaid
+flowchart LR
+    A["中心: 自分の力をある目的に差し向ける"]
+    B["既知: （罪などを）犯す・確約する"]
+    C["今回: 自分の身をある目的・行動に投じる"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：commit oneself to + 名詞／動名詞。to は前置詞。
+
+<small>index: 1102 / candidate_id: `ev-01102-construction-01`</small>
+
+---
+
+## 779. commit
+
+品詞：verb　｜　発音（米音目安）：/kəˈmɪt/
+
+<small>よく知られている意味：約束する・専念する</small>
+
+**見落としやすい意味：犯罪・誤りなどを犯す**
+
+**例文**：Someone committed a serious crime in the town.
+
+**和訳**：町で何者かが重大な犯罪を犯した。
+
+**コアイメージ**：commit はある行為を実際に行うことも表す。目的語が crime や error などなら、望ましくない行為を「犯す」という意味になる。
+
+```mermaid
+flowchart LR
+    A["中心: ある行為を実行する"]
+    B["既知: 約束する・専念する"]
+    C["今回: 犯罪・誤りなどを犯す"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：commit a crime / commit an error。
+
+<small>index: 1102 / candidate_id: `ev-01102-verb-01`</small>
+
+---
+
+## 780. realize
+
+品詞：verb　｜　発音（米音目安）：/ˈriːəlaɪz/
+
+<small>よく知られている意味：気づく・理解する</small>
+
+**見落としやすい意味：夢・計画を現実のものにする**
+
+**例文**：She finally realized her dream of becoming a doctor.
+
+**和訳**：彼女はついに医師になる夢を実現した。
+
+**コアイメージ**：realize は頭の中で理解するだけでなく、考えていたことを現実のものにする意味も持つ。夢や目標が目的語なら、「実現する」が自然。
+
+```mermaid
+flowchart LR
+    A["中心: 考えを現実のものにする"]
+    B["既知: 気づく・理解する"]
+    C["今回: 夢・計画を現実のものにする"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：realize a dream / realize a goal。
+
+<small>index: 1106 / candidate_id: `ev-01106-verb-01`</small>
