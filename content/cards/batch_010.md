@@ -579,3 +579,583 @@ flowchart LR
 **重要語法**：otherwise good / but otherwise ...。
 
 <small>index: 1032 / candidate_id: `ev-01032-adverb-01`</small>
+
+---
+
+## 741. relate
+
+品詞：verb　｜　発音（米音目安）：/rɪˈleɪt/
+
+<small>よく知られている意味：関係する</small>
+
+**見落としやすい意味：相手の体験や気持ちに共感する**
+
+**例文**：I can relate to her fear of speaking in public.
+
+**和訳**：人前で話すことを怖がる彼女の気持ちはよく分かる。
+
+**コアイメージ**：relate は二つのものを結び付けること。相手の経験を自分の経験と結び付けられるとき、「共感できる」という意味になる。
+
+```mermaid
+flowchart LR
+    A["中心: 自分と相手の経験を結び付ける"]
+    B["既知: 関係する"]
+    C["今回: 相手の体験や気持ちに共感する"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：relate to someone / relate to a feeling。
+
+<small>index: 1035 / candidate_id: `ev-01035-verb-01`</small>
+
+---
+
+## 742. dead
+
+品詞：adverb　｜　発音（米音目安）：/ded/
+
+<small>よく知られている意味：死んだ</small>
+
+**見落としやすい意味：まったく、完全に（dead tired など）**
+
+**例文**：I was dead tired after the long hike.
+
+**和訳**：長いハイキングの後、私はくたくただった。
+
+**コアイメージ**：dead は生気がないほど完全な状態を連想させる。形容詞の前に置く副詞用法では、疲労などの程度を強く表す。
+
+```mermaid
+flowchart LR
+    A["中心: 極端な状態まで達している"]
+    B["既知: 死んだ"]
+    C["今回: まったく、完全に（dead tired など）"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：dead tired「くたくたの」／dead wrong「完全に間違った」。
+
+<small>index: 1037 / candidate_id: `ev-01037-adverb-01`</small>
+
+---
+
+## 743. brief
+
+品詞：verb　｜　発音（米音目安）：/briːf/
+
+<small>よく知られている意味：短い</small>
+
+**見落としやすい意味：必要な事情や指示を手短に伝える**
+
+**例文**：The manager briefed us on the new safety rules.
+
+**和訳**：責任者は新しい安全規則について私たちに要点を説明した。
+
+**コアイメージ**：brief の「短い」という性質が、伝える情報を要点に絞る動詞用法につながる。必要な事実や指示を簡潔に知らせる場面で使う。
+
+```mermaid
+flowchart LR
+    A["中心: 情報を要点に絞る"]
+    B["既知: 短い"]
+    C["今回: 必要な事情や指示を手短に伝える"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：brief someone on/about something。
+
+<small>index: 1038 / candidate_id: `ev-01038-verb-01`</small>
+
+---
+
+## 744. wish
+
+品詞：construction　｜　発音（米音目安）：/wɪʃ/
+
+<small>よく知られている意味：願う</small>
+
+**見落としやすい意味：現実とは違うことを願う・過去を悔やむ**
+
+**例文**：I wish I had listened to your advice.
+
+**和訳**：あなたの助言を聞いておけばよかった。
+
+**コアイメージ**：wish の後ろで時制を過去側にずらすと、現実との距離を表せる。過去形は現在の事実と異なる願望、過去完了形は過去への後悔を表すことが多い。
+
+```mermaid
+flowchart LR
+    A["中心: 現実と違う状況を思い描く"]
+    B["既知: 願う"]
+    C["今回: 現実とは違うことを願う・過去を悔やむ"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：wish (that) + 過去形／過去完了形。
+
+<small>index: 1040 / candidate_id: `ev-01040-construction-01`</small>
+
+---
+
+## 745. coverage
+
+品詞：noun　｜　発音（米音目安）：/ˈkʌvərɪdʒ/
+
+<small>よく知られている意味：覆う範囲</small>
+
+**見落としやすい意味：ニュースや出来事についての報道・取材**
+
+**例文**：The storm received extensive news coverage.
+
+**和訳**：その嵐はニュースで広く報道された。
+
+**コアイメージ**：coverage は何かをどの範囲まで取り上げるかを表す。報道では、出来事を取材しニュースとして伝える範囲や量を指す。
+
+```mermaid
+flowchart LR
+    A["中心: 対象をどこまで取り上げるか"]
+    B["既知: 覆う範囲"]
+    C["今回: ニュースや出来事についての報道・取材"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：news coverage / media coverage。
+
+<small>index: 1042 / candidate_id: `ev-01042-noun-01`</small>
+
+---
+
+## 746. liberal
+
+品詞：adjective　｜　発音（米音目安）：/ˈlɪbərəl/
+
+<small>よく知られている意味：自由主義的な</small>
+
+**見落としやすい意味：気前よく与える、惜しみない**
+
+**例文**：The teacher was liberal with praise.
+
+**和訳**：その先生は惜しみなく生徒を褒めた。
+
+**コアイメージ**：liberal には制限が厳しくなく、十分に与える感覚がある。政治的立場だけでなく、褒め言葉や援助を気前よく与える様子も表す。
+
+```mermaid
+flowchart LR
+    A["中心: 制限せず十分に与える"]
+    B["既知: 自由主義的な"]
+    C["今回: 気前よく与える、惜しみない"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：be liberal with praise / money。
+
+<small>index: 1044 / candidate_id: `ev-01044-adjective-01`</small>
+
+---
+
+## 747. liberal
+
+品詞：adjective　｜　発音（米音目安）：/ˈlɪbərəl/
+
+<small>よく知られている意味：自由主義的な</small>
+
+**見落としやすい意味：規則や解釈が厳格でない、寛大な**
+
+**例文**：They gave the rule a liberal interpretation.
+
+**和訳**：彼らはその規則を柔軟に解釈した。
+
+**コアイメージ**：liberal には厳格な制約に縛られないという側面がある。規則の解釈では、細部を厳密に限定せず幅広く受け止める意味になる。
+
+```mermaid
+flowchart LR
+    A["中心: 制限を緩めて幅広くとらえる"]
+    B["既知: 自由主義的な"]
+    C["今回: 規則や解釈が厳格でない、寛大な"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：a liberal interpretation of a rule。
+
+<small>index: 1044 / candidate_id: `ev-01044-adjective-02`</small>
+
+---
+
+## 748. dance
+
+品詞：phrasal verb　｜　発音（米音目安）：/dæns/
+
+<small>よく知られている意味：踊る</small>
+
+**見落としやすい意味：話題や問題の核心を避けて曖昧に答える**
+
+**例文**：The spokesperson danced around the difficult question.
+
+**和訳**：広報担当者はその難しい質問への明確な回答を避けた。
+
+**コアイメージ**：踊るようにあちこち動き、中心に踏み込まないイメージ。dance around は問題の核心を避け、曖昧に話すことを表す。
+
+```mermaid
+flowchart LR
+    A["中心: 中心を避けて周囲を回る"]
+    B["既知: 踊る"]
+    C["今回: 話題や問題の核心を避けて曖昧に答える"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：dance around a question / an issue。
+
+<small>index: 1045 / candidate_id: `ev-01045-phrasal-verb-01`</small>
+
+---
+
+## 749. net
+
+品詞：adjective　｜　発音（米音目安）：/net/
+
+<small>よく知られている意味：網（名詞）</small>
+
+**見落としやすい意味：経費・控除分を差し引いた正味の**
+
+**例文**：The company's net profit rose this year.
+
+**和訳**：その会社の純利益は今年増加した。
+
+**コアイメージ**：net には「網」とは別に、差し引き計算の後に残る金額を表す用法がある。売上や給与など金額の前では、経費や税金などを除いた「正味」を意味する。
+
+```mermaid
+flowchart LR
+    A["中心: 差し引いた後に残る額"]
+    B["既知: 網（名詞）"]
+    C["今回: 経費・控除分を差し引いた正味の"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：net profit「純利益」／net income「純所得」。
+
+<small>index: 1047 / candidate_id: `ev-01047-adjective-01`</small>
+
+---
+
+## 750. affect
+
+品詞：noun　｜　発音（米音目安）：/ˈæfekt/
+
+<small>よく知られている意味：影響する（動詞）</small>
+
+**見落としやすい意味：感情・情動の表れ（心理学用語）**
+
+**例文**：The patient showed little affect during the interview.
+
+**和訳**：面談中、その患者は感情の表れが乏しかった。
+
+**コアイメージ**：名詞の affect は心理学などで、外に現れる感情の表出を指す専門用語。動詞「影響する」とは意味もアクセントも異なるので、品詞と文脈で判別する。
+
+```mermaid
+flowchart LR
+    A["中心: 感情が外へ現れた様子"]
+    B["既知: 影響する（動詞）"]
+    C["今回: 感情・情動の表れ（心理学用語）"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：専門名詞 affect は第1音節に強勢。動詞 affect /əˈfekt/ と区別。
+
+<small>index: 1048 / candidate_id: `ev-01048-noun-01`</small>
+
+---
+
+## 751. pressure
+
+品詞：verb　｜　発音（米音目安）：/ˈpreʃər/
+
+<small>よく知られている意味：圧力（名詞）</small>
+
+**見落としやすい意味：相手に圧力をかけて行動を迫る**
+
+**例文**：The group pressured the council into changing its decision.
+
+**和訳**：その団体は議会に圧力をかけ、決定を変更させた。
+
+**コアイメージ**：pressure は押し付ける力を表す語。動詞では、相手に心理的・社会的圧力を加えて望む行動を取らせることを意味する。
+
+```mermaid
+flowchart LR
+    A["中心: 相手を押して行動を変えさせる"]
+    B["既知: 圧力（名詞）"]
+    C["今回: 相手に圧力をかけて行動を迫る"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：pressure someone into doing「人に圧力をかけて〜させる」。
+
+<small>index: 1051 / candidate_id: `ev-01051-verb-01`</small>
+
+---
+
+## 752. abuse
+
+品詞：noun　｜　発音（米音目安）：/əˈbjuːs/
+
+<small>よく知られている意味：虐待・乱用</small>
+
+**見落としやすい意味：言葉による侮辱・罵倒**
+
+**例文**：The workers faced verbal abuse from angry customers.
+
+**和訳**：従業員たちは怒った客から暴言を浴びた。
+
+**コアイメージ**：abuse は人や物を不当に扱うことを表す。言葉に向けられると、相手を傷つける侮辱や罵倒という意味になる。
+
+```mermaid
+flowchart LR
+    A["中心: 相手を不当に傷つける扱い"]
+    B["既知: 虐待・乱用"]
+    C["今回: 言葉による侮辱・罵倒"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：verbal abuse「暴言・言葉による侮辱」。
+
+<small>index: 1052 / candidate_id: `ev-01052-noun-01`</small>
+
+---
+
+## 753. wonder
+
+品詞：construction　｜　発音（米音目安）：/ˈwʌndər/
+
+<small>よく知られている意味：不思議に思う</small>
+
+**見落としやすい意味：〜なのも不思議ではない、当然だ**
+
+**例文**：No wonder you're tired after such a long journey.
+
+**和訳**：そんな長旅の後なら、疲れているのも当然だ。
+
+**コアイメージ**：wonder は「不思議だと思うこと」。no wonder は「不思議なことではない」から、理由を聞けば納得できるという意味になる。
+
+```mermaid
+flowchart LR
+    A["中心: 驚く理由がないほど当然"]
+    B["既知: 不思議に思う"]
+    C["今回: 〜なのも不思議ではない、当然だ"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：(It's) no wonder (that) ...「〜なのも無理はない」。
+
+<small>index: 1053 / candidate_id: `ev-01053-construction-01`</small>
+
+---
+
+## 754. operate
+
+品詞：verb　｜　発音（米音目安）：/ˈɑːpəreɪt/
+
+<small>よく知られている意味：操作する・運営する</small>
+
+**見落としやすい意味：医師が患者に手術をする**
+
+**例文**：The surgeon operated on the patient yesterday.
+
+**和訳**：その外科医は昨日、その患者を手術した。
+
+**コアイメージ**：operate は仕組みを動かし、働かせる意味を持つ。医療の文脈では外科的な処置を行うことを表し、患者には on を伴う。
+
+```mermaid
+flowchart LR
+    A["中心: 専門的な操作・処置を行う"]
+    B["既知: 操作する・運営する"]
+    C["今回: 医師が患者に手術をする"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：operate on a patient「患者を手術する」。
+
+<small>index: 1058 / candidate_id: `ev-01058-verb-01`</small>
+
+---
+
+## 755. primary
+
+品詞：noun　｜　発音（米音目安）：/ˈpraɪmeri/
+
+<small>よく知られている意味：主要な・第一の（形容詞）</small>
+
+**見落としやすい意味：政党の候補者を選ぶ予備選挙**
+
+**例文**：She won the party's primary last month.
+
+**和訳**：彼女は先月、その政党の予備選挙で勝利した。
+
+**コアイメージ**：primary は「最初の段階・主要なもの」を表す。選挙の文脈では、本選挙より先に候補者を決めるための予備選挙を指す名詞になる。
+
+```mermaid
+flowchart LR
+    A["中心: 本番に先立つ最初の選考"]
+    B["既知: 主要な・第一の（形容詞）"]
+    C["今回: 政党の候補者を選ぶ予備選挙"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：a party primary / win a primary。
+
+<small>index: 1063 / candidate_id: `ev-01063-noun-01`</small>
+
+---
+
+## 756. ship
+
+品詞：verb　｜　発音（米音目安）：/ʃɪp/
+
+<small>よく知られている意味：船（名詞）</small>
+
+**見落としやすい意味：商品などを出荷・発送する**
+
+**例文**：The store ships orders within two days.
+
+**和訳**：その店は注文された商品を2日以内に発送する。
+
+**コアイメージ**：ship はもともと船による輸送を連想させる語。現代では船に限らず、商品を送り出すこと全般に使う動詞になっている。
+
+```mermaid
+flowchart LR
+    A["中心: 荷物を送り出す"]
+    B["既知: 船（名詞）"]
+    C["今回: 商品などを出荷・発送する"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：ship goods / ship an order。
+
+<small>index: 1064 / candidate_id: `ev-01064-verb-01`</small>
+
+---
+
+## 757. code
+
+品詞：noun　｜　発音（米音目安）：/koʊd/
+
+<small>よく知られている意味：暗号・プログラム</small>
+
+**見落としやすい意味：規範・法律などをまとめた法典や規則体系**
+
+**例文**：All members must follow the club's code of conduct.
+
+**和訳**：全会員はクラブの行動規範に従わなければならない。
+
+**コアイメージ**：code には一定の規則を体系的にまとめたものという考え方がある。コンピューターの命令だけでなく、人の行動を定める規則集や法典も指す。
+
+```mermaid
+flowchart LR
+    A["中心: 規則を体系立ててまとめたもの"]
+    B["既知: 暗号・プログラム"]
+    C["今回: 規範・法律などをまとめた法典や規則体系"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：code of conduct「行動規範」／legal code「法典」。
+
+<small>index: 1068 / candidate_id: `ev-01068-noun-01`</small>
+
+---
+
+## 758. dress
+
+品詞：verb　｜　発音（米音目安）：/dres/
+
+<small>よく知られている意味：服を着せる</small>
+
+**見落としやすい意味：傷口などに包帯を当てて手当てする**
+
+**例文**：The nurse carefully dressed the wound.
+
+**和訳**：看護師はその傷口を丁寧に手当てした。
+
+**コアイメージ**：dress には何かを覆い、必要な状態に整える感覚がある。傷口を対象にすると、包帯などで保護して処置する意味になる。
+
+```mermaid
+flowchart LR
+    A["中心: 覆って整え保護する"]
+    B["既知: 服を着せる"]
+    C["今回: 傷口などに包帯を当てて手当てする"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：dress a wound「傷口を手当てする」。
+
+<small>index: 1071 / candidate_id: `ev-01071-verb-01`</small>
+
+---
+
+## 759. entry
+
+品詞：noun　｜　発音（米音目安）：/ˈentri/
+
+<small>よく知られている意味：入口・記入</small>
+
+**見落としやすい意味：コンテストなどへの応募作品・出品物**
+
+**例文**：Her painting was the winning entry in the contest.
+
+**和訳**：彼女の絵がそのコンテストの優勝作品だった。
+
+**コアイメージ**：entry は、ある活動に参加するために差し出すものを表す。競技やコンテストでは、応募行為だけでなく提出した作品自体も指す。
+
+```mermaid
+flowchart LR
+    A["中心: 参加のために差し出すもの"]
+    B["既知: 入口・記入"]
+    C["今回: コンテストなどへの応募作品・出品物"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：an entry in a competition / a winning entry。
+
+<small>index: 1073 / candidate_id: `ev-01073-noun-01`</small>
+
+---
+
+## 760. define
+
+品詞：verb　｜　発音（米音目安）：/dɪˈfaɪn/
+
+<small>よく知られている意味：定義する</small>
+
+**見落としやすい意味：人や物事の決定的な特徴となる**
+
+**例文**：Her courage defined her leadership.
+
+**和訳**：勇気こそが、彼女のリーダーシップを特徴づけていた。
+
+**コアイメージ**：define には境界をはっきりさせて、何であるかを明確にする感覚がある。人物や物事を他と区別する決定的な性質を表す場合、「特徴づける」と読む。
+
+```mermaid
+flowchart LR
+    A["中心: 何であるかを決定づける"]
+    B["既知: 定義する"]
+    C["今回: 人や物事の決定的な特徴となる"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：be defined by ...「〜によって特徴づけられる」。
+
+<small>index: 1075 / candidate_id: `ev-01075-verb-01`</small>
