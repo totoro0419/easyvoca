@@ -25,5 +25,7 @@
 
 ## GitHub
 - 作業ブランチ：`content/batch-018`
-- コミット：後続のGitHub更新履歴を参照
-- PR：作成後に追記
+- 教材Markdownコミット：https://github.com/totoro0419/easyvoca/commit/ada4af75a8b8e2719899287a805839b8d01681f6
+- JSONLコミット：https://github.com/totoro0419/easyvoca/commit/726cafe27c9e31c166f87e31e18fc566736af5e2
+- 初回作業報告コミット：https://github.com/totoro0419/easyvoca/commit/3f52c2628d06de52f598d7d7ba7c9ad588507bc5
+- PR：https://github.com/totoro0419/easyvoca/pull/34
