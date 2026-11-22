@@ -14,14 +14,14 @@
 {"index":1014,"word":"none","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1015,"word":"declare","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1016,"word":"fish","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
-{"index":1017,"word":"post","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
+{"index":1017,"word":"post","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":1018,"word":"box","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
-{"index":1019,"word":"initial","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
+{"index":1019,"word":"initial","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":1020,"word":"criminal","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1021,"word":"purchase","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1022,"word":"thank","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1023,"word":"opinion","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
-{"index":1024,"word":"appeal","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
+{"index":1024,"word":"appeal","status":"verified_selected","candidate_count":2,"accepted_count":2}
 {"index":1025,"word":"expression","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1026,"word":"quickly","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1027,"word":"hill","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
@@ -29,7 +29,7 @@
 {"index":1029,"word":"intervention","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1030,"word":"college","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1031,"word":"replace","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
-{"index":1032,"word":"otherwise","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
+{"index":1032,"word":"otherwise","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":1033,"word":"cultural","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1034,"word":"european","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1035,"word":"relate","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
@@ -41,7 +41,7 @@
 {"index":1041,"word":"sample","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1042,"word":"coverage","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1043,"word":"cite","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
-{"index":1044,"word":"liberal","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
+{"index":1044,"word":"liberal","status":"verified_selected","candidate_count":2,"accepted_count":2}
 {"index":1045,"word":"dance","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1046,"word":"damage","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1047,"word":"net","status":"verified_selected","candidate_count":1,"accepted_count":1}
@@ -73,10 +73,10 @@
 {"index":1073,"word":"entry","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1074,"word":"chief","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1075,"word":"define","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
-{"index":1076,"word":"fly","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
+{"index":1076,"word":"fly","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":1077,"word":"novel","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":1078,"word":"software","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
-{"index":1079,"word":"permit","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
+{"index":1079,"word":"permit","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":1080,"word":"block","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1081,"word":"yesterday","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1082,"word":"narrow","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
@@ -85,7 +85,7 @@
 {"index":1085,"word":"advantage","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1086,"word":"phrase","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1087,"word":"sentence","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
-{"index":1088,"word":"cell","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
+{"index":1088,"word":"cell","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":1089,"word":"german","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1090,"word":"possibility","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1091,"word":"port","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
@@ -94,7 +94,7 @@
 {"index":1094,"word":"conclude","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1095,"word":"corporate","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1096,"word":"affair","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
-{"index":1097,"word":"property","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
+{"index":1097,"word":"property","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":1098,"word":"seat","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1099,"word":"shape","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1100,"word":"exactly","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
@@ -116,7 +116,7 @@
 {"index":1116,"word":"intellectual","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1117,"word":"observe","status":"verified_selected","candidate_count":2,"accepted_count":2}
 {"index":1118,"word":"battle","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
-{"index":1119,"word":"bear","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
+{"index":1119,"word":"bear","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":1120,"word":"count","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":1121,"word":"impose","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1122,"word":"status","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
@@ -168,7 +168,7 @@
 {"index":1168,"word":"shift","status":"verified_selected","candidate_count":2,"accepted_count":1}
 {"index":1169,"word":"organize","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1170,"word":"destroy","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
-{"index":1171,"word":"finding","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
+{"index":1171,"word":"finding","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":1172,"word":"majority","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1173,"word":"wait","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1174,"word":"owner","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
@@ -257,7 +257,7 @@
 {"index":1257,"word":"hospital","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1258,"word":"touch","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1259,"word":"defend","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
-{"index":1260,"word":"settle","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
+{"index":1260,"word":"settle","status":"verified_selected","candidate_count":2,"accepted_count":2}
 {"index":1261,"word":"improvement","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1262,"word":"congressional","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1263,"word":"conversation","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
@@ -279,7 +279,7 @@
 {"index":1279,"word":"telephone","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1280,"word":"reality","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1281,"word":"award","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
-{"index":1282,"word":"witness","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
+{"index":1282,"word":"witness","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":1283,"word":"wage","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":1284,"word":"devote","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1285,"word":"reaction","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
@@ -290,8 +290,8 @@
 {"index":1290,"word":"throw","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1291,"word":"attend","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1292,"word":"selection","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
-{"index":1293,"word":"transfer","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
-{"index":1294,"word":"progress","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
+{"index":1293,"word":"transfer","status":"verified_selected","candidate_count":2,"accepted_count":2}
+{"index":1294,"word":"progress","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":1295,"word":"willing","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1296,"word":"approve","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1297,"word":"combine","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
@@ -318,7 +318,7 @@
 {"index":1318,"word":"prior","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1319,"word":"participant","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1320,"word":"corner","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
-{"index":1321,"word":"host","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
+{"index":1321,"word":"host","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":1322,"word":"lake","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1323,"word":"nuclear","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1324,"word":"partner","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
@@ -342,7 +342,7 @@
 {"index":1342,"word":"importance","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1343,"word":"location","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1344,"word":"publication","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
-{"index":1345,"word":"plot","status":"verified_selected","candidate_count":1,"accepted_count":1}
+{"index":1345,"word":"plot","status":"verified_selected","candidate_count":3,"accepted_count":3}
 {"index":1346,"word":"settlement","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1347,"word":"bridge","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":1348,"word":"exhibit","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
@@ -394,7 +394,7 @@
 {"index":1394,"word":"truly","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1395,"word":"debt","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1396,"word":"academic","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
-{"index":1397,"word":"fast","status":"verified_selected","candidate_count":2,"accepted_count":2}
+{"index":1397,"word":"fast","status":"verified_selected","candidate_count":3,"accepted_count":3}
 {"index":1398,"word":"entirely","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1399,"word":"crash","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1400,"word":"democracy","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
@@ -448,7 +448,7 @@
 {"index":1448,"word":"journalist","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1449,"word":"warn","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1450,"word":"neighborhood","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
-{"index":1451,"word":"relative","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
+{"index":1451,"word":"relative","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":1452,"word":"preserve","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1453,"word":"somewhat","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1454,"word":"trend","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
@@ -457,7 +457,7 @@
 {"index":1457,"word":"expense","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1458,"word":"quarter","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":1459,"word":"command","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
-{"index":1460,"word":"wave","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
+{"index":1460,"word":"wave","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":1461,"word":"traffic","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1462,"word":"rare","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1463,"word":"concentration","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
@@ -477,18 +477,18 @@
 {"index":1477,"word":"unlike","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1478,"word":"welcome","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1479,"word":"relevant","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
-{"index":1480,"word":"blue","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
+{"index":1480,"word":"blue","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":1481,"word":"library","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1482,"word":"ready","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
-{"index":1483,"word":"pursue","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
+{"index":1483,"word":"pursue","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":1484,"word":"religion","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1485,"word":"gold","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1486,"word":"wonderful","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1487,"word":"honor","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
-{"index":1488,"word":"spirit","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
+{"index":1488,"word":"spirit","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":1489,"word":"judgment","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1490,"word":"beat","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":1491,"word":"flower","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
+{"index":1491,"word":"flower","status":"verified_selected","candidate_count":2,"accepted_count":2}
 {"index":1492,"word":"university","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1493,"word":"burden","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1494,"word":"evaluation","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
@@ -497,4 +497,4 @@
 {"index":1497,"word":"distance","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1498,"word":"positive","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
 {"index":1499,"word":"literature","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
-{"index":1500,"word":"horse","status":"needs_review","candidate_count":0,"accepted_count":0,"research_note":"辞書の全品詞・語義・語法調査は未実施。候補なしとは判定していない。"}
+{"index":1500,"word":"horse","status":"verified_selected","candidate_count":1,"accepted_count":1}
