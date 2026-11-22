@@ -29,4 +29,4 @@
 
 - Markdown教材最終更新コミット：https://github.com/totoro0419/easyvoca/commit/f1ef32d0a39aa09f61594fac71888f586597bfc4
 - JSONL最終更新コミット：https://github.com/totoro0419/easyvoca/commit/dcacf913a34e8617e88d0cfbf556d292458e9753
-- PR URL：作成後に記録
+- PR URL：https://github.com/totoro0419/easyvoca/pull/50
