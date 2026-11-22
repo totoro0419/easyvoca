@@ -20,7 +20,7 @@ export default function SwipeReader({identity,canPrev,canNext,onMove,children}:P
   },[identity]);
   useEffect(()=>()=>{if(timer.current)clearTimeout(timer.current);},[]);
   function start(e:PointerEvent<HTMLDivElement>){
-    if(locked.current||e.button!==0||(e.target as HTMLElement).closest('button,a,input'))return;
+    if(locked.current||e.button!==0||(e.target as HTMLElement).closest('button,a,input,.diagram-wrap'))return;
     down.current={x:e.clientX,y:e.clientY,at:performance.now(),pointer:e.pointerId,axis:'unknown'};
     if(page.current)page.current.style.transition='none';
   }
