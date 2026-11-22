@@ -1230,3 +1230,1237 @@ flowchart LR
 
 <small>candidate_id: `ev-04299-verb-01` / index: 4299 / global_order: 2440</small>
 
+---
+
+### 41. archive
+
+**品詞：** 動詞　 **発音：** /ˈɑːrkaɪv/
+
+<small>よく知られている意味：記録保管所・資料集</small>
+
+**見落としやすい意味：記録を長期保存・保管する**
+
+**例文：** We archived the old project files for future reference.
+
+**和訳：** 私たちは後で参照できるように、古いプロジェクトのファイルを長期保存した。
+
+**コアイメージ：** archiveは後世に残すために記録を集めて保管する場所を表す。動詞になると、資料を整理して長く保存する行為になる。
+
+**図：**
+
+```mermaid
+flowchart LR
+    A["中心イメージ：記録を長く残す"]
+    B["既知の意味：記録保管所・資料集"]
+    C["見落としやすい意味：記録を長期保存・保管する"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** archive documents
+
+<small>candidate_id: `ev-04305-verb-01` / index: 4305 / global_order: 2441</small>
+
+---
+
+### 42. discriminate
+
+**品詞：** 動詞　 **発音：** /dɪˈskrɪmɪneɪt/
+
+<small>よく知られている意味：差別する</small>
+
+**見落としやすい意味：（複数のものを）区別する**
+
+**例文：** The test can discriminate between two very similar materials.
+
+**和訳：** その試験では、よく似た二つの材料を区別できる。
+
+**コアイメージ：** discriminateの根本には、違いを見分けるという働きがある。人を不当に扱う場合には差別という意味になり、ものを識別する場合には中立的な意味になる。
+
+**図：**
+
+```mermaid
+flowchart LR
+    A["中心イメージ：違いを見分けて区別する"]
+    B["既知の意味：差別する"]
+    C["見落としやすい意味：（複数のものを）区別する"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** discriminate between A and B / discriminate A from B；中立義は改まった文脈が中心
+
+<small>candidate_id: `ev-04309-verb-01` / index: 4309 / global_order: 2442</small>
+
+---
+
+### 43. rail
+
+**品詞：** 動詞　 **発音：** /reɪl/
+
+<small>よく知られている意味：レール・手すり</small>
+
+**見落としやすい意味：激しく非難する**
+
+**例文：** Residents railed against the sudden price increase.
+
+**和訳：** 住民たちは突然の値上げを激しく非難した。
+
+**コアイメージ：** rail againstは、ある対象に向かって強い批判を浴びせる言い方。レールという名詞の意味で無理に説明せず、動詞の決まった用法として押さえる。
+
+**図：**
+
+```mermaid
+flowchart LR
+    A["中心イメージ：対象に向けて強く非難する"]
+    B["既知の意味：レール・手すり"]
+    C["見落としやすい意味：激しく非難する"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** rail against injustice
+
+<small>candidate_id: `ev-04318-verb-01` / index: 4318 / global_order: 2443</small>
+
+---
+
+### 44. utter
+
+**品詞：** 形容詞　 **発音：** /ˈʌtər/
+
+<small>よく知られている意味：口にする・発する（動詞）</small>
+
+**見落としやすい意味：まったくの；完全な**
+
+**例文：** The project ended in utter confusion.
+
+**和訳：** その事業は完全な混乱の中で終わった。
+
+**コアイメージ：** 形容詞utterは、中途半端な部分を残さない完全さを強調する。発言するという動詞utterとは品詞も使い方も異なり、特に好ましくない状態を表す名詞を強めやすい。
+
+**図：**
+
+```mermaid
+flowchart LR
+    A["中心イメージ：例外なくすべてに及ぶ"]
+    B["既知の意味：口にする・発する（動詞）"]
+    C["見落としやすい意味：まったくの；完全な"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** utter + 名詞（utter confusion など）；否定的名詞と多く共起
+
+<small>candidate_id: `ev-04324-adjective-01` / index: 4324 / global_order: 2444</small>
+
+---
+
+### 45. betray
+
+**品詞：** 動詞　 **発音：** /bɪˈtreɪ/
+
+<small>よく知られている意味：裏切る</small>
+
+**見落としやすい意味：感情・秘密を思わず表に出す**
+
+**例文：** Her voice betrayed her nervousness.
+
+**和訳：** 彼女の声には緊張が思わず表れていた。
+
+**コアイメージ：** betrayは、隠れているものを外に知らせてしまうことも表す。秘密を裏切って漏らす場合だけでなく、声や表情が隠したい感情を示す場合にも使う。
+
+**図：**
+
+```mermaid
+flowchart LR
+    A["中心イメージ：隠したものを外に漏らす"]
+    B["既知の意味：裏切る"]
+    C["見落としやすい意味：感情・秘密を思わず表に出す"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** her voice betrayed her fear
+
+<small>candidate_id: `ev-04328-verb-01` / index: 4328 / global_order: 2445</small>
+
+---
+
+### 46. disabled
+
+**品詞：** 形容詞　 **発音：** /dɪsˈeɪbəld/
+
+<small>よく知られている意味：障害のある（人について）</small>
+
+**見落としやすい意味：（機能・設定などが）無効化された**
+
+**例文：** The payment button is disabled until you complete the form.
+
+**和訳：** フォームへの入力を終えるまで、支払いボタンは無効になっている。
+
+**コアイメージ：** disabledは機能が働かない状態にされたという意味でも使う。ソフトウェアでは、ボタンなどが操作できない設定になっていることを示す。
+
+**図：**
+
+```mermaid
+flowchart LR
+    A["中心イメージ：機能が働かない状態"]
+    B["既知の意味：障害のある（人について）"]
+    C["見落としやすい意味：（機能・設定などが）無効化された"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** a disabled feature
+
+<small>candidate_id: `ev-04332-adjective-01` / index: 4332 / global_order: 2446</small>
+
+---
+
+### 47. divert
+
+**品詞：** 動詞　 **発音：** /daɪˈvɜːrt/
+
+<small>よく知られている意味：進路をそらす</small>
+
+**見落としやすい意味：予算・資金を別用途に振り向ける**
+
+**例文：** The council diverted money from advertising to public transport.
+
+**和訳：** 議会は広告費を公共交通機関のために振り向けた。
+
+**コアイメージ：** divertの中心は、進んでいた方向や行き先を変えること。人や車の経路だけでなく、予算の使い道を別の目的へ変える場合にも用いる。
+
+**図：**
+
+```mermaid
+flowchart LR
+    A["中心イメージ：行き先を別の方向へ変える"]
+    B["既知の意味：進路をそらす"]
+    C["見落としやすい意味：予算・資金を別用途に振り向ける"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** divert funds
+
+<small>candidate_id: `ev-04334-verb-01` / index: 4334 / global_order: 2447</small>
+
+---
+
+### 48. enclosed
+
+**品詞：** 形容詞　 **発音：** /ɪnˈkloʊzd/
+
+<small>よく知られている意味：囲まれた</small>
+
+**見落としやすい意味：同封の；同封された**
+
+**例文：** Please read the enclosed document before the meeting.
+
+**和訳：** 会議の前に同封の書類を読んでください。
+
+**コアイメージ：** enclosedは、何かの内側に入れられている状態を表す。書類や手紙の文脈では、封筒などの中に一緒に入っている添付物を意味する。
+
+**図：**
+
+```mermaid
+flowchart LR
+    A["中心イメージ：中に入れて包み込む"]
+    B["既知の意味：囲まれた"]
+    C["見落としやすい意味：同封の；同封された"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** the enclosed document
+
+<small>candidate_id: `ev-04335-adjective-01` / index: 4335 / global_order: 2448</small>
+
+---
+
+### 49. forge
+
+**品詞：** 動詞　 **発音：** /fɔːrdʒ/
+
+<small>よく知られている意味：金属を鍛える</small>
+
+**見落としやすい意味：（署名・文書などを）偽造する**
+
+**例文：** Someone forged the manager's signature on the contract.
+
+**和訳：** 誰かがその契約書に管理者の署名を偽造した。
+
+**コアイメージ：** forgeには、金属を加工して形を作る意味がある。一方で、文書や署名を本物らしく作り上げると偽造するという意味になる。
+
+**図：**
+
+```mermaid
+flowchart LR
+    A["中心イメージ：形を作り上げる"]
+    B["既知の意味：金属を鍛える"]
+    C["見落としやすい意味：（署名・文書などを）偽造する"]
+    A --> B
+    A --> C
+```
+
+<small>candidate_id: `ev-04336-verb-01` / index: 4336 / global_order: 2449</small>
+
+---
+
+### 50. immunity
+
+**品詞：** 名詞　 **発音：** /ɪˈmjuːnəti/
+
+<small>よく知られている意味：免疫</small>
+
+**見落としやすい意味：法的な責任・訴追などからの免除**
+
+**例文：** The witness was granted immunity from prosecution.
+
+**和訳：** その証人には訴追を免れる法的な免除が認められた。
+
+**コアイメージ：** immunityは、ある影響や処分を受けなくてよい保護された状態。病気への免疫だけでなく、法的な訴追や責任からの免除にも用いられる。
+
+**図：**
+
+```mermaid
+flowchart LR
+    A["中心イメージ：外からの作用を受けない保護"]
+    B["既知の意味：免疫"]
+    C["見落としやすい意味：法的な責任・訴追などからの免除"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** immunity from prosecution
+
+<small>candidate_id: `ev-04341-noun-01` / index: 4341 / global_order: 2450</small>
+
+---
+
+### 51. moor
+
+**品詞：** 動詞　 **発音：** /mʊr/
+
+<small>よく知られている意味：荒野・湿原（名詞）</small>
+
+**見落としやすい意味：船を係留する**
+
+**例文：** The crew moored the boat beside the pier.
+
+**和訳：** 乗組員は桟橋のそばに船を係留した。
+
+**コアイメージ：** 動詞moorは、船をロープなどで固定して動かないようにすること。荒野を表す名詞moorとは語源や意味を無理につなげず、同じつづりの別用法として覚える。
+
+**図：**
+
+```mermaid
+flowchart LR
+    A["中心イメージ：船をその場につなぎ留める"]
+    B["既知の意味：荒野・湿原（名詞）"]
+    C["見落としやすい意味：船を係留する"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** moor a boat
+
+<small>candidate_id: `ev-04343-verb-01` / index: 4343 / global_order: 2451</small>
+
+---
+
+### 52. reflection
+
+**品詞：** 名詞　 **発音：** /rɪˈflekʃən/
+
+<small>よく知られている意味：反射・映像</small>
+
+**見落としやすい意味：熟考；振り返って考えること**
+
+**例文：** On reflection, I think we should change the schedule.
+
+**和訳：** よく考え直してみると、予定を変えるべきだと思う。
+
+**コアイメージ：** reflectionは、何かを映し返すことを表す。考えの中で出来事をもう一度振り返って見直すと、熟考・再考の意味になる。
+
+**図：**
+
+```mermaid
+flowchart LR
+    A["中心イメージ：もう一度振り返って見る"]
+    B["既知の意味：反射・映像"]
+    C["見落としやすい意味：熟考；振り返って考えること"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** on reflection
+
+<small>candidate_id: `ev-04347-noun-01` / index: 4347 / global_order: 2452</small>
+
+---
+
+### 53. sake
+
+**品詞：** 名詞　 **発音：** /seɪk/
+
+<small>よく知られている意味：日本酒</small>
+
+**見落としやすい意味：目的・利益・理由**
+
+**例文：** We postponed the event for the sake of safety.
+
+**和訳：** 私たちは安全のためにその行事を延期した。
+
+**コアイメージ：** for the sake ofは、ある目的や利益を重視する固定表現。日本酒を表す借用語sakeとは由来も発音も違うため、語の形だけで結び付けない。
+
+**図：**
+
+```mermaid
+flowchart LR
+    A["中心イメージ：目的や利益のために"]
+    B["既知の意味：日本酒"]
+    C["見落としやすい意味：目的・利益・理由"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** for the sake of
+
+<small>candidate_id: `ev-04349-noun-01` / index: 4349 / global_order: 2453</small>
+
+---
+
+### 54. stir
+
+**品詞：** 動詞　 **発音：** /stɜːr/
+
+<small>よく知られている意味：かき混ぜる</small>
+
+**見落としやすい意味：（感情が）芽生える；湧き起こる**
+
+**例文：** As the announcement approached, hope began to stir among the crowd.
+
+**和訳：** 発表が近づくにつれ、群衆の間に希望が芽生え始めた。
+
+**コアイメージ：** stirは、静止していたものが動き始めることも表す。液体をかき混ぜる動きから、眠っていた感情が内側で動き出すイメージにも広がる。
+
+**図：**
+
+```mermaid
+flowchart LR
+    A["中心イメージ：止まっていたものが動き出す"]
+    B["既知の意味：かき混ぜる"]
+    C["見落としやすい意味：（感情が）芽生える；湧き起こる"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** 感情を主語とする自動詞用法
+
+<small>candidate_id: `ev-04350-verb-01` / index: 4350 / global_order: 2454</small>
+
+---
+
+### 55. ghost
+
+**品詞：** 動詞　 **発音：** /ɡoʊst/
+
+<small>よく知られている意味：幽霊</small>
+
+**見落としやすい意味：突然連絡を絶つ**
+
+**例文：** After months of friendly messages, he suddenly ghosted his classmates.
+
+**和訳：** 何か月も親しくやり取りしていたのに、彼は突然クラスメートへの連絡を絶った。
+
+**コアイメージ：** ghostは、幽霊のように姿を消すという比喩でも使われる。口語の動詞では、説明もなく人との連絡を突然やめることを指す。
+
+**図：**
+
+```mermaid
+flowchart LR
+    A["中心イメージ：姿を消して連絡を断つ"]
+    B["既知の意味：幽霊"]
+    C["見落としやすい意味：突然連絡を絶つ"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** 主に informal；人への連絡を説明なしにやめる
+
+<small>candidate_id: `ev-04353-verb-01` / index: 4353 / global_order: 2455</small>
+
+---
+
+### 56. fantastic
+
+**品詞：** 形容詞　 **発音：** /fænˈtæstɪk/
+
+<small>よく知られている意味：空想的な</small>
+
+**見落としやすい意味：とてもすばらしい；最高の**
+
+**例文：** The volunteers did a fantastic job organizing the event.
+
+**和訳：** ボランティアたちはその行事の運営で本当にすばらしい働きをした。
+
+**コアイメージ：** fantasticには空想に関わるという意味がある。一方、日常の会話では現実離れしているほどよいという強い称賛にもなる。
+
+**図：**
+
+```mermaid
+flowchart LR
+    A["中心イメージ：普通を超えるほどすごい"]
+    B["既知の意味：空想的な"]
+    C["見落としやすい意味：とてもすばらしい；最高の"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** a fantastic achievement
+
+<small>candidate_id: `ev-04354-adjective-01` / index: 4354 / global_order: 2456</small>
+
+---
+
+### 57. rob
+
+**品詞：** 動詞　 **発音：** /rɑːb/
+
+<small>よく知られている意味：金品を奪う</small>
+
+**見落としやすい意味：人から権利・機会などを奪う**
+
+**例文：** The injury robbed her of the chance to compete.
+
+**和訳：** そのけがによって彼女は競技に出る機会を奪われた。
+
+**コアイメージ：** robは、人から大切なものを奪う働きを表す。現金や品物だけでなく、機会や自由といった形のないものにも使う。
+
+**図：**
+
+```mermaid
+flowchart LR
+    A["中心イメージ：人から大切なものを奪う"]
+    B["既知の意味：金品を奪う"]
+    C["見落としやすい意味：人から権利・機会などを奪う"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** rob somebody of an opportunity
+
+<small>candidate_id: `ev-04356-verb-01` / index: 4356 / global_order: 2457</small>
+
+---
+
+### 58. junk
+
+**品詞：** 動詞　 **発音：** /dʒʌŋk/
+
+<small>よく知られている意味：がらくた</small>
+
+**見落としやすい意味：捨てる；不要として廃止する**
+
+**例文：** The company junked its original expansion plan.
+
+**和訳：** その会社は当初の拡大計画を取りやめた。
+
+**コアイメージ：** junkは、不要になったものという名詞でもある。動詞では、物を捨てるだけでなく、採用しない計画を破棄することも表す。
+
+**図：**
+
+```mermaid
+flowchart LR
+    A["中心イメージ：不要と判断して捨てる"]
+    B["既知の意味：がらくた"]
+    C["見落としやすい意味：捨てる；不要として廃止する"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** junk a plan
+
+<small>candidate_id: `ev-04357-verb-01` / index: 4357 / global_order: 2458</small>
+
+---
+
+### 59. haven
+
+**品詞：** 名詞　 **発音：** /ˈheɪvən/
+
+<small>よく知られている意味：避難場所・安息の地</small>
+
+**見落としやすい意味：課税が非常に低い国・地域**
+
+**例文：** The report criticized the island as a tax haven.
+
+**和訳：** その報告書は、その島を租税回避地として批判した。
+
+**コアイメージ：** havenは、安全に守られる場所という意味。tax havenは税負担を抑えるために資金や企業が集まる場所を指す固定表現で、普通の避難所とは使う場面が違う。
+
+**図：**
+
+```mermaid
+flowchart LR
+    A["中心イメージ：負担を避けられる場所"]
+    B["既知の意味：避難場所・安息の地"]
+    C["見落としやすい意味：課税が非常に低い国・地域"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** tax haven
+
+<small>candidate_id: `ev-04359-noun-01` / index: 4359 / global_order: 2459</small>
+
+---
+
+### 60. qualified
+
+**品詞：** 動詞　 **発音：** /ˈkwɑːlɪfaɪd/
+
+<small>よく知られている意味：資格のある（形容詞）</small>
+
+**見落としやすい意味：（主張に）条件を付けて限定する**
+
+**例文：** The editor qualified the claim by adding an important condition.
+
+**和訳：** 編集者は重要な条件を付け加えて、その主張の適用範囲を限定した。
+
+**コアイメージ：** qualifyには、条件を満たして適格になるという使い方がある。一方、主張に条件を付けると、その主張がどこまで当てはまるかを限定する意味になる。
+
+**図：**
+
+```mermaid
+flowchart LR
+    A["中心イメージ：条件を付けて範囲を決める"]
+    B["既知の意味：資格のある（形容詞）"]
+    C["見落としやすい意味：（主張に）条件を付けて限定する"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** qualify a statement/claim
+
+<small>candidate_id: `ev-04361-verb-01` / index: 4361 / global_order: 2460</small>
+
+---
+
+### 61. flame
+
+**品詞：** 動詞　 **発音：** /fleɪm/
+
+<small>よく知られている意味：炎</small>
+
+**見落としやすい意味：ネット上などで激しく非難・罵倒する**
+
+**例文：** The athlete was flamed online after the interview.
+
+**和訳：** その選手はインタビューのあと、ネット上で激しく非難された。
+
+**コアイメージ：** flameは、激しい炎の勢いを連想させる。オンラインの口語では、その激しさを人に向けた攻撃的な批判や罵倒にたとえる。
+
+**図：**
+
+```mermaid
+flowchart LR
+    A["中心イメージ：激しい炎のように攻撃する"]
+    B["既知の意味：炎"]
+    C["見落としやすい意味：ネット上などで激しく非難・罵倒する"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** flame somebody online
+
+<small>candidate_id: `ev-04363-verb-01` / index: 4363 / global_order: 2461</small>
+
+---
+
+### 62. correspondence
+
+**品詞：** 名詞　 **発音：** /ˌkɔːrəˈspɑːndəns/
+
+<small>よく知られている意味：文通・手紙のやり取り</small>
+
+**見落としやすい意味：一致；対応関係**
+
+**例文：** There is a clear correspondence between the two sets of results.
+
+**和訳：** 二組の結果の間には明確な対応関係がある。
+
+**コアイメージ：** correspondenceには、もの同士が合っているという関係がある。連絡のやり取りという意味のほかに、二つの数値や事柄が対応することも指す。
+
+**図：**
+
+```mermaid
+flowchart LR
+    A["中心イメージ：二つのものが対応して合う"]
+    B["既知の意味：文通・手紙のやり取り"]
+    C["見落としやすい意味：一致；対応関係"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** correspondence between A and B
+
+<small>candidate_id: `ev-04364-noun-01` / index: 4364 / global_order: 2462</small>
+
+---
+
+### 63. staple
+
+**品詞：** 形容詞　 **発音：** /ˈsteɪpəl/
+
+<small>よく知られている意味：ホチキスの針（名詞）</small>
+
+**見落としやすい意味：主要な；定番の**
+
+**例文：** Rice is a staple food in many parts of Asia.
+
+**和訳：** 米はアジアの多くの地域で主食となっている。
+
+**コアイメージ：** stapleは、ある物事を支える基本的で欠かせないものを表すことがある。形容詞では食品や製品などの主要な・定番のという意味になる。
+
+**図：**
+
+```mermaid
+flowchart LR
+    A["中心イメージ：欠かせない基本のもの"]
+    B["既知の意味：ホチキスの針（名詞）"]
+    C["見落としやすい意味：主要な；定番の"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** staple food/diet/product
+
+<small>candidate_id: `ev-04371-adjective-02` / index: 4371 / global_order: 2463</small>
+
+---
+
+### 64. staple
+
+**品詞：** 名詞　 **発音：** /ˈsteɪpəl/
+
+<small>よく知られている意味：ホチキスの針</small>
+
+**見落としやすい意味：生活・産業・文化などに欠かせない定番のもの**
+
+**例文：** Bread has long been a staple of the local diet.
+
+**和訳：** パンは長年、その地域の食生活に欠かせない定番の食品だ。
+
+**コアイメージ：** stapleは、生活や産業の基礎をなす定番品を表す名詞にもなる。文房具の針の話とは区別し、a staple ofで何に欠かせないかを読む。
+
+**図：**
+
+```mermaid
+flowchart LR
+    A["中心イメージ：生活を支える定番のもの"]
+    B["既知の意味：ホチキスの針"]
+    C["見落としやすい意味：生活・産業・文化などに欠かせない定番のもの"]
+    A --> B
+    A --> C
+```
+
+<small>candidate_id: `ev-04371-noun-01` / index: 4371 / global_order: 2464</small>
+
+---
+
+### 65. reconstruct
+
+**品詞：** 動詞　 **発音：** /ˌriːkənˈstrʌkt/
+
+<small>よく知られている意味：建物を再建する</small>
+
+**見落としやすい意味：事件の経過などを資料から再現する**
+
+**例文：** Investigators reconstructed the sequence of events from the recordings.
+
+**和訳：** 調査担当者たちは録音記録から出来事の順序を再現した。
+
+**コアイメージ：** reconstructは、一度失われたり分解されたりしたものを組み立て直すこと。建物に限らず、断片的な記録から過去の経過を再現する場合にも使う。
+
+**図：**
+
+```mermaid
+flowchart LR
+    A["中心イメージ：断片から全体を組み直す"]
+    B["既知の意味：建物を再建する"]
+    C["見落としやすい意味：事件の経過などを資料から再現する"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** reconstruct events
+
+<small>candidate_id: `ev-04372-verb-01` / index: 4372 / global_order: 2465</small>
+
+---
+
+### 66. viable
+
+**品詞：** 形容詞　 **発音：** /ˈvaɪəbəl/
+
+<small>よく知られている意味：生存可能な</small>
+
+**見落としやすい意味：現実に実行できる；実行可能な**
+
+**例文：** The committee proposed a viable alternative to the costly plan.
+
+**和訳：** 委員会は費用のかかる計画に代わる実行可能な案を提案した。
+
+**コアイメージ：** viableは、実際に生き延びたり成り立ったりできること。計画や選択肢なら、単なる空想ではなく現実に実施できるという意味になる。
+
+**図：**
+
+```mermaid
+flowchart LR
+    A["中心イメージ：現実の条件で成り立つ"]
+    B["既知の意味：生存可能な"]
+    C["見落としやすい意味：現実に実行できる；実行可能な"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** a viable option
+
+<small>candidate_id: `ev-04373-adjective-01` / index: 4373 / global_order: 2466</small>
+
+---
+
+### 67. abound
+
+**品詞：** 動詞　 **発音：** /əˈbaʊnd/
+
+<small>よく知られている意味：豊富にある</small>
+
+**見落としやすい意味：（ある場所に）豊富に存在する**
+
+**例文：** Wildflowers abound in this valley in spring.
+
+**和訳：** 春にはこの谷に野生の花が豊富に咲く。
+
+**コアイメージ：** aboundは、あるものがたくさん存在する様子を表す。何が豊富かを表すときは、場所を主語にしてabound inやabound withを使うこともある。
+
+**図：**
+
+```mermaid
+flowchart LR
+    A["中心イメージ：ある場所にたくさん存在する"]
+    B["既知の意味：豊富にある"]
+    C["見落としやすい意味：（ある場所に）豊富に存在する"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** A abounds in/with B = AにはBが豊富にある
+
+<small>candidate_id: `ev-04376-verb-01` / index: 4376 / global_order: 2467</small>
+
+---
+
+### 68. delegate
+
+**品詞：** 動詞　 **発音：** /ˈdelɪɡeɪt/
+
+<small>よく知られている意味：代表者（名詞）</small>
+
+**見落としやすい意味：権限や仕事を委ねる；委任する**
+
+**例文：** The manager delegated the task to a junior colleague.
+
+**和訳：** 管理者はその仕事を後輩の同僚に任せた。
+
+**コアイメージ：** delegateは、人に代表としての役目を与える関係に結び付く語。動詞では仕事や権限を別の人に任せ、名詞では選ばれた代表者を指す。
+
+**図：**
+
+```mermaid
+flowchart LR
+    A["中心イメージ：仕事や権限をほかの人に託す"]
+    B["既知の意味：代表者（名詞）"]
+    C["見落としやすい意味：権限や仕事を委ねる；委任する"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** delegate a task to someone；名詞 /ˈdɛlɪɡət/・動詞 /ˈdɛlɪɡeɪt/
+
+<small>candidate_id: `ev-04381-verb-01` / index: 4381 / global_order: 2468</small>
+
+---
+
+### 69. mild
+
+**品詞：** 形容詞　 **発音：** /maɪld/
+
+<small>よく知られている意味：穏やかな</small>
+
+**見落としやすい意味：（症状・病気などが）軽度の**
+
+**例文：** Most patients experienced only mild symptoms.
+
+**和訳：** ほとんどの患者には軽い症状しか見られなかった。
+
+**コアイメージ：** mildは、強さや刺激が弱いことを表す。気候や味の穏やかさだけでなく、病気や症状の程度が重くないことにも使う。
+
+**図：**
+
+```mermaid
+flowchart LR
+    A["中心イメージ：強さや刺激が小さい"]
+    B["既知の意味：穏やかな"]
+    C["見落としやすい意味：（症状・病気などが）軽度の"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** mild symptoms
+
+<small>candidate_id: `ev-04384-adjective-01` / index: 4384 / global_order: 2469</small>
+
+---
+
+### 70. prescribe
+
+**品詞：** 動詞　 **発音：** /prɪˈskraɪb/
+
+<small>よく知られている意味：薬を処方する</small>
+
+**見落としやすい意味：（規則・権威が）定める；指示する**
+
+**例文：** The regulations prescribe a minimum safety standard.
+
+**和訳：** その規則は最低限の安全基準を定めている。
+
+**コアイメージ：** prescribeは、何をすべきかを権威のある立場から指示すること。医師が薬を決めるだけでなく、法律や規則が行動や基準を定める場合にも使う。
+
+**図：**
+
+```mermaid
+flowchart LR
+    A["中心イメージ：権威に基づき内容を定める"]
+    B["既知の意味：薬を処方する"]
+    C["見落としやすい意味：（規則・権威が）定める；指示する"]
+    A --> B
+    A --> C
+```
+
+<small>candidate_id: `ev-04386-verb-01` / index: 4386 / global_order: 2470</small>
+
+---
+
+### 71. reside
+
+**品詞：** 動詞　 **発音：** /rɪˈzaɪd/
+
+<small>よく知られている意味：住む・居住する</small>
+
+**見落としやすい意味：（権限・原因・本質などが）～に存在する**
+
+**例文：** The final authority resides in the director.
+
+**和訳：** 最終的な権限はその責任者にある。
+
+**コアイメージ：** resideは、何かが一定の場所に存在することを表す。人が住む場合だけでなく、権限や原因などの抽象的なものの所在を述べるときにも用いる。
+
+**図：**
+
+```mermaid
+flowchart LR
+    A["中心イメージ：ある場所・人に所在する"]
+    B["既知の意味：住む・居住する"]
+    C["見落としやすい意味：（権限・原因・本質などが）～に存在する"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** authority resides in
+
+<small>candidate_id: `ev-04389-verb-01` / index: 4389 / global_order: 2471</small>
+
+---
+
+### 72. meter
+
+**品詞：** 名詞　 **発音：** /ˈmiːtər/
+
+<small>よく知られている意味：メートル（長さの単位）</small>
+
+**見落としやすい意味：測定器；計量装置**
+
+**例文：** The technician checked the water meter.
+
+**和訳：** 技術者は水道メーターを点検した。
+
+**コアイメージ：** meterには長さの単位とは別に、量を測る器具という名詞用法がある。水や電気などの使用量を測る装置を指す場合は、単位のメートルと区別する。
+
+**図：**
+
+```mermaid
+flowchart LR
+    A["中心イメージ：量を測って数字で示す装置"]
+    B["既知の意味：メートル（長さの単位）"]
+    C["見落としやすい意味：測定器；計量装置"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** a water meter
+
+<small>candidate_id: `ev-04398-noun-01` / index: 4398 / global_order: 2472</small>
+
+---
+
+### 73. wool
+
+**品詞：** 名詞　 **発音：** /wʊl/
+
+<small>よく知られている意味：羊毛</small>
+
+**見落としやすい意味：人をだます；真実を隠す**
+
+**例文：** The false advertisement tried to pull the wool over customers' eyes.
+
+**和訳：** その虚偽広告は顧客の目を欺こうとした。
+
+**コアイメージ：** pull the wool over someone's eyesは、相手の目を覆って真実を見えなくするという慣用句。一語のwoolだけが「だます」という意味になるわけではない。
+
+**図：**
+
+```mermaid
+flowchart LR
+    A["中心イメージ：目を覆って真実を隠す"]
+    B["既知の意味：羊毛"]
+    C["見落としやすい意味：人をだます；真実を隠す"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** pull the wool over someone's eyes
+
+<small>candidate_id: `ev-04399-noun-01` / index: 4399 / global_order: 2473</small>
+
+---
+
+### 74. ink
+
+**品詞：** 動詞　 **発音：** /ɪŋk/
+
+<small>よく知られている意味：インク（名詞）</small>
+
+**見落としやすい意味：契約などに署名する**
+
+**例文：** The two companies inked a new supply agreement.
+
+**和訳：** 二社は新たな供給契約に署名した。
+
+**コアイメージ：** inkは文字を書くための液体を指す。動詞ではインクで署名する行為から、契約を正式に結ぶという意味になる。
+
+**図：**
+
+```mermaid
+flowchart LR
+    A["中心イメージ：文字を書いて正式に決める"]
+    B["既知の意味：インク（名詞）"]
+    C["見落としやすい意味：契約などに署名する"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** ink a deal
+
+<small>candidate_id: `ev-04404-verb-01` / index: 4404 / global_order: 2474</small>
+
+---
+
+### 75. breakdown
+
+**品詞：** 名詞　 **発音：** /ˈbreɪkdaʊn/
+
+<small>よく知られている意味：故障・崩壊</small>
+
+**見落としやすい意味：（数値・費用などの）詳細な内訳**
+
+**例文：** Could you send me a breakdown of the costs?
+
+**和訳：** 費用の詳しい内訳を送ってもらえますか。
+
+**コアイメージ：** breakdownは、まとまったものが分かれることにも関係する。費用などを項目ごとに分けて見せると、詳細な内訳という意味になる。
+
+**図：**
+
+```mermaid
+flowchart LR
+    A["中心イメージ：全体を項目ごとに分ける"]
+    B["既知の意味：故障・崩壊"]
+    C["見落としやすい意味：（数値・費用などの）詳細な内訳"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** a breakdown of costs/figures
+
+<small>candidate_id: `ev-04408-noun-01` / index: 4408 / global_order: 2475</small>
+
+---
+
+### 76. grim
+
+**品詞：** 形容詞　 **発音：** /ɡrɪm/
+
+<small>よく知られている意味：恐ろしい・厳しい</small>
+
+**見落としやすい意味：（状況・見通しが）非常に厳しい；暗い**
+
+**例文：** The forecast offers a grim outlook for the local economy.
+
+**和訳：** その予測は地域経済に厳しい見通しを示している。
+
+**コアイメージ：** grimは、表情や状況の暗さ・厳しさを表す。将来の見通しについて使うと、よい展開を期待しにくい深刻な状態を意味する。
+
+**図：**
+
+```mermaid
+flowchart LR
+    A["中心イメージ：明るい希望が乏しく厳しい"]
+    B["既知の意味：恐ろしい・厳しい"]
+    C["見落としやすい意味：（状況・見通しが）非常に厳しい；暗い"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** a grim outlook
+
+<small>candidate_id: `ev-04410-adjective-01` / index: 4410 / global_order: 2476</small>
+
+---
+
+### 77. privately
+
+**品詞：** 副詞　 **発音：** /ˈpraɪvətli/
+
+<small>よく知られている意味：私的に・非公開で</small>
+
+**見落としやすい意味：内心では；個人的な考えとしては**
+
+**例文：** Privately, several members doubted the proposal.
+
+**和訳：** 何人かの委員は内心ではその提案を疑っていた。
+
+**コアイメージ：** privatelyは、公の場に出さない個人的な領域を示す。秘密の行動だけでなく、心の中に抱いている個人的な考えを述べる際にも使う。
+
+**図：**
+
+```mermaid
+flowchart LR
+    A["中心イメージ：外には出さない個人の考え"]
+    B["既知の意味：私的に・非公開で"]
+    C["見落としやすい意味：内心では；個人的な考えとしては"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** privately think
+
+<small>candidate_id: `ev-04411-adverb-01` / index: 4411 / global_order: 2477</small>
+
+---
+
+### 78. circulation
+
+**品詞：** 名詞　 **発音：** /ˌsɜːrkjəˈleɪʃən/
+
+<small>よく知られている意味：循環</small>
+
+**見落としやすい意味：新聞・雑誌などの発行部数**
+
+**例文：** The newspaper's circulation fell during the summer.
+
+**和訳：** その新聞の発行部数は夏の間に減少した。
+
+**コアイメージ：** circulationは、ものがあちこちへ回って届くことを表す。新聞や雑誌では、どれだけの部数が読者へ行き渡るかを指す。
+
+**図：**
+
+```mermaid
+flowchart LR
+    A["中心イメージ：人々の間へ広く行き渡る"]
+    B["既知の意味：循環"]
+    C["見落としやすい意味：新聞・雑誌などの発行部数"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** newspaper circulation
+
+<small>candidate_id: `ev-04414-noun-01` / index: 4414 / global_order: 2478</small>
+
+---
+
+### 79. confer
+
+**品詞：** 動詞　 **発音：** /kənˈfɜːr/
+
+<small>よく知られている意味：相談する</small>
+
+**見落としやすい意味：（授与・権限などを）正式に与える**
+
+**例文：** The university conferred an honorary degree on the scientist.
+
+**和訳：** その大学はその科学者に名誉学位を授与した。
+
+**コアイメージ：** conferは、正式な立場から何かを相手に与える動詞としても使う。相談するという用法とは構文が違い、confer A on Bで授与する内容と相手を示す。
+
+**図：**
+
+```mermaid
+flowchart LR
+    A["中心イメージ：正式に権利・称号を与える"]
+    B["既知の意味：相談する"]
+    C["見落としやすい意味：（授与・権限などを）正式に与える"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** confer something on/upon someone
+
+<small>candidate_id: `ev-04418-verb-01` / index: 4418 / global_order: 2479</small>
+
+---
+
+### 80. confer
+
+**品詞：** 動詞　 **発音：** /kənˈfɜːr/
+
+<small>よく知られている意味：正式に授与する</small>
+
+**見落としやすい意味：協議する；意見を交換する**
+
+**例文：** The doctors conferred with one another before making a decision.
+
+**和訳：** 医師たちは決定を下す前に互いに協議した。
+
+**コアイメージ：** confer withは、複数の人が情報や意見を持ち寄って話し合うこと。授与するという他動詞用法とは区別し、withで相談相手を示す。
+
+**図：**
+
+```mermaid
+flowchart LR
+    A["中心イメージ：意見を持ち寄って相談する"]
+    B["既知の意味：正式に授与する"]
+    C["見落としやすい意味：協議する；意見を交換する"]
+    A --> B
+    A --> C
+```
+
+**重要語法：** confer with someone (about something)
+
+<small>candidate_id: `ev-04418-verb-02` / index: 4418 / global_order: 2480</small>
+
