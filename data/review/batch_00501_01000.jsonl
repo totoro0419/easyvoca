@@ -10,7 +10,7 @@
 {"index":510,"word":"focus","status":"needs_review","candidate_count":1,"accepted_count":1,"review_note":"候補の辞書照合・採否は実施。全語義・全語法の網羅的な再点検は未完了"}
 {"index":511,"word":"parent","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":512,"word":"health","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
-{"index":513,"word":"foreign","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
+{"index":513,"word":"foreign","status":"needs_review","candidate_count":1,"accepted_count":1,"review_note":"候補の辞書照合・採否は実施。全語義・全語法の網羅的な再点検は未完了"}
 {"index":514,"word":"kill","status":"needs_review","candidate_count":1,"accepted_count":1,"review_note":"候補の辞書照合・採否は実施。全語義・全語法の網羅的な再点検は未完了"}
 {"index":515,"word":"exist","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":516,"word":"travel","status":"needs_review","candidate_count":1,"accepted_count":1,"review_note":"候補の辞書照合・採否は実施。全語義・全語法の網羅的な再点検は未完了"}
@@ -26,7 +26,7 @@
 {"index":526,"word":"personal","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":527,"word":"common","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":528,"word":"executive","status":"needs_review","candidate_count":1,"accepted_count":1,"review_note":"候補の辞書照合・採否は実施。全語義・全語法の網羅的な再点検は未完了"}
-{"index":529,"word":"single","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
+{"index":529,"word":"single","status":"needs_review","candidate_count":1,"accepted_count":1,"review_note":"候補の辞書照合・採否は実施。全語義・全語法の網羅的な再点検は未完了"}
 {"index":530,"word":"involve","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":531,"word":"complete","status":"needs_review","candidate_count":1,"accepted_count":1,"review_note":"候補の辞書照合・採否は実施。全語義・全語法の網羅的な再点検は未完了"}
 {"index":532,"word":"role","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
@@ -79,7 +79,7 @@
 {"index":579,"word":"response","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":580,"word":"reader","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":581,"word":"attempt","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
-{"index":582,"word":"authority","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
+{"index":582,"word":"authority","status":"needs_review","candidate_count":1,"accepted_count":1,"review_note":"候補の辞書照合・採否は実施。全語義・全語法の網羅的な再点検は未完了"}
 {"index":583,"word":"team","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":584,"word":"sometimes","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":585,"word":"mail","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
@@ -88,9 +88,9 @@
 {"index":588,"word":"final","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":589,"word":"achieve","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":590,"word":"media","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
-{"index":591,"word":"particular","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
+{"index":591,"word":"particular","status":"needs_review","candidate_count":1,"accepted_count":1,"review_note":"候補の辞書照合・採否は実施。全語義・全語法の網羅的な再点検は未完了"}
 {"index":592,"word":"difference","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
-{"index":593,"word":"behind","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
+{"index":593,"word":"behind","status":"needs_review","candidate_count":2,"accepted_count":2,"review_note":"候補の辞書照合・採否は実施。全語義・全語法の網羅的な再点検は未完了"}
 {"index":594,"word":"decide","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":595,"word":"significant","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":596,"word":"type","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
@@ -145,7 +145,7 @@
 {"index":645,"word":"method","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":646,"word":"finally","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":647,"word":"french","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
-{"index":648,"word":"apply","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
+{"index":648,"word":"apply","status":"needs_review","candidate_count":3,"accepted_count":3,"review_note":"候補の辞書照合・採否は実施。全語義・全語法の網羅的な再点検は未完了"}
 {"index":649,"word":"protect","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":650,"word":"food","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":651,"word":"particularly","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
@@ -163,7 +163,7 @@
 {"index":663,"word":"bill","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":664,"word":"direct","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":665,"word":"nearly","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
-{"index":666,"word":"kid","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
+{"index":666,"word":"kid","status":"needs_review","candidate_count":1,"accepted_count":1,"review_note":"候補の辞書照合・採否は実施。全語義・全語法の網羅的な再点検は未完了"}
 {"index":667,"word":"park","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":668,"word":"challenge","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":669,"word":"determine","status":"needs_review","candidate_count":1,"accepted_count":1,"review_note":"候補の辞書照合・採否は実施。全語義・全語法の網羅的な再点検は未完了"}
@@ -266,7 +266,7 @@
 {"index":766,"word":"crime","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":767,"word":"payment","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":768,"word":"simple","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
-{"index":769,"word":"plant","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
+{"index":769,"word":"plant","status":"needs_review","candidate_count":2,"accepted_count":2,"review_note":"候補の辞書照合・採否は実施。全語義・全語法の網羅的な再点検は未完了"}
 {"index":770,"word":"contribution","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":771,"word":"sale","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":772,"word":"item","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
@@ -283,8 +283,8 @@
 {"index":783,"word":"potential","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":784,"word":"manager","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":785,"word":"eye","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
-{"index":786,"word":"table","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
-{"index":787,"word":"check","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
+{"index":786,"word":"table","status":"needs_review","candidate_count":2,"accepted_count":2,"review_note":"候補の辞書照合・採否は実施。全語義・全語法の網羅的な再点検は未完了"}
+{"index":787,"word":"check","status":"needs_review","candidate_count":3,"accepted_count":3,"review_note":"候補の辞書照合・採否は実施。全語義・全語法の網羅的な再点検は未完了"}
 {"index":788,"word":"serious","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":789,"word":"spin","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":790,"word":"join","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
@@ -303,7 +303,7 @@
 {"index":803,"word":"basis","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":804,"word":"quote","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":805,"word":"link","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
-{"index":806,"word":"associate","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
+{"index":806,"word":"associate","status":"needs_review","candidate_count":2,"accepted_count":2,"review_note":"候補の辞書照合・採否は実施。全語義・全語法の網羅的な再点検は未完了"}
 {"index":807,"word":"effective","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":808,"word":"choice","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":809,"word":"indicate","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
@@ -319,7 +319,7 @@
 {"index":819,"word":"flight","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":820,"word":"target","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":821,"word":"prove","status":"needs_review","candidate_count":1,"accepted_count":1,"review_note":"候補の辞書照合・採否は実施。全語義・全語法の網羅的な再点検は未完了"}
-{"index":822,"word":"function","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
+{"index":822,"word":"function","status":"needs_review","candidate_count":3,"accepted_count":3,"review_note":"候補の辞書照合・採否は実施。全語義・全語法の網羅的な再点検は未完了"}
 {"index":823,"word":"beautiful","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":824,"word":"everything","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":825,"word":"wife","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
@@ -362,7 +362,7 @@
 {"index":862,"word":"daily","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":863,"word":"author","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":864,"word":"artist","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
-{"index":865,"word":"maintain","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
+{"index":865,"word":"maintain","status":"needs_review","candidate_count":2,"accepted_count":2,"review_note":"候補の辞書照合・採否は実施。全語義・全語法の網羅的な再点検は未完了"}
 {"index":866,"word":"bank","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":867,"word":"size","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":868,"word":"basic","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
@@ -372,7 +372,7 @@
 {"index":872,"word":"behavior","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":873,"word":"ensure","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":874,"word":"remember","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
-{"index":875,"word":"occur","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
+{"index":875,"word":"occur","status":"needs_review","candidate_count":2,"accepted_count":2,"review_note":"候補の辞書照合・採否は実施。全語義・全語法の網羅的な再点検は未完了"}
 {"index":876,"word":"peace","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":877,"word":"train","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":878,"word":"board","status":"needs_review","candidate_count":2,"accepted_count":2,"review_note":"候補の辞書照合・採否は実施。全語義・全語法の網羅的な再点検は未完了"}
@@ -380,7 +380,7 @@
 {"index":880,"word":"prepare","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":881,"word":"regulation","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":882,"word":"auditor","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
-{"index":883,"word":"credit","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
+{"index":883,"word":"credit","status":"needs_review","candidate_count":2,"accepted_count":2,"review_note":"候補の辞書照合・採否は実施。全語義・全語法の網羅的な再点検は未完了"}
 {"index":884,"word":"discussion","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":885,"word":"variety","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":886,"word":"audit","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
@@ -413,9 +413,9 @@
 {"index":913,"word":"surround","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":914,"word":"domestic","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":915,"word":"contract","status":"needs_review","candidate_count":3,"accepted_count":2,"review_note":"候補の辞書照合・採否は実施。全語義・全語法の網羅的な再点検は未完了"}
-{"index":916,"word":"trip","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
+{"index":916,"word":"trip","status":"needs_review","candidate_count":1,"accepted_count":1,"review_note":"候補の辞書照合・採否は実施。全語義・全語法の網羅的な再点検は未完了"}
 {"index":917,"word":"dictionary","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
-{"index":918,"word":"square","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
+{"index":918,"word":"square","status":"needs_review","candidate_count":1,"accepted_count":1,"review_note":"候補の辞書照合・採否は実施。全語義・全語法の網羅的な再点検は未完了"}
 {"index":919,"word":"screen","status":"needs_review","candidate_count":2,"accepted_count":2,"review_note":"候補の辞書照合・採否は実施。全語義・全語法の網羅的な再点検は未完了"}
 {"index":920,"word":"boat","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":921,"word":"exchange","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
@@ -431,7 +431,7 @@
 {"index":931,"word":"sexual","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":932,"word":"politic","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":933,"word":"welfare","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
-{"index":934,"word":"scene","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
+{"index":934,"word":"scene","status":"needs_review","candidate_count":2,"accepted_count":2,"review_note":"候補の辞書照合・採否は実施。全語義・全語法の網羅的な再点検は未完了"}
 {"index":935,"word":"customer","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":936,"word":"river","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":937,"word":"door","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
@@ -448,10 +448,10 @@
 {"index":948,"word":"neither","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":949,"word":"reveal","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":950,"word":"prevent","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
-{"index":951,"word":"catch","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
+{"index":951,"word":"catch","status":"needs_review","candidate_count":1,"accepted_count":1,"review_note":"候補の辞書照合・採否は実施。全語義・全語法の網羅的な再点検は未完了"}
 {"index":952,"word":"expand","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":953,"word":"skill","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
-{"index":954,"word":"deny","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
+{"index":954,"word":"deny","status":"needs_review","candidate_count":2,"accepted_count":2,"review_note":"候補の辞書照合・採否は実施。全語義・全語法の網羅的な再点検は未完了"}
 {"index":955,"word":"file","status":"needs_review","candidate_count":1,"accepted_count":1,"review_note":"候補の辞書照合・採否は実施。全語義・全語法の網羅的な再点検は未完了"}
 {"index":956,"word":"hit","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":957,"word":"living","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
@@ -476,7 +476,7 @@
 {"index":976,"word":"miss","status":"needs_review","candidate_count":1,"accepted_count":1,"review_note":"候補の辞書照合・採否は実施。全語義・全語法の網羅的な再点検は未完了"}
 {"index":977,"word":"ability","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":978,"word":"presidential","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
-{"index":979,"word":"rock","status":"needs_review","candidate_count":1,"accepted_count":1,"review_note":"候補の辞書照合・採否は実施。全語義・全語法の網羅的な再点検は未完了"}
+{"index":979,"word":"rock","status":"needs_review","candidate_count":2,"accepted_count":2,"review_note":"候補の辞書照合・採否は実施。全語義・全語法の網羅的な再点検は未完了"}
 {"index":980,"word":"advance","status":"needs_review","candidate_count":1,"accepted_count":1,"review_note":"候補の辞書照合・採否は実施。全語義・全語法の網羅的な再点検は未完了"}
 {"index":981,"word":"collect","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":982,"word":"doubt","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
@@ -496,5 +496,5 @@
 {"index":996,"word":"editor","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
 {"index":997,"word":"respect","status":"needs_review","candidate_count":1,"accepted_count":1,"review_note":"候補の辞書照合・採否は実施。全語義・全語法の網羅的な再点検は未完了"}
 {"index":998,"word":"ad","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
-{"index":999,"word":"station","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
+{"index":999,"word":"station","status":"needs_review","candidate_count":2,"accepted_count":2,"review_note":"候補の辞書照合・採否は実施。全語義・全語法の網羅的な再点検は未完了"}
 {"index":1000,"word":"column","status":"needs_review","candidate_count":0,"accepted_count":0,"review_note":"未調査：辞書による語義・品詞・語法の照合未実施"}
