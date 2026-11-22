@@ -1079,3 +1079,1083 @@ flowchart LR
 **重要語法**：passing interest（一時的な興味）
 
 <!-- candidate_id: ev-04696-adjective-01; index: 4696 -->
+
+### 2601. passing
+
+**単語**：passing　 **品詞**：noun　 **発音**：/ˈpæsɪŋ/
+
+<small>よく知られている意味：通過すること</small>
+
+**見落としやすい意味：（法案の）可決、成立**
+
+**例文**：The passing of the bill brought relief to local families.
+
+**和訳**：その法案の可決は地元の家族に安堵をもたらした。
+
+**コアイメージ**：議案が議会の審議を通過するという動きから、可決・成立という結果を指す。passing of a bill は政治の文脈で用いられる。
+
+```mermaid
+flowchart LR
+    A["中心イメージ: 審議を通過して成立する"]
+    B["既知: 通過すること"]
+    C["今回: （法案の）可決、成立"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：the passing of a bill（法案の可決）
+
+<!-- candidate_id: ev-04696-noun-01; index: 4696 -->
+
+### 2602. rue
+
+**単語**：rue　 **品詞**：verb　 **発音**：/ruː/
+
+<small>よく知られている意味：（植物）ヘンルーダ</small>
+
+**見落としやすい意味：過去の行為を後悔する、悔やむ**
+
+**例文**：He would later rue his decision to ignore the warning.
+
+**和訳**：彼は警告を無視した決断を後になって悔やむことになる。
+
+**コアイメージ**：動詞 rue は過去の行為や判断を深く後悔する意味を持つ。植物を指す名詞の rue と無理につなげず、別の語義として覚える。
+
+```mermaid
+flowchart LR
+    A["中心イメージ: 過去を悔やむ気持ち"]
+    B["既知: （植物）ヘンルーダ"]
+    C["今回: 過去の行為を後悔する、悔やむ"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：rue the day（その日を後悔する）
+
+<!-- candidate_id: ev-04698-verb-01; index: 4698 -->
+
+### 2603. siege
+
+**単語**：siege　 **品詞**：noun　 **発音**：/siːdʒ/
+
+<small>よく知られている意味：軍事的な包囲</small>
+
+**見落としやすい意味：（under siegeで）激しい非難・攻撃を受けている状態**
+
+**例文**：The mayor was under siege over the housing policy.
+
+**和訳**：市長は住宅政策をめぐって激しい批判にさらされていた。
+
+**コアイメージ**：四方から攻撃を受けて身動きが取りにくい状況を、言論や政治上の激しい批判に重ねる。実際の軍隊がいなくても使う。
+
+```mermaid
+flowchart LR
+    A["中心イメージ: 外から厳しい攻撃が集中する"]
+    B["既知: 軍事的な包囲"]
+    C["今回: （under siegeで）激しい非難・攻撃を受けている状態"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：under siege（激しい攻撃・非難を受けて）
+
+<!-- candidate_id: ev-04699-noun-01; index: 4699 -->
+
+### 2604. spoil
+
+**単語**：spoil　 **品詞**：verb　 **発音**：/spɔɪl/
+
+<small>よく知られている意味：台無しにする</small>
+
+**見落としやすい意味：（子供などを）甘やかしてわがままにする**
+
+**例文**：His grandparents spoil him by giving him everything he asks for.
+
+**和訳**：祖父母は彼の欲しがるものを何でも与えて甘やかしている。
+
+**コアイメージ**：望みをすべてかなえることが、結果的に子どもの態度を損なうという発想である。物を傷める意味とは、対象が人に変わる。
+
+```mermaid
+flowchart LR
+    A["中心イメージ: 甘やかして悪い影響を及ぼす"]
+    B["既知: 台無しにする"]
+    C["今回: （子供などを）甘やかしてわがままにする"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：spoil a child（子どもを甘やかす）
+
+<!-- candidate_id: ev-04700-verb-01; index: 4700 -->
+
+### 2605. veto
+
+**単語**：veto　 **品詞**：noun　 **発音**：/ˈviːtoʊ/
+
+<small>よく知られている意味：拒否権</small>
+
+**見落としやすい意味：公的な権限による禁止・拒否**
+
+**例文**：The board has a veto over major changes to the building.
+
+**和訳**：理事会には建物の大幅な変更を拒否する権限がある。
+
+**コアイメージ**：veto は決定を正式に止める権限や、その行使を示す。大統領などの政治的拒否権だけでなく、組織の正式な拒否権にも用いる。
+
+```mermaid
+flowchart LR
+    A["中心イメージ: 権限に基づく拒否・禁止"]
+    B["既知: 拒否権"]
+    C["今回: 公的な権限による禁止・拒否"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：have a veto over（～について拒否権を持つ）
+
+<!-- candidate_id: ev-04702-noun-01; index: 4702 -->
+
+### 2606. arcade
+
+**単語**：arcade　 **品詞**：noun　 **発音**：/ɑːrˈkeɪd/
+
+<small>よく知られている意味：ゲームセンター</small>
+
+**見落としやすい意味：屋根のある商店街・連続したアーチ状の通路**
+
+**例文**：Small shops lined the covered arcade near the station.
+
+**和訳**：駅近くの屋根付き商店街には小さな店が並んでいた。
+
+**コアイメージ**：arcade はもともとアーチが連なる通路や商店街にも用いる。娯楽施設か建築上の通路かは、周囲の景色から区別する。
+
+```mermaid
+flowchart LR
+    A["中心イメージ: アーチや屋根のある通路"]
+    B["既知: ゲームセンター"]
+    C["今回: 屋根のある商店街・連続したアーチ状の通路"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：shopping arcade（アーケード商店街）
+
+<!-- candidate_id: ev-04703-noun-01; index: 4703 -->
+
+### 2607. broker
+
+**単語**：broker　 **品詞**：verb　 **発音**：/ˈbroʊkər/
+
+<small>よく知られている意味：仲介業者</small>
+
+**見落としやすい意味：（取引や合意を）仲介して成立させる**
+
+**例文**：The mediator brokered an agreement between the two groups.
+
+**和訳**：仲介役は二つの団体の間で合意を取りまとめた。
+
+**コアイメージ**：名詞の仲介人が行う働きを動詞にしたもの。関係者の間に入り、契約や合意の成立を助ける。
+
+```mermaid
+flowchart LR
+    A["中心イメージ: 間に入って合意を成立させる"]
+    B["既知: 仲介業者"]
+    C["今回: （取引や合意を）仲介して成立させる"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：broker a deal（取引を仲介してまとめる）
+
+<!-- candidate_id: ev-04704-verb-01; index: 4704 -->
+
+### 2608. canvas
+
+**単語**：canvas　 **品詞**：noun　 **発音**：/ˈkænvəs/
+
+<small>よく知られている意味：絵画用の布</small>
+
+**見落としやすい意味：創作の基盤・自由に構想できる場**
+
+**例文**：For the young designer, the blank wall was a canvas for new ideas.
+
+**和訳**：その若いデザイナーにとって、何もない壁は新しい発想を形にできる場だった。
+
+**コアイメージ**：画布が絵を描く余地を与えるように、比喩では新しいものを表現するための土台や場所を指す。実際の布である必要はない。
+
+```mermaid
+flowchart LR
+    A["中心イメージ: 自由な創造のための土台"]
+    B["既知: 絵画用の布"]
+    C["今回: 創作の基盤・自由に構想できる場"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：a canvas for ideas（発想を形にする場）
+
+<!-- candidate_id: ev-04705-noun-01; index: 4705 -->
+
+### 2609. canvas
+
+**単語**：canvas　 **品詞**：noun　 **発音**：/ˈkænvəs/
+
+<small>よく知られている意味：絵画用の布</small>
+
+**見落としやすい意味：（コンピューター）グラフィック描画領域**
+
+**例文**：Draw a circle in the canvas area of the app.
+
+**和訳**：アプリの描画領域に円を描いてください。
+
+**コアイメージ**：デジタル画面の中で、絵を描くために用意された領域を canvas と呼ぶ。画布の機能をコンピューター上に移した専門用法である。
+
+```mermaid
+flowchart LR
+    A["中心イメージ: 画面上の描画スペース"]
+    B["既知: 絵画用の布"]
+    C["今回: （コンピューター）グラフィック描画領域"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：HTML canvas（ウェブ画面の描画領域）
+
+<!-- candidate_id: ev-04705-noun-02; index: 4705 -->
+
+### 2610. closing
+
+**単語**：closing　 **品詞**：noun　 **発音**：/ˈkloʊzɪŋ/
+
+<small>よく知られている意味：閉店・終了</small>
+
+**見落としやすい意味：（不動産売買の）正式な契約決済手続き**
+
+**例文**：They signed the final documents at the house closing.
+
+**和訳**：彼らは住宅売買の決済手続きで最終書類に署名した。
+
+**コアイメージ**：取引が最終段階まで進み、代金・書類などをやり取りして正式に完了する場面を指す。単なる店の閉店とは区別する。
+
+```mermaid
+flowchart LR
+    A["中心イメージ: 売買を正式に完了する手続き"]
+    B["既知: 閉店・終了"]
+    C["今回: （不動産売買の）正式な契約決済手続き"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：real estate closing（不動産取引の決済）
+
+<!-- candidate_id: ev-04707-noun-01; index: 4707 -->
+
+### 2611. composition
+
+**単語**：composition　 **品詞**：noun　 **発音**：/ˌkɑːmpəˈzɪʃən/
+
+<small>よく知られている意味：作文・構成</small>
+
+**見落としやすい意味：（音楽の）作曲作品、楽曲**
+
+**例文**：The orchestra performed a new composition by a local musician.
+
+**和訳**：オーケストラは地元の音楽家による新しい楽曲を演奏した。
+
+**コアイメージ**：要素を組み合わせて一つの作品を作るという意味がある。音楽の文脈では「作曲する行為」だけでなく、完成した楽曲を指す。
+
+```mermaid
+flowchart LR
+    A["中心イメージ: 作曲された一つの作品"]
+    B["既知: 作文・構成"]
+    C["今回: （音楽の）作曲作品、楽曲"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：musical composition（楽曲・作曲作品）
+
+<!-- candidate_id: ev-04708-noun-01; index: 4708 -->
+
+### 2612. correction
+
+**単語**：correction　 **品詞**：noun　 **発音**：/kəˈrekʃən/
+
+<small>よく知られている意味：訂正</small>
+
+**見落としやすい意味：（相場などが）上昇後に一時的に値下がりする調整局面**
+
+**例文**：After months of rising prices, the market entered a correction.
+
+**和訳**：数か月の値上がりの後、市場は調整局面に入った。
+
+**コアイメージ**：価格が上がりすぎた後に下がって水準を調整する動きを、correction と呼ぶ。誤字を直すのではなく、市場の動きの名称である。
+
+```mermaid
+flowchart LR
+    A["中心イメージ: 値上がり後の価格調整"]
+    B["既知: 訂正"]
+    C["今回: （相場などが）上昇後に一時的に値下がりする調整局面"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：market correction（相場の調整）
+
+<!-- candidate_id: ev-04710-noun-01; index: 4710 -->
+
+### 2613. escalate
+
+**単語**：escalate　 **品詞**：verb　 **発音**：/ˈeskəleɪt/
+
+<small>よく知られている意味：激化する</small>
+
+**見落としやすい意味：（対応が必要な問題を）上位の責任者・部署に引き継ぐ**
+
+**例文**：Please escalate the complaint to the support manager.
+
+**和訳**：その苦情をサポート部門の責任者に引き継いでください。
+
+**コアイメージ**：物事が一段上に進むという感覚がある。業務では、解決が難しい問題を上位の担当者や部署へ引き上げる意味になる。
+
+```mermaid
+flowchart LR
+    A["中心イメージ: 問題をより上位の担当者に回す"]
+    B["既知: 激化する"]
+    C["今回: （対応が必要な問題を）上位の責任者・部署に引き継ぐ"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：escalate a ticket（問い合わせを上位に引き継ぐ）
+
+<!-- candidate_id: ev-04712-verb-01; index: 4712 -->
+
+### 2614. imagery
+
+**単語**：imagery　 **品詞**：noun　 **発音**：/ˈɪmɪdʒəri/
+
+<small>よく知られている意味：画像・映像</small>
+
+**見落としやすい意味：（文学作品などの）感覚に訴える描写・比喩表現**
+
+**例文**：The poem uses ocean imagery to convey loneliness.
+
+**和訳**：その詩は海のイメージを用いて孤独を伝えている。
+
+**コアイメージ**：頭の中に光景や感覚を呼び起こす表現を指す。実際の画像だけでなく、詩や物語で言葉が生み出す感覚的な描写も imagery である。
+
+```mermaid
+flowchart LR
+    A["中心イメージ: 言葉で感覚的な場面を浮かべる"]
+    B["既知: 画像・映像"]
+    C["今回: （文学作品などの）感覚に訴える描写・比喩表現"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：visual imagery（視覚的イメージ）
+
+<!-- candidate_id: ev-04715-noun-01; index: 4715 -->
+
+### 2615. lounge
+
+**単語**：lounge　 **品詞**：noun　 **発音**：/laʊndʒ/
+
+<small>よく知られている意味：空港などの待合室</small>
+
+**見落としやすい意味：（英）家の居間・居室**
+
+**例文**：We spent the evening talking in the lounge.
+
+**和訳**：私たちは夜、居間で話して過ごした。
+
+**コアイメージ**：lounge はくつろいで過ごす場所を表す。特にイギリス英語では、自宅の居間を指す場合がある。
+
+```mermaid
+flowchart LR
+    A["中心イメージ: 家でくつろぐ部屋"]
+    B["既知: 空港などの待合室"]
+    C["今回: （英）家の居間・居室"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：the lounge（英語圏の文脈で居間）
+
+<!-- candidate_id: ev-04718-noun-01; index: 4718 -->
+
+### 2616. spice
+
+**単語**：spice　 **品詞**：noun　 **発音**：/spaɪs/
+
+<small>よく知られている意味：香辛料</small>
+
+**見落としやすい意味：面白み、刺激となる要素**
+
+**例文**：A little humor added spice to the presentation.
+
+**和訳**：少しのユーモアが発表に面白みを加えた。
+
+**コアイメージ**：香辛料が料理に刺激や風味を添えるように、出来事や話にも活気・面白みを加える要素を指す。
+
+```mermaid
+flowchart LR
+    A["中心イメージ: 単調さを変える刺激"]
+    B["既知: 香辛料"]
+    C["今回: 面白み、刺激となる要素"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：add spice to（～に面白みを添える）
+
+<!-- candidate_id: ev-04723-noun-01; index: 4723 -->
+
+### 2617. substantive
+
+**単語**：substantive　 **品詞**：adjective　 **発音**：/ˈsʌbstəntɪv/
+
+<small>よく知られている意味：実体がある</small>
+
+**見落としやすい意味：中身・実質に関わる、重要な（形式上だけではない）**
+
+**例文**：The two sides held substantive talks about the budget.
+
+**和訳**：双方は予算について実質的な協議を行った。
+
+**コアイメージ**：表面だけの形式や名目ではなく、実際の内容に踏み込むことを表す。会議・変更・議論などが重要な中身を持つときに使う。
+
+```mermaid
+flowchart LR
+    A["中心イメージ: 形式でなく中身に関わる"]
+    B["既知: 実体がある"]
+    C["今回: 中身・実質に関わる、重要な（形式上だけではない）"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：substantive discussion（実質的な議論）
+
+<!-- candidate_id: ev-04724-adjective-01; index: 4724 -->
+
+### 2618. corn
+
+**単語**：corn　 **品詞**：noun　 **発音**：/kɔːrn/
+
+<small>よく知られている意味：トウモロコシ（米）</small>
+
+**見落としやすい意味：（特に英）トウモロコシに限らない穀物・穀類**
+
+**例文**：In older British texts, corn may refer to wheat rather than maize.
+
+**和訳**：古いイギリスの文章では、corn はトウモロコシではなく小麦を指すことがある。
+
+**コアイメージ**：corn は地域や時代によって指す作物が変わる。米語でのトウモロコシだけに限定せず、穀物を表す文脈を確認する。
+
+```mermaid
+flowchart LR
+    A["中心イメージ: 地域により穀物全般"]
+    B["既知: トウモロコシ（米）"]
+    C["今回: （特に英）トウモロコシに限らない穀物・穀類"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：British corn（文脈次第で穀類）
+
+<!-- candidate_id: ev-04726-noun-01; index: 4726 -->
+
+### 2619. juice
+
+**単語**：juice　 **品詞**：noun　 **発音**：/dʒuːs/
+
+<small>よく知られている意味：果汁</small>
+
+**見落としやすい意味：（口語で）機器を動かす電力、バッテリーの残量**
+
+**例文**：My laptop is low on juice, so I need the charger.
+
+**和訳**：ノートパソコンの電池残量が少ないので、充電器が必要だ。
+
+**コアイメージ**：果汁のように、装置を動かすための「中身のエネルギー」を口語的に表す。バッテリー残量などを指す言い方である。
+
+```mermaid
+flowchart LR
+    A["中心イメージ: 動かすための電力"]
+    B["既知: 果汁"]
+    C["今回: （口語で）機器を動かす電力、バッテリーの残量"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：be low on juice（電池残量が少ない）
+
+<!-- candidate_id: ev-04727-noun-01; index: 4727 -->
+
+### 2620. sailing
+
+**単語**：sailing　 **品詞**：noun　 **発音**：/ˈseɪlɪŋ/
+
+<small>よく知られている意味：帆走</small>
+
+**見落としやすい意味：船・フェリーの定期便、運航予定の便**
+
+**例文**：The last sailing to the island leaves at six.
+
+**和訳**：その島へ向かう最終便は6時に出発する。
+
+**コアイメージ**：船が航行する一回の機会を数えて、運航便を sailing と呼ぶ。帆船に限らずフェリーなどの時刻案内でも使われる。
+
+```mermaid
+flowchart LR
+    A["中心イメージ: 出発する船の便"]
+    B["既知: 帆走"]
+    C["今回: 船・フェリーの定期便、運航予定の便"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：the last sailing（最終便）
+
+<!-- candidate_id: ev-04729-noun-01; index: 4729 -->
+
+### 2621. curse
+
+**単語**：curse　 **品詞**：noun　 **発音**：/kɜːrs/
+
+<small>よく知られている意味：呪い</small>
+
+**見落としやすい意味：ののしり言葉、悪態（curse word など）**
+
+**例文**：He muttered a curse when he missed the train.
+
+**和訳**：電車に乗り遅れたとき、彼は小声で悪態をついた。
+
+**コアイメージ**：相手への強い否定的な言葉という共通点がある。超自然的な呪いだけでなく、日常の悪態やののしり言葉も指す。
+
+```mermaid
+flowchart LR
+    A["中心イメージ: 怒りを表す悪態"]
+    B["既知: 呪い"]
+    C["今回: ののしり言葉、悪態（curse word など）"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：curse word（ののしり言葉）
+
+<!-- candidate_id: ev-04732-noun-01; index: 4732 -->
+
+### 2622. barrel
+
+**単語**：barrel　 **品詞**：verb　 **発音**：/ˈbærəl/
+
+<small>よく知られている意味：樽</small>
+
+**見落としやすい意味：勢いよく疾走する、制御しにくい速さで進む**
+
+**例文**：The cyclist barreled down the hill at full speed.
+
+**和訳**：自転車に乗った人は坂を猛スピードで駆け下りた。
+
+**コアイメージ**：barrel を動詞で使うと、勢いを止めにくいほど速く動く様子を表す。樽という物の名前にこだわらず、動きの勢いを捉える。
+
+```mermaid
+flowchart LR
+    A["中心イメージ: 勢いに任せて猛スピードで進む"]
+    B["既知: 樽"]
+    C["今回: 勢いよく疾走する、制御しにくい速さで進む"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：barrel down the road（道路を猛スピードで進む）
+
+<!-- candidate_id: ev-04733-verb-01; index: 4733 -->
+
+### 2623. bearing
+
+**単語**：bearing　 **品詞**：noun　 **発音**：/ˈberɪŋ/
+
+<small>よく知られている意味：軸受け・方向</small>
+
+**見落としやすい意味：関係、関連性（have a bearing on）**
+
+**例文**：Your personal preference has no bearing on the result.
+
+**和訳**：あなた個人の好みは結果とは関係がない。
+
+**コアイメージ**：ある事柄が別の事柄にどう向いて関わるか、という関係性を表す。特に have a bearing on で「～に影響・関連がある」となる。
+
+```mermaid
+flowchart LR
+    A["中心イメージ: 議論に直接関わること"]
+    B["既知: 軸受け・方向"]
+    C["今回: 関係、関連性（have a bearing on）"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：have no bearing on（～と関係がない）
+
+<!-- candidate_id: ev-04735-noun-01; index: 4735 -->
+
+### 2624. dense
+
+**単語**：dense　 **品詞**：adjective　 **発音**：/dens/
+
+<small>よく知られている意味：密集した</small>
+
+**見落としやすい意味：（人が）理解が鈍い、のみこみが悪い**
+
+**例文**：I explained the rule three times, but he was being dense.
+
+**和訳**：私はその規則を3回説明したが、彼はなかなか理解してくれなかった。
+
+**コアイメージ**：物がぎっしり詰まって通りにくい感覚を、人の理解の鈍さにたとえた口語的表現である。人を評すると失礼な言い方にもなる。
+
+```mermaid
+flowchart LR
+    A["中心イメージ: 考えが通じにくい"]
+    B["既知: 密集した"]
+    C["今回: （人が）理解が鈍い、のみこみが悪い"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：Don't be dense.（鈍いことを言わないで）
+
+<!-- candidate_id: ev-04737-adjective-01; index: 4737 -->
+
+### 2625. fabulous
+
+**単語**：fabulous　 **品詞**：adjective　 **発音**：/ˈfæbjələs/
+
+<small>よく知られている意味：素晴らしい</small>
+
+**見落としやすい意味：架空の、信じがたい**
+
+**例文**：The explorer told fabulous stories of cities made of gold.
+
+**和訳**：探検家は黄金でできた都市についての信じがたい話を語った。
+
+**コアイメージ**：fable（寓話）と関わる語で、物語のように現実離れしたという意味を持つ。現代の「すばらしい」とは文脈で区別する。
+
+```mermaid
+flowchart LR
+    A["中心イメージ: 物語めいた非現実性"]
+    B["既知: 素晴らしい"]
+    C["今回: 架空の、信じがたい"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：fabulous tales（信じがたい物語）
+
+<!-- candidate_id: ev-04738-adjective-01; index: 4738 -->
+
+### 2626. strand
+
+**単語**：strand　 **品詞**：noun　 **発音**：/strænd/
+
+<small>よく知られている意味：糸・髪の一筋</small>
+
+**見落としやすい意味：物語・議論の一筋の流れや要素**
+
+**例文**：One strand of the argument focuses on education.
+
+**和訳**：その議論の一つの流れは教育に焦点を当てている。
+
+**コアイメージ**：一本の糸が織物の一部になるように、大きな議論や物語を形づくる個々の要素を指す。
+
+```mermaid
+flowchart LR
+    A["中心イメージ: 複雑な全体を構成する一筋"]
+    B["既知: 糸・髪の一筋"]
+    C["今回: 物語・議論の一筋の流れや要素"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：a strand of thought（一筋の考え）
+
+<!-- candidate_id: ev-04739-noun-01; index: 4739 -->
+
+### 2627. strand
+
+**単語**：strand　 **品詞**：verb　 **発音**：/strænd/
+
+<small>よく知られている意味：糸・髪の一筋</small>
+
+**見落としやすい意味：（人を）取り残す、困った状況で動けなくする**
+
+**例文**：The cancelled train stranded dozens of passengers overnight.
+
+**和訳**：列車の運休によって数十人の乗客が一晩足止めされた。
+
+**コアイメージ**：strand を動詞として使うと、人を移動できない状況に置き去りにする。名詞の「糸」とは別の用法として扱う。
+
+```mermaid
+flowchart LR
+    A["中心イメージ: 人を行き詰まった場所に残す"]
+    B["既知: 糸・髪の一筋"]
+    C["今回: （人を）取り残す、困った状況で動けなくする"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：be stranded（足止めされる）
+
+<!-- candidate_id: ev-04739-verb-01; index: 4739 -->
+
+### 2628. chill
+
+**単語**：chill　 **品詞**：adjective　 **発音**：/tʃɪl/
+
+<small>よく知られている意味：冷たい・寒気</small>
+
+**見落としやすい意味：（口語）落ち着いた、気さくな**
+
+**例文**：Our new teacher is pretty chill about minor mistakes.
+
+**和訳**：新しい先生は小さな間違いにはかなりおおらかだ。
+
+**コアイメージ**：緊張や熱気が高まらず、落ち着いている雰囲気を表す口語用法である。気温や体温の低さを述べるわけではない。
+
+```mermaid
+flowchart LR
+    A["中心イメージ: 気負わず落ち着いている"]
+    B["既知: 冷たい・寒気"]
+    C["今回: （口語）落ち着いた、気さくな"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：a chill person（気さくで落ち着いた人）
+
+<!-- candidate_id: ev-04741-adjective-01; index: 4741 -->
+
+### 2629. bypass
+
+**単語**：bypass　 **品詞**：verb　 **発音**：/ˈbaɪpæs/
+
+<small>よく知られている意味：迂回する</small>
+
+**見落としやすい意味：通常の手続き・経路を無視して進める**
+
+**例文**：The team bypassed the usual approval process.
+
+**和訳**：そのチームは通常の承認手続きを飛ばした。
+
+**コアイメージ**：道を迂回して目的地へ進むように、決められた手続きや担当者を通らず先へ進むことを表す。
+
+```mermaid
+flowchart LR
+    A["中心イメージ: 正規の段階を飛ばす"]
+    B["既知: 迂回する"]
+    C["今回: 通常の手続き・経路を無視して進める"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：bypass a procedure（手続きを飛ばす）
+
+<!-- candidate_id: ev-04742-verb-01; index: 4742 -->
+
+### 2630. prop
+
+**単語**：prop　 **品詞**：noun　 **発音**：/prɑːp/
+
+<small>よく知られている意味：支柱・支え</small>
+
+**見落としやすい意味：演劇や映画の小道具**
+
+**例文**：The actor picked up a prop sword during rehearsal.
+
+**和訳**：俳優はリハーサル中に小道具の剣を手に取った。
+
+**コアイメージ**：演劇や映画では、場面を作るために役者が使う物を prop と呼ぶ。物を支える「支柱」とは別の専門的な意味である。
+
+```mermaid
+flowchart LR
+    A["中心イメージ: 舞台上で使う持ち物"]
+    B["既知: 支柱・支え"]
+    C["今回: 演劇や映画の小道具"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：stage props（舞台小道具）
+
+<!-- candidate_id: ev-04744-noun-01; index: 4744 -->
+
+### 2631. parameter
+
+**単語**：parameter　 **品詞**：noun　 **発音**：/pəˈræmɪtər/
+
+<small>よく知られている意味：数学の媒介変数</small>
+
+**見落としやすい意味：（通例複数形で）許容される範囲、制約・条件**
+
+**例文**：We must work within the parameters of the agreement.
+
+**和訳**：私たちは合意で定められた範囲内で行動しなければならない。
+
+**コアイメージ**：ある対象を定める条件や数値の考え方から、実行できる範囲・制約を表す。特に複数形 parameters でよく使われる。
+
+```mermaid
+flowchart LR
+    A["中心イメージ: 行動を定める許容範囲"]
+    B["既知: 数学の媒介変数"]
+    C["今回: （通例複数形で）許容される範囲、制約・条件"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：within the parameters of（～の条件・範囲内で）
+
+<!-- candidate_id: ev-04745-noun-01; index: 4745 -->
+
+### 2632. disdain
+
+**単語**：disdain　 **品詞**：verb　 **発音**：/dɪsˈdeɪn/
+
+<small>よく知られている意味：軽蔑する</small>
+
+**見落としやすい意味：（disdain to doで）軽蔑して～するのを拒む**
+
+**例文**：She disdained to answer the rude question.
+
+**和訳**：彼女はその無礼な質問に答えることを潔しとしなかった。
+
+**コアイメージ**：単に相手を軽蔑するだけでなく、ある行為を自分にはふさわしくないとみなして拒む意味になる。to 不定詞を後ろに置く文語的な用法である。
+
+```mermaid
+flowchart LR
+    A["中心イメージ: 軽蔑して行動を拒む"]
+    B["既知: 軽蔑する"]
+    C["今回: （disdain to doで）軽蔑して～するのを拒む"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：disdain to do（～することを潔しとしない）
+
+<!-- candidate_id: ev-04747-verb-01; index: 4747 -->
+
+### 2633. pursuant
+
+**単語**：pursuant　 **品詞**：adjective　 **発音**：/pərˈsuːənt/
+
+<small>よく知られている意味：（関連語 pursue：追求する）</small>
+
+**見落としやすい意味：～に従って、～に基づいて（pursuant to）**
+
+**例文**：The payment was made pursuant to the contract.
+
+**和訳**：その支払いは契約に基づいて行われた。
+
+**コアイメージ**：pursuant は pursue と語形が似ていても「追求する」という動詞ではない。契約や規則に従って行われることを表す、法律文書などの硬い表現である。
+
+```mermaid
+flowchart LR
+    A["中心イメージ: 規定や合意に従って進める"]
+    B["既知: （関連語 pursue：追求する）"]
+    C["今回: ～に従って、～に基づいて（pursuant to）"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：pursuant to（～に従って・～に基づいて）
+
+<!-- candidate_id: ev-04749-adjective-01; index: 4749 -->
+
+### 2634. alley
+
+**単語**：alley　 **品詞**：noun　 **発音**：/ˈæli/
+
+<small>よく知られている意味：路地</small>
+
+**見落としやすい意味：（bowling alleyで）ボウリング場・ボウリングのレーン**
+
+**例文**：They met at the bowling alley after school.
+
+**和訳**：彼らは放課後にボウリング場で会った。
+
+**コアイメージ**：alley は細長い通路を指し、ボウリングで球が転がる細長いレーンの呼び名にもなる。bowling alley で施設全体を指す場合もある。
+
+```mermaid
+flowchart LR
+    A["中心イメージ: ボウリングの設備や施設"]
+    B["既知: 路地"]
+    C["今回: （bowling alleyで）ボウリング場・ボウリングのレーン"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：bowling alley（ボウリング場）
+
+<!-- candidate_id: ev-04752-noun-01; index: 4752 -->
+
+### 2635. cart
+
+**単語**：cart　 **品詞**：verb　 **発音**：/kɑːrt/
+
+<small>よく知られている意味：手押し車</small>
+
+**見落としやすい意味：（人や物を）運び去る、撤去する**
+
+**例文**：Workers carted away the broken furniture.
+
+**和訳**：作業員は壊れた家具を運び去った。
+
+**コアイメージ**：荷車で荷物を運ぶ行為を動詞にしたもの。実際に手押し車を使わなくても、重い物などを運び去る意味で使う。
+
+```mermaid
+flowchart LR
+    A["中心イメージ: 手間をかけて運び出す"]
+    B["既知: 手押し車"]
+    C["今回: （人や物を）運び去る、撤去する"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：cart away（運び去る）
+
+<!-- candidate_id: ev-04757-verb-01; index: 4757 -->
+
+### 2636. cloister
+
+**単語**：cloister　 **品詞**：verb　 **発音**：/ˈklɔɪstər/
+
+<small>よく知られている意味：修道院の回廊</small>
+
+**見落としやすい意味：世間から隔離する、閉じこもらせる**
+
+**例文**：The researcher cloistered herself in the library for a week.
+
+**和訳**：研究者は1週間、図書館にこもって過ごした。
+
+**コアイメージ**：外界から隔てられた修道院のような空間のイメージがある。そこから人を隔離する・自ら閉じこもる意味になる。
+
+```mermaid
+flowchart LR
+    A["中心イメージ: 人を外の世界から遠ざける"]
+    B["既知: 修道院の回廊"]
+    C["今回: 世間から隔離する、閉じこもらせる"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：be cloistered away（閉じこもっている）
+
+<!-- candidate_id: ev-04760-verb-01; index: 4760 -->
+
+### 2637. contingent
+
+**単語**：contingent　 **品詞**：adjective　 **発音**：/kənˈtɪndʒənt/
+
+<small>よく知られている意味：不確かな</small>
+
+**見落としやすい意味：～次第である、～を条件とする（contingent on/upon）**
+
+**例文**：The trip is contingent on good weather.
+
+**和訳**：その旅行は天候が良いことを条件としている。
+
+**コアイメージ**：あることが必ず起こるのではなく、別の条件が満たされるかにかかっていることを示す。不確実さより条件関係が読み取りの中心になる。
+
+```mermaid
+flowchart LR
+    A["中心イメージ: 特定の条件に左右される"]
+    B["既知: 不確かな"]
+    C["今回: ～次第である、～を条件とする（contingent on/upon）"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：be contingent on/upon（～次第である）
+
+<!-- candidate_id: ev-04762-adjective-01; index: 4762 -->
+
+### 2638. idiom
+
+**単語**：idiom　 **品詞**：noun　 **発音**：/ˈɪdiəm/
+
+<small>よく知られている意味：慣用句</small>
+
+**見落としやすい意味：（音楽・美術などの）独特の表現様式、作風**
+
+**例文**：The composer developed an idiom that blended jazz with folk music.
+
+**和訳**：その作曲家はジャズと民俗音楽を融合した独自の作風を生み出した。
+
+**コアイメージ**：言語で特有の言い回しを指すのと同様に、芸術分野では固有の表現の仕方を指す。単なる慣用句ではない。
+
+```mermaid
+flowchart LR
+    A["中心イメージ: 芸術表現に固有の作風"]
+    B["既知: 慣用句"]
+    C["今回: （音楽・美術などの）独特の表現様式、作風"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：musical idiom（音楽的な作風）
+
+<!-- candidate_id: ev-04765-noun-01; index: 4765 -->
+
+### 2639. jihad
+
+**単語**：jihad　 **品詞**：noun　 **発音**：（確実な表記を省略）
+
+<small>よく知られている意味：聖戦と訳されることがある</small>
+
+**見落としやすい意味：（イスラム教で）自分や社会の悪に抗い善を実践するための宗教的な努力・奮闘**
+
+**例文**：The essay discussed jihad as a personal struggle for moral improvement.
+
+**和訳**：その論考はジハードを、道徳的向上を目指す個人の努力として論じていた。
+
+**コアイメージ**：jihad はアラビア語に由来し、宗教的な努力や奮闘という広い意味を持つ。文脈によって解釈が異なるため、武力行為だけを意味すると決めつけない。
+
+```mermaid
+flowchart LR
+    A["中心イメージ: 善を目指して努力し続ける"]
+    B["既知: 聖戦と訳されることがある"]
+    C["今回: （イスラム教で）自分や社会の悪に抗い善を実践するための宗教的な努力・奮闘"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：spiritual jihad（精神的な努力という文脈）
+
+<!-- candidate_id: ev-04768-noun-01; index: 4768 -->
+
+### 2640. prescription
+
+**単語**：prescription　 **品詞**：noun　 **発音**：/prɪˈskrɪpʃən/
+
+<small>よく知られている意味：医師の処方箋</small>
+
+**見落としやすい意味：（社会問題などへの）処方策、解決に向けた提案**
+
+**例文**：The report offers a prescription for reducing urban poverty.
+
+**和訳**：その報告書は都市部の貧困を減らすための対策を提案している。
+
+**コアイメージ**：医師が病状に対して治療法を示すように、社会の問題にも改善策を示す比喩である。実際の薬の処方ではない。
+
+```mermaid
+flowchart LR
+    A["中心イメージ: 問題を改善するための提案"]
+    B["既知: 医師の処方箋"]
+    C["今回: （社会問題などへの）処方策、解決に向けた提案"]
+    A --> B
+    A --> C
+```
+
+**重要語法**：a prescription for change（変革のための処方策）
+
+<!-- candidate_id: ev-04770-noun-01; index: 4770 -->
