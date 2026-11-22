@@ -11,14 +11,14 @@
 {"index":6011,"word":"ribbon","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
 {"index":6012,"word":"oak","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
 {"index":6013,"word":"lemon","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
-{"index":6014,"word":"batch","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
+{"index":6014,"word":"batch","status":"verified_selected","candidate_count":1,"accepted_count":1,"research_state":"dictionary_checked","checked_at":"2026-11-22","sources_checked":["Merriam-Webster Online Dictionary"]}
 {"index":6015,"word":"pear","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
-{"index":6016,"word":"marked","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
-{"index":6017,"word":"liquid","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
+{"index":6016,"word":"marked","status":"verified_selected","candidate_count":1,"accepted_count":1,"research_state":"dictionary_checked","checked_at":"2026-11-22","sources_checked":["Merriam-Webster Online Dictionary"]}
+{"index":6017,"word":"liquid","status":"verified_selected","candidate_count":1,"accepted_count":1,"research_state":"dictionary_checked","checked_at":"2026-11-22","sources_checked":["Merriam-Webster Online Dictionary"]}
 {"index":6018,"word":"wolf","status":"verified_selected","candidate_count":1,"accepted_count":1,"research_state":"dictionary_checked","sources_checked":["Merriam-Webster Online Dictionary"],"checked_at":"2026-11-22"}
-{"index":6019,"word":"cherry","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
+{"index":6019,"word":"cherry","status":"verified_none","candidate_count":1,"accepted_count":0,"research_state":"dictionary_checked","checked_at":"2026-11-22","sources_checked":["Merriam-Webster Online Dictionary"]}
 {"index":6020,"word":"battlefield","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
-{"index":6021,"word":"cane","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
+{"index":6021,"word":"cane","status":"verified_selected","candidate_count":1,"accepted_count":1,"research_state":"dictionary_checked","checked_at":"2026-11-22","sources_checked":["Merriam-Webster Online Dictionary"]}
 {"index":6022,"word":"triangle","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
 {"index":6023,"word":"muddy","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
 {"index":6024,"word":"waist","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
@@ -42,7 +42,7 @@
 {"index":6042,"word":"akin","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
 {"index":6043,"word":"ate","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
 {"index":6044,"word":"autocatalytic","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
-{"index":6045,"word":"bankrupt","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
+{"index":6045,"word":"bankrupt","status":"verified_selected","candidate_count":2,"accepted_count":2,"research_state":"dictionary_checked","checked_at":"2026-11-22","sources_checked":["Merriam-Webster Online Dictionary"]}
 {"index":6046,"word":"bidder","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
 {"index":6047,"word":"bullfight","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
 {"index":6048,"word":"citadel","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
@@ -59,9 +59,9 @@
 {"index":6059,"word":"enrich","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
 {"index":6060,"word":"evangelical","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
 {"index":6061,"word":"fortify","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
-{"index":6062,"word":"freak","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
+{"index":6062,"word":"freak","status":"verified_selected","candidate_count":2,"accepted_count":2,"research_state":"dictionary_checked","checked_at":"2026-11-22","sources_checked":["Merriam-Webster Online Dictionary"]}
 {"index":6063,"word":"grandparent","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
-{"index":6064,"word":"guise","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
+{"index":6064,"word":"guise","status":"verified_selected","candidate_count":1,"accepted_count":1,"research_state":"dictionary_checked","checked_at":"2026-11-22","sources_checked":["Merriam-Webster Online Dictionary"]}
 {"index":6065,"word":"habitat","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
 {"index":6066,"word":"hilarious","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
 {"index":6067,"word":"importation","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
@@ -82,7 +82,7 @@
 {"index":6082,"word":"rampant","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
 {"index":6083,"word":"rein","status":"verified_selected","candidate_count":2,"accepted_count":2,"research_state":"dictionary_checked","sources_checked":["Merriam-Webster Online Dictionary"],"checked_at":"2026-11-22"}
 {"index":6084,"word":"reinvent","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
-{"index":6085,"word":"saga","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
+{"index":6085,"word":"saga","status":"verified_selected","candidate_count":1,"accepted_count":1,"research_state":"dictionary_checked","checked_at":"2026-11-22","sources_checked":["Merriam-Webster Online Dictionary"]}
 {"index":6086,"word":"shepherd","status":"verified_selected","candidate_count":1,"accepted_count":1,"research_state":"dictionary_checked","sources_checked":["Merriam-Webster Online Dictionary"],"checked_at":"2026-11-22"}
 {"index":6087,"word":"shorten","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
 {"index":6088,"word":"soften","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
@@ -162,7 +162,7 @@
 {"index":6162,"word":"newcomer","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
 {"index":6163,"word":"oppressive","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
 {"index":6164,"word":"pitcher","status":"verified_selected","candidate_count":1,"accepted_count":1,"research_state":"dictionary_checked","sources_checked":["Merriam-Webster Online Dictionary"],"checked_at":"2026-11-22"}
-{"index":6165,"word":"pity","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
+{"index":6165,"word":"pity","status":"verified_none","candidate_count":1,"accepted_count":0,"research_state":"dictionary_checked","checked_at":"2026-11-22","sources_checked":["Merriam-Webster Online Dictionary"]}
 {"index":6166,"word":"playing","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
 {"index":6167,"word":"plural","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
 {"index":6168,"word":"prey","status":"verified_selected","candidate_count":2,"accepted_count":2,"research_state":"dictionary_checked","sources_checked":["Merriam-Webster Online Dictionary"],"checked_at":"2026-11-22"}
@@ -180,7 +180,7 @@
 {"index":6180,"word":"satisfying","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
 {"index":6181,"word":"seam","status":"verified_selected","candidate_count":1,"accepted_count":1,"research_state":"dictionary_checked","sources_checked":["Merriam-Webster Online Dictionary"],"checked_at":"2026-11-22"}
 {"index":6182,"word":"shady","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
-{"index":6183,"word":"spit","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
+{"index":6183,"word":"spit","status":"verified_selected","candidate_count":2,"accepted_count":2,"research_state":"dictionary_checked","checked_at":"2026-11-22","sources_checked":["Merriam-Webster Online Dictionary"]}
 {"index":6184,"word":"squirrel","status":"verified_selected","candidate_count":1,"accepted_count":1,"research_state":"dictionary_checked","sources_checked":["Merriam-Webster Online Dictionary"],"checked_at":"2026-11-22"}
 {"index":6185,"word":"stronghold","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
 {"index":6186,"word":"submarine","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
@@ -198,7 +198,7 @@
 {"index":6198,"word":"dessert","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
 {"index":6199,"word":"feather","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
 {"index":6200,"word":"skiing","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
-{"index":6201,"word":"tidy","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
+{"index":6201,"word":"tidy","status":"verified_selected","candidate_count":2,"accepted_count":1,"research_state":"dictionary_checked","checked_at":"2026-11-22","sources_checked":["Merriam-Webster Online Dictionary"]}
 {"index":6202,"word":"disco","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
 {"index":6203,"word":"minus","status":"verified_selected","candidate_count":2,"accepted_count":2,"research_state":"dictionary_checked","sources_checked":["Merriam-Webster Online Dictionary"],"checked_at":"2026-11-22"}
 {"index":6204,"word":"plug","status":"verified_selected","candidate_count":2,"accepted_count":2,"research_state":"dictionary_checked","sources_checked":["Merriam-Webster Online Dictionary"],"checked_at":"2026-11-22"}
@@ -238,11 +238,11 @@
 {"index":6238,"word":"coordinator","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
 {"index":6239,"word":"darwinian","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
 {"index":6240,"word":"discretion","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
-{"index":6241,"word":"disposable","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
+{"index":6241,"word":"disposable","status":"verified_selected","candidate_count":1,"accepted_count":1,"research_state":"dictionary_checked","checked_at":"2026-11-22","sources_checked":["Merriam-Webster Online Dictionary"]}
 {"index":6242,"word":"drawn","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
 {"index":6243,"word":"drunken","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
 {"index":6244,"word":"dusty","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
-{"index":6245,"word":"eclipse","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
+{"index":6245,"word":"eclipse","status":"verified_selected","candidate_count":2,"accepted_count":2,"research_state":"dictionary_checked","checked_at":"2026-11-22","sources_checked":["Merriam-Webster Online Dictionary"]}
 {"index":6246,"word":"ed","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
 {"index":6247,"word":"electorate","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
 {"index":6248,"word":"elicit","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
@@ -297,14 +297,14 @@
 {"index":6297,"word":"vine","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
 {"index":6298,"word":"voyage","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
 {"index":6299,"word":"yankee","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
-{"index":6300,"word":"acquit","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
+{"index":6300,"word":"acquit","status":"verified_selected","candidate_count":1,"accepted_count":1,"research_state":"dictionary_checked","checked_at":"2026-11-22","sources_checked":["Merriam-Webster Online Dictionary"]}
 {"index":6301,"word":"acronym","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
 {"index":6302,"word":"allusion","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
 {"index":6303,"word":"annex","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
 {"index":6304,"word":"asleep","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
-{"index":6305,"word":"asylum","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
+{"index":6305,"word":"asylum","status":"verified_selected","candidate_count":1,"accepted_count":1,"research_state":"dictionary_checked","checked_at":"2026-11-22","sources_checked":["Merriam-Webster Online Dictionary"]}
 {"index":6306,"word":"avert","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
-{"index":6307,"word":"barren","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
+{"index":6307,"word":"barren","status":"verified_selected","candidate_count":1,"accepted_count":1,"research_state":"dictionary_checked","checked_at":"2026-11-22","sources_checked":["Merriam-Webster Online Dictionary"]}
 {"index":6308,"word":"bequeath","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
 {"index":6309,"word":"bland","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
 {"index":6310,"word":"bleak","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
@@ -323,7 +323,7 @@
 {"index":6323,"word":"diagnosis","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
 {"index":6324,"word":"discretionary","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
 {"index":6325,"word":"distrust","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
-{"index":6326,"word":"dodge","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
+{"index":6326,"word":"dodge","status":"verified_selected","candidate_count":1,"accepted_count":1,"research_state":"dictionary_checked","checked_at":"2026-11-22","sources_checked":["Merriam-Webster Online Dictionary"]}
 {"index":6327,"word":"ebay","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
 {"index":6328,"word":"entropy","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
 {"index":6329,"word":"evocative","status":"needs_review","candidate_count":0,"accepted_count":0,"research_state":"not_started"}
