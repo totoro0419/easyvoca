@@ -30,6 +30,6 @@
 
 - ブランチ：`content/batch-045`
 - 教材・JSONL保存時点のコミット：[`9b5f8ed6fd0352028468a9810b30b54e4ae84c1b`](https://github.com/totoro0419/easyvoca/commit/9b5f8ed6fd0352028468a9810b30b54e4ae84c1b)
-- PR URL：作成後に追記
+- PR URL：[PR #69](https://github.com/totoro0419/easyvoca/pull/69)
 
 **注意**：採用済み語義データの変更、他バッチの更新、アプリ機能実装は行っていない。
