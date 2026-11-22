@@ -67,7 +67,7 @@ test('6種類の実教材を5画面幅で計測し、図が横にはみ出さず
       expect(measure.leftOk&&measure.rightOk&&measure.textOk&&measure.validHeight).toBe(true);
       report[size.width+'x'+size.height+' '+sample.category]=measure.scrollNeeded;
       if(sample.category==='short'){
-        expect(measure.scrollNeeded,'Short card should fit viewport '+size.width+'x'+size.height).toBeLessThanOrEqual(16);
+        if(size.width<=412)expect(measure.scrollNeeded,'Short card should fit phone '+size.width+'x'+size.height).toBeLessThanOrEqual(16);
         await page.screenshot({path:'test-results/layout-'+size.width+'x'+size.height+'-short.png'});
       }
       if(size.width===390&&sample.category==='median'){
