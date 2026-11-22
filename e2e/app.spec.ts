@@ -17,6 +17,7 @@ test('ホームから学習、矢印キー、進捗保存と再起動後の再�
   await page.keyboard.press('ArrowLeft');
   await expect(page.locator('.study-position strong')).toContainText(/1\s*\/\s*20/);
   await expect(page.locator('.diagram-svg svg')).toBeVisible({timeout:25000});
+  await expect(page.locator('.diagram-svg svg')).toContainText('中心');
 });
 
 test('検索、別語義の閲覧、復習の4択と結果保存',async({page})=>{
