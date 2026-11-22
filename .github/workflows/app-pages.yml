@@ -33,6 +33,19 @@ jobs:
         run: npm test
       - name: Typecheck and build (validates 64 batches and 5111 items)
         run: npm run build
+      - name: Verify PWA artifacts
+        run: test -f dist/sw.js && test -f dist/manifest.webmanifest && test -f dist/generated/catalog.json
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+      - name: Real browser E2E tests
+        run: npx playwright test
+      - name: Save browser screenshots on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: browser-test-results
+          path: test-results/
+          if-no-files-found: ignore
       - name: Upload Pages artifact
         if: github.ref == 'refs/heads/main'
         uses: actions/upload-pages-artifact@v3
