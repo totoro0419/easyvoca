@@ -37,6 +37,6 @@
 
 ## Pull Request
 
-- PR URL：作成前（PR発行後に更新）
+- PR URL：https://github.com/totoro0419/easyvoca/pull/67
 - ベース：`main`
 - 作業ブランチ：`content/batch-044`
