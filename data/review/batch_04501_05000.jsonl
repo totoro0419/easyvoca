@@ -108,7 +108,7 @@
 {"index":4608,"word":"mural","status":"verified_none","candidate_count":0,"accepted_count":0}
 {"index":4609,"word":"myriad","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":4610,"word":"plaza","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":4611,"word":"poker","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":4611,"word":"poker","status":"verified_selected","candidate_count":1,"accepted_count":1,"review_source":{"name":"Cambridge Dictionary","url":"https://dictionary.cambridge.org/dictionary/english/poker","checked_at":"2026-11-22"},"review_note":"追加辞典で品詞・語義を再確認した。"}
 {"index":4612,"word":"precedent","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":4613,"word":"revival","status":"verified_none","candidate_count":0,"accepted_count":0}
 {"index":4614,"word":"scenic","status":"verified_none","candidate_count":0,"accepted_count":0}
@@ -142,7 +142,7 @@
 {"index":4642,"word":"collectively","status":"verified_none","candidate_count":0,"accepted_count":0}
 {"index":4643,"word":"convent","status":"verified_none","candidate_count":1,"accepted_count":0}
 {"index":4644,"word":"dos","status":"verified_none","candidate_count":0,"accepted_count":0}
-{"index":4645,"word":"erotic","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":4645,"word":"erotic","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":{"name":"Cambridge Learner's Dictionary","url":"https://dictionary.cambridge.org/dictionary/learner-english/erotic","checked_at":"2026-11-22"},"review_note":"辞書で通常の品詞と意味を確認し、収録価値のある別義は発見しなかった。"}
 {"index":4646,"word":"generic","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":4647,"word":"grove","status":"verified_none","candidate_count":0,"accepted_count":0}
 {"index":4648,"word":"humanitarian","status":"verified_none","candidate_count":0,"accepted_count":0}
@@ -256,7 +256,7 @@
 {"index":4756,"word":"buying","status":"verified_none","candidate_count":0,"accepted_count":0}
 {"index":4757,"word":"cart","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":4758,"word":"certification","status":"verified_none","candidate_count":0,"accepted_count":0}
-{"index":4759,"word":"cigar","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":4759,"word":"cigar","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":{"name":"Cambridge Dictionary","url":"https://dictionary.cambridge.org/dictionary/english/cigar","checked_at":"2026-11-22"},"review_note":"辞書で通常の品詞と意味を確認し、収録価値のある別義は発見しなかった。"}
 {"index":4760,"word":"cloister","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":4761,"word":"conquest","status":"verified_none","candidate_count":0,"accepted_count":0}
 {"index":4762,"word":"contingent","status":"verified_selected","candidate_count":1,"accepted_count":1}
@@ -265,7 +265,7 @@
 {"index":4765,"word":"idiom","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":4766,"word":"incredibly","status":"verified_none","candidate_count":0,"accepted_count":0}
 {"index":4767,"word":"jargon","status":"verified_none","candidate_count":0,"accepted_count":0}
-{"index":4768,"word":"jihad","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":4768,"word":"jihad","status":"verified_selected","candidate_count":1,"accepted_count":1,"review_source":{"name":"Cambridge Dictionary","url":"https://dictionary.cambridge.org/dictionary/english/jihad","checked_at":"2026-11-22"},"review_note":"追加辞典で品詞・語義を再確認した。"}
 {"index":4769,"word":"nationally","status":"verified_none","candidate_count":0,"accepted_count":0}
 {"index":4770,"word":"prescription","status":"verified_none","candidate_count":0,"accepted_count":0}
 {"index":4771,"word":"reception","status":"verified_selected","candidate_count":1,"accepted_count":1}
@@ -275,8 +275,8 @@
 {"index":4775,"word":"skull","status":"verified_none","candidate_count":0,"accepted_count":0}
 {"index":4776,"word":"swear","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":4777,"word":"theoretical","status":"verified_none","candidate_count":0,"accepted_count":0}
-{"index":4778,"word":"venetian","status":"needs_review","candidate_count":0,"accepted_count":0}
-{"index":4779,"word":"virgin","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":4778,"word":"venetian","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":{"name":"Cambridge Dictionary","url":"https://dictionary.cambridge.org/dictionary/english/venetian","checked_at":"2026-11-22"},"review_note":"固有の地名・言語名由来の通常の英語表記は大文字始まり。マスターの小文字は変更していない。"}
+{"index":4779,"word":"virgin","status":"verified_selected","candidate_count":1,"accepted_count":1,"review_source":{"name":"Cambridge Dictionary","url":"https://dictionary.cambridge.org/dictionary/english/virgin","checked_at":"2026-11-22"},"review_note":"追加辞典で品詞・語義を再確認した。"}
 {"index":4780,"word":"mouse","status":"verified_none","candidate_count":0,"accepted_count":0}
 {"index":4781,"word":"fifty","status":"verified_none","candidate_count":0,"accepted_count":0}
 {"index":4782,"word":"chocolate","status":"verified_none","candidate_count":0,"accepted_count":0}
@@ -315,7 +315,7 @@
 {"index":4815,"word":"penis","status":"verified_none","candidate_count":0,"accepted_count":0}
 {"index":4816,"word":"portal","status":"verified_none","candidate_count":0,"accepted_count":0}
 {"index":4817,"word":"preschooler","status":"verified_none","candidate_count":0,"accepted_count":0}
-{"index":4818,"word":"prostitute","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":4818,"word":"prostitute","status":"verified_selected","candidate_count":1,"accepted_count":1,"review_source":{"name":"Cambridge Dictionary","url":"https://dictionary.cambridge.org/dictionary/english/prostitute","checked_at":"2026-11-22"},"review_note":"追加辞典で品詞・語義を再確認した。"}
 {"index":4819,"word":"respectable","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":4820,"word":"skip","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":4821,"word":"suck","status":"verified_none","candidate_count":0,"accepted_count":0}
@@ -341,7 +341,7 @@
 {"index":4841,"word":"accepted","status":"verified_none","candidate_count":0,"accepted_count":0}
 {"index":4842,"word":"borrowing","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":4843,"word":"counseling","status":"verified_none","candidate_count":0,"accepted_count":0}
-{"index":4844,"word":"della","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":4844,"word":"della","status":"verified_none","candidate_count":0,"accepted_count":0,"review_source":{"name":"Collins English Dictionary","url":"https://www.collinsdictionary.com/dictionary/english/della","checked_at":"2026-11-22"},"review_note":"英語の通常語義は確認できず。イタリア語の縮約形・固有名として辞書収録。マスター見出しは維持。"}
 {"index":4845,"word":"excavate","status":"verified_none","candidate_count":0,"accepted_count":0}
 {"index":4846,"word":"foolish","status":"verified_none","candidate_count":0,"accepted_count":0}
 {"index":4847,"word":"geometry","status":"verified_selected","candidate_count":1,"accepted_count":1}
@@ -397,7 +397,7 @@
 {"index":4897,"word":"fragment","status":"verified_none","candidate_count":1,"accepted_count":0}
 {"index":4898,"word":"hilltop","status":"verified_none","candidate_count":0,"accepted_count":0}
 {"index":4899,"word":"impeach","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":4900,"word":"latin","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":4900,"word":"latin","status":"verified_selected","candidate_count":1,"accepted_count":1,"review_source":{"name":"Cambridge Dictionary","url":"https://dictionary.cambridge.org/dictionary/english/latin","checked_at":"2026-11-22"},"review_note":"固有の地名・言語名由来の通常の英語表記は大文字始まり。マスターの小文字は変更していない。"}
 {"index":4901,"word":"liberalism","status":"verified_none","candidate_count":0,"accepted_count":0}
 {"index":4902,"word":"lucrative","status":"verified_none","candidate_count":0,"accepted_count":0}
 {"index":4903,"word":"marvelous","status":"verified_none","candidate_count":0,"accepted_count":0}
@@ -492,7 +492,7 @@
 {"index":4992,"word":"endpoint","status":"verified_selected","candidate_count":1,"accepted_count":1}
 {"index":4993,"word":"genuinely","status":"verified_none","candidate_count":0,"accepted_count":0}
 {"index":4994,"word":"gorge","status":"verified_selected","candidate_count":1,"accepted_count":1}
-{"index":4995,"word":"iranian","status":"needs_review","candidate_count":0,"accepted_count":0}
+{"index":4995,"word":"iranian","status":"verified_selected","candidate_count":1,"accepted_count":1,"review_source":{"name":"Cambridge Dictionary","url":"https://dictionary.cambridge.org/dictionary/english/iranian","checked_at":"2026-11-22"},"review_note":"固有の地名・言語名由来の通常の英語表記は大文字始まり。マスターの小文字は変更していない。"}
 {"index":4996,"word":"nominal","status":"verified_selected","candidate_count":3,"accepted_count":3}
 {"index":4997,"word":"nonsense","status":"verified_none","candidate_count":0,"accepted_count":0}
 {"index":4998,"word":"nude","status":"verified_none","candidate_count":0,"accepted_count":0}
