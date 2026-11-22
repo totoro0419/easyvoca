@@ -5,6 +5,7 @@ on:
   push:
     paths:
       - "scripts/build_master.py"
+      - "scripts/validate_master.py"
       - ".github/workflows/build-master.yml"
 
 permissions:
