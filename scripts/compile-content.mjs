@@ -1,5 +1,6 @@
 import { readFile, readdir, mkdir, writeFile, rm } from 'node:fs/promises';
 import { resolve, join } from 'node:path';
+import { createHash } from 'node:crypto';
 
 const sourceDir = resolve('content/data');
 const outputDir = resolve('public/generated');
@@ -49,11 +50,23 @@ const catalog=cards.map((card,i)=>({
   chunk:Math.floor(i/chunkSize)
 }));
 const chunks=Math.ceil(cards.length/chunkSize);
+const offlineFiles=[];
+function hashFile(path,text){
+  const bytes=Buffer.byteLength(text);
+  const sha256=createHash('sha256').update(text).digest('hex');
+  offlineFiles.push({path,bytes,sha256});
+}
 for (let i=0;i<chunks;i++) {
-  await writeFile(join(outputDir,'chunks','chunk-'+String(i).padStart(3,'0')+'.json'),JSON.stringify(cards.slice(i*chunkSize,(i+1)*chunkSize)));
+  const filename='chunks/chunk-'+String(i).padStart(3,'0')+'.json';
+  const payload=JSON.stringify(cards.slice(i*chunkSize,(i+1)*chunkSize));
+  await writeFile(join(outputDir,filename),payload);
+  hashFile(filename,payload);
 }
 const featured=[catalog[7],catalog[28],catalog[63]].filter(Boolean);
-const meta={count:cards.length,batches:names.length,chunks,chunkSize,featured};
-await writeFile(join(outputDir,'catalog.json'),JSON.stringify(catalog));
+const catalogJson=JSON.stringify(catalog);
+await writeFile(join(outputDir,'catalog.json'),catalogJson);
+hashFile('catalog.json',catalogJson);
+const version=createHash('sha256').update(offlineFiles.map(f=>f.path+':'+f.sha256).join('|')).digest('hex').slice(0,20);
+const meta={count:cards.length,batches:names.length,chunks,chunkSize,featured,version,offlineFiles};
 await writeFile(join(outputDir,'meta.json'),JSON.stringify(meta));
 console.log('EasyVoca assets:',cards.length,'cards,',chunks,'chunks,',names.length,'batches');

@@ -1,4 +1,6 @@
-import {useEffect,useState} from 'react';
+import {useEffect,useMemo,useState} from 'react';
+import {parseConceptGraph,splitConceptLabel} from '../lib/concept-diagram';
+import type {ConceptNode} from '../lib/concept-diagram';
 import DOMPurify from 'dompurify';
 
 type Result={svg?:string;error?:string};
@@ -35,9 +37,24 @@ function whenIdle(work:()=>void):()=>void{
   const id=setTimeout(work,48);
   return ()=>clearTimeout(id);
 }
+function TreeNode({node,depth=0}:{node:ConceptNode;depth?:number}){
+  const {heading,detail}=splitConceptLabel(node.label);
+  const focus=/見落としやすい|注目/.test(heading??'');
+  return <div className={'concept-group'+(depth===0?' concept-root':'')}>
+    <div className={'concept-node'+(focus?' concept-focus':'')+(depth===0?' concept-center':'')}>
+      {heading&&<span className="concept-heading">{heading}</span>}
+      <span className="concept-detail">{detail}</span>
+    </div>
+    {node.children.length>0&&<div className="concept-branches">{node.children.map(child=>
+      <div className="concept-child" key={child.id}><TreeNode node={child} depth={depth+1}/></div>
+    )}</div>}
+  </div>;
+}
 export default function Diagram({source,cardId}:{source:string;cardId:string}) {
+  const tree=useMemo(()=>parseConceptGraph(source),[source]);
   const [result,setResult]=useState<Result>({});
   useEffect(()=>{
+    if(tree)return;
     let live=true;
     const existing=cached.get(source);
     if(existing){setResult({svg:existing});return()=>{live=false;};}
@@ -68,10 +85,12 @@ export default function Diagram({source,cardId}:{source:string;cardId:string}) {
       }).catch(()=>{if(live)setResult({error:'図を表示できませんでした。説明文はそのまま読めます。'});});
     });
     return ()=>{live=false;cancelIdle();};
-  },[source,cardId]);
-  return <div className="diagram-wrap" role="region" aria-label="コアイメージの図。横方向にスクロールできます" tabIndex={0}>
+  },[source,cardId,tree]);
+  if(tree)return <div className="diagram-wrap concept-wrap" role="group" aria-label="コアイメージの意味関係">
+    <TreeNode node={tree}/>
+  </div>;
+  return <div className="diagram-wrap" role="group" aria-label="コアイメージの意味関係">
     {result.svg?<div className="diagram-svg" role="img" aria-label="語義の関係を表す図" dangerouslySetInnerHTML={{__html:result.svg}}/>:
       <p className="diagram-state" role="status">{result.error||'図を読み込んでいます…'}</p>}
-    {result.svg&&<p className="diagram-hint">左右にスクロールして図全体を見られます</p>}
   </div>;
 }

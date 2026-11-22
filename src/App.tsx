@@ -1,9 +1,9 @@
-import {useCallback,useEffect,useLayoutEffect,useMemo,useRef,useState,useDeferredValue,memo} from 'react';
+import {useCallback,useEffect,useLayoutEffect,useMemo,useRef,useState,useDeferredValue,useSyncExternalStore,memo} from 'react';
 import {ArrowLeft,ArrowRight,BookOpen,Check,ChevronLeft,ChevronRight,Download,Heart,Home,Search,Settings,Volume2,X,RotateCcw,WifiOff,AlertCircle,Layers3,Play,SlidersHorizontal} from 'lucide-react';
 import Diagram from './components/Diagram';
 import SwipeReader from './components/SwipeReader';
 import {loadCatalog,loadMeta,getCard} from './lib/data';
-import {cachedCount,downloadOffline,allContentUrls} from './lib/offline';
+import {downloadOffline,inspectOffline,subscribeOffline,getOfflineStatus} from './lib/offline';
 import {emptyProgress,startSession,finishSession,searchCards,makeChoices,reviewResult,dueSummaries,localDay} from './lib/learning';
 import {readProgress,writeProgress} from './lib/storage';
 import type {CardSummary,ContentCard,ContentMeta,Progress,Tab} from './lib/types';
@@ -14,6 +14,17 @@ const navTabs: {id:Tab;name:string;Icon:typeof Home}[]=[
 ];
 function Spinner(){return <div className="centered-status"><span className="spinner" aria-hidden="true"/>読み込んでいます…</div>;}
 function Notice({message,onClose}:{message:string;onClose:()=>void}){return <div className="notice" role="alert"><AlertCircle size={18}/><span>{message}</span><button aria-label="閉じる" onClick={onClose}><X size={18}/></button></div>;}
+type InstallPrompt=Event&{prompt:()=>Promise<void>;userChoice:Promise<{outcome:string}>};
+function useOfflineStatus(){return useSyncExternalStore(subscribeOffline,getOfflineStatus,getOfflineStatus);}
+function OfflineBadge(){
+  const offline=useOfflineStatus();
+  const text=offline.ready?'オフライン利用可能':
+    offline.working?'教材を端末に保存中 '+offline.done+' / '+offline.total:
+    offline.error?'オフライン保存を確認してください': 'オフライン利用を準備中';
+  return <div className={'offline-indicator'+(offline.ready?' is-ready':'')} role="status">
+    {offline.ready?<Check size={14}/>:<Download size={13}/>}<span>{text}</span>
+  </div>;
+}
 function Brand(){return <div className="brand"><div className="brand-logo">E<span>.</span></div><span>EasyVoca</span></div>;}
 function AppNav({active,onSelect}:{active:Tab;onSelect:(tab:Tab)=>void}){return <nav className="app-nav" aria-label="メインナビゲーション">{navTabs.map(({id,name,Icon})=><button key={id} type="button" className={'nav-link '+(active===id?'is-active':'')} aria-current={active===id?'page':undefined} onClick={()=>onSelect(id)}><Icon size={20} strokeWidth={active===id?2.3:1.8}/><span>{name}</span></button>)}</nav>;}
 
@@ -30,6 +41,36 @@ export default function App(){
   const [browseIds,setBrowseIds]=useState<string[]|null>(null);
   const [browseCursor,setBrowseCursor]=useState(0);
   const [browseOrigin,setBrowseOrigin]=useState<Tab>('search');
+  const installPrompt=useRef<InstallPrompt|null>(null);
+  const [canInstall,setCanInstall]=useState(false);
+  useEffect(()=>{
+    const handler=(event:Event)=>{event.preventDefault();installPrompt.current=event as InstallPrompt;setCanInstall(true);};
+    const installed=()=>{installPrompt.current=null;setCanInstall(false);};
+    window.addEventListener('beforeinstallprompt',handler);
+    window.addEventListener('appinstalled',installed);
+    return ()=>{window.removeEventListener('beforeinstallprompt',handler);window.removeEventListener('appinstalled',installed);};
+  },[]);
+  const install=useCallback(async()=>{
+    const prompt=installPrompt.current;
+    if(!prompt)return;
+    installPrompt.current=null;setCanInstall(false);
+    try{await prompt.prompt();await prompt.userChoice;}catch(e){setUiError('インストール操作を開始できません: '+String(e));}
+  },[]);
+  useEffect(()=>{
+    if(!meta)return;
+    let live=true;
+    const prepare=async()=>{
+      try{
+        const state=await inspectOffline(meta);
+        if(!live||state.ready||!navigator.onLine)return;
+        await downloadOffline(meta);
+      }catch{ /* Details are available in Settings; studying must never be blocked. */ }
+    };
+    const id=setTimeout(()=>void prepare(),900);
+    const onOnline=()=>{void prepare();};
+    window.addEventListener('online',onOnline);
+    return()=>{live=false;clearTimeout(id);window.removeEventListener('online',onOnline);};
+  },[meta]);
   const [searchOpened,setSearchOpened]=useState(false);
   const mainRef=useRef<HTMLElement|null>(null);
   const currentTab=useRef<Tab>('home');
@@ -137,7 +178,7 @@ export default function App(){
       </main>
       <div className="mobile-nav"><AppNav active={tab} onSelect={selectTab}/></div>
     </div>
-    {settingsOpen&&meta?<SettingsSheet meta={meta} p={progress} onClose={()=>setSettingsOpen(false)}/>:settingsOpen?<div role="dialog" aria-modal="true"><button onClick={()=>setSettingsOpen(false)}>閉じる</button><Spinner/></div>:null}
+    {settingsOpen&&meta?<SettingsSheet meta={meta} p={progress} onClose={()=>setSettingsOpen(false)} canInstall={canInstall} onInstall={install}/>:settingsOpen?<div role="dialog" aria-modal="true"><button onClick={()=>setSettingsOpen(false)}>閉じる</button><Spinner/></div>:null}
     {saveError&&<Notice message={saveError} onClose={()=>setSaveError('')}/>}
     {uiError&&<Notice message={uiError} onClose={()=>setUiError('')}/>}
   </div>;
@@ -156,6 +197,7 @@ function HomeView({p,meta,onStudy,onReview,onOpen}:{p:Progress;meta:ContentMeta|
       <h1>英単語の、<br/><span>その先へ。</span></h1>
       <p className="hero-sub">知っているはずの単語に、まだ知らない意味がある。<br className="desktop-break"/>一つずつ、理解を深めよう。</p>
       <div className="hero-actions"><button className="primary-button" onClick={onStudy}>{ongoing?'続きから学習':'学習を始める'}<ArrowRight size={19}/></button><button className="secondary-button" onClick={onReview}>復習する<RotateCcw size={18}/></button></div>
+      <div className="offline-hint"><OfflineBadge/></div>
       {ongoing&&s?<div className="session-progress"><div className="session-progress-top"><span>進行中のセッション</span><strong>{Math.min(s.cursor+1,s.ids.length)} / {s.ids.length}</strong></div><div className="progress-track"><div style={{width:Math.min(100,(s.cursor+1)/s.ids.length*100)+'%'}}/></div></div>:completed?<p className="completion-hint"><Check size={16}/>前のセッションが完了しました。次の20件へ進めます。</p>:null}
     </section>
     <section className="stats-section" aria-label="学習状況"><div className="section-heading"><h2>学習の記録</h2><span>少しずつ、確実に。</span></div><div className="stats-row"><div><strong>{today.toLocaleString('ja-JP')}</strong><span>今日の閲覧</span></div><div><strong>{viewed.length.toLocaleString('ja-JP')}</strong><span>累計閲覧</span></div><div><strong>{Object.keys(p.reviews).length.toLocaleString('ja-JP')}</strong><span>復習した語義</span></div></div><p className="subtle-note">※ 閲覧数は暗記できた単語数ではありません。{due>0?' 復習予定 '+due+' 件。':''}</p></section>
@@ -289,19 +331,40 @@ function ReviewView({catalog,p,onAnswer,onStart,onOpen}:{catalog:CardSummary[];p
   </div>;
 }
 
-function SettingsSheet({meta,p,onClose}:{meta:ContentMeta;p:Progress;onClose:()=>void}){
-  const [offline,setOffline]=useState<{done:number;total:number}>({done:0,total:allContentUrls(meta).length});
-  const [working,setWorking]=useState(false);
+function SettingsSheet({meta,p,onClose,canInstall,onInstall}:{meta:ContentMeta;p:Progress;onClose:()=>void;canInstall:boolean;onInstall:()=>void}){
+  const offline=useOfflineStatus();
+  const total=meta.offlineFiles.length+1;
+  const working=offline.working;
+  const done=offline.version===meta.version?offline.done:0;
+  const ready=offline.version===meta.version&&offline.ready;
   const [error,setError]=useState('');
-  useEffect(()=>{let live=true;void cachedCount(meta).then(n=>{if(live)setOffline({done:n,total:allContentUrls(meta).length});}).catch(e=>{if(live)setError(String(e));});return ()=>{live=false;};},[meta]);
-  const download=async()=>{
-    setWorking(true);setError('');
-    try{await downloadOffline(meta,(done,total)=>setOffline({done,total}));}
-    catch(e){setError(String(e));try{const n=await cachedCount(meta);setOffline({done:n,total:allContentUrls(meta).length});}catch{ /* unavailable */ }}
-    finally{setWorking(false);}
+  const download=()=>{
+    setError('');
+    void downloadOffline(meta).catch(e=>setError(String(e instanceof Error?e.message:e)));
   };
-  return <div className="modal-backdrop" onMouseDown={e=>{if(e.target===e.currentTarget)onClose();}}><div role="dialog" aria-modal="true" aria-labelledby="settings-title" className="settings-sheet"><div className="sheet-title"><h2 id="settings-title">設定</h2><button className="icon-button" onClick={onClose} aria-label="閉じる"><X size={22}/></button></div><div className="settings-group"><div className="setting-row"><div><strong>オフライン教材</strong><p>{offline.done} / {offline.total} ファイルを保存済み</p></div><Download size={22}/></div><div className="progress-track"><div style={{width:100*offline.done/offline.total+'%'}}/></div><p className="subtle-note">アプリ本体はPWAとして保存可能です。すべての教材を読むには、通信できるときにまとめて保存してください。</p><button className="secondary-button settings-download" onClick={()=>void download()} disabled={working||offline.done===offline.total}>{working?'保存中…':offline.done===offline.total?'全教材を保存済み':'すべての教材を端末に保存'}<Download size={18}/></button></div>
-    <div className="settings-group"><div className="setting-row"><div><strong>学習データ</strong><p>閲覧 {Object.keys(p.viewed).length} 件 · お気に入り {p.favorites.length} 件 · 復習 {Object.keys(p.reviews).length} 件</p></div><Layers3 size={21}/></div><p className="subtle-note">学習記録はこの端末のブラウザ内に保存されます。端末間で自動同期はされません。</p></div>
-    {error&&<p className="inline-error" role="alert"><WifiOff size={16}/>{error}</p>}
-    </div></div>;
+  const installed=window.matchMedia('(display-mode: standalone)').matches;
+  return <div className="modal-backdrop" onMouseDown={e=>{if(e.target===e.currentTarget)onClose();}}>
+    <div role="dialog" aria-modal="true" aria-labelledby="settings-title" className="settings-sheet">
+      <div className="sheet-title"><h2 id="settings-title">設定</h2><button className="icon-button" onClick={onClose} aria-label="閉じる"><X size={22}/></button></div>
+      <div className="settings-group">
+        <div className="setting-row"><div><strong>オフライン教材</strong><p>{ready?'オフライン利用可能':working?'保存中':'保存状況'} · {done} / {total} ファイル検証済み</p></div><Download size={22}/></div>
+        <div className="progress-track" role="progressbar" aria-label="教材の保存状況" aria-valuemin={0} aria-valuemax={total} aria-valuenow={done}><div style={{width:100*done/total+'%'}}/></div>
+        <p className="subtle-note">{ready?'全5,111件の教材とアプリ本体を保存・確認済みです。通信なしでも利用できます。':'初回はアプリを使いながら自動保存します。途中で通信が切れても、再接続後に続きから保存します。'}</p>
+        <button className="secondary-button settings-download" onClick={download} disabled={working||ready}>
+          {ready?'全教材を保存済み':working?'保存中…':offline.error?'保存を再試行':'すべての教材を端末に保存'}<Download size={18}/>
+        </button>
+        {(error||offline.error)&&<p className="offline-error" role="alert">{error||offline.error}</p>}
+        {!ready&&done===total&&<p className="offline-help">教材本体の保存が完了しても、アプリのキャッシュ確認が済むまで「利用可能」とは判定しません。</p>}
+      </div>
+      <div className="settings-group">
+        <div className="setting-row"><div><strong>アプリのインストール</strong><p>{installed?'この端末ではアプリとして起動しています。':'ホーム画面からすぐに開けます。'}</p></div><BookOpen size={21}/></div>
+        {canInstall&&!installed?<button className="secondary-button settings-download" onClick={onInstall}>アプリをインストール<Download size={18}/></button>:null}
+        {!canInstall&&!installed?<p className="offline-help offline-install">Chromeの場合はブラウザのメニューから「アプリをインストール」または「ホーム画面に追加」を選べます。対応状況はブラウザによって異なります。</p>:null}
+      </div>
+      <div className="settings-group">
+        <div className="setting-row"><div><strong>学習データ</strong><p>閲覧 {Object.keys(p.viewed).length} 件 · お気に入り {p.favorites.length} 件 · 復習 {Object.keys(p.reviews).length} 件</p></div><Layers3 size={21}/></div>
+        <p className="subtle-note">学習記録はこの端末内に保存します。ブラウザによるデータ消去や端末の容量不足で消えることがあります。端末間同期はありません。</p>
+      </div>
+    </div>
+  </div>;
 }

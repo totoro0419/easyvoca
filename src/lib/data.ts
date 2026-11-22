@@ -1,10 +1,11 @@
 import type { CardSummary, ContentCard, ContentMeta } from './types';
+import {fetchOfflineAware} from './offline';
 const base = import.meta.env.BASE_URL + 'generated/';
 let metaPromise: Promise<ContentMeta> | undefined;
 let catalogPromise: Promise<CardSummary[]> | undefined;
 const chunkPromises = new Map<number,Promise<ContentCard[]>>();
 async function getJson<T>(path:string):Promise<T> {
-  const res = await fetch(base+path);
+  const res = await fetchOfflineAware(path);
   if (!res.ok) throw new Error('教材の取得に失敗しました ('+res.status+')');
   return res.json() as Promise<T>;
 }

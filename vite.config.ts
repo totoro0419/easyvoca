@@ -17,6 +17,7 @@ export default defineConfig({
         theme_color: '#f7f9fd',
         background_color: '#f7f9fd',
         display: 'standalone',
+        display_override: ['standalone', 'minimal-ui'],
         start_url: '/easyvoca/',
         scope: '/easyvoca/',
         lang: 'ja',
@@ -31,10 +32,11 @@ export default defineConfig({
         globPatterns: ['**/*.{js,css,html,svg,png,woff2,webmanifest}'],
         runtimeCaching: [
           {
-            urlPattern: /\/easyvoca\/generated\/.+\.json$/,
-            handler: 'CacheFirst',
+            urlPattern: /\/easyvoca\/generated\/.+\.json(?:\?.*)?$/,
+            handler: 'NetworkFirst',
             options: {
-              cacheName: 'easyvoca-content-v1',
+              cacheName: 'easyvoca-content-runtime-v2',
+              networkTimeoutSeconds: 4,
               expiration: { maxEntries: 64, maxAgeSeconds: 365 * 24 * 60 * 60 },
               cacheableResponse: { statuses: [200] }
             }

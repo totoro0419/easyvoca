@@ -248,7 +248,6 @@ button{-webkit-tap-highlight-color:transparent}
 .quiz-context{border-left:2px solid #ccd8fd;margin:-5px 0 23px;padding:5px 0 5px 13px;color:#526681;font-size:14px;line-height:1.8;overflow-wrap:anywhere}
 
 .diagram-hint{display:none}
-@media(max-width:600px){.diagram-wrap{overflow-x:auto;overscroll-behavior-x:contain;touch-action:pan-x pan-y;scrollbar-width:thin}.diagram-svg svg{width:580px!important;min-width:580px;max-width:none!important;max-height:none}.diagram-hint{display:block;color:#7786a1;font-size:11px;margin-top:12px;text-align:center}}
 
 
 /* Motion refinements: the center page determines native vertical scroll height,
@@ -264,8 +263,8 @@ button{-webkit-tap-highlight-color:transparent}
 .finish-preview h2{font-size:24px;color:var(--ink)}
 .finish-preview p{color:var(--muted)}
 .reading-scroll{position:relative;touch-action:pan-y;overscroll-behavior-x:contain}
-.diagram-wrap{min-height:220px;overscroll-behavior-x:contain}
-.diagram-preview{background:#f8faff;min-height:220px}
+.diagram-wrap{min-height:0;overscroll-behavior-x:contain}
+.diagram-preview{background:#f8faff;min-height:0}
 .diagram-wrap:focus-visible{outline:3px solid rgba(69,104,223,.55);outline-offset:2px}
 .primary-button:active,.secondary-button:active{transform:translateY(1px) scale(.995)}
 .icon-button:active{transform:scale(.95)}
@@ -278,9 +277,124 @@ button{-webkit-tap-highlight-color:transparent}
 .quiz-feedback{animation:feedback-appear 150ms ease-out both}
 @keyframes feedback-appear{from{opacity:.5;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
 .persistent-search{min-width:0}
-@media(max-width:600px){
-  .diagram-wrap,.diagram-preview{min-height:195px}
-}
 @media(prefers-reduced-motion:reduce){
   .modal-backdrop,.settings-sheet,.quiz-feedback,.fav-active svg{animation:none!important}
+}
+
+
+/* Compact, content-complete vocabulary cards. Only long content scrolls. */
+.main-view.view-study{display:flex;flex-direction:column;overflow:hidden}
+.view-study>.study-view{flex:1;min-height:0}
+.reading-scroll{min-height:0;overflow-x:hidden;overflow-y:auto;scrollbar-gutter:stable}
+.vocab-content{padding-bottom:22px}
+.swipe-neighbor .vocab-content{padding-bottom:18px}
+.diagram-wrap{width:100%;max-width:100%;overflow-x:clip;overflow-y:visible}
+.diagram-svg svg{display:block;width:100%!important;max-width:100%!important;min-width:0!important;height:auto!important;max-height:none;overflow:visible}
+.concept-wrap{padding:10px 12px;margin-top:12px;overflow-wrap:anywhere}
+.concept-tree,.concept-group{min-width:0;width:100%}
+.concept-node{min-width:0;border-radius:8px;background:#fff;padding:6px 9px;font-size:13px;line-height:1.46;color:#475974;overflow-wrap:anywhere}
+.concept-center{background:#eaf0ff;color:#284a86}
+.concept-heading{font-weight:700;font-size:11px;color:#6f82a4;margin-right:7px}
+.concept-center .concept-heading{color:#5773ac}
+.concept-detail{font-size:13px;font-weight:500;overflow-wrap:anywhere}
+.concept-focus{background:#eef3ff}
+.concept-focus .concept-detail{font-weight:650;color:#244a9c}
+.concept-branches{position:relative;display:grid;gap:6px;border-left:1.5px solid #cbd7ed;margin:8px 0 0 15px;padding-left:11px}
+.concept-branches:before{content:"";position:absolute;height:8px;width:1.5px;background:#cbd7ed;top:-8px;left:-1.5px}
+.concept-child{position:relative;min-width:0}
+.concept-child:before{content:"";position:absolute;height:1.5px;width:11px;background:#cbd7ed;left:-11px;top:19px}
+.concept-child .concept-branches{margin-top:5px}
+.concept-child .concept-node{border:1px solid rgba(204,217,241,.55)}
+.offline-indicator{display:inline-flex;align-items:center;gap:7px;color:#71819a;font-size:11px;line-height:1.5}
+.offline-indicator.is-ready{color:#287858}
+.offline-indicator svg{flex-shrink:0}
+.offline-install{margin-top:12px}
+.offline-help{margin-top:7px;color:#697b95;font-size:12px;line-height:1.65}
+.offline-error{margin-top:8px;color:#a15455;font-size:12px;line-height:1.6;overflow-wrap:anywhere}
+.offline-hint{margin-top:13px;color:#72829d;font-size:11px;line-height:1.5}
+.settings-download:disabled{opacity:.75}
+@media(max-width:760px){
+  .app-content{height:100svh;min-height:0}
+  .global-header{height:48px;padding:0 14px;gap:8px}
+  .global-header .brand{font-size:16px}
+  .global-header .brand-logo{width:29px;height:29px;font-size:18px;border-radius:9px}
+  .global-header .icon-button{width:37px;height:37px}
+  .mobile-nav .app-nav,.mobile-nav .nav-link{height:50px}
+  .mobile-nav .nav-link{gap:1px;padding:3px 2px;font-size:10px}
+  .mobile-nav .nav-link svg{width:19px;height:19px}
+  .study-toolbar{height:43px;padding:0 9px 0 8px}
+  .study-position>span{font-size:10px}
+  .study-position strong{font-size:12px}
+  .study-tools .icon-button,.study-toolbar>.icon-button{height:35px;width:35px}
+  .vocab-content{padding:13px 18px 16px}
+  .vocab-head h1{font-size:clamp(32px,8.5vw,40px);line-height:1.08}
+  .pronunciation{font-size:12px;line-height:1.35;margin-top:4px;gap:3px 11px}
+  .meaning-block{margin-top:12px;padding-bottom:11px}
+  .known-meaning{font-size:12px;line-height:1.5;gap:4px}
+  .known-meaning span{font-size:10px}
+  .hidden-meaning{margin-top:10px}
+  .hidden-meaning>span{font-size:11px;line-height:1.3}
+  .hidden-meaning h2{font-size:clamp(20px,5.1vw,23px);line-height:1.38;margin-top:3px}
+  .content-section{padding:11px 0 12px}
+  .content-section h3{font-size:11px;line-height:1.25;margin-bottom:5px}
+  .english-example{font-size:clamp(15px,4vw,17px);line-height:1.45}
+  .japanese-example{font-size:12.5px;line-height:1.5;margin-top:4px}
+  .explanation{font-size:12.75px;line-height:1.58}
+  .concept-wrap{margin-top:8px;padding:8px 9px}
+  .concept-node{padding:4px 7px;line-height:1.38}
+  .concept-detail{font-size:12.5px}
+  .concept-heading{font-size:10.5px;margin-right:6px}
+  .concept-branches{gap:4px;margin-top:6px;padding-left:10px;margin-left:13px}
+  .concept-branches:before{height:6px;top:-6px}
+  .concept-child:before{width:10px;left:-10px;top:16px}
+  .usage-section{padding-top:10px;padding-bottom:8px}
+  .usage-section p{margin:4px 0;font-size:12px;line-height:1.5}
+  .swipe-tip{display:none}
+  .diagram-svg svg{max-height:none}
+  .diagram-wrap{padding:7px}
+  .diagram-preview{min-height:120px}
+  .home-layout{padding-bottom:34px}
+  .hero{padding-top:31px;padding-bottom:28px}
+  .hero-actions{margin-top:18px}
+  .stats-section{padding-top:18px;padding-bottom:20px}
+  .picks-section{padding-top:21px}
+  .standard-view{padding-top:26px}
+  .page-intro h1{font-size:25px}
+}
+@media(max-width:760px) and (max-height:790px){
+  .vocab-content{padding-top:10px;padding-bottom:12px}
+  .meaning-block{margin-top:9px;padding-bottom:9px}
+  .hidden-meaning{margin-top:8px}
+  .content-section{padding-top:9px;padding-bottom:9px}
+  .concept-wrap{margin-top:6px;padding:6px 8px}
+  .concept-branches{gap:3px}
+}
+@media(max-width:380px){
+  .vocab-content{padding-left:15px;padding-right:15px}
+}
+@media(display-mode:standalone){
+  @media(max-width:760px){
+    .app-content{height:100dvh}
+    .global-header{height:calc(48px + env(safe-area-inset-top));padding-top:env(safe-area-inset-top)}
+  }
+}
+@media(prefers-reduced-motion:reduce){
+  .concept-wrap,.concept-node{animation:none!important}
+}
+
+
+/* Offscreen neighbors must not change the scroll height of the active lesson. */
+.swipe-neighbor{height:100%;overflow:hidden}
+
+
+/* Tablet: preserve a spacious reading layout without desktop-sized dead space. */
+@media(min-width:761px) and (max-width:980px){
+  .study-toolbar{height:56px}
+  .vocab-content{padding-top:30px;padding-bottom:25px}
+  .meaning-block{margin-top:24px;padding-bottom:21px}
+  .hidden-meaning{margin-top:17px}
+  .content-section{padding-top:18px;padding-bottom:20px}
+  .content-section h3{margin-bottom:10px}
+  .diagram-wrap{margin-top:14px;padding:14px 12px}
+  .swipe-tip{margin-top:20px}
 }

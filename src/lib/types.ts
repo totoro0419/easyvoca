@@ -26,6 +26,8 @@ export interface ContentCard {
   [key: string]: unknown;
 }
 export interface ContentMeta {
+  version: string;
+  offlineFiles: {path:string;bytes:number;sha256:string}[];
   count: number;
   batches: number;
   chunks: number;
