@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "description": "EasyVoca research seed (not SVL12000 or an exam-approved list)",
-  "generated_at_utc": "2026-11-22T02:20:46.703465+00:00",
+  "generated_at_utc": "2026-11-22T02:21:31.229071+00:00",
   "count": 12000,
-  "word_sha256": "28f7c139b95d4c56ae2b7e7e0ade10479fb70dd5686c260064f6616a5df392a5",
+  "word_sha256": "2f91877e62137559111493a1d82bdf081e69cc8799f0fe67a064046c0c14cd8f",
   "oanc_lemma_total": 22344,
   "core_lemma_total": 5000,
-  "included_in_core": 5000,
-  "without_oanc_corpus_support": 177,
+  "included_in_core": 4823,
+  "without_oanc_corpus_support": 0,
   "everyday_probe_count": 25,
   "sources": [
     {
@@ -26,7 +26,7 @@
   "limitations": [
     "Approximate corpus-based ordering, NOT official SVL ranks or verified CEFR.",
     "OANC count comes from a small American corpus with journalistic genre bias.",
-    "Some LexiCore headwords may be inflected forms or need individual lemma verification.",
+    "Only LexiCore entries backed by OANC lemma data are included by default; exceptional everyday probes are flagged.",
     "Each word's unusual senses must be researched and verified separately."
   ]
 }
