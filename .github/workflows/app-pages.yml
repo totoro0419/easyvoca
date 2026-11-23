@@ -34,7 +34,7 @@ jobs:
       - name: Typecheck and build (validates 64 batches and 5111 items)
         run: npm run build
       - name: Verify PWA artifacts
-        run: test -f dist/sw.js && test -f dist/manifest.webmanifest && test -f dist/generated/catalog.json && test -f dist/icons/icon-192.png && test -f dist/icons/icon-512.png
+        run: test -f dist/sw.js && test -f dist/manifest.webmanifest && test -f dist/generated/catalog.json && test -f dist/icons/ev-icon-192.png && test -f dist/icons/ev-icon-512.png && test -f dist/icons/ev-icon-maskable-192.png && test -f dist/icons/ev-icon-maskable-512.png && test -f dist/icons/apple-touch-icon.png
       - name: Install Chromium
         run: npx playwright install --with-deps chromium
       - name: Real browser E2E tests
