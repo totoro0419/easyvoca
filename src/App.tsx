@@ -25,7 +25,7 @@ function OfflineBadge(){
     {offline.ready?<Check size={14}/>:<Download size={13}/>}<span>{text}</span>
   </div>;
 }
-function Brand(){return <div className="brand"><div className="brand-logo">E<span>.</span></div><span>EasyVoca</span></div>;}
+function Brand(){return <div className="brand"><img className="brand-logo" src={import.meta.env.BASE_URL+'icons/ev-icon-192.png'} alt="" width={37} height={37}/><span>EasyVoca</span></div>;}
 function AppNav({active,onSelect}:{active:Tab;onSelect:(tab:Tab)=>void}){return <nav className="app-nav" aria-label="メインナビゲーション">{navTabs.map(({id,name,Icon})=><button key={id} type="button" className={'nav-link '+(active===id?'is-active':'')} aria-current={active===id?'page':undefined} onClick={()=>onSelect(id)}><Icon size={20} strokeWidth={active===id?2.3:1.8}/><span>{name}</span></button>)}</nav>;}
 
 export default function App(){
