@@ -2,7 +2,7 @@ import {test,expect} from '@playwright/test';
 
 test('自動保存完了後、5,111件・図・検索・復習・記録がオフラインで動作する',async({page,context})=>{
   test.setTimeout(165000);
-  await page.goto('/');
+  await page.goto('/easyvoca/');
   await expect(page.getByRole('heading',{name:/英単語の、/})).toBeVisible();
   await page.evaluate(async()=>{
     if(!('serviceWorker'in navigator))throw new Error('Service Worker unsupported');
@@ -92,7 +92,7 @@ test('自動保存完了後、5,111件・図・検索・復習・記録がオフ
 });
 
 test('20件の閲覧後に完了し次の20件を開始できる',async({page})=>{
-  await page.goto('/');
+  await page.goto('/easyvoca/');
   await page.getByRole('button',{name:'学習を始める'}).click();
   await expect(page.locator('.reading-page .vocab-head h1')).toBeVisible();
   for(let i=1;i<=20;i++){

@@ -37,7 +37,7 @@ async function openSample(page:Page,sample:Sample){
 }
 test('6種類の実教材を5画面幅で計測し、図が横にはみ出さず全文が表示される',async({page})=>{
   test.setTimeout(190000);
-  await page.goto('/');
+  await page.goto('/easyvoca/');
   const examples=await chooseExamples(page);
   expect(examples).toHaveLength(6);
   const sizes=[{width:360,height:740},{width:390,height:844},{width:412,height:915},{width:820,height:1100},{width:1280,height:800}];
@@ -78,7 +78,7 @@ test('6種類の実教材を5画面幅で計測し、図が横にはみ出さず
 
 test('4ノードの例外的な図でも、分岐を保持したままスマホ幅に収める',async({page})=>{
   await page.setViewportSize({width:360,height:740});
-  await page.goto('/');
+  await page.goto('/easyvoca/');
   await page.getByRole('button',{name:'検索',exact:true}).click();
   await page.getByRole('searchbox',{name:'単語や日本語の意味で検索'}).fill('sole');
   const item=page.locator('.result-item').filter({hasText:'足の裏、靴の底'}).first();

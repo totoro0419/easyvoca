@@ -1,7 +1,7 @@
 import {test,expect} from '@playwright/test';
 
 test('ホームから学習、矢印キー、進捗保存と再起動後の再開',async({page})=>{
-  await page.goto('/');
+  await page.goto('/easyvoca/');
   await expect(page.getByRole('heading',{name:/英単語の、/})).toBeVisible();
   await page.screenshot({path:'test-results/desktop-home.png',fullPage:true});
   await page.getByRole('button',{name:'学習を始める'}).click();
@@ -22,7 +22,7 @@ test('ホームから学習、矢印キー、進捗保存と再起動後の再�
 });
 
 test('検索、別語義の閲覧、復習の4択と結果保存',async({page})=>{
-  await page.goto('/');
+  await page.goto('/easyvoca/');
   await page.getByRole('button',{name:'検索',exact:true}).click();
   const search=page.getByRole('searchbox',{name:'単語や日本語の意味で検索'});
   await search.fill('the');
@@ -44,7 +44,7 @@ test('検索、別語義の閲覧、復習の4択と結果保存',async({page})=
 
 test('モバイルで左右ドラッグと縦スクロール',async({page})=>{
   await page.setViewportSize({width:390,height:844});
-  await page.goto('/');
+  await page.goto('/easyvoca/');
   await page.getByRole('button',{name:'学習を始める'}).click();
   await expect(page.locator('.reading-page .vocab-head h1')).toBeVisible();
   const box=await page.locator('.reading-scroll').boundingBox();

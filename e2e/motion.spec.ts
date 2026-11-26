@@ -13,7 +13,7 @@ async function touch(page:Page, x:number,y:number, dx:number,dy:number,steps=10,
   } finally {await cdp.detach();}
 }
 async function study(page:Page){
-  await page.goto('/');
+  await page.goto('/easyvoca/');
   await page.getByRole('button',{name:'学習を始める'}).click();
   await expect(page.locator('.reading-page .vocab-head h1')).toBeVisible();
 }
@@ -85,7 +85,7 @@ test.describe('touch motion on Android-sized viewport',()=>{
   });
 });
 test('search filters and scroll position survive opening detail and returning',async({page})=>{
-  await page.goto('/');
+  await page.goto('/easyvoca/');
   await page.getByRole('button',{name:'検索',exact:true}).click();
   await page.getByRole('searchbox',{name:'単語や日本語の意味で検索'}).fill('a');
   await expect(page.locator('.result-item').nth(15)).toBeVisible();

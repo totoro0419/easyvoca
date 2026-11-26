@@ -1,7 +1,7 @@
 import {test,expect} from '@playwright/test';
 
 test('PWA uses the approved EV mark for normal and maskable home-screen icons',async({page})=>{
-  await page.goto('/');
+  await page.goto('/easyvoca/');
   const rendered=page.locator('.desktop-rail .brand-logo');
   await expect(rendered).toHaveAttribute('src','/easyvoca/icons/ev-icon-192.png');
   const manifest=await (await page.request.get('/easyvoca/manifest.webmanifest')).json() as {
