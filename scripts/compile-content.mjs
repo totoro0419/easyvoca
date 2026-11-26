@@ -70,9 +70,22 @@ for(let worker=1;worker<=5;worker++){
       catch(initial){
         // Only repair XML delimiters/entities that prevent any display;
         // leave original worker archives unchanged.
-        const repaired=svg.replace(/<(?=<\/svg>)/g,'')
+        let repaired=svg.replace(/<(?=<\/svg>)/g,'')
           .replace(/&(?!amp;|lt;|gt;|quot;|apos;|#\d+;|#x[0-9a-f]+;)/gi,'&amp;')
           .replace(/<(?![a-zA-Z_\/!?])/g,'&lt;');
+        // The generator emitted a default font-size followed by an explicit
+        // override on these four records. Retain the intended last value.
+        if([1822,1862,1942,1952].includes(n)){
+          repaired=repaired.replace(/<text\b[^>]*>/g,tag=>{
+            const sizes=[...tag.matchAll(/\sfont-size="[^"]*"/g)];
+            if(sizes.length<2)return tag;
+            for(let i=sizes.length-2;i>=0;i--){
+              const match=sizes[i];
+              tag=tag.slice(0,match.index)+tag.slice(match.index+match[0].length);
+            }
+            return tag;
+          });
+        }
         try{
           new Resvg(repaired,{font:{loadSystemFonts:false}});
           svg=repaired;
