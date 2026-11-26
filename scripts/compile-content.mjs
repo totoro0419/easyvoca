@@ -59,7 +59,7 @@ function fallbackGraph(card){
     }
     if(line)lines.push(line);return lines;
   };
-  const root=wrap(labels[0],23),children=labels.slice(1).map(t=>wrap(t,11));
+  const root=wrap(labels[0],23),children=labels.slice(1).map(t=>wrap(t,labels.length===4?7:11));
   const rootH=20+root.length*15;
   const childH=20+Math.max(...children.map(x=>x.length))*15;
   const childY=12+rootH+23;

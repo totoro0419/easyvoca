@@ -45,7 +45,19 @@ test('自動保存完了後、5,111件・図・検索・復習・記録がオフ
     await expect(item).toBeVisible({timeout:20000});
     await item.click();
     await expect(page.locator('.reading-page .vocab-head h1')).toHaveText(sample.word);
-    await expect(page.locator('.reading-page .svg-diagram-image')).toBeVisible();
+    const diagram=page.locator('.reading-page .svg-diagram-image');
+    await expect(diagram).toBeVisible();
+    await expect.poll(()=>diagram.evaluate(img=>(img as HTMLImageElement).naturalWidth)).toBeGreaterThan(0);
+    expect(await diagram.evaluate(async img=>{
+      const id=img.closest('[data-card-id]')?.getAttribute('data-card-id');
+      const meta=JSON.parse(localStorage.getItem('easyvoca.offline.complete.v2')||'null');
+      const cache=await caches.open('easyvoca-offline-'+meta.version);
+      const catalog=await (await cache.match('/easyvoca/generated/catalog.json'))!.json();
+      const summary=catalog.find((r:{candidate_id:string})=>r.candidate_id===id);
+      const chunk=await (await cache.match('/easyvoca/generated/chunks/chunk-'+String(summary.chunk).padStart(3,'0')+'.json'))!.json();
+      const expected=chunk.find((r:{candidate_id:string})=>r.candidate_id===id);
+      return decodeURIComponent((img as HTMLImageElement).src.split(',').slice(1).join(','))===expected.diagram_svg;
+    })).toBe(true);
     if(sample===verified.samples![1]){
       await page.getByRole('button',{name:'お気に入りに追加'}).click();
       await expect(page.getByRole('button',{name:'お気に入りを解除'})).toBeVisible();
