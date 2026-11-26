@@ -42,6 +42,39 @@ const visualDir=resolve('content/visual-v2');
 const visuals=new Map();
 const visualIds=new Set();
 const expectedCounts=[1023,1022,1022,1022,1022];
+// Five original SVG documents are truncated to a background/title. Only
+// those failed display records receive a static restoration of their existing
+// lesson graph; no new teaching claims or visual-quality review.
+const truncatedOrders=new Set([883,998,1791,1866,2362]);
+function escapeXml(text){return text.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');}
+function fallbackGraph(card){
+  const labels=[...card.diagram_mermaid.matchAll(/^\s*[A-Za-z]\w*\s*\[\s*"([^"]+)"\s*\]\s*$/gm)].map(m=>m[1]);
+  if(labels.length<3||labels.length>4)throw new Error('Cannot restore truncated SVG: '+card.global_order);
+  const wrap=(str,max)=>{
+    const lines=[];let line='',width=0;
+    for(const ch of str){
+      const w=/[\u0000-\u007f]/.test(ch)?0.55:1;
+      if(width+w>max&&line){lines.push(line);line='';width=0;}
+      line+=ch;width+=w;
+    }
+    if(line)lines.push(line);return lines;
+  };
+  const root=wrap(labels[0],23),children=labels.slice(1).map(t=>wrap(t,11));
+  const rootH=20+root.length*15;
+  const childH=20+Math.max(...children.map(x=>x.length))*15;
+  const childY=12+rootH+23;
+  const width=320;
+  const cw=children.length===2?146:96;
+  const gap=children.length===2?8:6;
+  const left=(width-(cw*children.length+gap*(children.length-1)))/2;
+  const height=childY+childH+10;
+  const txt=(lines,x,y,size)=>lines.map((line,i)=>'<text x="'+x+'" y="'+(y+i*15)+'" font-size="'+size+'" font-family="sans-serif" text-anchor="middle" fill="#152238">'+escapeXml(line)+'</text>').join('');
+  const boxes=children.map((lines,i)=>{
+    const x=left+i*(cw+gap),mid=x+cw/2;
+    return '<path d="M160 '+(12+rootH)+' V'+(childY-11)+' H'+mid+' V'+childY+'" fill="none" stroke="#7185b6" stroke-width="1.5"/><rect x="'+x+'" y="'+childY+'" width="'+cw+'" height="'+childH+'" rx="8" fill="#eef5ff" stroke="#a4bde4"/>'+txt(lines,mid,childY+19,12);
+  }).join('');
+  return '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 '+height+'" role="img"><rect width="320" height="'+height+'" rx="10" fill="#fff"/><rect x="12" y="12" width="296" height="'+rootH+'" rx="8" fill="#dfeaff" stroke="#a4bde4"/>'+txt(root,160,31,12)+boxes+'</svg>';
+}
 let svgBytes=0;
 const syntaxRepairs=[];
 const parseFailures=[];
@@ -88,8 +121,9 @@ for(let worker=1;worker<=5;worker++){
         }
         try{
           new Resvg(repaired,{font:{loadSystemFonts:false}});
-          svg=repaired;
-          syntaxRepairs.push({order:n,word:row.word,location});
+          svg=truncatedOrders.has(n)?fallbackGraph(card):repaired;
+          new Resvg(svg,{font:{loadSystemFonts:false}});
+          syntaxRepairs.push({order:n,word:row.word,location,restoredFromOriginalGraph:truncatedOrders.has(n)});
         }catch(error){parseFailures.push({order:n,word:row.word,location,error:String(error),initial:String(initial)});}
       }
       visuals.set(n,{svg,alt:typeof row.alt_ja==='string'?row.alt_ja:''});
