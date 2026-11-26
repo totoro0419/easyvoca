@@ -212,7 +212,7 @@ function CardBody({card,preview=false}:{card:ContentCard;preview?:boolean}){
     <div className="meaning-block"><p className="known-meaning"><span>よく知られている意味</span>{card.known_meaning_ja}</p><div className="hidden-meaning"><span>見落としやすい意味</span><h2>{card.hidden_meaning_ja}</h2></div></div>
     <section className="content-section"><h3>例文</h3>{card.example_en?<p className="english-example">{card.example_en}</p>:<p className="subtle-note">英語例文は原データに収録されていません。</p>}{card.example_ja&&<p className="japanese-example">{card.example_ja}</p>}</section>
     <section className="content-section"><h3>コアイメージ</h3><p className="explanation">{card.core_image_explanation_ja}</p>
-      {preview?<div className="diagram-wrap diagram-preview" aria-hidden="true"/>:<Diagram source={card.diagram_mermaid} cardId={card.candidate_id}/>}
+      <Diagram source={card.diagram_svg} cardId={card.candidate_id} alt={card.diagram_alt||card.word+"のコアイメージ"} preview={preview}/>
     </section>
     {card.usage_notes&&(Array.isArray(card.usage_notes)?card.usage_notes.length:Boolean(card.usage_notes))?<section className="content-section usage-section"><h3>重要語法</h3>{(Array.isArray(card.usage_notes)?card.usage_notes:[card.usage_notes]).map((note,i)=><p key={i}>{note}</p>)}</section>:null}
     {!preview&&<p className="swipe-tip"><span>← 左スワイプで次へ</span><span>右スワイプで前へ →</span></p>}
@@ -245,6 +245,7 @@ function StudyView({p,catalog,browseIds,browseCursor,onExit,onMove,onFavorite,on
       loading.current.add(id);
       void getCard(entry).then(found=>{
         cards.current.set(found.candidate_id,found);
+        if(cards.current.size>32){for(const key of cards.current.keys()){if(![ids[cursor],ids[cursor-1],ids[cursor+1],ids[cursor+2]].includes(key)){cards.current.delete(key);break;}}}
         if(mounted.current)repaint(n=>n+1);
       }).catch(e=>{
         if(mounted.current&&id===ids[cursor])setError(String(e));

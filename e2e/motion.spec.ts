@@ -13,7 +13,7 @@ async function touch(page:Page, x:number,y:number, dx:number,dy:number,steps=10,
   } finally {await cdp.detach();}
 }
 async function study(page:Page){
-  await page.goto('/');
+  await page.goto('/easyvoca/');
   await page.getByRole('button',{name:'学習を始める'}).click();
   await expect(page.locator('.reading-page .vocab-head h1')).toBeVisible();
 }
@@ -59,24 +59,18 @@ test.describe('touch motion on Android-sized viewport',()=>{
     if(canScroll)await expect.poll(()=>page.locator('.reading-scroll').evaluate(el=>el.scrollTop)).toBeGreaterThan(5);
     await touch(page,280,y,-52,-145,12,10);
     await expect(page.locator('.study-position strong')).toContainText(/1\s*\/\s*20/);
-    const diagram=page.locator('.reading-page .concept-wrap');
-    await expect(diagram).toContainText('中心');
+    const diagram=page.locator('.reading-page .svg-diagram-wrap');
+    await expect(diagram.locator('img')).toHaveAttribute('src',/^data:image\/svg\+xml/);
     await diagram.scrollIntoViewIfNeeded();
     const metrics=await diagram.evaluate(el=>{
-      const outer=el.getBoundingClientRect();
-      const nodes=[...el.querySelectorAll('.concept-node')].map(node=>{
-        const rect=node.getBoundingClientRect();
-        return {left:rect.left,right:rect.right,fontSize:parseFloat(getComputedStyle(node).fontSize)};
-      });
-      return {scrollWidth:el.scrollWidth,clientWidth:el.clientWidth,left:outer.left,right:outer.right,nodes};
+      const img=el.querySelector('img')!;
+      const rect=img.getBoundingClientRect();
+      return {scrollWidth:el.scrollWidth,clientWidth:el.clientWidth,width:rect.width,height:rect.height,natural:img.naturalWidth};
     });
     expect(metrics.scrollWidth).toBeLessThanOrEqual(metrics.clientWidth+1);
-    expect(metrics.nodes.length).toBe(3);
-    for(const node of metrics.nodes){
-      expect(node.left).toBeGreaterThanOrEqual(metrics.left-1);
-      expect(node.right).toBeLessThanOrEqual(metrics.right+1);
-      expect(node.fontSize).toBeGreaterThanOrEqual(12);
-    }
+    expect(metrics.width).toBeGreaterThan(0);
+    expect(metrics.height).toBeGreaterThan(0);
+    expect(metrics.natural).toBeGreaterThan(0);
     const d=await diagram.boundingBox();expect(d).toBeTruthy();
     const dx=d!.x+Math.min(d!.width-30,230),dy=d!.y+Math.min(d!.height-20,70);
     await touch(page,dx,dy,-140,0,11,12);
@@ -91,7 +85,7 @@ test.describe('touch motion on Android-sized viewport',()=>{
   });
 });
 test('search filters and scroll position survive opening detail and returning',async({page})=>{
-  await page.goto('/');
+  await page.goto('/easyvoca/');
   await page.getByRole('button',{name:'検索',exact:true}).click();
   await page.getByRole('searchbox',{name:'単語や日本語の意味で検索'}).fill('a');
   await expect(page.locator('.result-item').nth(15)).toBeVisible();

@@ -21,11 +21,14 @@ export interface ContentCard {
   example_en: string;
   example_ja: string;
   core_image_explanation_ja: string;
-  diagram_mermaid: string;
+  diagram_mermaid?: string;
+  diagram_svg: string;
+  diagram_alt: string;
   usage_notes?: string[] | string;
   [key: string]: unknown;
 }
 export interface ContentMeta {
+  visualSchemaVersion: 2;
   version: string;
   offlineFiles: {path:string;bytes:number;sha256:string}[];
   count: number;

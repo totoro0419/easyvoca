@@ -397,3 +397,8 @@ button{-webkit-tap-highlight-color:transparent}
   .diagram-wrap{margin-top:14px;padding:14px 12px}
   .swipe-tip{margin-top:20px}
 }
+
+/* Original static SVG is an isolated image, sized without horizontal scroll. */
+.svg-diagram-wrap{display:flex;justify-content:center;align-items:center;overflow:hidden;padding:7px;margin-top:8px}
+.svg-diagram-image{display:block;width:100%;height:auto;max-width:100%;max-height:420px;object-fit:contain;user-select:none;-webkit-user-drag:none;pointer-events:none}
+@media(max-width:600px){.svg-diagram-wrap{padding:4px;margin-top:5px}.svg-diagram-image{max-height:none}}

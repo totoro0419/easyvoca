@@ -7,6 +7,9 @@ on:
       - "public/**"
       - "scripts/compile-content.mjs"
       - "content/data/**"
+      - "content/visual-v2/**"
+      - "e2e/**"
+      - "playwright.config.ts"
       - "index.html"
       - "package.json"
       - "tsconfig.json"
@@ -63,3 +66,30 @@ jobs:
       url: https://totoro0419.github.io/easyvoca/
     steps:
       - uses: actions/deploy-pages@v4
+
+  verify-published:
+    if: github.ref == 'refs/heads/main'
+    needs: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --no-audit --no-fund
+      - name: Verify every published content hash against this commit
+        run: |
+          node scripts/compile-content.mjs
+          node scripts/verify-published.mjs
+      - run: npx playwright install --with-deps chromium
+      - name: Published-site browser and offline smoke tests
+        env:
+          PLAYWRIGHT_BASE_URL: https://totoro0419.github.io/easyvoca/
+        run: npx playwright test e2e/app.spec.ts e2e/pwa.spec.ts e2e/motion.spec.ts
+      - name: Upload published-site test evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: published-browser-test-results
+          path: test-results/
+          if-no-files-found: ignore

@@ -5,7 +5,7 @@ let metaPromise: Promise<ContentMeta> | undefined;
 let catalogPromise: Promise<CardSummary[]> | undefined;
 const chunkPromises = new Map<number,Promise<ContentCard[]>>();
 async function getJson<T>(path:string):Promise<T> {
-  const res = await fetchOfflineAware(path);
+  const res = await fetchOfflineAware(path,path==='meta.json'?undefined:await loadMeta());
   if (!res.ok) throw new Error('教材の取得に失敗しました ('+res.status+')');
   return res.json() as Promise<T>;
 }
@@ -21,7 +21,10 @@ export function loadChunk(n:number) {
     const path='chunks/chunk-'+String(n).padStart(3,'0')+'.json';
     chunkPromises.set(n,getJson<ContentCard[]>(path).catch(e=>{chunkPromises.delete(n);throw e;}));
   }
-  return chunkPromises.get(n)!;
+  const promise=chunkPromises.get(n)!;
+  chunkPromises.delete(n);chunkPromises.set(n,promise);
+  if(chunkPromises.size>4)chunkPromises.delete(chunkPromises.keys().next().value!);
+  return promise;
 }
 export async function getCard(summary:CardSummary):Promise<ContentCard> {
   const cards=await loadChunk(summary.chunk);
