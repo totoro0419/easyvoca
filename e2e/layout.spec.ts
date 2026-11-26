@@ -33,7 +33,7 @@ async function openSample(page:Page,sample:Sample){
   const result=page.locator('.result-item').filter({hasText:sample.hidden_meaning_ja}).first();
   await expect(result).toBeVisible({timeout:12000});
   await result.click();
-  await expect(page.locator('.reading-page .concept-wrap')).toBeVisible();
+  await expect(page.locator('.reading-page .svg-diagram-wrap')).toBeVisible();
 }
 test('6種類の実教材を5画面幅で計測し、図が横にはみ出さず全文が表示される',async({page})=>{
   test.setTimeout(190000);
@@ -47,24 +47,19 @@ test('6種類の実教材を5画面幅で計測し、図が横にはみ出さず
     for(const sample of examples){
       await openSample(page,sample);
       const measure=await page.evaluate(()=>{
-        const wrap=document.querySelector('.reading-page .concept-wrap')!;
+        const wrap=document.querySelector('.reading-page .svg-diagram-wrap')!;
         const scroll=document.querySelector('.reading-scroll')!;
-        const nodes=[...wrap.querySelectorAll('.concept-node')];
+        const img=wrap.querySelector('img')!;
         const rect=wrap.getBoundingClientRect();
-        const bounds=nodes.map(n=>n.getBoundingClientRect());
-        return {
-          overX:Math.max(0,wrap.scrollWidth-wrap.clientWidth),
+        const bounds=img.getBoundingClientRect();
+        return {overX:Math.max(0,wrap.scrollWidth-wrap.clientWidth),
           scrollNeeded:Math.max(0,scroll.scrollHeight-scroll.clientHeight),
-          nodeCount:nodes.length,
-          leftOk:bounds.every(r=>r.left>=rect.left-1),
-          rightOk:bounds.every(r=>r.right<=rect.right+1),
-          textOk:nodes.every(n=>parseFloat(getComputedStyle(n.querySelector('.concept-detail')||n).fontSize)>=12),
-          validHeight:bounds.every(r=>r.height>10)
-        };
+          leftOk:bounds.left>=rect.left-1,rightOk:bounds.right<=rect.right+1,
+          loaded:img.complete&&img.naturalWidth>0&&bounds.height>0};
       });
-      expect(measure.nodeCount).toBeGreaterThanOrEqual(3);
       expect(measure.overX).toBeLessThanOrEqual(1);
-      expect(measure.leftOk&&measure.rightOk&&measure.textOk&&measure.validHeight).toBe(true);
+      expect(measure.leftOk&&measure.rightOk&&measure.loaded).toBe(true);
+      await expect(page.locator('.reading-page .svg-diagram-wrap')).toHaveAttribute('data-card-id',sample.candidate_id);
       report[size.width+'x'+size.height+' '+sample.category]=measure.scrollNeeded;
       if(sample.category==='short'){
         if(size.width<=412)expect(measure.scrollNeeded,'Short card should fit phone '+size.width+'x'+size.height).toBeLessThanOrEqual(16);
@@ -89,16 +84,13 @@ test('4ノードの例外的な図でも、分岐を保持したままスマホ�
   const item=page.locator('.result-item').filter({hasText:'足の裏、靴の底'}).first();
   await expect(item).toBeVisible();
   await item.click();
-  const tree=page.locator('.reading-page .concept-wrap');
-  await expect(tree.locator('.concept-node')).toHaveCount(4);
-  await expect(tree).toContainText('同じ綴りの別義');
-  await expect(tree).toContainText('足や靴の底面');
-  await expect(tree).toContainText('足の裏');
+  const tree=page.locator('.reading-page .svg-diagram-wrap');
+  await expect(tree.locator('img')).toHaveAttribute('src',/^data:image\/svg\+xml/);
   const metrics=await tree.evaluate(el=>({
     over:el.scrollWidth-el.clientWidth,
-    children:el.querySelectorAll('.concept-child').length
+    loaded:el.querySelector('img')!.complete&&el.querySelector('img')!.naturalWidth>0
   }));
   expect(metrics.over).toBeLessThanOrEqual(1);
-  expect(metrics.children).toBe(3);
+  expect(metrics.loaded).toBe(true);
   await page.screenshot({path:'test-results/layout-exception-4nodes.png'});
 });

@@ -1,6 +1,7 @@
 import { readFile, readdir, mkdir, writeFile, rm } from 'node:fs/promises';
 import { resolve, join } from 'node:path';
 import { createHash } from 'node:crypto';
+import { Resvg } from '@resvg/resvg-js';
 
 const sourceDir = resolve('content/data');
 const outputDir = resolve('public/generated');
@@ -36,6 +37,50 @@ if (cards.length!==5111) throw new Error('教材件数が5111ではありませ�
 for (let i=0;i<cards.length;i++) {
   if (cards[i].global_order!==i+1) throw new Error('global_order欠落: '+(i+1));
 }
+// Preserve worker archives; join only by both stable identifiers and exact word.
+const visualDir=resolve('content/visual-v2');
+const visuals=new Map();
+const visualIds=new Set();
+const expectedCounts=[1023,1022,1022,1022,1022];
+let svgBytes=0;
+for(let worker=1;worker<=5;worker++){
+  const dir=join(visualDir,'worker-'+worker);
+  const runs=(await readdir(dir)).filter(name=>/^run-\d+\.jsonl$/.test(name)).sort();
+  let count=0;
+  for(const name of runs){
+    const lines=(await readFile(join(dir,name),'utf8')).split(/\r?\n/);
+    for(const [lineNo,line] of lines.entries()){
+      if(!line.trim())continue;
+      const location=name+':'+(lineNo+1)+' (worker '+worker+')';
+      let row;
+      try{row=JSON.parse(line);}catch{throw new Error('SVG JSONL error: '+location);}
+      const n=row.global_order;
+      if(!Number.isInteger(n)||n<1||n>5111||visuals.has(n)||visualIds.has(row.candidate_id))
+        throw new Error('SVG order/ID duplicate or invalid: '+location);
+      const card=cards[n-1];
+      if(row.candidate_id!==card.candidate_id||row.word!==card.word||row.schema_version!==2)
+        throw new Error('SVG identity mismatch: '+location+' order '+n);
+      if(typeof row.svg!=='string'||!/^\s*<svg\b[\s\S]*<\/svg>\s*$/.test(row.svg))
+        throw new Error('Missing SVG root: '+location);
+      // No rasterization or visual review: parse each original as SVG.
+      try{new Resvg(row.svg,{font:{loadSystemFonts:false}});}
+      catch(e){throw new Error('SVG parse failure at '+location+': '+String(e));}
+      visuals.set(n,{svg:row.svg,alt:typeof row.alt_ja==='string'?row.alt_ja:''});
+      visualIds.add(row.candidate_id);
+      svgBytes+=Buffer.byteLength(row.svg);
+      count++;
+    }
+  }
+  if(count!==expectedCounts[worker-1])throw new Error('SVG count worker '+worker+': '+count);
+}
+if(visuals.size!==5111||visualIds.size!==5111)throw new Error('SVG total mismatch: '+visuals.size);
+for(const card of cards){
+  const visual=visuals.get(card.global_order);
+  if(!visual)throw new Error('Missing SVG order '+card.global_order);
+  card.diagram_svg=visual.svg;
+  card.diagram_alt=visual.alt;
+}
+console.log('SVG integration verified: 5111 / 5111; duplicate/mismatch: 0; SVG bytes:',svgBytes);
 await rm(outputDir,{recursive:true,force:true});
 await mkdir(join(outputDir,'chunks'),{recursive:true});
 const chunkSize=200;
@@ -58,7 +103,7 @@ function hashFile(path,text){
 }
 for (let i=0;i<chunks;i++) {
   const filename='chunks/chunk-'+String(i).padStart(3,'0')+'.json';
-  const payload=JSON.stringify(cards.slice(i*chunkSize,(i+1)*chunkSize));
+  const payload=JSON.stringify(cards.slice(i*chunkSize,(i+1)*chunkSize).map(({diagram_mermaid,...card})=>card));
   await writeFile(join(outputDir,filename),payload);
   hashFile(filename,payload);
 }
@@ -67,6 +112,7 @@ const catalogJson=JSON.stringify(catalog);
 await writeFile(join(outputDir,'catalog.json'),catalogJson);
 hashFile('catalog.json',catalogJson);
 const version=createHash('sha256').update(offlineFiles.map(f=>f.path+':'+f.sha256).join('|')).digest('hex').slice(0,20);
-const meta={count:cards.length,batches:names.length,chunks,chunkSize,featured,version,offlineFiles};
+const meta={visualSchemaVersion:2,count:cards.length,batches:names.length,chunks,chunkSize,featured,version,offlineFiles};
 await writeFile(join(outputDir,'meta.json'),JSON.stringify(meta));
+console.log('Offline content bytes:',offlineFiles.reduce((sum,file)=>sum+file.bytes,0));
 console.log('EasyVoca assets:',cards.length,'cards,',chunks,'chunks,',names.length,'batches');

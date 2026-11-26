@@ -17,8 +17,8 @@ test('ホームから学習、矢印キー、進捗保存と再起動後の再�
   await expect(page.locator('.study-position strong')).toContainText(/2\s*\/\s*20/);
   await page.keyboard.press('ArrowLeft');
   await expect(page.locator('.study-position strong')).toContainText(/1\s*\/\s*20/);
-  await expect(page.locator('.reading-page .concept-wrap')).toBeVisible({timeout:25000});
-  await expect(page.locator('.reading-page .concept-wrap')).toContainText('中心');
+  await expect(page.locator('.reading-page .svg-diagram-wrap')).toBeVisible({timeout:25000});
+  await expect(page.locator('.reading-page .svg-diagram-image')).toHaveAttribute('src',/^data:image\/svg\+xml/);
 });
 
 test('検索、別語義の閲覧、復習の4択と結果保存',async({page})=>{
@@ -57,8 +57,8 @@ test('モバイルで左右ドラッグと縦スクロール',async({page})=>{
   await expect(page.locator('.study-position strong')).toContainText(/2\s*\/\s*20/);
   await page.mouse.wheel(0,360);
   await expect(page.locator('.study-position strong')).toContainText(/2\s*\/\s*20/);
-  await expect(page.locator('.reading-page .concept-wrap')).toContainText('中心',{timeout:25000});
-  const bounds=await page.locator('.reading-page .concept-wrap').evaluate(el=>({
+  await expect(page.locator('.reading-page .svg-diagram-wrap')).toBeVisible({timeout:25000});
+  const bounds=await page.locator('.reading-page .svg-diagram-wrap').evaluate(el=>({
     width:el.getBoundingClientRect().width,scrollWidth:el.scrollWidth,clientWidth:el.clientWidth
   }));
   expect(bounds.width).toBeLessThan(390);

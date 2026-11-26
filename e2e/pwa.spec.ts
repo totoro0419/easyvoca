@@ -20,7 +20,8 @@ test('自動保存完了後、5,111件・図・検索・復習・記録がオフ
       const url='/easyvoca/generated/chunks/chunk-'+String(i).padStart(3,'0')+'.json';
       const response=await cache.match(url);
       if(!response)throw new Error('Missing chunk '+i);
-      count+=(await response.json() as unknown[]).length;
+      const rows=await response.json() as {candidate_id:string;diagram_svg:string;global_order:number}[];
+      for(const row of rows){if(row.candidate_id!==catalog[count]?.candidate_id||row.global_order!==count+1||!row.diagram_svg?.includes('<svg'))throw new Error('SVG identity error '+count);count++;}
     }
     return {count,chunks:meta.chunks,total:catalog.length,
       samples:[catalog[0],catalog[Math.floor(catalog.length/2)],catalog[catalog.length-1]]};
@@ -33,7 +34,7 @@ test('自動保存完了後、5,111件・図・検索・復習・記録がオフ
   await expect(page.getByRole('heading',{name:/英単語の、/})).toBeVisible({timeout:20000});
   await page.getByRole('button',{name:'学習を始める'}).click();
   await expect(page.locator('.reading-page .vocab-head h1')).toHaveText('the');
-  await expect(page.locator('.reading-page .concept-wrap')).toContainText('中心');
+  await expect(page.locator('.reading-page .svg-diagram-image')).toBeVisible();
   await page.keyboard.press('ArrowRight');
   await expect(page.locator('.study-position strong')).toContainText(/2\s*\/\s*20/);
   for(const sample of verified.samples!){
@@ -44,7 +45,7 @@ test('自動保存完了後、5,111件・図・検索・復習・記録がオフ
     await expect(item).toBeVisible({timeout:20000});
     await item.click();
     await expect(page.locator('.reading-page .vocab-head h1')).toHaveText(sample.word);
-    await expect(page.locator('.reading-page .concept-wrap')).toBeVisible();
+    await expect(page.locator('.reading-page .svg-diagram-image')).toBeVisible();
     if(sample===verified.samples![1]){
       await page.getByRole('button',{name:'お気に入りに追加'}).click();
       await expect(page.getByRole('button',{name:'お気に入りを解除'})).toBeVisible();

@@ -28,7 +28,7 @@ export const allContentUrls=(meta:ContentMeta):string[]=>[
 ];
 
 function isManifest(meta:ContentMeta):boolean {
-  return meta?.count===5111&&meta.chunks===26&&typeof meta.version==='string'&&
+  return meta?.visualSchemaVersion===2&&meta?.count===5111&&meta.chunks===26&&typeof meta.version==='string'&&
     /^[a-f0-9]{20}$/.test(meta.version)&&Array.isArray(meta.offlineFiles)&&
     meta.offlineFiles.length===meta.chunks+1 &&
     meta.offlineFiles.every(x=>/^(catalog\.json|chunks\/chunk-\d{3}\.json)$/.test(x.path)&&
@@ -47,7 +47,7 @@ async function validCached(cache:Cache,url:string,meta:ContentMeta,expected?:Con
   const response=await cache.match(url);
   if(!response?.ok)return false;
   if(!expected){
-    try {const m=await response.clone().json() as ContentMeta;return m.version===meta.version&&m.count===5111;}catch{return false;}
+    try {const m=await response.clone().json() as ContentMeta;return m.version===meta.version&&m.count===5111&&m.visualSchemaVersion===2;}catch{return false;}
   }
   try{
     const buffer=await response.clone().arrayBuffer();
@@ -114,6 +114,7 @@ async function confirmCatalog(cache:Cache,meta:ContentMeta):Promise<void>{
     for(const card of chunk){
       const summary=catalog[index];
       if(!summary||card.candidate_id!==summary.candidate_id||card.global_order!==index+1||
+        typeof card.diagram_svg!=='string'||!card.diagram_svg.trim()||card.word!==summary.word||
         ids.has(card.candidate_id))throw new Error('教材IDの整合性エラー: '+index);
       ids.add(card.candidate_id);index++;
     }
@@ -170,7 +171,7 @@ export function downloadOffline(meta:ContentMeta,onProgress?:(done:number,total:
 }
 async function validateDownload(response:Response,meta:ContentMeta,entry?:ContentMeta['offlineFiles'][number]){
   if(!entry){
-    try{const loaded=await response.clone().json() as ContentMeta;return loaded.version===meta.version&&loaded.count===meta.count;}catch{return false;}
+    try{const loaded=await response.clone().json() as ContentMeta;return loaded.version===meta.version&&loaded.count===meta.count&&loaded.visualSchemaVersion===2;}catch{return false;}
   }
   const bytes=await response.clone().arrayBuffer();
   if(bytes.byteLength!==entry.bytes)return false;
@@ -180,9 +181,9 @@ async function validateDownload(response:Response,meta:ContentMeta,entry?:Conten
 
 // A complete snapshot is preferred when the browser reports no connection.
 // Never mix pieces from an unverified new version with an older saved catalog.
-async function fromSnapshot(path:string):Promise<Response|undefined>{
+async function fromSnapshot(path:string,expectedMeta?:ContentMeta):Promise<Response|undefined>{
   if(!('caches'in window))return;
-  const meta=savedSnapshot();
+  const meta=expectedMeta??savedSnapshot();
   if(!meta||!(path==='meta.json'||meta.offlineFiles.some(x=>x.path===path)))return;
   const cache=await snapshotCache(meta);
   const response=await cache.match(absolute(path));
@@ -190,17 +191,21 @@ async function fromSnapshot(path:string):Promise<Response|undefined>{
   const expected=meta.offlineFiles.find(x=>x.path===path);
   return await validCached(cache,absolute(path),meta,expected)?response:undefined;
 }
-export async function fetchOfflineAware(path:string):Promise<Response>{
+export async function fetchOfflineAware(path:string,meta?:ContentMeta):Promise<Response>{
   if(navigator.onLine===false){
-    const cached=await fromSnapshot(path);
+    const cached=await fromSnapshot(path,meta);
     if(cached)return cached;
   }
   try{
-    const response=await fetch(absolute(path));
-    if(response.ok)return response;
+    const response=await fetch(absolute(path)+(meta?'?v='+meta.version:''));
+    if(response.ok){
+      if(meta){const entry=meta.offlineFiles.find(x=>x.path===path);if(!entry||!await validateDownload(response,meta,entry))throw new Error('教材バージョン不一致: '+path);}
+      else if(path==='meta.json'&&!isManifest(await response.clone().json()))throw new Error('SVG対応版の教材を取得できません。');
+      return response;
+    }
     throw new Error('HTTP '+response.status);
   }catch(error){
-    const cached=await fromSnapshot(path);
+    const cached=await fromSnapshot(path,meta);
     if(cached)return cached;
     throw error;
   }
