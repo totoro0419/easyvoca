@@ -43,6 +43,8 @@ const visuals=new Map();
 const visualIds=new Set();
 const expectedCounts=[1023,1022,1022,1022,1022];
 let svgBytes=0;
+const syntaxRepairs=[];
+const parseFailures=[];
 for(let worker=1;worker<=5;worker++){
   const dir=join(visualDir,'worker-'+worker);
   const runs=(await readdir(dir)).filter(name=>/^run-\d+\.jsonl$/.test(name)).sort();
@@ -63,16 +65,30 @@ for(let worker=1;worker<=5;worker++){
       if(typeof row.svg!=='string'||!/^\s*<svg\b[\s\S]*<\/svg>\s*$/.test(row.svg))
         throw new Error('Missing SVG root: '+location);
       // No rasterization or visual review: parse each original as SVG.
-      try{new Resvg(row.svg,{font:{loadSystemFonts:false}});}
-      catch(e){throw new Error('SVG parse failure at '+location+': '+String(e));}
-      visuals.set(n,{svg:row.svg,alt:typeof row.alt_ja==='string'?row.alt_ja:''});
+      let svg=row.svg;
+      try{new Resvg(svg,{font:{loadSystemFonts:false}});}
+      catch(initial){
+        // Only repair XML delimiters/entities that prevent any display;
+        // leave original worker archives unchanged.
+        const repaired=svg.replace(/<(?=<\/svg>)/g,'')
+          .replace(/&(?!amp;|lt;|gt;|quot;|apos;|#\d+;|#x[0-9a-f]+;)/gi,'&amp;')
+          .replace(/<(?![a-zA-Z_\/!?])/g,'&lt;');
+        try{
+          new Resvg(repaired,{font:{loadSystemFonts:false}});
+          svg=repaired;
+          syntaxRepairs.push({order:n,word:row.word,location});
+        }catch(error){parseFailures.push({order:n,word:row.word,location,error:String(error),initial:String(initial)});}
+      }
+      visuals.set(n,{svg,alt:typeof row.alt_ja==='string'?row.alt_ja:''});
       visualIds.add(row.candidate_id);
-      svgBytes+=Buffer.byteLength(row.svg);
+      svgBytes+=Buffer.byteLength(svg);
       count++;
     }
   }
   if(count!==expectedCounts[worker-1])throw new Error('SVG count worker '+worker+': '+count);
 }
+console.log('SVG display syntax repairs:',JSON.stringify(syntaxRepairs));
+if(parseFailures.length)throw new Error('Unresolved SVG parse failures: '+JSON.stringify(parseFailures));
 if(visuals.size!==5111||visualIds.size!==5111)throw new Error('SVG total mismatch: '+visuals.size);
 for(const card of cards){
   const visual=visuals.get(card.global_order);
